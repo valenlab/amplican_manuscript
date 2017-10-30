@@ -1,0 +1,150 @@
+---
+title: Before and After Normalization
+author: ampliCan
+date: '`r format(Sys.time(), "%d %B %Y")`'
+output:
+  html_document:
+    toc: true
+    theme: paper
+    toc_float: true
+    number_sections: true
+---
+
+***
+
+# Normalization function
+
+***
+
+```{r, echo = FALSE, results = "asis"}
+static_help <- function(pkg, topic, out, links = tools::findHTMLlinks()) {
+  pkgRdDB = tools:::fetchRdDB(file.path(find.package(pkg), 'help', pkg))
+  force(links)
+  tools::Rd2HTML(pkgRdDB[[topic]], out, package = pkg,
+                 Links = links, no_links = is.null(links))
+}
+tmp <- tempfile()
+static_help("amplican", "amplicanNormalize", tmp)
+out <- readLines(tmp)
+headfoot <- grep("body", out)
+cat(out[(headfoot[1] + 1):(headfoot[2] - 1)], sep = "\n")
+```
+
+***
+
+# Before and after normalization
+
+***
+
+```{r load, message=F, echo=F, results = 'asis'}
+library(amplican)
+library(data.table)
+
+# where is data
+results_folder <- "/home/ai/Projects/data/amplican/Jamie/"
+folders <- c("MiSeq_run1", "MiSeq_run5_2013_09_25", "MiSeq_run6_2013_11_19", "MiSeq_run9_2014_03_26")
+big_norm_exp <- c()
+
+for (f in folders) {
+  res_dir <- file.path(results_folder, f, "results")
+  aln <- fread(file.path(res_dir, "alignments", "events_filtered_shifted.csv"))
+  config <- fread(file.path(res_dir, "config_summary.csv"))
+  aln_ctr <- amplicanNormalize(aln, config, add = "guideRNA")
+  config <- amplicanSummarize(aln_ctr[aln_ctr$consensus & aln_ctr$overlaps, ], config)
+  config_not_normalized <- amplicanSummarize(aln[aln$consensus & aln$overlaps, ], config)
+  config$notN_Reads_Indel <- config_not_normalized$Reads_Indel
+  
+  config_ctr <- config[config$Control, ]
+  config <- config[!config$Control, ]
+  # split IDs into pairs
+  m <- match(toupper(config$guideRNA), 
+             toupper(config_ctr$guideRNA))
+  # g <- match(config$Group, 
+  #            config_ctr$Group)
+  #nguides <- m == g & !is.na(g)
+  #m <- m[nguides]
+  #config <- config[nguides, ]
+  
+  big_norm_exp <- rbind(big_norm_exp, config[, .SD, .SDcols = c(
+    "guideRNA", "ID", "Reads_Filtered", "Reads_Indel", "notN_Reads_Indel")])
+  # show only those that have change between before and after
+  
+  changed <- config$Reads_Indel != config$notN_Reads_Indel
+  config <- config[changed, ]
+  m <- m[changed]
+  for (i in seq_len(length(m))) {
+    cat("  \n")
+    cat(paste0("## ", config$ID[i], "_", f, " \n"))
+    
+    cat("  \n")
+    cat("\n### Raw  \n")
+    plot_variants(aln[aln$overlaps & aln$consensus], config, config$ID[i])
+    
+    cat("  \n")
+    cat("\n### Control  \n")
+    plot_variants(aln_ctr[aln_ctr$overlaps & aln_ctr$consensus, ], config_ctr, 
+                  config_ctr$ID[m[i]])
+    
+    cat("  \n")
+    cat("\n### Normalized  \n")
+    plot_variants(aln_ctr[aln_ctr$overlaps & aln_ctr$consensus, ], config, config$ID[i]) 
+    cat("  \n")
+  }
+}
+```
+
+***
+
+# Fig 1b
+
+***
+
+```{r, echo = FALSE, results = "asis"}
+library(ggplot2)
+library(ggthemes)
+big_norm_exp$Raw <- round(big_norm_exp$notN_Reads_Indel*100/
+                               big_norm_exp$Reads_Filtered, 2)
+big_norm_exp$Raw[is.nan(big_norm_exp$Raw)] <- 0
+big_norm_exp$Normalized <- round(big_norm_exp$Reads_Indel*100/
+                               big_norm_exp$Reads_Filtered, 2)
+big_norm_exp$Normalized[is.nan(big_norm_exp$Normalized)] <- 0
+big_norm_exp$ugroup <- seq_len(dim(big_norm_exp)[1])
+nexp <- melt(big_norm_exp[big_norm_exp$Raw != big_norm_exp$Normalized, ], 
+             id.vars = c("ugroup"), measure.vars = c("Raw", "Normalized"))
+
+p <- ggplot(data = nexp, aes(x = variable, y = value)) +
+  geom_point(size = 3, shape = 21) +
+  geom_line(aes(group = ugroup), arrow = arrow(length = unit(0.3, "cm"))) +
+  xlab("") + ylab("Estimated indel rate [%]") + theme(legend.position="none")
+ggsave("/home/ai/Projects/amplican_manuscript/figures/normalized_change.png", p)
+p
+
+p <- ggplot(data = nexp, aes(x = value, y = as.factor(ugroup), fill = variable)) +
+  geom_point(size = 3, shape = 21) +
+  geom_line(aes(group = ugroup), 
+            arrow = arrow(length = unit(0.3, "cm"), ends="first")) +
+  xlab("Estimated indel rate [%]") + 
+  ylab("Experiment") +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        legend.position = "top") +
+  guides(fill = guide_legend(title = "Data")) +
+  scale_fill_manual(values=c("black", "white"))
+ggsave("/home/ai/Projects/amplican_manuscript/figures/normalized_change2.png", p)
+p
+```
+
+
+***
+
+# Mean
+
+***
+
+```{r, echo = TRUE}
+# % of experiments with changed estimated indel rates after normalization
+round(sum(big_norm_exp$Raw != big_norm_exp$Normalized)*100/dim(big_norm_exp)[1], 0)
+# mean change of experiment rates
+bg <- big_norm_exp[big_norm_exp$Raw != big_norm_exp$Normalized, ]
+round(median(abs(bg$Raw - bg$Normalized)), 0)
+```
