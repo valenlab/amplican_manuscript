@@ -12,7 +12,7 @@ library(BiocParallel)
 multicoreParam <- MulticoreParam(workers = 4)
 register(multicoreParam)
 
-for (i in 4:length(fcomb)) { # change paths to the fastq files
+for (i in seq_along(fcomb)) { # change paths to the fastq files
   this_r <- file.path(fdir, "simulation", "amplican_results", fcomb[i])
   dir.create(this_r)
 

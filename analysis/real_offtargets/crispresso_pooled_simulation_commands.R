@@ -47,7 +47,7 @@ amplicons_f <- rep(paste0("./real_offtargets/simulation_", sim_freq[w],"/merged/
 pooled_template <- "CRISPRessoPooled -r1 %s -r2 %s -f %s -x %s --name %s -p 4 --window_around_sgrna 5"
 cmds <- paste(sprintf(pooled_template, r1s, r2s, amplicons_f, idx, names(splits)),
           collapse = "\n")
-cat(cmds, file = "./real_offtargets/crispresso_pooled_commands.sh")
+cat(cmds, file = paste0("./real_offtargets/crispresso_pooled_simulation_", sim_freq[w], "_commands.sh"))
 cat(paste0("\n\nmv CRISPRessoPooled_on_* ./real_offtargets/simulation_", sim_freq[w], "/merged/"), 
     file = paste0("./real_offtargets/crispresso_pooled_simulation_", sim_freq[w], "_commands.sh"), append = TRUE)
 }

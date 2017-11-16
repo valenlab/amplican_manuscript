@@ -36,25 +36,40 @@ cat(out[(headfoot[1] + 1):(headfoot[2] - 1)], sep = "\n")
 
 ***
 
-```{r load, message=F, echo=F, results = 'asis'}
+```{r load, message=F, echo=F, results = 'hide'}
 library(amplican)
 library(data.table)
+library(ggplot2)
 
 # where is data
 results_folder <- "/home/ai/Projects/data/amplican/Jamie/"
-folders <- c("MiSeq_run1", "MiSeq_run5_2013_09_25", "MiSeq_run6_2013_11_19", "MiSeq_run9_2014_03_26")
+figure_folder <- "/home/ai/Projects/amplican_manuscript/figures/normalization"
+folders <- c("MiSeq_run1", 
+             "MiSeq_run5_2013_09_25", 
+             "MiSeq_run6_2013_11_19", 
+             "MiSeq_run7_2014_01_02",
+             "MiSeq_run8_2014_01_30",
+             "MiSeq_run10_2014_05_16",
+             "MiSeq_run9_2014_03_26")
 big_norm_exp <- c()
+unlink(figure_folder, recursive = TRUE)
+dir.create(figure_folder)
+sapply(file.path(figure_folder, folders), dir.create)
+```
 
+```{r run, message=F, echo=F, results = 'asis'}
 for (f in folders) {
   res_dir <- file.path(results_folder, f, "results")
   aln <- fread(file.path(res_dir, "alignments", "events_filtered_shifted.csv"))
   config <- fread(file.path(res_dir, "config_summary.csv"))
-  aln_ctr <- amplicanNormalize(aln, config, add = "guideRNA")
+  aln_ctr <- fread(file.path(res_dir, "alignments",
+                             "events_filtered_shifted_normalized.csv"))
   config <- amplicanSummarize(aln_ctr[aln_ctr$consensus & aln_ctr$overlaps, ], config)
   config_not_normalized <- amplicanSummarize(aln[aln$consensus & aln$overlaps, ], config)
   config$notN_Reads_Indel <- config_not_normalized$Reads_Indel
   
   config_ctr <- config[config$Control, ]
+  config_not_normalized <- config_not_normalized[!config$Control, ]
   config <- config[!config$Control, ]
   # split IDs into pairs
   m <- match(toupper(config$guideRNA), 
@@ -71,6 +86,7 @@ for (f in folders) {
   
   changed <- config$Reads_Indel != config$notN_Reads_Indel
   config <- config[changed, ]
+  config_not_normalized <- config_not_normalized[changed, ]
   m <- m[changed]
   for (i in seq_len(length(m))) {
     cat("  \n")
@@ -78,16 +94,30 @@ for (f in folders) {
     
     cat("  \n")
     cat("\n### Raw  \n")
-    plot_variants(aln[aln$overlaps & aln$consensus], config, config$ID[i])
+    p <- plot_variants(aln[aln$overlaps & aln$consensus], 
+                       config_not_normalized, config$ID[i])
+    p
+    if (!is.character(p)) ggsave(file.path(figure_folder, f, 
+                                           paste0(config$ID[i], "_raw.pdf")), 
+           p, dpi = 400)
     
     cat("  \n")
     cat("\n### Control  \n")
-    plot_variants(aln_ctr[aln_ctr$overlaps & aln_ctr$consensus, ], config_ctr, 
+    p <- plot_variants(aln_ctr[aln_ctr$overlaps & aln_ctr$consensus, ], config_ctr, 
                   config_ctr$ID[m[i]])
+    p
+    if (!is.character(p)) ggsave(file.path(figure_folder, f, 
+                                           paste0(config$ID[i], "_control.pdf")), 
+           p, dpi = 400)
     
     cat("  \n")
     cat("\n### Normalized  \n")
-    plot_variants(aln_ctr[aln_ctr$overlaps & aln_ctr$consensus, ], config, config$ID[i]) 
+    p <- plot_variants(aln_ctr[aln_ctr$overlaps & aln_ctr$consensus, ], 
+                       config, config$ID[i]) 
+    p
+    if (!is.character(p)) ggsave(file.path(figure_folder, f, 
+                                           paste0(config$ID[i], "_normalized.pdf")), 
+           p, dpi = 400)
     cat("  \n")
   }
 }
@@ -112,25 +142,28 @@ big_norm_exp$ugroup <- seq_len(dim(big_norm_exp)[1])
 nexp <- melt(big_norm_exp[big_norm_exp$Raw != big_norm_exp$Normalized, ], 
              id.vars = c("ugroup"), measure.vars = c("Raw", "Normalized"))
 
-p <- ggplot(data = nexp, aes(x = variable, y = value)) +
-  geom_point(size = 3, shape = 21) +
-  geom_line(aes(group = ugroup), arrow = arrow(length = unit(0.3, "cm"))) +
-  xlab("") + ylab("Estimated indel rate [%]") + theme(legend.position="none")
-ggsave("/home/ai/Projects/amplican_manuscript/figures/normalized_change.png", p)
-p
+# p <- ggplot(data = nexp, aes(x = variable, y = value)) +
+#   geom_point(size = 3, shape = 21) +
+#   geom_line(aes(group = ugroup), arrow = arrow(length = unit(0.3, "cm"))) +
+#   xlab("") + ylab("Estimated indel rate [%]") + theme(legend.position="none")
+# ggsave("/home/ai/Projects/amplican_manuscript/figures/normalized_change.png", p)
+# p
 
 p <- ggplot(data = nexp, aes(x = value, y = as.factor(ugroup), fill = variable)) +
-  geom_point(size = 3, shape = 21) +
-  geom_line(aes(group = ugroup), 
-            arrow = arrow(length = unit(0.3, "cm"), ends="first")) +
+  geom_line(aes(group = ugroup)) +
+  geom_point(size = 3, shape = 21) + 
   xlab("Estimated indel rate [%]") + 
   ylab("Experiment") +
+  theme_bw() +
   theme(axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
+        panel.background = element_blank(),
+        panel.grid = element_blank(),
         legend.position = "top") +
   guides(fill = guide_legend(title = "Data")) +
-  scale_fill_manual(values=c("black", "white"))
-ggsave("/home/ai/Projects/amplican_manuscript/figures/normalized_change2.png", p)
+  scale_fill_manual(values=c("white", "black"))
+ggsave("/home/ai/Projects/amplican_manuscript/figures/normalized_change.pdf", 
+       p, dpi = 400, width = 10, height = 10)
 p
 ```
 

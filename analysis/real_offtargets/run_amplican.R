@@ -15,20 +15,20 @@ multicoreParam <- MulticoreParam(workers = 4)
 register(multicoreParam)
 
 for (w in seq_along(freqs)) {
-for (i in seq_along(fcomb)) { # change paths to the fastq files
-  this_r <- file.path(fdir, "simulation_", freqs[w], "amplican_results", fcomb[i])
-  dir.create(this_r)
+  for (i in seq_along(fcomb)) { # change paths to the fastq files
+    this_r <- file.path(fdir, paste0("simulation_", freqs[w]), "amplican_results", fcomb[i])
+    dir.create(this_r)
 
-  config <- fread(this_c)
-  config$V3 <- paste0(config$V1, "_", fcomb[i], "_sim1.fq")
-  config$V4 <- paste0(config$V1, "_", fcomb[i], "_sim2.fq")
-  fwrite(config, this_c)
+    config <- fread(this_c)
+    config$V3 <- paste0(config$V1, "_", fcomb[i], "_sim1.fq")
+    config$V4 <- paste0(config$V1, "_", fcomb[i], "_sim2.fq")
+    fwrite(config, this_c)
 
-  amplicanPipeline(config = this_c,
-                   fastq_folder = file.path(fdir, "simulation_", fcomb[i]),
-                   results_folder = this_r,
-                   use_parallel = TRUE)
-}
+    amplicanPipeline(config = this_c,
+                     fastq_folder = file.path(fdir, paste0("simulation_", freqs[w])),
+                     results_folder = this_r,
+                     use_parallel = TRUE)
+  }
 }
 
 

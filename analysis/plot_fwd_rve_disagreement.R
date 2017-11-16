@@ -7,23 +7,27 @@ library(amplican)
 setwd("/home/ai/Projects/amplican_manuscript/analysis/")
 pdir <- "/home/ai/Projects/data/amplican/Jamie/"
 
-fdir <- c("MiSeq_run1", "MiSeq_run5_2013_09_25", "MiSeq_run6_2013_11_19/", "MiSeq_run9_2014_03_26")
-# "MiSeq_run7_2014_01_02/", "MiSeq_run8_2014_01_30",
+fdir <- c("MiSeq_run1", 
+          "MiSeq_run5_2013_09_25", 
+          "MiSeq_run6_2013_11_19", 
+          "MiSeq_run7_2014_01_02",
+          "MiSeq_run8_2014_01_30",
+          "MiSeq_run10_2014_05_16",
+          "MiSeq_run9_2014_03_26")
 
 un_table <- c()
 big_ins_table <- c()
 for (f in seq_along(fdir)) {
   aln <- fread(file.path(pdir, fdir[f], "results", "alignments",
-                         "events_filtered_shifted.csv"))
+                         "events_filtered_shifted_normalized.csv"))
   cfgT <- fread(file.path(pdir, fdir[f], "results", "config_summary.csv"))
-  aln <- amplicanNormalize(aln, cfgT, add = "guideRNA")
-  cfgT <- amplicanSummarize(aln, cfgT)
 
   # list experiments with controls
   exp <- cfgT$ID[!cfgT$Control & cfgT$guideRNA %in% cfgT$guideRNA[cfgT$Control]]
   if (length(exp) == 0) next()
 
   big_ins <- aln[seqnames %in% exp & type == "insertion" & width > 10, ]
+  big_ins <- big_ins[big_ins$overlaps & big_ins$consensus, ]
   big_ins <- big_ins[, .(counts = max(counts)), by = c("seqnames", "read_id")]
   big_ins <- big_ins[, .(counts = sum(counts)), by = c("seqnames")]
   big_ins$large_ins <- big_ins$counts * 100 / cfgT$Reads_Filtered[match(big_ins$seqnames, cfgT$ID)]
@@ -51,22 +55,28 @@ for (f in seq_along(fdir)) {
 library(ggplot2)
 library(ggthemes)
 
-p <- ggplot(data = big_ins_table, aes(x = guideRNA, y = large_ins)) +
-  geom_boxplot() + geom_boxplot() + geom_jitter(width = 0.2) + coord_flip() +
+p <- ggplot(data = big_ins_table, aes(x = reorder(guideRNA, large_ins, median), y = large_ins)) +
+  geom_boxplot() + geom_jitter(width = 0.2) + coord_flip() +
   ylab("# of reads with insertions larger than 10bp [% of all reads]") +
-  xlab("Normalized experiments")
+  xlab("Normalized experiments") +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank())
 
 ggplot2::ggsave("../figures/large_insertion_rate.png", p, height = 10)
 
-p <- ggplot(data = big_ins_table, aes(x = guideRNA, y = large_ins_N)) +
-  geom_boxplot() + geom_boxplot() + geom_jitter(width = 0.2) + coord_flip() +
+p <- ggplot(data = big_ins_table, aes(x = reorder(guideRNA, large_ins_N, median), y = large_ins_N)) +
+  geom_boxplot() + geom_jitter(width = 0.2) + coord_flip() +
   ylab("# of reads with insertions larger than 10bp [% of indels]") +
-  xlab("Normalized experiments")
+  xlab("Normalized experiments") +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank())
 
 ggplot2::ggsave("../figures/large_insertion_rate_normalized.png", p, height = 10)
 
-p <- ggplot(data = un_table, aes(x = guideRNA, y = unambiguous)) +
+p <- ggplot(data = un_table, aes(x = reorder(guideRNA, unambiguous, median), y = unambiguous)) +
   geom_boxplot() + geom_jitter(width = 0.2) + coord_flip() +
-  ylab("# of reads with with unambiguous indels [% of all reads]") +
-  xlab("Normalized experiments")
-ggplot2::ggsave("../figures/unambiguous_rate.png", p, height = 10)
+  ylab("# of reads with with ambiguous indels [% of all reads]") +
+  xlab("Normalized experiments") +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank())
+ggplot2::ggsave("../figures/ambiguous_rate.png", p, height = 10)

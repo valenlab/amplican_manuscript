@@ -1,0 +1,1198 @@
+Guide,Truth,Indels,variable,value
+cnsta,0,No indels > 10bp,CrispRVariants,0
+cnsta,0,Normal,CrispRVariants,0
+cnsta,0,Insertions > 10bp,CrispRVariants,0
+cnsta,33.3%,No indels > 10bp,CrispRVariants,32.8
+cnsta,33.3%,Normal,CrispRVariants,32.66
+cnsta,33.3%,Insertions > 10bp,CrispRVariants,12.7
+cnsta,66.7%,No indels > 10bp,CrispRVariants,66.15
+cnsta,66.7%,Normal,CrispRVariants,66.26
+cnsta,66.7%,Insertions > 10bp,CrispRVariants,17.42
+cnsta,90%,No indels > 10bp,CrispRVariants,89.83
+cnsta,90%,Normal,CrispRVariants,89.85
+cnsta,90%,Insertions > 10bp,CrispRVariants,64.11
+cntn1a,0,No indels > 10bp,CrispRVariants,0
+cntn1a,0,Normal,CrispRVariants,0
+cntn1a,0,Insertions > 10bp,CrispRVariants,0
+cntn1a,33.3%,No indels > 10bp,CrispRVariants,32.91
+cntn1a,33.3%,Normal,CrispRVariants,33.07
+cntn1a,33.3%,Insertions > 10bp,CrispRVariants,11.93
+cntn1a,66.7%,No indels > 10bp,CrispRVariants,66.12
+cntn1a,66.7%,Normal,CrispRVariants,66.2
+cntn1a,66.7%,Insertions > 10bp,CrispRVariants,0
+cntn1a,90%,No indels > 10bp,CrispRVariants,89.83
+cntn1a,90%,Normal,CrispRVariants,89.56
+cntn1a,90%,Insertions > 10bp,CrispRVariants,82.53
+cntn1b,0,No indels > 10bp,CrispRVariants,0
+cntn1b,0,Normal,CrispRVariants,0
+cntn1b,0,Insertions > 10bp,CrispRVariants,0
+cntn1b,33.3%,No indels > 10bp,CrispRVariants,32.86
+cntn1b,33.3%,Normal,CrispRVariants,33
+cntn1b,33.3%,Insertions > 10bp,CrispRVariants,13.58
+cntn1b,66.7%,No indels > 10bp,CrispRVariants,66.28
+cntn1b,66.7%,Normal,CrispRVariants,66.35
+cntn1b,66.7%,Insertions > 10bp,CrispRVariants,20.95
+cntn1b,90%,No indels > 10bp,CrispRVariants,89.84
+cntn1b,90%,Normal,CrispRVariants,89.84
+cntn1b,90%,Insertions > 10bp,CrispRVariants,75.94
+cntn3b,0,No indels > 10bp,CrispRVariants,0
+cntn3b,0,Normal,CrispRVariants,0
+cntn3b,0,Insertions > 10bp,CrispRVariants,0
+cntn3b,33.3%,No indels > 10bp,CrispRVariants,32.74
+cntn3b,33.3%,Normal,CrispRVariants,32.77
+cntn3b,33.3%,Insertions > 10bp,CrispRVariants,11.39
+cntn3b,66.7%,No indels > 10bp,CrispRVariants,66.32
+cntn3b,66.7%,Normal,CrispRVariants,66.31
+cntn3b,66.7%,Insertions > 10bp,CrispRVariants,35.05
+cntn3b,90%,No indels > 10bp,CrispRVariants,89.8
+cntn3b,90%,Normal,CrispRVariants,89.82
+cntn3b,90%,Insertions > 10bp,CrispRVariants,59.68
+cntnap2b,0,No indels > 10bp,CrispRVariants,0
+cntnap2b,0,Normal,CrispRVariants,0
+cntnap2b,0,Insertions > 10bp,CrispRVariants,0
+cntnap2b,33.3%,No indels > 10bp,CrispRVariants,32.91
+cntnap2b,33.3%,Normal,CrispRVariants,32.5
+cntnap2b,33.3%,Insertions > 10bp,CrispRVariants,8.68
+cntnap2b,66.7%,No indels > 10bp,CrispRVariants,66.24
+cntnap2b,66.7%,Normal,CrispRVariants,64.66
+cntnap2b,66.7%,Insertions > 10bp,CrispRVariants,39.76
+cntnap2b,90%,No indels > 10bp,CrispRVariants,89.73
+cntnap2b,90%,Normal,CrispRVariants,89.74
+cntnap2b,90%,Insertions > 10bp,CrispRVariants,64.03
+cntnap4,0,No indels > 10bp,CrispRVariants,0
+cntnap4,0,Normal,CrispRVariants,0
+cntnap4,0,Insertions > 10bp,CrispRVariants,0
+cntnap4,33.3%,No indels > 10bp,CrispRVariants,32.93
+cntnap4,33.3%,Normal,CrispRVariants,33.04
+cntnap4,33.3%,Insertions > 10bp,CrispRVariants,6.11
+cntnap4,66.7%,No indels > 10bp,CrispRVariants,66.27
+cntnap4,66.7%,Normal,CrispRVariants,65.71
+cntnap4,66.7%,Insertions > 10bp,CrispRVariants,45.72
+cntnap4,90%,No indels > 10bp,CrispRVariants,89.78
+cntnap4,90%,Normal,CrispRVariants,89.73
+cntnap4,90%,Insertions > 10bp,CrispRVariants,51.9
+CNTNAP5,0,No indels > 10bp,CrispRVariants,0
+CNTNAP5,0,Normal,CrispRVariants,0
+CNTNAP5,0,Insertions > 10bp,CrispRVariants,0
+CNTNAP5,33.3%,No indels > 10bp,CrispRVariants,32.69
+CNTNAP5,33.3%,Normal,CrispRVariants,32.71
+CNTNAP5,33.3%,Insertions > 10bp,CrispRVariants,11.67
+CNTNAP5,66.7%,No indels > 10bp,CrispRVariants,66.02
+CNTNAP5,66.7%,Normal,CrispRVariants,66.06
+CNTNAP5,66.7%,Insertions > 10bp,CrispRVariants,45.71
+CNTNAP5,90%,No indels > 10bp,CrispRVariants,89.8
+CNTNAP5,90%,Normal,CrispRVariants,89.85
+CNTNAP5,90%,Insertions > 10bp,CrispRVariants,63.41
+gjd1a,0,No indels > 10bp,CrispRVariants,0
+gjd1a,0,Normal,CrispRVariants,0
+gjd1a,0,Insertions > 10bp,CrispRVariants,0
+gjd1a,33.3%,No indels > 10bp,CrispRVariants,32.89
+gjd1a,33.3%,Normal,CrispRVariants,32.82
+gjd1a,33.3%,Insertions > 10bp,CrispRVariants,6.93
+gjd1a,66.7%,No indels > 10bp,CrispRVariants,66.17
+gjd1a,66.7%,Normal,CrispRVariants,66.18
+gjd1a,66.7%,Insertions > 10bp,CrispRVariants,38.08
+gjd1a,90%,No indels > 10bp,CrispRVariants,89.82
+gjd1a,90%,Normal,CrispRVariants,89.83
+gjd1a,90%,Insertions > 10bp,CrispRVariants,69.66
+nlgn1,0,No indels > 10bp,CrispRVariants,0
+nlgn1,0,Normal,CrispRVariants,0
+nlgn1,0,Insertions > 10bp,CrispRVariants,0
+nlgn1,33.3%,No indels > 10bp,CrispRVariants,32.7
+nlgn1,33.3%,Normal,CrispRVariants,31.69
+nlgn1,33.3%,Insertions > 10bp,CrispRVariants,7.54
+nlgn1,66.7%,No indels > 10bp,CrispRVariants,66.17
+nlgn1,66.7%,Normal,CrispRVariants,66.14
+nlgn1,66.7%,Insertions > 10bp,CrispRVariants,44.81
+nlgn1,90%,No indels > 10bp,CrispRVariants,89.79
+nlgn1,90%,Normal,CrispRVariants,89.83
+nlgn1,90%,Insertions > 10bp,CrispRVariants,69.75
+nlgn3a,0,No indels > 10bp,CrispRVariants,0
+nlgn3a,0,Normal,CrispRVariants,0
+nlgn3a,0,Insertions > 10bp,CrispRVariants,0
+nlgn3a,33.3%,No indels > 10bp,CrispRVariants,32.89
+nlgn3a,33.3%,Normal,CrispRVariants,32.98
+nlgn3a,33.3%,Insertions > 10bp,CrispRVariants,15.08
+nlgn3a,66.7%,No indels > 10bp,CrispRVariants,66.12
+nlgn3a,66.7%,Normal,CrispRVariants,66.25
+nlgn3a,66.7%,Insertions > 10bp,CrispRVariants,33.33
+nlgn3a,90%,No indels > 10bp,CrispRVariants,89.82
+nlgn3a,90%,Normal,CrispRVariants,89.75
+nlgn3a,90%,Insertions > 10bp,CrispRVariants,44.55
+nlgn4a,0,No indels > 10bp,CrispRVariants,0
+nlgn4a,0,Normal,CrispRVariants,0
+nlgn4a,0,Insertions > 10bp,CrispRVariants,0
+nlgn4a,33.3%,No indels > 10bp,CrispRVariants,32.68
+nlgn4a,33.3%,Normal,CrispRVariants,32.95
+nlgn4a,33.3%,Insertions > 10bp,CrispRVariants,14.83
+nlgn4a,66.7%,No indels > 10bp,CrispRVariants,66.2
+nlgn4a,66.7%,Normal,CrispRVariants,66.22
+nlgn4a,66.7%,Insertions > 10bp,CrispRVariants,29.53
+nlgn4a,90%,No indels > 10bp,CrispRVariants,89.8
+nlgn4a,90%,Normal,CrispRVariants,89.84
+nlgn4a,90%,Insertions > 10bp,CrispRVariants,79.92
+nrxn1a_L,0,No indels > 10bp,CrispRVariants,0
+nrxn1a_L,0,Normal,CrispRVariants,0
+nrxn1a_L,0,Insertions > 10bp,CrispRVariants,0
+nrxn1a_L,33.3%,No indels > 10bp,CrispRVariants,32.92
+nrxn1a_L,33.3%,Normal,CrispRVariants,33.02
+nrxn1a_L,33.3%,Insertions > 10bp,CrispRVariants,5.7
+nrxn1a_L,66.7%,No indels > 10bp,CrispRVariants,66.28
+nrxn1a_L,66.7%,Normal,CrispRVariants,66.31
+nrxn1a_L,66.7%,Insertions > 10bp,CrispRVariants,49.03
+nrxn1a_L,90%,No indels > 10bp,CrispRVariants,89.84
+nrxn1a_L,90%,Normal,CrispRVariants,89.79
+nrxn1a_L,90%,Insertions > 10bp,CrispRVariants,44.24
+nrxn1a_S,0,No indels > 10bp,CrispRVariants,0
+nrxn1a_S,0,Normal,CrispRVariants,0
+nrxn1a_S,0,Insertions > 10bp,CrispRVariants,0
+nrxn1a_S,33.3%,No indels > 10bp,CrispRVariants,32.89
+nrxn1a_S,33.3%,Normal,CrispRVariants,33.03
+nrxn1a_S,33.3%,Insertions > 10bp,CrispRVariants,19.3
+nrxn1a_S,66.7%,No indels > 10bp,CrispRVariants,66
+nrxn1a_S,66.7%,Normal,CrispRVariants,66.02
+nrxn1a_S,66.7%,Insertions > 10bp,CrispRVariants,51.97
+nrxn1a_S,90%,No indels > 10bp,CrispRVariants,89.8
+nrxn1a_S,90%,Normal,CrispRVariants,89.69
+nrxn1a_S,90%,Insertions > 10bp,CrispRVariants,71.64
+nrxn1b_L,0,No indels > 10bp,CrispRVariants,0
+nrxn1b_L,0,Normal,CrispRVariants,0
+nrxn1b_L,0,Insertions > 10bp,CrispRVariants,0
+nrxn1b_L,33.3%,No indels > 10bp,CrispRVariants,33.07
+nrxn1b_L,33.3%,Normal,CrispRVariants,32.59
+nrxn1b_L,33.3%,Insertions > 10bp,CrispRVariants,12.55
+nrxn1b_L,66.7%,No indels > 10bp,CrispRVariants,66.08
+nrxn1b_L,66.7%,Normal,CrispRVariants,61.82
+nrxn1b_L,66.7%,Insertions > 10bp,CrispRVariants,29.13
+nrxn1b_L,90%,No indels > 10bp,CrispRVariants,89.71
+nrxn1b_L,90%,Normal,CrispRVariants,89.82
+nrxn1b_L,90%,Insertions > 10bp,CrispRVariants,65.95
+nrxn1b_S,0,No indels > 10bp,CrispRVariants,0
+nrxn1b_S,0,Normal,CrispRVariants,0
+nrxn1b_S,0,Insertions > 10bp,CrispRVariants,0
+nrxn1b_S,33.3%,No indels > 10bp,CrispRVariants,32.86
+nrxn1b_S,33.3%,Normal,CrispRVariants,32.75
+nrxn1b_S,33.3%,Insertions > 10bp,CrispRVariants,12.51
+nrxn1b_S,66.7%,No indels > 10bp,CrispRVariants,66.12
+nrxn1b_S,66.7%,Normal,CrispRVariants,66.19
+nrxn1b_S,66.7%,Insertions > 10bp,CrispRVariants,40.79
+nrxn1b_S,90%,No indels > 10bp,CrispRVariants,89.8
+nrxn1b_S,90%,Normal,CrispRVariants,89.83
+nrxn1b_S,90%,Insertions > 10bp,CrispRVariants,82.35
+nrxn3a_L,0,No indels > 10bp,CrispRVariants,0
+nrxn3a_L,0,Normal,CrispRVariants,0
+nrxn3a_L,0,Insertions > 10bp,CrispRVariants,0
+nrxn3a_L,33.3%,No indels > 10bp,CrispRVariants,32.82
+nrxn3a_L,33.3%,Normal,CrispRVariants,32.93
+nrxn3a_L,33.3%,Insertions > 10bp,CrispRVariants,4.21
+nrxn3a_L,66.7%,No indels > 10bp,CrispRVariants,66.23
+nrxn3a_L,66.7%,Normal,CrispRVariants,66.16
+nrxn3a_L,66.7%,Insertions > 10bp,CrispRVariants,49.06
+nrxn3a_L,90%,No indels > 10bp,CrispRVariants,89.75
+nrxn3a_L,90%,Normal,CrispRVariants,89.86
+nrxn3a_L,90%,Insertions > 10bp,CrispRVariants,81.46
+nrxn3b_L,0,No indels > 10bp,CrispRVariants,0
+nrxn3b_L,0,Normal,CrispRVariants,0
+nrxn3b_L,0,Insertions > 10bp,CrispRVariants,0
+nrxn3b_L,33.3%,No indels > 10bp,CrispRVariants,32.92
+nrxn3b_L,33.3%,Normal,CrispRVariants,32.91
+nrxn3b_L,33.3%,Insertions > 10bp,CrispRVariants,4.21
+nrxn3b_L,66.7%,No indels > 10bp,CrispRVariants,66.17
+nrxn3b_L,66.7%,Normal,CrispRVariants,66.2
+nrxn3b_L,66.7%,Insertions > 10bp,CrispRVariants,38.42
+nrxn3b_L,90%,No indels > 10bp,CrispRVariants,89.79
+nrxn3b_L,90%,Normal,CrispRVariants,89.81
+nrxn3b_L,90%,Insertions > 10bp,CrispRVariants,76.43
+nrxn3b_S,0,No indels > 10bp,CrispRVariants,0
+nrxn3b_S,0,Normal,CrispRVariants,0
+nrxn3b_S,0,Insertions > 10bp,CrispRVariants,0
+nrxn3b_S,33.3%,No indels > 10bp,CrispRVariants,32.81
+nrxn3b_S,33.3%,Normal,CrispRVariants,32.4
+nrxn3b_S,33.3%,Insertions > 10bp,CrispRVariants,9.01
+nrxn3b_S,66.7%,No indels > 10bp,CrispRVariants,66.18
+nrxn3b_S,66.7%,Normal,CrispRVariants,66.28
+nrxn3b_S,66.7%,Insertions > 10bp,CrispRVariants,18.65
+nrxn3b_S,90%,No indels > 10bp,CrispRVariants,89.8
+nrxn3b_S,90%,Normal,CrispRVariants,89.8
+nrxn3b_S,90%,Insertions > 10bp,CrispRVariants,83.35
+tjp1b_B,0,No indels > 10bp,CrispRVariants,0
+tjp1b_B,0,Normal,CrispRVariants,0
+tjp1b_B,0,Insertions > 10bp,CrispRVariants,0
+tjp1b_B,33.3%,No indels > 10bp,CrispRVariants,32.72
+tjp1b_B,33.3%,Normal,CrispRVariants,32.9
+tjp1b_B,33.3%,Insertions > 10bp,CrispRVariants,13.35
+tjp1b_B,66.7%,No indels > 10bp,CrispRVariants,66.22
+tjp1b_B,66.7%,Normal,CrispRVariants,66.33
+tjp1b_B,66.7%,Insertions > 10bp,CrispRVariants,40.19
+tjp1b_B,90%,No indels > 10bp,CrispRVariants,89.82
+tjp1b_B,90%,Normal,CrispRVariants,89.82
+tjp1b_B,90%,Insertions > 10bp,CrispRVariants,85.96
+tjp1b_L,0,No indels > 10bp,CrispRVariants,0
+tjp1b_L,0,Normal,CrispRVariants,0
+tjp1b_L,0,Insertions > 10bp,CrispRVariants,0
+tjp1b_L,33.3%,No indels > 10bp,CrispRVariants,32.73
+tjp1b_L,33.3%,Normal,CrispRVariants,32.68
+tjp1b_L,33.3%,Insertions > 10bp,CrispRVariants,13.34
+tjp1b_L,66.7%,No indels > 10bp,CrispRVariants,66.12
+tjp1b_L,66.7%,Normal,CrispRVariants,64.13
+tjp1b_L,66.7%,Insertions > 10bp,CrispRVariants,32.71
+tjp1b_L,90%,No indels > 10bp,CrispRVariants,89.79
+tjp1b_L,90%,Normal,CrispRVariants,89.78
+tjp1b_L,90%,Insertions > 10bp,CrispRVariants,69.1
+cnsta,0,No indels > 10bp,CRISPResso,0.066711140760507
+cnsta,0,Normal,CRISPResso,0.066711140760507
+cnsta,0,Insertions > 10bp,CRISPResso,0.066711140760507
+cnsta,33.3%,No indels > 10bp,CRISPResso,21.1
+cnsta,33.3%,Normal,CRISPResso,22.3666666666667
+cnsta,33.3%,Insertions > 10bp,CRISPResso,8.2825385442811
+cnsta,66.7%,No indels > 10bp,CRISPResso,46.3821273757919
+cnsta,66.7%,Normal,CRISPResso,51.0340226817879
+cnsta,66.7%,Insertions > 10bp,CRISPResso,39.5131086142322
+cnsta,90%,No indels > 10bp,CRISPResso,81.3542361574383
+cnsta,90%,Normal,CRISPResso,21.4404801600534
+cnsta,90%,Insertions > 10bp,CRISPResso,64.6460980036298
+cntn1a,0,No indels > 10bp,CRISPResso,0.1
+cntn1a,0,Normal,CRISPResso,0.1
+cntn1a,0,Insertions > 10bp,CRISPResso,0.1
+cntn1a,33.3%,No indels > 10bp,CRISPResso,13.8046015338446
+cntn1a,33.3%,Normal,CRISPResso,31.8
+cntn1a,33.3%,Insertions > 10bp,CRISPResso,22.5609756097561
+cntn1a,66.7%,No indels > 10bp,CRISPResso,43.0333333333333
+cntn1a,66.7%,Normal,CRISPResso,54.0333333333333
+cntn1a,66.7%,Insertions > 10bp,CRISPResso,28.5017421602787
+cntn1a,90%,No indels > 10bp,CRISPResso,16.4054684894965
+cntn1a,90%,Normal,CRISPResso,42.4141380460153
+cntn1a,90%,Insertions > 10bp,CRISPResso,51.5
+cntn1b,0,No indels > 10bp,CRISPResso,0.2
+cntn1b,0,Normal,CRISPResso,0.2
+cntn1b,0,Insertions > 10bp,CRISPResso,0.2
+cntn1b,33.3%,No indels > 10bp,CRISPResso,8.23333333333333
+cntn1b,33.3%,Normal,CRISPResso,16.5333333333333
+cntn1b,33.3%,Insertions > 10bp,CRISPResso,13.4121621621622
+cntn1b,66.7%,No indels > 10bp,CRISPResso,28.7191460973983
+cntn1b,66.7%,Normal,CRISPResso,57.4049366244163
+cntn1b,66.7%,Insertions > 10bp,CRISPResso,34.4563042028019
+cntn1b,90%,No indels > 10bp,CRISPResso,19.7
+cntn1b,90%,Normal,CRISPResso,13.7
+cntn1b,90%,Insertions > 10bp,CRISPResso,27.0923520923521
+cntn3b,0,No indels > 10bp,CRISPResso,0.133333333333333
+cntn3b,0,Normal,CRISPResso,0.133333333333333
+cntn3b,0,Insertions > 10bp,CRISPResso,0.133333333333333
+cntn3b,33.3%,No indels > 10bp,CRISPResso,21.4
+cntn3b,33.3%,Normal,CRISPResso,31.0666666666667
+cntn3b,33.3%,Insertions > 10bp,CRISPResso,14.0093395597065
+cntn3b,66.7%,No indels > 10bp,CRISPResso,37.8666666666667
+cntn3b,66.7%,Normal,CRISPResso,64.8
+cntn3b,66.7%,Insertions > 10bp,CRISPResso,2.56666666666667
+cntn3b,90%,No indels > 10bp,CRISPResso,59
+cntn3b,90%,Normal,CRISPResso,89.3666666666667
+cntn3b,90%,Insertions > 10bp,CRISPResso,50.2834278092698
+cntnap2b,0,No indels > 10bp,CRISPResso,0.0666666666666667
+cntnap2b,0,Normal,CRISPResso,0.0666666666666667
+cntnap2b,0,Insertions > 10bp,CRISPResso,0.0666666666666667
+cntnap2b,33.3%,No indels > 10bp,CRISPResso,26.7666666666667
+cntnap2b,33.3%,Normal,CRISPResso,24.4
+cntnap2b,33.3%,Insertions > 10bp,CRISPResso,12.9468934397779
+cntnap2b,66.7%,No indels > 10bp,CRISPResso,58.4333333333333
+cntnap2b,66.7%,Normal,CRISPResso,53.784594864955
+cntnap2b,66.7%,Insertions > 10bp,CRISPResso,36.4338364338364
+cntnap2b,90%,No indels > 10bp,CRISPResso,56.6666666666667
+cntnap2b,90%,Normal,CRISPResso,63.1333333333333
+cntnap2b,90%,Insertions > 10bp,CRISPResso,42.1586381745744
+cntnap4,0,No indels > 10bp,CRISPResso,0.200066688896299
+cntnap4,0,Normal,CRISPResso,0.200066688896299
+cntnap4,0,Insertions > 10bp,CRISPResso,0.200066688896299
+cntnap4,33.3%,No indels > 10bp,CRISPResso,23.8825883922615
+cntnap4,33.3%,Normal,CRISPResso,31.4876584389593
+cntnap4,33.3%,Insertions > 10bp,CRISPResso,13.5527246992215
+cntnap4,66.7%,No indels > 10bp,CRISPResso,13.0376792264088
+cntnap4,66.7%,Normal,CRISPResso,58.9087234759178
+cntnap4,66.7%,Insertions > 10bp,CRISPResso,8.9162740123233
+cntnap4,90%,No indels > 10bp,CRISPResso,61.0536845615205
+cntnap4,90%,Normal,CRISPResso,70.3333333333333
+cntnap4,90%,Insertions > 10bp,CRISPResso,21.9064748201439
+CNTNAP5,0,No indels > 10bp,CRISPResso,0.133377792597532
+CNTNAP5,0,Normal,CRISPResso,0.133377792597532
+CNTNAP5,0,Insertions > 10bp,CRISPResso,0.133377792597532
+CNTNAP5,33.3%,No indels > 10bp,CRISPResso,25.8086028676225
+CNTNAP5,33.3%,Normal,CRISPResso,25.1
+CNTNAP5,33.3%,Insertions > 10bp,CRISPResso,10.9333333333333
+CNTNAP5,66.7%,No indels > 10bp,CRISPResso,40.4801600533511
+CNTNAP5,66.7%,Normal,CRISPResso,53.0353569046031
+CNTNAP5,66.7%,Insertions > 10bp,CRISPResso,30.0766922307436
+CNTNAP5,90%,No indels > 10bp,CRISPResso,39.0333333333333
+CNTNAP5,90%,Normal,CRISPResso,70.3
+CNTNAP5,90%,Insertions > 10bp,CRISPResso,26.488632262721
+gjd1a,0,No indels > 10bp,CRISPResso,0.166722240746916
+gjd1a,0,Normal,CRISPResso,0.166722240746916
+gjd1a,0,Insertions > 10bp,CRISPResso,0.166722240746916
+gjd1a,33.3%,No indels > 10bp,CRISPResso,14.7382460820273
+gjd1a,33.3%,Normal,CRISPResso,22.0740246748916
+gjd1a,33.3%,Insertions > 10bp,CRISPResso,8.76958986328776
+gjd1a,66.7%,No indels > 10bp,CRISPResso,27.1333333333333
+gjd1a,66.7%,Normal,CRISPResso,13.7758505670447
+gjd1a,66.7%,Insertions > 10bp,CRISPResso,24.4748249416472
+gjd1a,90%,No indels > 10bp,CRISPResso,13.1710570190063
+gjd1a,90%,Normal,CRISPResso,70.0333333333333
+gjd1a,90%,Insertions > 10bp,CRISPResso,29.3
+nlgn1,0,No indels > 10bp,CRISPResso,0.200066688896299
+nlgn1,0,Normal,CRISPResso,0.200066688896299
+nlgn1,0,Insertions > 10bp,CRISPResso,0.200066688896299
+nlgn1,33.3%,No indels > 10bp,CRISPResso,24.2080693564521
+nlgn1,33.3%,Normal,CRISPResso,16.2333333333333
+nlgn1,33.3%,Insertions > 10bp,CRISPResso,17.7094379639449
+nlgn1,66.7%,No indels > 10bp,CRISPResso,16.7
+nlgn1,66.7%,Normal,CRISPResso,42.7333333333333
+nlgn1,66.7%,Insertions > 10bp,CRISPResso,22.2419928825623
+nlgn1,90%,No indels > 10bp,CRISPResso,34.0446815605202
+nlgn1,90%,Normal,CRISPResso,50.0666666666667
+nlgn1,90%,Insertions > 10bp,CRISPResso,44.1601779755284
+nlgn3a,0,No indels > 10bp,CRISPResso,0.1
+nlgn3a,0,Normal,CRISPResso,0.1
+nlgn3a,0,Insertions > 10bp,CRISPResso,0.1
+nlgn3a,33.3%,No indels > 10bp,CRISPResso,6.76666666666667
+nlgn3a,33.3%,Normal,CRISPResso,24.1
+nlgn3a,33.3%,Insertions > 10bp,CRISPResso,10.8927955877284
+nlgn3a,66.7%,No indels > 10bp,CRISPResso,26
+nlgn3a,66.7%,Normal,CRISPResso,21.1
+nlgn3a,66.7%,Insertions > 10bp,CRISPResso,35.5794150314698
+nlgn3a,90%,No indels > 10bp,CRISPResso,53.7
+nlgn3a,90%,Normal,CRISPResso,25.4
+nlgn3a,90%,Insertions > 10bp,CRISPResso,59.6461949265688
+nlgn4a,0,No indels > 10bp,CRISPResso,0.133377792597532
+nlgn4a,0,Normal,CRISPResso,0.133377792597532
+nlgn4a,0,Insertions > 10bp,CRISPResso,0.133377792597532
+nlgn4a,33.3%,No indels > 10bp,CRISPResso,29.7765921973991
+nlgn4a,33.3%,Normal,CRISPResso,10.7702567522508
+nlgn4a,33.3%,Insertions > 10bp,CRISPResso,9.82758620689655
+nlgn4a,66.7%,No indels > 10bp,CRISPResso,24.4
+nlgn4a,66.7%,Normal,CRISPResso,34.4
+nlgn4a,66.7%,Insertions > 10bp,CRISPResso,23.1716705157814
+nlgn4a,90%,No indels > 10bp,CRISPResso,37.8333333333333
+nlgn4a,90%,Normal,CRISPResso,58.4333333333333
+nlgn4a,90%,Insertions > 10bp,CRISPResso,61.2537512504168
+nrxn1a_L,0,No indels > 10bp,CRISPResso,0.200333889816361
+nrxn1a_L,0,Normal,CRISPResso,0.200333889816361
+nrxn1a_L,0,Insertions > 10bp,CRISPResso,0.200333889816361
+nrxn1a_L,33.3%,No indels > 10bp,CRISPResso,12.5125125125125
+nrxn1a_L,33.3%,Normal,CRISPResso,33.2998996990973
+nrxn1a_L,33.3%,Insertions > 10bp,CRISPResso,13.8276553106212
+nrxn1a_L,66.7%,No indels > 10bp,CRISPResso,13.5315736719011
+nrxn1a_L,66.7%,Normal,CRISPResso,43.4593509534961
+nrxn1a_L,66.7%,Insertions > 10bp,CRISPResso,18.2572614107884
+nrxn1a_L,90%,No indels > 10bp,CRISPResso,37.0283806343907
+nrxn1a_L,90%,Normal,CRISPResso,52.4365821094793
+nrxn1a_L,90%,Insertions > 10bp,CRISPResso,53.7408149632599
+nrxn1a_S,0,No indels > 10bp,CRISPResso,0.100066711140761
+nrxn1a_S,0,Normal,CRISPResso,0.100066711140761
+nrxn1a_S,0,Insertions > 10bp,CRISPResso,0.100066711140761
+nrxn1a_S,33.3%,No indels > 10bp,CRISPResso,17.0333333333333
+nrxn1a_S,33.3%,Normal,CRISPResso,29.4098032677559
+nrxn1a_S,33.3%,Insertions > 10bp,CRISPResso,17.7678877096885
+nrxn1a_S,66.7%,No indels > 10bp,CRISPResso,34.3666666666667
+nrxn1a_S,66.7%,Normal,CRISPResso,21.0403467822608
+nrxn1a_S,66.7%,Insertions > 10bp,CRISPResso,7.44514106583072
+nrxn1a_S,90%,No indels > 10bp,CRISPResso,51.5
+nrxn1a_S,90%,Normal,CRISPResso,69
+nrxn1a_S,90%,Insertions > 10bp,CRISPResso,59.7
+nrxn1b_L,0,No indels > 10bp,CRISPResso,0.133333333333333
+nrxn1b_L,0,Normal,CRISPResso,0.133333333333333
+nrxn1b_L,0,Insertions > 10bp,CRISPResso,0.133333333333333
+nrxn1b_L,33.3%,No indels > 10bp,CRISPResso,19.4
+nrxn1b_L,33.3%,Normal,CRISPResso,31.0333333333333
+nrxn1b_L,33.3%,Insertions > 10bp,CRISPResso,17.184265010352
+nrxn1b_L,66.7%,No indels > 10bp,CRISPResso,50.4333333333333
+nrxn1b_L,66.7%,Normal,CRISPResso,17.8
+nrxn1b_L,66.7%,Insertions > 10bp,CRISPResso,40.8071748878924
+nrxn1b_L,90%,No indels > 10bp,CRISPResso,84.3333333333333
+nrxn1b_L,90%,Normal,CRISPResso,82.6666666666667
+nrxn1b_L,90%,Insertions > 10bp,CRISPResso,42.4
+nrxn1b_S,0,No indels > 10bp,CRISPResso,0.0667334000667334
+nrxn1b_S,0,Normal,CRISPResso,0.0667334000667334
+nrxn1b_S,0,Insertions > 10bp,CRISPResso,0.0667334000667334
+nrxn1b_S,33.3%,No indels > 10bp,CRISPResso,15.1170568561873
+nrxn1b_S,33.3%,Normal,CRISPResso,28.0467445742905
+nrxn1b_S,33.3%,Insertions > 10bp,CRISPResso,18.2190378710338
+nrxn1b_S,66.7%,No indels > 10bp,CRISPResso,33.4224598930481
+nrxn1b_S,66.7%,Normal,CRISPResso,60.507851653859
+nrxn1b_S,66.7%,Insertions > 10bp,CRISPResso,21.2167886022333
+nrxn1b_S,90%,No indels > 10bp,CRISPResso,41.3631807550952
+nrxn1b_S,90%,Normal,CRISPResso,79.3241886918702
+nrxn1b_S,90%,Insertions > 10bp,CRISPResso,21.6505178750418
+nrxn3a_L,0,No indels > 10bp,CRISPResso,0.100033344448149
+nrxn3a_L,0,Normal,CRISPResso,0.100033344448149
+nrxn3a_L,0,Insertions > 10bp,CRISPResso,0.100033344448149
+nrxn3a_L,33.3%,No indels > 10bp,CRISPResso,22.4
+nrxn3a_L,33.3%,Normal,CRISPResso,9.73333333333333
+nrxn3a_L,33.3%,Insertions > 10bp,CRISPResso,16.5115477421579
+nrxn3a_L,66.7%,No indels > 10bp,CRISPResso,31.1
+nrxn3a_L,66.7%,Normal,CRISPResso,53.0176725575192
+nrxn3a_L,66.7%,Insertions > 10bp,CRISPResso,15.8652158652159
+nrxn3a_L,90%,No indels > 10bp,CRISPResso,77.3
+nrxn3a_L,90%,Normal,CRISPResso,63.3877959319773
+nrxn3a_L,90%,Insertions > 10bp,CRISPResso,15.12
+nrxn3b_L,0,No indels > 10bp,CRISPResso,0.133333333333333
+nrxn3b_L,0,Normal,CRISPResso,0.133333333333333
+nrxn3b_L,0,Insertions > 10bp,CRISPResso,0.133333333333333
+nrxn3b_L,33.3%,No indels > 10bp,CRISPResso,28.4094698232744
+nrxn3b_L,33.3%,Normal,CRISPResso,18.4666666666667
+nrxn3b_L,33.3%,Insertions > 10bp,CRISPResso,9.66643975493533
+nrxn3b_L,66.7%,No indels > 10bp,CRISPResso,42.5808602867623
+nrxn3b_L,66.7%,Normal,CRISPResso,49.0326884589727
+nrxn3b_L,66.7%,Insertions > 10bp,CRISPResso,22.7484750627915
+nrxn3b_L,90%,No indels > 10bp,CRISPResso,30.8
+nrxn3b_L,90%,Normal,CRISPResso,52.4174724908303
+nrxn3b_L,90%,Insertions > 10bp,CRISPResso,33.5358444714459
+nrxn3b_S,0,No indels > 10bp,CRISPResso,0.100033344448149
+nrxn3b_S,0,Normal,CRISPResso,0.100033344448149
+nrxn3b_S,0,Insertions > 10bp,CRISPResso,0.100033344448149
+nrxn3b_S,33.3%,No indels > 10bp,CRISPResso,12.4333333333333
+nrxn3b_S,33.3%,Normal,CRISPResso,18.7395798599533
+nrxn3b_S,33.3%,Insertions > 10bp,CRISPResso,10.6856309263311
+nrxn3b_S,66.7%,No indels > 10bp,CRISPResso,25.9666666666667
+nrxn3b_S,66.7%,Normal,CRISPResso,55.9853284428143
+nrxn3b_S,66.7%,Insertions > 10bp,CRISPResso,23.608649415101
+nrxn3b_S,90%,No indels > 10bp,CRISPResso,54.4181393797933
+nrxn3b_S,90%,Normal,CRISPResso,12.1
+nrxn3b_S,90%,Insertions > 10bp,CRISPResso,45.2666666666667
+tjp1b_B,0,No indels > 10bp,CRISPResso,0.166722240746916
+tjp1b_B,0,Normal,CRISPResso,0.166722240746916
+tjp1b_B,0,Insertions > 10bp,CRISPResso,0.166722240746916
+tjp1b_B,33.3%,No indels > 10bp,CRISPResso,6.50216738912971
+tjp1b_B,33.3%,Normal,CRISPResso,28.809603201067
+tjp1b_B,33.3%,Insertions > 10bp,CRISPResso,17.8726242080694
+tjp1b_B,66.7%,No indels > 10bp,CRISPResso,31.1333333333333
+tjp1b_B,66.7%,Normal,CRISPResso,49.1163721240413
+tjp1b_B,66.7%,Insertions > 10bp,CRISPResso,44.0287769784173
+tjp1b_B,90%,No indels > 10bp,CRISPResso,29.676558852951
+tjp1b_B,90%,Normal,CRISPResso,48.3655770513676
+tjp1b_B,90%,Insertions > 10bp,CRISPResso,17.1723907969323
+tjp1b_L,0,No indels > 10bp,CRISPResso,0.0666666666666667
+tjp1b_L,0,Normal,CRISPResso,0.0666666666666667
+tjp1b_L,0,Insertions > 10bp,CRISPResso,0.0666666666666667
+tjp1b_L,33.3%,No indels > 10bp,CRISPResso,25.7666666666667
+tjp1b_L,33.3%,Normal,CRISPResso,29.4333333333333
+tjp1b_L,33.3%,Insertions > 10bp,CRISPResso,14.4714904968323
+tjp1b_L,66.7%,No indels > 10bp,CRISPResso,23.3333333333333
+tjp1b_L,66.7%,Normal,CRISPResso,53.4333333333333
+tjp1b_L,66.7%,Insertions > 10bp,CRISPResso,1.44825150123631
+tjp1b_L,90%,No indels > 10bp,CRISPResso,67.6666666666667
+tjp1b_L,90%,Normal,CRISPResso,40.1
+tjp1b_L,90%,Insertions > 10bp,CRISPResso,43.9442658092176
+cnsta,0,No indels > 10bp,CRISPRessoPooled,0.0666888962987662
+cntn1a,0,No indels > 10bp,CRISPRessoPooled,0.133333333333333
+cntn1b,0,No indels > 10bp,CRISPRessoPooled,0.166666666666667
+cntn3b,0,No indels > 10bp,CRISPRessoPooled,0.1
+cntnap2b,0,No indels > 10bp,CRISPRessoPooled,0.1
+cntnap4,0,No indels > 10bp,CRISPRessoPooled,0.266755585195065
+CNTNAP5,0,No indels > 10bp,CRISPRessoPooled,0.133377792597532
+gjd1a,0,No indels > 10bp,CRISPRessoPooled,0.100033344448149
+nlgn1,0,No indels > 10bp,CRISPRessoPooled,0.200066688896299
+nlgn3a,0,No indels > 10bp,CRISPRessoPooled,0.100772589855559
+nlgn4a,0,No indels > 10bp,CRISPRessoPooled,0.100033344448149
+nrxn1a_L,0,No indels > 10bp,CRISPRessoPooled,0.2
+nrxn1a_S,0,No indels > 10bp,CRISPRessoPooled,0.066711140760507
+nrxn1b_L,0,No indels > 10bp,CRISPRessoPooled,0.1
+nrxn1b_S,0,No indels > 10bp,CRISPRessoPooled,0.0666666666666667
+nrxn3a_L,0,No indels > 10bp,CRISPRessoPooled,0.0666888962987662
+nrxn3b_L,0,No indels > 10bp,CRISPRessoPooled,0.166666666666667
+nrxn3b_S,0,No indels > 10bp,CRISPRessoPooled,0.233411137045682
+tjp1b_B,0,No indels > 10bp,CRISPRessoPooled,0.100033344448149
+tjp1b_L,0,No indels > 10bp,CRISPRessoPooled,0.0671817265703729
+cnsta,0,Normal,CRISPRessoPooled,0.0666888962987662
+cntn1a,0,Normal,CRISPRessoPooled,0.133333333333333
+cntn1b,0,Normal,CRISPRessoPooled,0.166666666666667
+cntn3b,0,Normal,CRISPRessoPooled,0.1
+cntnap2b,0,Normal,CRISPRessoPooled,0.1
+cntnap4,0,Normal,CRISPRessoPooled,0.266755585195065
+CNTNAP5,0,Normal,CRISPRessoPooled,0.133377792597532
+gjd1a,0,Normal,CRISPRessoPooled,0.100033344448149
+nlgn1,0,Normal,CRISPRessoPooled,0.200066688896299
+nlgn3a,0,Normal,CRISPRessoPooled,0.100772589855559
+nlgn4a,0,Normal,CRISPRessoPooled,0.100033344448149
+nrxn1a_L,0,Normal,CRISPRessoPooled,0.2
+nrxn1a_S,0,Normal,CRISPRessoPooled,0.066711140760507
+nrxn1b_L,0,Normal,CRISPRessoPooled,0.1
+nrxn1b_S,0,Normal,CRISPRessoPooled,0.0666666666666667
+nrxn3a_L,0,Normal,CRISPRessoPooled,0.0666888962987662
+nrxn3b_L,0,Normal,CRISPRessoPooled,0.166666666666667
+nrxn3b_S,0,Normal,CRISPRessoPooled,0.233411137045682
+tjp1b_B,0,Normal,CRISPRessoPooled,0.100033344448149
+tjp1b_L,0,Normal,CRISPRessoPooled,0.0671817265703729
+cnsta,0,Insertions > 10bp,CRISPRessoPooled,0.0666888962987662
+cntn1a,0,Insertions > 10bp,CRISPRessoPooled,0.133333333333333
+cntn1b,0,Insertions > 10bp,CRISPRessoPooled,0.166666666666667
+cntn3b,0,Insertions > 10bp,CRISPRessoPooled,0.1
+cntnap2b,0,Insertions > 10bp,CRISPRessoPooled,0.1
+cntnap4,0,Insertions > 10bp,CRISPRessoPooled,0.266755585195065
+CNTNAP5,0,Insertions > 10bp,CRISPRessoPooled,0.133377792597532
+gjd1a,0,Insertions > 10bp,CRISPRessoPooled,0.100033344448149
+nlgn1,0,Insertions > 10bp,CRISPRessoPooled,0.200066688896299
+nlgn3a,0,Insertions > 10bp,CRISPRessoPooled,0.100772589855559
+nlgn4a,0,Insertions > 10bp,CRISPRessoPooled,0.100033344448149
+nrxn1a_L,0,Insertions > 10bp,CRISPRessoPooled,0.2
+nrxn1a_S,0,Insertions > 10bp,CRISPRessoPooled,0.066711140760507
+nrxn1b_L,0,Insertions > 10bp,CRISPRessoPooled,0.1
+nrxn1b_S,0,Insertions > 10bp,CRISPRessoPooled,0.0666666666666667
+nrxn3a_L,0,Insertions > 10bp,CRISPRessoPooled,0.0666888962987662
+nrxn3b_L,0,Insertions > 10bp,CRISPRessoPooled,0.166666666666667
+nrxn3b_S,0,Insertions > 10bp,CRISPRessoPooled,0.233411137045682
+tjp1b_B,0,Insertions > 10bp,CRISPRessoPooled,0.100033344448149
+tjp1b_L,0,Insertions > 10bp,CRISPRessoPooled,0.0671817265703729
+cnsta,33.3%,No indels > 10bp,CRISPRessoPooled,21.1070356785595
+cntn1a,33.3%,No indels > 10bp,CRISPRessoPooled,14.1427618412275
+cntn1b,33.3%,No indels > 10bp,CRISPRessoPooled,6.1415220293725
+cntn3b,33.3%,No indels > 10bp,CRISPRessoPooled,8.01068090787717
+cntnap2b,33.3%,No indels > 10bp,CRISPRessoPooled,24.1333333333333
+cntnap4,33.3%,No indels > 10bp,CRISPRessoPooled,19.5528862195529
+CNTNAP5,33.3%,No indels > 10bp,CRISPRessoPooled,4.17641162712997
+gjd1a,33.3%,No indels > 10bp,CRISPRessoPooled,10.7369123041014
+nlgn1,33.3%,No indels > 10bp,CRISPRessoPooled,20.4871538204872
+nlgn3a,33.3%,No indels > 10bp,CRISPRessoPooled,6.80979537068098
+nlgn4a,33.3%,No indels > 10bp,CRISPRessoPooled,21.8072690896966
+nrxn1a_L,33.3%,No indels > 10bp,CRISPRessoPooled,11.4704901633878
+nrxn1a_S,33.3%,No indels > 10bp,CRISPRessoPooled,10.0733822548366
+nrxn1b_L,33.3%,No indels > 10bp,CRISPRessoPooled,19.3666666666667
+nrxn1b_S,33.3%,No indels > 10bp,CRISPRessoPooled,12.4374791597199
+nrxn3a_L,33.3%,No indels > 10bp,CRISPRessoPooled,13.7666666666667
+nrxn3b_L,33.3%,No indels > 10bp,CRISPRessoPooled,24.0907574240908
+nrxn3b_S,33.3%,No indels > 10bp,CRISPRessoPooled,3.40113371123708
+tjp1b_B,33.3%,No indels > 10bp,CRISPRessoPooled,2.7675891963988
+tjp1b_L,33.3%,No indels > 10bp,CRISPRessoPooled,25.7945801271328
+cnsta,33.3%,Normal,CRISPRessoPooled,18.4439041333796
+cntn1a,33.3%,Normal,CRISPRessoPooled,30.7482993197279
+cntn1b,33.3%,Normal,CRISPRessoPooled,16.5333333333333
+cntn3b,33.3%,Normal,CRISPRessoPooled,28.8054607508532
+cntnap2b,33.3%,Normal,CRISPRessoPooled,24.6801346801347
+cntnap4,33.3%,Normal,CRISPRessoPooled,30.9330628803245
+CNTNAP5,33.3%,Normal,CRISPRessoPooled,3.9054470709147
+gjd1a,33.3%,Normal,CRISPRessoPooled,21.9104876419506
+nlgn1,33.3%,Normal,CRISPRessoPooled,14.4147273358805
+nlgn3a,33.3%,Normal,CRISPRessoPooled,24.3034575360859
+nlgn4a,33.3%,Normal,CRISPRessoPooled,6.73557852617539
+nrxn1a_L,33.3%,Normal,CRISPRessoPooled,28.4
+nrxn1a_S,33.3%,Normal,CRISPRessoPooled,27.8610354223433
+nrxn1b_L,33.3%,Normal,CRISPRessoPooled,26.6894197952218
+nrxn1b_S,33.3%,Normal,CRISPRessoPooled,25.2941176470588
+nrxn3a_L,33.3%,Normal,CRISPRessoPooled,5.31468531468532
+nrxn3b_L,33.3%,Normal,CRISPRessoPooled,18.8062687562521
+nrxn3b_S,33.3%,Normal,CRISPRessoPooled,3.98646107559233
+tjp1b_B,33.3%,Normal,CRISPRessoPooled,18.8460225332878
+tjp1b_L,33.3%,Normal,CRISPRessoPooled,29.5378432685867
+cnsta,33.3%,Insertions > 10bp,CRISPRessoPooled,0.236220472440945
+cntn1a,33.3%,Insertions > 10bp,CRISPRessoPooled,9.30067447639333
+cntn1b,33.3%,Insertions > 10bp,CRISPRessoPooled,8.91458411040657
+cntn3b,33.3%,Insertions > 10bp,CRISPRessoPooled,10.4647037956722
+cntnap2b,33.3%,Insertions > 10bp,CRISPRessoPooled,7.91044776119403
+cntnap4,33.3%,Insertions > 10bp,CRISPRessoPooled,11.0698365527489
+CNTNAP5,33.3%,Insertions > 10bp,CRISPRessoPooled,6.01398601398601
+gjd1a,33.3%,Insertions > 10bp,CRISPRessoPooled,4.51879958606416
+nlgn1,33.3%,Insertions > 10bp,CRISPRessoPooled,10.3088803088803
+nlgn3a,33.3%,Insertions > 10bp,CRISPRessoPooled,6.18055555555556
+nlgn4a,33.3%,Insertions > 10bp,CRISPRessoPooled,5.5635838150289
+nrxn1a_L,33.3%,Insertions > 10bp,CRISPRessoPooled,15.1333333333333
+nrxn1a_S,33.3%,Insertions > 10bp,CRISPRessoPooled,14.8729446935725
+nrxn1b_L,33.3%,Insertions > 10bp,CRISPRessoPooled,12.3511904761905
+nrxn1b_S,33.3%,Insertions > 10bp,CRISPRessoPooled,17.6345609065156
+nrxn3a_L,33.3%,Insertions > 10bp,CRISPRessoPooled,9.85703536493604
+nrxn3b_L,33.3%,Insertions > 10bp,CRISPRessoPooled,3.42417889587701
+nrxn3b_S,33.3%,Insertions > 10bp,CRISPRessoPooled,5.55344237352605
+tjp1b_B,33.3%,Insertions > 10bp,CRISPRessoPooled,7.43140243902439
+tjp1b_L,33.3%,Insertions > 10bp,CRISPRessoPooled,12.724658519051
+cnsta,66.7%,No indels > 10bp,CRISPRessoPooled,29.7198132088059
+cntn1a,66.7%,No indels > 10bp,CRISPRessoPooled,40.7543391188251
+cntn1b,66.7%,No indels > 10bp,CRISPRessoPooled,28.628762541806
+cntn3b,66.7%,No indels > 10bp,CRISPRessoPooled,14.0854472630174
+cntnap2b,66.7%,No indels > 10bp,CRISPRessoPooled,49.0333333333333
+cntnap4,66.7%,No indels > 10bp,CRISPRessoPooled,6.70670670670671
+CNTNAP5,66.7%,No indels > 10bp,CRISPRessoPooled,0.1001001001001
+gjd1a,66.7%,No indels > 10bp,CRISPRessoPooled,5.46666666666667
+nlgn1,66.7%,No indels > 10bp,CRISPRessoPooled,14.4333333333333
+nlgn3a,66.7%,No indels > 10bp,CRISPRessoPooled,22.0661985957874
+nlgn4a,66.7%,No indels > 10bp,CRISPRessoPooled,13.0420280186791
+nrxn1a_L,66.7%,No indels > 10bp,CRISPRessoPooled,0.2
+nrxn1a_S,66.7%,No indels > 10bp,CRISPRessoPooled,27.3424474824942
+nrxn1b_L,66.7%,No indels > 10bp,CRISPRessoPooled,50.4669779853235
+nrxn1b_S,66.7%,No indels > 10bp,CRISPRessoPooled,15.1717239079693
+nrxn3a_L,66.7%,No indels > 10bp,CRISPRessoPooled,19.7333333333333
+nrxn3b_L,66.7%,No indels > 10bp,CRISPRessoPooled,31.8439479826609
+nrxn3b_S,66.7%,No indels > 10bp,CRISPRessoPooled,6.88042752171009
+tjp1b_B,66.7%,No indels > 10bp,CRISPRessoPooled,21.8
+tjp1b_L,66.7%,No indels > 10bp,CRISPRessoPooled,20.4477113264283
+cnsta,66.7%,Normal,CRISPRessoPooled,47.313980647314
+cntn1a,66.7%,Normal,CRISPRessoPooled,53.1379310344828
+cntn1b,66.7%,Normal,CRISPRessoPooled,52.3034291652234
+cntn3b,66.7%,Normal,CRISPRessoPooled,52.312543798178
+cntnap2b,66.7%,Normal,CRISPRessoPooled,44.8958333333333
+cntnap4,66.7%,Normal,CRISPRessoPooled,26.0688216892596
+CNTNAP5,66.7%,Normal,CRISPRessoPooled,18.8653910708291
+gjd1a,66.7%,Normal,CRISPRessoPooled,9.74307640974308
+nlgn1,66.7%,Normal,CRISPRessoPooled,39.1350584898972
+nlgn3a,66.7%,Normal,CRISPRessoPooled,21.4884696016771
+nlgn4a,66.7%,Normal,CRISPRessoPooled,34.5637583892617
+nrxn1a_L,66.7%,Normal,CRISPRessoPooled,40.0494874513963
+nrxn1a_S,66.7%,Normal,CRISPRessoPooled,20.5171255876427
+nrxn1b_L,66.7%,Normal,CRISPRessoPooled,9.98902305159166
+nrxn1b_S,66.7%,Normal,CRISPRessoPooled,17.2721041809459
+nrxn3a_L,66.7%,Normal,CRISPRessoPooled,52.2210918955578
+nrxn3b_L,66.7%,Normal,CRISPRessoPooled,49.0927419354839
+nrxn3b_S,66.7%,Normal,CRISPRessoPooled,56.3093622795115
+tjp1b_B,66.7%,Normal,CRISPRessoPooled,45.6698480028279
+tjp1b_L,66.7%,Normal,CRISPRessoPooled,53.2279757901816
+cnsta,66.7%,Insertions > 10bp,CRISPRessoPooled,14.494623655914
+cntn1a,66.7%,Insertions > 10bp,CRISPRessoPooled,27.2546682558601
+cntn1b,66.7%,Insertions > 10bp,CRISPRessoPooled,23.8169123351435
+cntn3b,66.7%,Insertions > 10bp,CRISPRessoPooled,8.0958999305073
+cntnap2b,66.7%,Insertions > 10bp,CRISPRessoPooled,33.6425258651445
+cntnap4,66.7%,Insertions > 10bp,CRISPRessoPooled,7.76813880126183
+CNTNAP5,66.7%,Insertions > 10bp,CRISPRessoPooled,12.4653739612188
+gjd1a,66.7%,Insertions > 10bp,CRISPRessoPooled,13.4435962680238
+nlgn1,66.7%,Insertions > 10bp,CRISPRessoPooled,17.5202156334232
+nlgn3a,66.7%,Insertions > 10bp,CRISPRessoPooled,30.9018036072144
+nlgn4a,66.7%,Insertions > 10bp,CRISPRessoPooled,18.3983781044095
+nrxn1a_L,66.7%,Insertions > 10bp,CRISPRessoPooled,12.8630705394191
+nrxn1a_S,66.7%,Insertions > 10bp,CRISPRessoPooled,6.99179974104445
+nrxn1b_L,66.7%,Insertions > 10bp,CRISPRessoPooled,25.9259259259259
+nrxn1b_S,66.7%,Insertions > 10bp,CRISPRessoPooled,17.7992277992278
+nrxn3a_L,66.7%,Insertions > 10bp,CRISPRessoPooled,16.8003054600993
+nrxn3b_L,66.7%,Insertions > 10bp,CRISPRessoPooled,22.3350253807107
+nrxn3b_S,66.7%,Insertions > 10bp,CRISPRessoPooled,24.1118669690098
+tjp1b_B,66.7%,Insertions > 10bp,CRISPRessoPooled,34.7376788553259
+tjp1b_L,66.7%,Insertions > 10bp,CRISPRessoPooled,0.554844216816048
+cnsta,90%,No indels > 10bp,CRISPRessoPooled,71.0236745581861
+cntn1a,90%,No indels > 10bp,CRISPRessoPooled,16.383049716383
+cntn1b,90%,No indels > 10bp,CRISPRessoPooled,3.90447308567096
+cntn3b,90%,No indels > 10bp,CRISPRessoPooled,34.3163538873995
+cntnap2b,90%,No indels > 10bp,CRISPRessoPooled,43.4289526350901
+cntnap4,90%,No indels > 10bp,CRISPRessoPooled,60.6868956318773
+CNTNAP5,90%,No indels > 10bp,CRISPRessoPooled,39.0666666666667
+gjd1a,90%,No indels > 10bp,CRISPRessoPooled,2.83427809269757
+nlgn1,90%,No indels > 10bp,CRISPRessoPooled,0.100033344448149
+nlgn3a,90%,No indels > 10bp,CRISPRessoPooled,21.7811874583055
+nlgn4a,90%,No indels > 10bp,CRISPRessoPooled,37.7377377377377
+nrxn1a_L,90%,No indels > 10bp,CRISPRessoPooled,34.3333333333333
+nrxn1a_S,90%,No indels > 10bp,CRISPRessoPooled,51.503006012024
+nrxn1b_L,90%,No indels > 10bp,CRISPRessoPooled,84.3333333333333
+nrxn1b_S,90%,No indels > 10bp,CRISPRessoPooled,41.4138046015338
+nrxn3a_L,90%,No indels > 10bp,CRISPRessoPooled,26.7
+nrxn3b_L,90%,No indels > 10bp,CRISPRessoPooled,18.7729243081027
+nrxn3b_S,90%,No indels > 10bp,CRISPRessoPooled,46.046046046046
+tjp1b_B,90%,No indels > 10bp,CRISPRessoPooled,27.0090030010003
+tjp1b_L,90%,No indels > 10bp,CRISPRessoPooled,67.7118078719146
+cnsta,90%,Normal,CRISPRessoPooled,9.46982327442481
+cntn1a,90%,Normal,CRISPRessoPooled,32.2856166723608
+cntn1b,90%,Normal,CRISPRessoPooled,6.2431941923775
+cntn3b,90%,Normal,CRISPRessoPooled,82.9194630872483
+cntnap2b,90%,Normal,CRISPRessoPooled,63.1333333333333
+cntnap4,90%,Normal,CRISPRessoPooled,70.2973605078517
+CNTNAP5,90%,Normal,CRISPRessoPooled,64.527027027027
+gjd1a,90%,Normal,CRISPRessoPooled,69.8119543317663
+nlgn1,90%,Normal,CRISPRessoPooled,50.0666666666667
+nlgn3a,90%,Normal,CRISPRessoPooled,22.3766504517026
+nlgn4a,90%,Normal,CRISPRessoPooled,58.628762541806
+nrxn1a_L,90%,Normal,CRISPRessoPooled,49.5581477553906
+nrxn1a_S,90%,Normal,CRISPRessoPooled,63.3204633204633
+nrxn1b_L,90%,Normal,CRISPRessoPooled,84.1016949152542
+nrxn1b_S,90%,Normal,CRISPRessoPooled,53.8461538461538
+nrxn3a_L,90%,Normal,CRISPRessoPooled,53.2567049808429
+nrxn3b_L,90%,Normal,CRISPRessoPooled,15.6862745098039
+nrxn3b_S,90%,Normal,CRISPRessoPooled,12.1
+tjp1b_B,90%,Normal,CRISPRessoPooled,48.566610455312
+tjp1b_L,90%,Normal,CRISPRessoPooled,35.9578207381371
+cnsta,90%,Insertions > 10bp,CRISPRessoPooled,48.0124223602484
+cntn1a,90%,Insertions > 10bp,CRISPRessoPooled,45.7578253706755
+cntn1b,90%,Insertions > 10bp,CRISPRessoPooled,9.1599831152385
+cntn3b,90%,Insertions > 10bp,CRISPRessoPooled,46.4450600184672
+cntnap2b,90%,Insertions > 10bp,CRISPRessoPooled,45.4726368159204
+cntnap4,90%,Insertions > 10bp,CRISPRessoPooled,17.618415227977
+CNTNAP5,90%,Insertions > 10bp,CRISPRessoPooled,33.7097448766207
+gjd1a,90%,Insertions > 10bp,CRISPRessoPooled,35.8630952380952
+nlgn1,90%,Insertions > 10bp,CRISPRessoPooled,29.0950226244344
+nlgn3a,90%,Insertions > 10bp,CRISPRessoPooled,32.3392357875116
+nlgn4a,90%,Insertions > 10bp,CRISPRessoPooled,42.6126878130217
+nrxn1a_L,90%,Insertions > 10bp,CRISPRessoPooled,33.9719029374202
+nrxn1a_S,90%,Insertions > 10bp,CRISPRessoPooled,37.2566772295156
+nrxn1b_L,90%,Insertions > 10bp,CRISPRessoPooled,35.4129741226515
+nrxn1b_S,90%,Insertions > 10bp,CRISPRessoPooled,22.6041245450869
+nrxn3a_L,90%,Insertions > 10bp,CRISPRessoPooled,3.92156862745098
+nrxn3b_L,90%,Insertions > 10bp,CRISPRessoPooled,11.4615726343847
+nrxn3b_S,90%,Insertions > 10bp,CRISPRessoPooled,44.310977644311
+tjp1b_B,90%,Insertions > 10bp,CRISPRessoPooled,11.0262008733624
+tjp1b_L,90%,Insertions > 10bp,CRISPRessoPooled,23.7984134391041
+cnsta,0,No indels > 10bp,AmpliconDIVider,0.0666667
+cnsta,0,Normal,AmpliconDIVider,0.0666667
+cnsta,0,Insertions > 10bp,AmpliconDIVider,0.0666667
+cnsta,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+cnsta,33.3%,Normal,AmpliconDIVider,33.3333
+cnsta,33.3%,Insertions > 10bp,AmpliconDIVider,27.8759
+cnsta,66.7%,No indels > 10bp,AmpliconDIVider,66.7
+cnsta,66.7%,Normal,AmpliconDIVider,66.7
+cnsta,66.7%,Insertions > 10bp,AmpliconDIVider,62.2642
+cnsta,90%,No indels > 10bp,AmpliconDIVider,90
+cnsta,90%,Normal,AmpliconDIVider,90
+cnsta,90%,Insertions > 10bp,AmpliconDIVider,87.9032
+cntn1a,0,No indels > 10bp,AmpliconDIVider,0
+cntn1a,0,Normal,AmpliconDIVider,0
+cntn1a,0,Insertions > 10bp,AmpliconDIVider,0
+cntn1a,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+cntn1a,33.3%,Normal,AmpliconDIVider,33.2001
+cntn1a,33.3%,Insertions > 10bp,AmpliconDIVider,31.9728
+cntn1a,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+cntn1a,66.7%,Normal,AmpliconDIVider,66.6667
+cntn1a,66.7%,Insertions > 10bp,AmpliconDIVider,65.035
+cntn1a,90%,No indels > 10bp,AmpliconDIVider,90
+cntn1a,90%,Normal,AmpliconDIVider,90
+cntn1a,90%,Insertions > 10bp,AmpliconDIVider,90
+cntn1b,0,No indels > 10bp,AmpliconDIVider,0
+cntn1b,0,Normal,AmpliconDIVider,0
+cntn1b,0,Insertions > 10bp,AmpliconDIVider,0
+cntn1b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+cntn1b,33.3%,Normal,AmpliconDIVider,33.3333
+cntn1b,33.3%,Insertions > 10bp,AmpliconDIVider,32.2034
+cntn1b,66.7%,No indels > 10bp,AmpliconDIVider,66.7333
+cntn1b,66.7%,Normal,AmpliconDIVider,66.7333
+cntn1b,66.7%,Insertions > 10bp,AmpliconDIVider,64.539
+cntn1b,90%,No indels > 10bp,AmpliconDIVider,90
+cntn1b,90%,Normal,AmpliconDIVider,90
+cntn1b,90%,Insertions > 10bp,AmpliconDIVider,89.1579
+cntn3b,0,No indels > 10bp,AmpliconDIVider,0
+cntn3b,0,Normal,AmpliconDIVider,0
+cntn3b,0,Insertions > 10bp,AmpliconDIVider,0
+cntn3b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+cntn3b,33.3%,Normal,AmpliconDIVider,33.3333
+cntn3b,33.3%,Insertions > 10bp,AmpliconDIVider,31.082
+cntn3b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+cntn3b,66.7%,Normal,AmpliconDIVider,66.6667
+cntn3b,66.7%,Insertions > 10bp,AmpliconDIVider,66.6667
+cntn3b,90%,No indels > 10bp,AmpliconDIVider,90
+cntn3b,90%,Normal,AmpliconDIVider,90
+cntn3b,90%,Insertions > 10bp,AmpliconDIVider,88.934
+cntnap2b,0,No indels > 10bp,AmpliconDIVider,0
+cntnap2b,0,Normal,AmpliconDIVider,0
+cntnap2b,0,Insertions > 10bp,AmpliconDIVider,0
+cntnap2b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+cntnap2b,33.3%,Normal,AmpliconDIVider,32.7979
+cntnap2b,33.3%,Insertions > 10bp,AmpliconDIVider,28.8003
+cntnap2b,66.7%,No indels > 10bp,AmpliconDIVider,66.6556
+cntnap2b,66.7%,Normal,AmpliconDIVider,66.6556
+cntnap2b,66.7%,Insertions > 10bp,AmpliconDIVider,64.4001
+cntnap2b,90%,No indels > 10bp,AmpliconDIVider,90
+cntnap2b,90%,Normal,AmpliconDIVider,90
+cntnap2b,90%,Insertions > 10bp,AmpliconDIVider,89.0869
+cntnap4,0,No indels > 10bp,AmpliconDIVider,0
+cntnap4,0,Normal,AmpliconDIVider,0
+cntnap4,0,Insertions > 10bp,AmpliconDIVider,0
+cntnap4,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+cntnap4,33.3%,Normal,AmpliconDIVider,32.8904
+cntnap4,33.3%,Insertions > 10bp,AmpliconDIVider,26.4706
+cntnap4,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+cntnap4,66.7%,Normal,AmpliconDIVider,66.33
+cntnap4,66.7%,Insertions > 10bp,AmpliconDIVider,63.5036
+cntnap4,90%,No indels > 10bp,AmpliconDIVider,90
+cntnap4,90%,Normal,AmpliconDIVider,90
+cntnap4,90%,Insertions > 10bp,AmpliconDIVider,89.1304
+CNTNAP5,0,No indels > 10bp,AmpliconDIVider,0.133333
+CNTNAP5,0,Normal,AmpliconDIVider,0.133333
+CNTNAP5,0,Insertions > 10bp,AmpliconDIVider,0.133333
+CNTNAP5,33.3%,No indels > 10bp,AmpliconDIVider,33.4
+CNTNAP5,33.3%,Normal,AmpliconDIVider,33.3333
+CNTNAP5,33.3%,Insertions > 10bp,AmpliconDIVider,33.3667
+CNTNAP5,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+CNTNAP5,66.7%,Normal,AmpliconDIVider,66.6667
+CNTNAP5,66.7%,Insertions > 10bp,AmpliconDIVider,66.7
+CNTNAP5,90%,No indels > 10bp,AmpliconDIVider,90.0333
+CNTNAP5,90%,Normal,AmpliconDIVider,87.5
+CNTNAP5,90%,Insertions > 10bp,AmpliconDIVider,89.2058
+gjd1a,0,No indels > 10bp,AmpliconDIVider,0.0666667
+gjd1a,0,Normal,AmpliconDIVider,0.0666667
+gjd1a,0,Insertions > 10bp,AmpliconDIVider,0.0666667
+gjd1a,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
+gjd1a,33.3%,Normal,AmpliconDIVider,33.3667
+gjd1a,33.3%,Insertions > 10bp,AmpliconDIVider,33.3667
+gjd1a,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+gjd1a,66.7%,Normal,AmpliconDIVider,66.7
+gjd1a,66.7%,Insertions > 10bp,AmpliconDIVider,66.6667
+gjd1a,90%,No indels > 10bp,AmpliconDIVider,90.0333
+gjd1a,90%,Normal,AmpliconDIVider,90
+gjd1a,90%,Insertions > 10bp,AmpliconDIVider,88.9218
+nlgn1,0,No indels > 10bp,AmpliconDIVider,0.0666667
+nlgn1,0,Normal,AmpliconDIVider,0.0666667
+nlgn1,0,Insertions > 10bp,AmpliconDIVider,0.0666667
+nlgn1,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
+nlgn1,33.3%,Normal,AmpliconDIVider,30
+nlgn1,33.3%,Insertions > 10bp,AmpliconDIVider,29.3889
+nlgn1,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+nlgn1,66.7%,Insertions > 10bp,AmpliconDIVider,64.2857
+nlgn1,90%,No indels > 10bp,AmpliconDIVider,90
+nlgn1,90%,Normal,AmpliconDIVider,90
+nlgn1,90%,Insertions > 10bp,AmpliconDIVider,88.6792
+nlgn3a,0,No indels > 10bp,AmpliconDIVider,0.0666667
+nlgn3a,0,Normal,AmpliconDIVider,0.0666667
+nlgn3a,0,Insertions > 10bp,AmpliconDIVider,0.0666667
+nlgn3a,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
+nlgn3a,33.3%,Normal,AmpliconDIVider,33.3667
+nlgn3a,33.3%,Insertions > 10bp,AmpliconDIVider,31.0345
+nlgn3a,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+nlgn3a,66.7%,Normal,AmpliconDIVider,66.7
+nlgn3a,66.7%,Insertions > 10bp,AmpliconDIVider,62.963
+nlgn3a,90%,No indels > 10bp,AmpliconDIVider,90
+nlgn3a,90%,Normal,AmpliconDIVider,84.466
+nlgn3a,90%,Insertions > 10bp,AmpliconDIVider,89.2857
+nlgn4a,0,No indels > 10bp,AmpliconDIVider,0.133333
+nlgn4a,0,Normal,AmpliconDIVider,0.133333
+nlgn4a,0,Insertions > 10bp,AmpliconDIVider,0.133333
+nlgn4a,33.3%,No indels > 10bp,AmpliconDIVider,33.4
+nlgn4a,33.3%,Normal,AmpliconDIVider,33.4
+nlgn4a,33.3%,Insertions > 10bp,AmpliconDIVider,31.1272
+nlgn4a,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+nlgn4a,66.7%,Insertions > 10bp,AmpliconDIVider,57.6451
+nlgn4a,90%,No indels > 10bp,AmpliconDIVider,90
+nlgn4a,90%,Normal,AmpliconDIVider,90
+nlgn4a,90%,Insertions > 10bp,AmpliconDIVider,90
+nrxn1a,0,No indels > 10bp,AmpliconDIVider,0
+nrxn1a,0,Normal,AmpliconDIVider,0
+nrxn1a,0,Insertions > 10bp,AmpliconDIVider,0
+nrxn1a,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
+nrxn1a,33.3%,Normal,AmpliconDIVider,33.3333
+nrxn1a,33.3%,Insertions > 10bp,AmpliconDIVider,33.3333
+nrxn1a,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+nrxn1a,66.7%,Normal,AmpliconDIVider,66.7
+nrxn1a,66.7%,Insertions > 10bp,AmpliconDIVider,58.5062
+nrxn1a,90%,No indels > 10bp,AmpliconDIVider,90
+nrxn1a,90%,Normal,AmpliconDIVider,90
+nrxn1a,90%,Insertions > 10bp,AmpliconDIVider,88.6835
+nrxn1a,0,No indels > 10bp,AmpliconDIVider,0.133333
+nrxn1a,0,Normal,AmpliconDIVider,0.133333
+nrxn1a,0,Insertions > 10bp,AmpliconDIVider,0.133333
+nrxn1a,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
+nrxn1a,33.3%,Normal,AmpliconDIVider,33.3667
+nrxn1a,33.3%,Insertions > 10bp,AmpliconDIVider,31.3058
+nrxn1a,66.7%,No indels > 10bp,AmpliconDIVider,66.7
+nrxn1a,66.7%,Normal,AmpliconDIVider,66.6667
+nrxn1a,66.7%,Insertions > 10bp,AmpliconDIVider,60.4743
+nrxn1a,90%,No indels > 10bp,AmpliconDIVider,90
+nrxn1a,90%,Normal,AmpliconDIVider,76.412
+nrxn1a,90%,Insertions > 10bp,AmpliconDIVider,90
+nrxn1b,0,No indels > 10bp,AmpliconDIVider,0
+nrxn1b,0,Normal,AmpliconDIVider,0
+nrxn1b,0,Insertions > 10bp,AmpliconDIVider,0
+nrxn1b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+nrxn1b,33.3%,Normal,AmpliconDIVider,30.2932
+nrxn1b,33.3%,Insertions > 10bp,AmpliconDIVider,30.5556
+nrxn1b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+nrxn1b,66.7%,Normal,AmpliconDIVider,66.1682
+nrxn1b,66.7%,Insertions > 10bp,AmpliconDIVider,57.8059
+nrxn1b,90%,No indels > 10bp,AmpliconDIVider,90
+nrxn1b,90%,Normal,AmpliconDIVider,89.9367
+nrxn1b,90%,Insertions > 10bp,AmpliconDIVider,90
+nrxn1b,0,No indels > 10bp,AmpliconDIVider,0
+nrxn1b,0,Normal,AmpliconDIVider,0
+nrxn1b,0,Insertions > 10bp,AmpliconDIVider,0
+nrxn1b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+nrxn1b,33.3%,Normal,AmpliconDIVider,33.3333
+nrxn1b,33.3%,Insertions > 10bp,AmpliconDIVider,31.9496
+nrxn1b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+nrxn1b,66.7%,Normal,AmpliconDIVider,66.6667
+nrxn1b,66.7%,Insertions > 10bp,AmpliconDIVider,61.4049
+nrxn1b,90%,No indels > 10bp,AmpliconDIVider,90
+nrxn1b,90%,Normal,AmpliconDIVider,90
+nrxn1b,90%,Insertions > 10bp,AmpliconDIVider,87.947
+nrxn3a,0,No indels > 10bp,AmpliconDIVider,0
+nrxn3a,0,Normal,AmpliconDIVider,0
+nrxn3a,0,Insertions > 10bp,AmpliconDIVider,0
+nrxn3a,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+nrxn3a,33.3%,Normal,AmpliconDIVider,33.3333
+nrxn3a,33.3%,Insertions > 10bp,AmpliconDIVider,28.0576
+nrxn3a,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+nrxn3a,66.7%,Normal,AmpliconDIVider,66.6667
+nrxn3a,90%,No indels > 10bp,AmpliconDIVider,90
+nrxn3a,90%,Normal,AmpliconDIVider,78.6274
+nrxn3a,90%,Insertions > 10bp,AmpliconDIVider,86.0465
+nrxn3b,0,No indels > 10bp,AmpliconDIVider,0
+nrxn3b,0,Normal,AmpliconDIVider,0
+nrxn3b,0,Insertions > 10bp,AmpliconDIVider,0
+nrxn3b,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
+nrxn3b,33.3%,Normal,AmpliconDIVider,33.3333
+nrxn3b,33.3%,Insertions > 10bp,AmpliconDIVider,31.7406
+nrxn3b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+nrxn3b,66.7%,Normal,AmpliconDIVider,66.6667
+nrxn3b,66.7%,Insertions > 10bp,AmpliconDIVider,63.7681
+nrxn3b,90%,No indels > 10bp,AmpliconDIVider,90
+nrxn3b,90%,Normal,AmpliconDIVider,90
+nrxn3b,90%,Insertions > 10bp,AmpliconDIVider,87.5985
+nrxn3b,0,No indels > 10bp,AmpliconDIVider,0.0666667
+nrxn3b,0,Normal,AmpliconDIVider,0.0666667
+nrxn3b,0,Insertions > 10bp,AmpliconDIVider,0.0666667
+nrxn3b,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
+nrxn3b,33.3%,Normal,AmpliconDIVider,32.0026
+nrxn3b,33.3%,Insertions > 10bp,AmpliconDIVider,24.2803
+nrxn3b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+nrxn3b,66.7%,Normal,AmpliconDIVider,66.6667
+nrxn3b,66.7%,Insertions > 10bp,AmpliconDIVider,64.4128
+nrxn3b,90%,No indels > 10bp,AmpliconDIVider,90
+nrxn3b,90%,Normal,AmpliconDIVider,90
+nrxn3b,90%,Insertions > 10bp,AmpliconDIVider,90
+tjp1b,0,No indels > 10bp,AmpliconDIVider,0
+tjp1b,0,Normal,AmpliconDIVider,0
+tjp1b,0,Insertions > 10bp,AmpliconDIVider,0
+tjp1b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+tjp1b,33.3%,Normal,AmpliconDIVider,33.3333
+tjp1b,33.3%,Insertions > 10bp,AmpliconDIVider,31.5411
+tjp1b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+tjp1b,66.7%,Normal,AmpliconDIVider,58.7302
+tjp1b,66.7%,Insertions > 10bp,AmpliconDIVider,63.8205
+tjp1b,90%,No indels > 10bp,AmpliconDIVider,90
+tjp1b,90%,Normal,AmpliconDIVider,90
+tjp1b,90%,Insertions > 10bp,AmpliconDIVider,89.9967
+tjp1b,0,No indels > 10bp,AmpliconDIVider,0
+tjp1b,0,Normal,AmpliconDIVider,0
+tjp1b,0,Insertions > 10bp,AmpliconDIVider,0
+tjp1b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+tjp1b,33.3%,Normal,AmpliconDIVider,33.3333
+tjp1b,33.3%,Insertions > 10bp,AmpliconDIVider,31.0345
+tjp1b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+tjp1b,66.7%,Normal,AmpliconDIVider,66.113
+tjp1b,66.7%,Insertions > 10bp,AmpliconDIVider,64.539
+tjp1b,90%,No indels > 10bp,AmpliconDIVider,90
+tjp1b,90%,Normal,AmpliconDIVider,90
+tjp1b,90%,Insertions > 10bp,AmpliconDIVider,87.79
+cnsta,0,No indels > 10bp,ampliCan,0.0333889816360601
+cntn1a,0,No indels > 10bp,ampliCan,0
+cntn1b,0,No indels > 10bp,ampliCan,0.0333889816360601
+cntn3b,0,No indels > 10bp,ampliCan,0
+cntnap2b,0,No indels > 10bp,ampliCan,0
+cntnap4,0,No indels > 10bp,ampliCan,0.033478406427854
+CNTNAP5,0,No indels > 10bp,ampliCan,0.0333667000333667
+gjd1a,0,No indels > 10bp,ampliCan,0
+nlgn1,0,No indels > 10bp,ampliCan,0.0334001336005344
+nlgn3a,0,No indels > 10bp,ampliCan,0.0668672684720829
+nlgn4a,0,No indels > 10bp,ampliCan,0.0668225860340795
+nrxn1a_L,0,No indels > 10bp,ampliCan,0
+nrxn1a_S,0,No indels > 10bp,ampliCan,0.0669568128557081
+nrxn1b_L,0,No indels > 10bp,ampliCan,0
+nrxn1b_S,0,No indels > 10bp,ampliCan,0
+nrxn3a_L,0,No indels > 10bp,ampliCan,0.0333778371161549
+nrxn3b_L,0,No indels > 10bp,ampliCan,0
+nrxn3b_S,0,No indels > 10bp,ampliCan,0.0334112930170398
+tjp1b_B,0,No indels > 10bp,ampliCan,0
+tjp1b_L,0,No indels > 10bp,ampliCan,0
+cnsta,0,Normal,ampliCan,0.0333889816360601
+cntn1a,0,Normal,ampliCan,0
+cntn1b,0,Normal,ampliCan,0.0333889816360601
+cntn3b,0,Normal,ampliCan,0
+cntnap2b,0,Normal,ampliCan,0
+cntnap4,0,Normal,ampliCan,0.033478406427854
+CNTNAP5,0,Normal,ampliCan,0.0333667000333667
+gjd1a,0,Normal,ampliCan,0
+nlgn1,0,Normal,ampliCan,0.0334001336005344
+nlgn3a,0,Normal,ampliCan,0.0668672684720829
+nlgn4a,0,Normal,ampliCan,0.0668225860340795
+nrxn1a_L,0,Normal,ampliCan,0
+nrxn1a_S,0,Normal,ampliCan,0.0669568128557081
+nrxn1b_L,0,Normal,ampliCan,0
+nrxn1b_S,0,Normal,ampliCan,0
+nrxn3a_L,0,Normal,ampliCan,0.0333778371161549
+nrxn3b_L,0,Normal,ampliCan,0
+nrxn3b_S,0,Normal,ampliCan,0.0334112930170398
+tjp1b_B,0,Normal,ampliCan,0
+tjp1b_L,0,Normal,ampliCan,0
+cnsta,0,Insertions > 10bp,ampliCan,0.0333889816360601
+cntn1a,0,Insertions > 10bp,ampliCan,0
+cntn1b,0,Insertions > 10bp,ampliCan,0.0333889816360601
+cntn3b,0,Insertions > 10bp,ampliCan,0
+cntnap2b,0,Insertions > 10bp,ampliCan,0
+cntnap4,0,Insertions > 10bp,ampliCan,0.033478406427854
+CNTNAP5,0,Insertions > 10bp,ampliCan,0.0333667000333667
+gjd1a,0,Insertions > 10bp,ampliCan,0
+nlgn1,0,Insertions > 10bp,ampliCan,0.0334001336005344
+nlgn3a,0,Insertions > 10bp,ampliCan,0.0668672684720829
+nlgn4a,0,Insertions > 10bp,ampliCan,0.0668225860340795
+nrxn1a_L,0,Insertions > 10bp,ampliCan,0
+nrxn1a_S,0,Insertions > 10bp,ampliCan,0.0669568128557081
+nrxn1b_L,0,Insertions > 10bp,ampliCan,0
+nrxn1b_S,0,Insertions > 10bp,ampliCan,0
+nrxn3a_L,0,Insertions > 10bp,ampliCan,0.0333778371161549
+nrxn3b_L,0,Insertions > 10bp,ampliCan,0
+nrxn3b_S,0,Insertions > 10bp,ampliCan,0.0334112930170398
+tjp1b_B,0,Insertions > 10bp,ampliCan,0
+tjp1b_L,0,Insertions > 10bp,ampliCan,0
+cnsta,33.3%,No indels > 10bp,ampliCan,33.3333333333333
+cntn1a,33.3%,No indels > 10bp,ampliCan,33.4002677376171
+cntn1b,33.3%,No indels > 10bp,ampliCan,33.3333333333333
+cntn3b,33.3%,No indels > 10bp,ampliCan,33.355592654424
+cntnap2b,33.3%,No indels > 10bp,ampliCan,33.4336342360415
+cntnap4,33.3%,No indels > 10bp,ampliCan,33.4560053529609
+CNTNAP5,33.3%,No indels > 10bp,ampliCan,33.322192513369
+gjd1a,33.3%,No indels > 10bp,ampliCan,33.2663989290495
+nlgn1,33.3%,No indels > 10bp,ampliCan,33.3333333333333
+nlgn3a,33.3%,No indels > 10bp,ampliCan,33.3890374331551
+nlgn4a,33.3%,No indels > 10bp,ampliCan,33.4223706176962
+nrxn1a_L,33.3%,No indels > 10bp,ampliCan,33.355614973262
+nrxn1a_S,33.3%,No indels > 10bp,ampliCan,33.4001336005344
+nrxn1b_L,33.3%,No indels > 10bp,ampliCan,33.4336342360415
+nrxn1b_S,33.3%,No indels > 10bp,ampliCan,33.3779264214047
+nrxn3a_L,33.3%,No indels > 10bp,ampliCan,33.3667000333667
+nrxn3b_L,33.3%,No indels > 10bp,ampliCan,33.355614973262
+nrxn3b_S,33.3%,No indels > 10bp,ampliCan,33.3667000333667
+tjp1b_B,33.3%,No indels > 10bp,ampliCan,33.3778817240227
+tjp1b_L,33.3%,No indels > 10bp,ampliCan,33.4113712374582
+cnsta,33.3%,Normal,ampliCan,33.4114496149983
+cntn1a,33.3%,Normal,ampliCan,33.4225493476079
+cntn1b,33.3%,Normal,ampliCan,33.3778817240227
+cntn3b,33.3%,Normal,ampliCan,33.2108252589375
+cntnap2b,33.3%,Normal,ampliCan,33.3779712085705
+cntnap4,33.3%,Normal,ampliCan,33.433734939759
+CNTNAP5,33.3%,Normal,ampliCan,33.3667334669339
+gjd1a,33.3%,Normal,ampliCan,33.355614973262
+nlgn1,33.3%,Normal,ampliCan,33.4225493476079
+nlgn3a,33.3%,Normal,ampliCan,33.4002006018054
+nlgn4a,33.3%,Normal,ampliCan,33.4112930170398
+nrxn1a_L,33.3%,Normal,ampliCan,33.3667334669339
+nrxn1a_S,33.3%,Normal,ampliCan,33.3779264214047
+nrxn1b_L,33.3%,Normal,ampliCan,33.3779712085705
+nrxn1b_S,33.3%,Normal,ampliCan,33.322181331549
+nrxn3a_L,33.3%,Normal,ampliCan,33.2776478449716
+nrxn3b_L,33.3%,Normal,ampliCan,33.322203672788
+nrxn3b_S,33.3%,Normal,ampliCan,33.322192513369
+tjp1b_B,33.3%,Normal,ampliCan,33.3778817240227
+tjp1b_L,33.3%,Normal,ampliCan,33.3444592790387
+cnsta,33.3%,Insertions > 10bp,ampliCan,33.4002677376171
+cntn1a,33.3%,Insertions > 10bp,ampliCan,33.2999666333
+cntn1b,33.3%,Insertions > 10bp,ampliCan,32.8437917222964
+cntn3b,33.3%,Insertions > 10bp,ampliCan,32.9886591060707
+cntnap2b,33.3%,Insertions > 10bp,ampliCan,33.0213903743316
+cntnap4,33.3%,Insertions > 10bp,ampliCan,33.3333333333333
+CNTNAP5,33.3%,Insertions > 10bp,ampliCan,31.6633266533066
+gjd1a,33.3%,Insertions > 10bp,ampliCan,33.0327321309285
+nlgn1,33.3%,Insertions > 10bp,ampliCan,33.3444704310057
+nlgn3a,33.3%,Insertions > 10bp,ampliCan,33.3444592790387
+nlgn4a,33.3%,Insertions > 10bp,ampliCan,32.4089542265286
+nrxn1a_L,33.3%,Insertions > 10bp,ampliCan,33.3333333333333
+nrxn1a_S,33.3%,Insertions > 10bp,ampliCan,32.6421404682274
+nrxn1b_L,33.3%,Insertions > 10bp,ampliCan,33.3333333333333
+nrxn1b_S,33.3%,Insertions > 10bp,ampliCan,33.3444704310057
+nrxn3a_L,33.3%,Insertions > 10bp,ampliCan,32.9105473965287
+nrxn3b_L,33.3%,Insertions > 10bp,ampliCan,32.7096558636819
+nrxn3b_S,33.3%,Insertions > 10bp,ampliCan,33.3555703802535
+tjp1b_B,33.3%,Insertions > 10bp,ampliCan,32.653743315508
+tjp1b_L,33.3%,Insertions > 10bp,ampliCan,33.032430625209
+cnsta,66.7%,No indels > 10bp,ampliCan,66.6666666666667
+cntn1a,66.7%,No indels > 10bp,ampliCan,66.6666666666667
+cntn1b,66.7%,No indels > 10bp,ampliCan,66.7111853088481
+cntn3b,66.7%,No indels > 10bp,ampliCan,66.5997993981946
+cntnap2b,66.7%,No indels > 10bp,ampliCan,66.6331994645248
+cntnap4,66.7%,No indels > 10bp,ampliCan,66.6666666666667
+CNTNAP5,66.7%,No indels > 10bp,ampliCan,66.6555183946488
+gjd1a,66.7%,No indels > 10bp,ampliCan,66.6666666666667
+nlgn1,66.7%,No indels > 10bp,ampliCan,66.6666666666667
+nlgn3a,66.7%,No indels > 10bp,ampliCan,66.644385026738
+nlgn4a,66.7%,No indels > 10bp,ampliCan,66.7000668002672
+nrxn1a_L,66.7%,No indels > 10bp,ampliCan,66.7224640107131
+nrxn1a_S,66.7%,No indels > 10bp,ampliCan,66.6332665330661
+nrxn1b_L,66.7%,No indels > 10bp,ampliCan,66.6332999666333
+nrxn1b_S,66.7%,No indels > 10bp,ampliCan,66.6666666666667
+nrxn3a_L,66.7%,No indels > 10bp,ampliCan,66.644407345576
+nrxn3b_L,66.7%,No indels > 10bp,ampliCan,66.677796327212
+nrxn3b_S,66.7%,No indels > 10bp,ampliCan,66.6332330324306
+tjp1b_B,66.7%,No indels > 10bp,ampliCan,66.6443402545211
+tjp1b_L,66.7%,No indels > 10bp,ampliCan,66.6889856042852
+cnsta,66.7%,Normal,ampliCan,66.6666666666667
+cntn1a,66.7%,Normal,ampliCan,66.5887069829602
+cntn1b,66.7%,Normal,ampliCan,66.7000668002672
+cntn3b,66.7%,Normal,ampliCan,66.6777851901267
+cntnap2b,66.7%,Normal,ampliCan,66.5998663994656
+cntnap4,66.7%,Normal,ampliCan,66.2841714478569
+CNTNAP5,66.7%,Normal,ampliCan,66.677807486631
+gjd1a,66.7%,Normal,ampliCan,66.6555407209613
+nlgn1,66.7%,Normal,ampliCan,66.7557634480454
+nlgn3a,66.7%,Normal,ampliCan,66.7668670674683
+nlgn4a,66.7%,Normal,ampliCan,66.7000668002672
+nrxn1a_L,66.7%,Normal,ampliCan,66.7668670674683
+nrxn1a_S,66.7%,Normal,ampliCan,66.7224080267559
+nrxn1b_L,66.7%,Normal,ampliCan,66.644407345576
+nrxn1b_S,66.7%,Normal,ampliCan,66.7000333667
+nrxn3a_L,66.7%,Normal,ampliCan,66.6332665330661
+nrxn3b_L,66.7%,Normal,ampliCan,66.644362663098
+nrxn3b_S,66.7%,Normal,ampliCan,66.5997993981946
+tjp1b_B,66.7%,Normal,ampliCan,66.644385026738
+tjp1b_L,66.7%,Normal,ampliCan,66.6109066577451
+cnsta,66.7%,Insertions > 10bp,ampliCan,65.9652638610554
+cntn1a,66.7%,Insertions > 10bp,ampliCan,65.2870493991989
+cntn1b,66.7%,Insertions > 10bp,ampliCan,66.0648612504179
+cntn3b,66.7%,Insertions > 10bp,ampliCan,65.9773182121414
+cntnap2b,66.7%,Insertions > 10bp,ampliCan,65.4308617234469
+cntnap4,66.7%,Insertions > 10bp,ampliCan,63.870320855615
+CNTNAP5,66.7%,Insertions > 10bp,ampliCan,66.6889632107023
+gjd1a,66.7%,Insertions > 10bp,ampliCan,65.7419786096257
+nlgn1,66.7%,Insertions > 10bp,ampliCan,66.6332330324306
+nlgn3a,66.7%,Insertions > 10bp,ampliCan,65.8096828046745
+nlgn4a,66.7%,Insertions > 10bp,ampliCan,66.3660654642619
+nrxn1a_L,66.7%,Insertions > 10bp,ampliCan,66.2433155080214
+nrxn1a_S,66.7%,Insertions > 10bp,ampliCan,65.2202937249666
+nrxn1b_L,66.7%,Insertions > 10bp,ampliCan,65.9090909090909
+nrxn1b_S,66.7%,Insertions > 10bp,ampliCan,66.1543601737387
+nrxn3a_L,66.7%,Insertions > 10bp,ampliCan,66.6221628838451
+nrxn3b_L,66.7%,Insertions > 10bp,ampliCan,66.6110740493663
+nrxn3b_S,66.7%,Insertions > 10bp,ampliCan,65.8992325658992
+tjp1b_B,66.7%,Insertions > 10bp,ampliCan,65.4411764705882
+tjp1b_L,66.7%,Insertions > 10bp,ampliCan,66.0869565217391
+cnsta,90%,No indels > 10bp,ampliCan,90.0200267022697
+cntn1a,90%,No indels > 10bp,ampliCan,89.9866488651535
+cntn1b,90%,No indels > 10bp,ampliCan,90.0702106318957
+cntn3b,90%,No indels > 10bp,ampliCan,89.983305509182
+cntnap2b,90%,No indels > 10bp,ampliCan,90.016694490818
+cntnap4,90%,No indels > 10bp,ampliCan,89.9866488651535
+CNTNAP5,90%,No indels > 10bp,ampliCan,89.9933288859239
+gjd1a,90%,No indels > 10bp,ampliCan,90.0066844919786
+nlgn1,90%,No indels > 10bp,ampliCan,89.983305509182
+nlgn3a,90%,No indels > 10bp,ampliCan,89.9933065595716
+nlgn4a,90%,No indels > 10bp,ampliCan,89.9899564780716
+nrxn1a_L,90%,No indels > 10bp,ampliCan,90.1069518716578
+nrxn1a_S,90%,No indels > 10bp,ampliCan,89.9799599198397
+nrxn1b_L,90%,No indels > 10bp,ampliCan,90.0066844919786
+nrxn1b_S,90%,No indels > 10bp,ampliCan,89.9631983941117
+nrxn3a_L,90%,No indels > 10bp,ampliCan,89.98998998999
+nrxn3b_L,90%,No indels > 10bp,ampliCan,90.0066844919786
+nrxn3b_S,90%,No indels > 10bp,ampliCan,90.0233566900234
+tjp1b_B,90%,No indels > 10bp,ampliCan,90.0367769976597
+tjp1b_L,90%,No indels > 10bp,ampliCan,90.0133600534402
+cnsta,90%,Normal,ampliCan,90.0467601870407
+cntn1a,90%,Normal,ampliCan,90.0066844919786
+cntn1b,90%,Normal,ampliCan,90.0401069518716
+cntn3b,90%,Normal,ampliCan,89.9866488651535
+cntnap2b,90%,Normal,ampliCan,90.0066844919786
+cntnap4,90%,Normal,ampliCan,90.1304784208765
+CNTNAP5,90%,Normal,ampliCan,90.0434346809221
+gjd1a,90%,Normal,ampliCan,90.0133600534402
+nlgn1,90%,Normal,ampliCan,90.0702106318957
+nlgn3a,90%,Normal,ampliCan,89.983305509182
+nlgn4a,90%,Normal,ampliCan,89.9966655551851
+nrxn1a_L,90%,Normal,ampliCan,89.9866041527127
+nrxn1a_S,90%,Normal,ampliCan,90
+nrxn1b_L,90%,Normal,ampliCan,90.0100233879051
+nrxn1b_S,90%,Normal,ampliCan,90.0334448160535
+nrxn3a_L,90%,Normal,ampliCan,90.0635664101706
+nrxn3b_L,90%,Normal,ampliCan,90.0200267022697
+nrxn3b_S,90%,Normal,ampliCan,90.0133600534402
+tjp1b_B,90%,Normal,ampliCan,89.9766120948881
+tjp1b_L,90%,Normal,ampliCan,90.0500834724541
+cnsta,90%,Insertions > 10bp,ampliCan,87.7087508350033
+cntn1a,90%,Insertions > 10bp,ampliCan,88.5437541750167
+cntn1b,90%,Insertions > 10bp,ampliCan,88.7107548430194
+cntn3b,90%,Insertions > 10bp,ampliCan,89.3823038397329
+cntnap2b,90%,Insertions > 10bp,ampliCan,89.2451569806279
+cntnap4,90%,Insertions > 10bp,ampliCan,89.0260173448966
+CNTNAP5,90%,Insertions > 10bp,ampliCan,89.1891891891892
+gjd1a,90%,Insertions > 10bp,ampliCan,87.3873873873874
+nlgn1,90%,Insertions > 10bp,ampliCan,89.5193591455274
+nlgn3a,90%,Insertions > 10bp,ampliCan,89.6090878717006
+nlgn4a,90%,Insertions > 10bp,ampliCan,89.5826377295492
+nrxn1a_L,90%,Insertions > 10bp,ampliCan,89.6147403685092
+nrxn1a_S,90%,Insertions > 10bp,ampliCan,88.5360962566845
+nrxn1b_L,90%,Insertions > 10bp,ampliCan,89.7495826377295
+nrxn1b_S,90%,Insertions > 10bp,ampliCan,87.061183550652
+nrxn3a_L,90%,Insertions > 10bp,ampliCan,89.5756765786836
+nrxn3b_L,90%,Insertions > 10bp,ampliCan,88.8851802403204
+nrxn3b_S,90%,Insertions > 10bp,ampliCan,89.9198931909212
+tjp1b_B,90%,Insertions > 10bp,ampliCan,89.9799599198397
+tjp1b_L,90%,Insertions > 10bp,ampliCan,88.7215528781794

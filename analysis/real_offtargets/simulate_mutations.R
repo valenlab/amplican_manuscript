@@ -84,7 +84,7 @@ ampl <- getSeq(danRer7, ampl)
 ampl_target_loc <- 20 + extra_bases + 17
 
 amplicon_inf <- paste(amplicons$name, as.character(ampl), guide, sep = "\t", collapse = "\n")
-cat(amplicon_inf, file = paste0("./real_offtargets/", sim[w], "merged/crispresso_pooled_amplicons.txt"))
+cat(amplicon_inf, file = paste0("./real_offtargets/", sim[w], "/merged/crispresso_pooled_amplicons.txt"))
 if (!all(nchar(ampl) > read_lengths)) stop("sizes!")
 
 amplicons <- data.frame(name = as.character(amplicons$name),
@@ -185,7 +185,7 @@ sample_seqs <- function(n_mut, n_original, n_offtarget, amplicons,
   }
 }
 
-sim_cmds <- paste0("./real_offtargets/", sim[w], "_commands.sh"
+sim_cmds <- paste0("./real_offtargets/", sim[w], "_commands.sh")
 crispresso_cmds <- paste0("./real_offtargets/crispresso_", sim[w], "_commands.sh")
 
 for (nofftargets in c(100,33,0)){
@@ -207,7 +207,7 @@ for (nofftargets in c(100,33,0)){
                sim_file = sim_cmds, crispresso_file = crispresso_cmds, mut_frac = mut_frac[w])
 }
 
-cat(paste0("\n\nmv crispresso/* ./real_offtargets/, ", sim[w], "/crispresso; rmdir crispresso\n"),
+cat(paste0("\n\nmv crispresso/* ./real_offtargets/", sim[w], "/crispresso; rmdir crispresso\n"),
     file = crispresso_cmds, append = TRUE)
 
 }
