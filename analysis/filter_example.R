@@ -8,6 +8,7 @@ setwd("/home/ai/Projects/amplican_manuscript/analysis")
 pdir = "./real_offtargets/simulation_0.3/amplican_results/"
 fdir = list.files(pdir)
 
+
 plot_clusters <- function(x, cl) {
   centers <- as.data.frame(cl$centers)
   p <- ggplot(data = data.frame(x = x, class = as.factor(cl$cluster)),

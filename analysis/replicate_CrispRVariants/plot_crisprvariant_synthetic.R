@@ -149,4 +149,5 @@ p <- ggplot(result) +
         strip.background = element_blank()) +
   scale_colour_manual(values = cols)
 
-ggplot2::ggsave("../figures/indel_rate_vs_offtarget.png", p)
+ggplot2::ggsave("../figures/indel_rate_vs_offtarget.png", p, dpi = 400, width = 17, height = 8)
+ggplot2::ggsave("../figures/indel_rate_vs_offtarget.pdf", p, dpi = 400, width = 17, height = 8)

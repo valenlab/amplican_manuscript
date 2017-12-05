@@ -63,6 +63,7 @@ p <- ggplot(data = big_ins_table, aes(x = reorder(guideRNA, large_ins, median), 
         axis.ticks.y = element_blank())
 
 ggplot2::ggsave("../figures/large_insertion_rate.png", p, height = 10)
+length(unique(big_ins_table$seqnames))
 
 p <- ggplot(data = big_ins_table, aes(x = reorder(guideRNA, large_ins_N, median), y = large_ins_N)) +
   geom_boxplot() + geom_jitter(width = 0.2) + coord_flip() +
@@ -72,6 +73,7 @@ p <- ggplot(data = big_ins_table, aes(x = reorder(guideRNA, large_ins_N, median)
         axis.ticks.y = element_blank())
 
 ggplot2::ggsave("../figures/large_insertion_rate_normalized.png", p, height = 10)
+
 
 p <- ggplot(data = un_table, aes(x = reorder(guideRNA, unambiguous, median), y = unambiguous)) +
   geom_boxplot() + geom_jitter(width = 0.2) + coord_flip() +
