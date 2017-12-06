@@ -30,6 +30,7 @@ err$value <- abs(err$value - err$Truth)
 err$value_log <- log10(err$value)
 err$value_log[!is.finite(err$value_log)] <- 0
 err$desc[err$desc == "Normal"] <- "Mixed indels"
+err <- err[err$Truth != 0, ]
 
 # sqrt(mean((m - t)^2))
 err_medians <- err %>% 
