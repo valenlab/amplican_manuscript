@@ -129,9 +129,11 @@ for (w in seq_along(freqs)) {
   result$value <- as.numeric(as.character(result$value))
   result$Truth <- factor(result$Truth)
   levels(result$Truth) <- c("0","33.3%", "66.7%", "90%")
-  levels(result$variable) <- c("CrispRVariants", "CRISPResso",
-                               "CRISPRessoPooled", "AmpliconDIVider", "ampliCan")
-  cols <- c("#D92120","#781C81","#009E73","#3F56A7", "#e69f00")
+  result$variable <- factor(result$variable, 
+                            levels = c("ampliCan", "CrispRVariants", "AmpliconDIVider", "CRISPResso",
+                                       "CRISPRessoPooled"),
+                            ordered = TRUE)
+  cols <- c("#e69f00", "#D92120", "#3F56A7", "#781C81", "#009E73")
 
   tr <- data.frame(Truth = levels(result$Truth),
                    TrNum = as.numeric(gsub("%", "", levels(result$Truth))))
@@ -141,7 +143,7 @@ for (w in seq_along(freqs)) {
     geom_hline(data = tr, aes(yintercept = TrNum), linetype = "dotted") +
     facet_wrap(~Truth, nrow = 2) +
     geom_point(aes(x=NOfftargets, y=value, colour=variable),
-               alpha = 0.5, position = position_dodge(width = 0.3)) +
+               alpha = 0.5, position = position_dodge(width = 0.6), size = 6) +
     theme_bw() + xlab("Percentage of PCR off-target reads") +
     ylab("Estimated mutation efficiency %") +
     theme(axis.text = element_text(size = 12),
@@ -154,5 +156,5 @@ for (w in seq_along(freqs)) {
           strip.background = element_blank()) +
     scale_colour_manual(values = cols)
   ggplot2::ggsave(paste0("../figures/indel_rate_vs_real_offtargets_", freqs[w], ".pdf"),
-                  p, dpi = 400)
+                  p, dpi = 400, width = 15, height = 10)
 }

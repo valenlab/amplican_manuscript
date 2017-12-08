@@ -8,6 +8,7 @@ library(reshape2)
 library(rtracklayer)
 library(data.table)
 
+setwd("~/Projects/amplican_manuscript/analysis")
 pdir <- "./indel_size/simulation"
 
 danRer7 <- BSgenome.Drerio.UCSC.danRer7
@@ -117,15 +118,17 @@ result <- melt(result, id.vars=c("Guide", "Truth", "Indels"))
 result_save <- result
 
 result <- rbind(result_save, pooled_results, adiv_results, amplican_results)
-result$Indels <- factor(result$Indels, levels = c(1, 2, 3))
-levels(result$Indels) <- c("No indels > 10bp", "Normal", "Insertions > 10bp")
+result$Indels <- factor(result$Indels, levels = c(1, 2, 3, 4))
+levels(result$Indels) <- c("No indels > 10bp", "Mixed Indels", "Insertions > 10bp", "Deletions > 10bp")
 class(result$value) <- "numeric"
 class(result$Truth) <- "factor"
 truths <- c("0", "33.3%", "66.7%", "90%")
 levels(result$Truth) <- truths
-levels(result$variable) <- c("CrispRVariants", "CRISPResso",
-                             "CRISPRessoPooled", "AmpliconDIVider", "ampliCan")
-cols <- c("#D92120","#781C81","#009E73","#3F56A7", "#e69f00")
+result$variable <- factor(result$variable, 
+                          levels = c("ampliCan", "CrispRVariants", "AmpliconDIVider", "CRISPResso",
+                                     "CRISPRessoPooled"),
+                          ordered = TRUE)
+cols <- c("#e69f00", "#D92120", "#3F56A7", "#781C81", "#009E73")
 
 tr <- data.frame(Truth = levels(result$Truth),
                  TrNum = as.numeric(gsub("%", "", levels(result$Truth))))
@@ -135,17 +138,20 @@ p <- ggplot(result) +
   geom_hline(data = tr, aes(yintercept = TrNum), linetype = "dotted") +
   facet_wrap(~Truth, nrow = 2) +
   geom_point(aes(x=Indels, y=value, colour=variable),
-             alpha = 0.5, position = position_dodge(width = 0.3)) +
-  theme_bw() + xlab("Chance for indels > 10bp.") +
+             alpha = 0.5, position = position_dodge(width = 0.6), size = 6) +
+  theme_bw() + xlab("Chance for indels.") +
   ylab("Estimated mutation efficiency %") +
-  theme(axis.text = element_text(size = 12),
-        axis.title.y = element_text(margin = margin(0,20,0,0), size = 14),
-        axis.title.x = element_text(margin = margin(15,0,10,0), size = 14),
-        strip.text.x = element_text(size = 14),
+  theme(axis.text = element_text(size = 22),
+        axis.text.x = element_text(angle = 25, hjust = 1),
+        axis.title.y = element_text(margin = margin(0,20,0,0), size = 24),
+        axis.title.x = element_text(margin = margin(15,0,10,0), size = 24),
+        strip.text.x = element_text(size = 24),
         legend.key = element_blank(),
+        legend.text=element_text(size=24),
         legend.title = element_blank(),
         legend.position = "bottom",
         strip.background = element_blank()) +
-  scale_colour_manual(values = cols)
+  scale_colour_manual(values = cols) +
+  guides(colour = guide_legend(override.aes = list(alpha=1)))
 
-ggplot2::ggsave("../figures/indel_rate_vs_indel_size.png", p, width = 10)
+ggplot2::ggsave("../figures/indel_rate_vs_indel_size.png", p, dpi = 400, width = 15, height = 10)

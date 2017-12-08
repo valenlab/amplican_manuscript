@@ -1,1198 +1,1589 @@
 Guide,Truth,Indels,variable,value
 cnsta,0,No indels > 10bp,CrispRVariants,0
-cnsta,0,Normal,CrispRVariants,0
+cnsta,0,Mixed Indels,CrispRVariants,0
 cnsta,0,Insertions > 10bp,CrispRVariants,0
-cnsta,33.3%,No indels > 10bp,CrispRVariants,32.8
-cnsta,33.3%,Normal,CrispRVariants,32.66
-cnsta,33.3%,Insertions > 10bp,CrispRVariants,12.7
-cnsta,66.7%,No indels > 10bp,CrispRVariants,66.15
-cnsta,66.7%,Normal,CrispRVariants,66.26
-cnsta,66.7%,Insertions > 10bp,CrispRVariants,17.42
-cnsta,90%,No indels > 10bp,CrispRVariants,89.83
-cnsta,90%,Normal,CrispRVariants,89.85
-cnsta,90%,Insertions > 10bp,CrispRVariants,64.11
+cnsta,0,Deletions > 10bp,CrispRVariants,0
+cnsta,33.3%,No indels > 10bp,CrispRVariants,32.82
+cnsta,33.3%,Mixed Indels,CrispRVariants,32.89
+cnsta,33.3%,Insertions > 10bp,CrispRVariants,0
+cnsta,33.3%,Deletions > 10bp,CrispRVariants,33.22
+cnsta,66.7%,No indels > 10bp,CrispRVariants,66.01
+cnsta,66.7%,Mixed Indels,CrispRVariants,66.16
+cnsta,66.7%,Insertions > 10bp,CrispRVariants,0
+cnsta,66.7%,Deletions > 10bp,CrispRVariants,66.56
+cnsta,90%,No indels > 10bp,CrispRVariants,89.82
+cnsta,90%,Mixed Indels,CrispRVariants,88.26
+cnsta,90%,Insertions > 10bp,CrispRVariants,0
+cnsta,90%,Deletions > 10bp,CrispRVariants,89.97
 cntn1a,0,No indels > 10bp,CrispRVariants,0
-cntn1a,0,Normal,CrispRVariants,0
+cntn1a,0,Mixed Indels,CrispRVariants,0
 cntn1a,0,Insertions > 10bp,CrispRVariants,0
-cntn1a,33.3%,No indels > 10bp,CrispRVariants,32.91
-cntn1a,33.3%,Normal,CrispRVariants,33.07
-cntn1a,33.3%,Insertions > 10bp,CrispRVariants,11.93
-cntn1a,66.7%,No indels > 10bp,CrispRVariants,66.12
-cntn1a,66.7%,Normal,CrispRVariants,66.2
+cntn1a,0,Deletions > 10bp,CrispRVariants,0
+cntn1a,33.3%,No indels > 10bp,CrispRVariants,32.5
+cntn1a,33.3%,Mixed Indels,CrispRVariants,32.9
+cntn1a,33.3%,Insertions > 10bp,CrispRVariants,0
+cntn1a,33.3%,Deletions > 10bp,CrispRVariants,33.31
+cntn1a,66.7%,No indels > 10bp,CrispRVariants,65.1
+cntn1a,66.7%,Mixed Indels,CrispRVariants,65.47
 cntn1a,66.7%,Insertions > 10bp,CrispRVariants,0
-cntn1a,90%,No indels > 10bp,CrispRVariants,89.83
-cntn1a,90%,Normal,CrispRVariants,89.56
-cntn1a,90%,Insertions > 10bp,CrispRVariants,82.53
+cntn1a,66.7%,Deletions > 10bp,CrispRVariants,66.53
+cntn1a,90%,No indels > 10bp,CrispRVariants,89.78
+cntn1a,90%,Mixed Indels,CrispRVariants,89.59
+cntn1a,90%,Insertions > 10bp,CrispRVariants,0
+cntn1a,90%,Deletions > 10bp,CrispRVariants,87.36
 cntn1b,0,No indels > 10bp,CrispRVariants,0
-cntn1b,0,Normal,CrispRVariants,0
+cntn1b,0,Mixed Indels,CrispRVariants,0
 cntn1b,0,Insertions > 10bp,CrispRVariants,0
-cntn1b,33.3%,No indels > 10bp,CrispRVariants,32.86
-cntn1b,33.3%,Normal,CrispRVariants,33
-cntn1b,33.3%,Insertions > 10bp,CrispRVariants,13.58
-cntn1b,66.7%,No indels > 10bp,CrispRVariants,66.28
-cntn1b,66.7%,Normal,CrispRVariants,66.35
-cntn1b,66.7%,Insertions > 10bp,CrispRVariants,20.95
-cntn1b,90%,No indels > 10bp,CrispRVariants,89.84
-cntn1b,90%,Normal,CrispRVariants,89.84
-cntn1b,90%,Insertions > 10bp,CrispRVariants,75.94
+cntn1b,0,Deletions > 10bp,CrispRVariants,0
+cntn1b,33.3%,No indels > 10bp,CrispRVariants,32.83
+cntn1b,33.3%,Mixed Indels,CrispRVariants,32.86
+cntn1b,33.3%,Insertions > 10bp,CrispRVariants,0
+cntn1b,33.3%,Deletions > 10bp,CrispRVariants,33.3
+cntn1b,66.7%,No indels > 10bp,CrispRVariants,65.97
+cntn1b,66.7%,Mixed Indels,CrispRVariants,65.76
+cntn1b,66.7%,Insertions > 10bp,CrispRVariants,0
+cntn1b,66.7%,Deletions > 10bp,CrispRVariants,66.53
+cntn1b,90%,No indels > 10bp,CrispRVariants,89.79
+cntn1b,90%,Mixed Indels,CrispRVariants,89.81
+cntn1b,90%,Insertions > 10bp,CrispRVariants,0
+cntn1b,90%,Deletions > 10bp,CrispRVariants,89.99
 cntn3b,0,No indels > 10bp,CrispRVariants,0
-cntn3b,0,Normal,CrispRVariants,0
+cntn3b,0,Mixed Indels,CrispRVariants,0
 cntn3b,0,Insertions > 10bp,CrispRVariants,0
-cntn3b,33.3%,No indels > 10bp,CrispRVariants,32.74
-cntn3b,33.3%,Normal,CrispRVariants,32.77
-cntn3b,33.3%,Insertions > 10bp,CrispRVariants,11.39
-cntn3b,66.7%,No indels > 10bp,CrispRVariants,66.32
-cntn3b,66.7%,Normal,CrispRVariants,66.31
-cntn3b,66.7%,Insertions > 10bp,CrispRVariants,35.05
+cntn3b,0,Deletions > 10bp,CrispRVariants,0
+cntn3b,33.3%,No indels > 10bp,CrispRVariants,32.52
+cntn3b,33.3%,Mixed Indels,CrispRVariants,32.65
+cntn3b,33.3%,Insertions > 10bp,CrispRVariants,0
+cntn3b,33.3%,Deletions > 10bp,CrispRVariants,33.2
+cntn3b,66.7%,No indels > 10bp,CrispRVariants,66.04
+cntn3b,66.7%,Mixed Indels,CrispRVariants,66.15
+cntn3b,66.7%,Insertions > 10bp,CrispRVariants,0
+cntn3b,66.7%,Deletions > 10bp,CrispRVariants,62.88
 cntn3b,90%,No indels > 10bp,CrispRVariants,89.8
-cntn3b,90%,Normal,CrispRVariants,89.82
-cntn3b,90%,Insertions > 10bp,CrispRVariants,59.68
+cntn3b,90%,Mixed Indels,CrispRVariants,89.81
+cntn3b,90%,Insertions > 10bp,CrispRVariants,0
+cntn3b,90%,Deletions > 10bp,CrispRVariants,89.95
 cntnap2b,0,No indels > 10bp,CrispRVariants,0
-cntnap2b,0,Normal,CrispRVariants,0
+cntnap2b,0,Mixed Indels,CrispRVariants,0
 cntnap2b,0,Insertions > 10bp,CrispRVariants,0
-cntnap2b,33.3%,No indels > 10bp,CrispRVariants,32.91
-cntnap2b,33.3%,Normal,CrispRVariants,32.5
-cntnap2b,33.3%,Insertions > 10bp,CrispRVariants,8.68
-cntnap2b,66.7%,No indels > 10bp,CrispRVariants,66.24
-cntnap2b,66.7%,Normal,CrispRVariants,64.66
-cntnap2b,66.7%,Insertions > 10bp,CrispRVariants,39.76
-cntnap2b,90%,No indels > 10bp,CrispRVariants,89.73
-cntnap2b,90%,Normal,CrispRVariants,89.74
-cntnap2b,90%,Insertions > 10bp,CrispRVariants,64.03
+cntnap2b,0,Deletions > 10bp,CrispRVariants,0
+cntnap2b,33.3%,No indels > 10bp,CrispRVariants,32.86
+cntnap2b,33.3%,Mixed Indels,CrispRVariants,32.23
+cntnap2b,33.3%,Insertions > 10bp,CrispRVariants,0
+cntnap2b,33.3%,Deletions > 10bp,CrispRVariants,31.03
+cntnap2b,66.7%,No indels > 10bp,CrispRVariants,65.82
+cntnap2b,66.7%,Mixed Indels,CrispRVariants,66.16
+cntnap2b,66.7%,Insertions > 10bp,CrispRVariants,0
+cntnap2b,66.7%,Deletions > 10bp,CrispRVariants,66.53
+cntnap2b,90%,No indels > 10bp,CrispRVariants,89.72
+cntnap2b,90%,Mixed Indels,CrispRVariants,89.66
+cntnap2b,90%,Insertions > 10bp,CrispRVariants,0
+cntnap2b,90%,Deletions > 10bp,CrispRVariants,88.45
 cntnap4,0,No indels > 10bp,CrispRVariants,0
-cntnap4,0,Normal,CrispRVariants,0
+cntnap4,0,Mixed Indels,CrispRVariants,0
 cntnap4,0,Insertions > 10bp,CrispRVariants,0
-cntnap4,33.3%,No indels > 10bp,CrispRVariants,32.93
-cntnap4,33.3%,Normal,CrispRVariants,33.04
-cntnap4,33.3%,Insertions > 10bp,CrispRVariants,6.11
-cntnap4,66.7%,No indels > 10bp,CrispRVariants,66.27
-cntnap4,66.7%,Normal,CrispRVariants,65.71
-cntnap4,66.7%,Insertions > 10bp,CrispRVariants,45.72
+cntnap4,0,Deletions > 10bp,CrispRVariants,0
+cntnap4,33.3%,No indels > 10bp,CrispRVariants,32.82
+cntnap4,33.3%,Mixed Indels,CrispRVariants,32.82
+cntnap4,33.3%,Insertions > 10bp,CrispRVariants,0
+cntnap4,33.3%,Deletions > 10bp,CrispRVariants,28.51
+cntnap4,66.7%,No indels > 10bp,CrispRVariants,66.04
+cntnap4,66.7%,Mixed Indels,CrispRVariants,66.15
+cntnap4,66.7%,Insertions > 10bp,CrispRVariants,0
+cntnap4,66.7%,Deletions > 10bp,CrispRVariants,66.51
 cntnap4,90%,No indels > 10bp,CrispRVariants,89.78
-cntnap4,90%,Normal,CrispRVariants,89.73
-cntnap4,90%,Insertions > 10bp,CrispRVariants,51.9
+cntnap4,90%,Mixed Indels,CrispRVariants,89.79
+cntnap4,90%,Insertions > 10bp,CrispRVariants,0
+cntnap4,90%,Deletions > 10bp,CrispRVariants,89.91
 CNTNAP5,0,No indels > 10bp,CrispRVariants,0
-CNTNAP5,0,Normal,CrispRVariants,0
+CNTNAP5,0,Mixed Indels,CrispRVariants,0
 CNTNAP5,0,Insertions > 10bp,CrispRVariants,0
-CNTNAP5,33.3%,No indels > 10bp,CrispRVariants,32.69
-CNTNAP5,33.3%,Normal,CrispRVariants,32.71
-CNTNAP5,33.3%,Insertions > 10bp,CrispRVariants,11.67
-CNTNAP5,66.7%,No indels > 10bp,CrispRVariants,66.02
-CNTNAP5,66.7%,Normal,CrispRVariants,66.06
-CNTNAP5,66.7%,Insertions > 10bp,CrispRVariants,45.71
-CNTNAP5,90%,No indels > 10bp,CrispRVariants,89.8
-CNTNAP5,90%,Normal,CrispRVariants,89.85
-CNTNAP5,90%,Insertions > 10bp,CrispRVariants,63.41
+CNTNAP5,0,Deletions > 10bp,CrispRVariants,0
+CNTNAP5,33.3%,No indels > 10bp,CrispRVariants,32.8
+CNTNAP5,33.3%,Mixed Indels,CrispRVariants,33
+CNTNAP5,33.3%,Insertions > 10bp,CrispRVariants,0
+CNTNAP5,33.3%,Deletions > 10bp,CrispRVariants,33.31
+CNTNAP5,66.7%,No indels > 10bp,CrispRVariants,66.1
+CNTNAP5,66.7%,Mixed Indels,CrispRVariants,66.04
+CNTNAP5,66.7%,Insertions > 10bp,CrispRVariants,0
+CNTNAP5,66.7%,Deletions > 10bp,CrispRVariants,66.56
+CNTNAP5,90%,No indels > 10bp,CrispRVariants,89.76
+CNTNAP5,90%,Mixed Indels,CrispRVariants,89.67
+CNTNAP5,90%,Insertions > 10bp,CrispRVariants,0
+CNTNAP5,90%,Deletions > 10bp,CrispRVariants,89.99
 gjd1a,0,No indels > 10bp,CrispRVariants,0
-gjd1a,0,Normal,CrispRVariants,0
+gjd1a,0,Mixed Indels,CrispRVariants,0
 gjd1a,0,Insertions > 10bp,CrispRVariants,0
-gjd1a,33.3%,No indels > 10bp,CrispRVariants,32.89
-gjd1a,33.3%,Normal,CrispRVariants,32.82
-gjd1a,33.3%,Insertions > 10bp,CrispRVariants,6.93
-gjd1a,66.7%,No indels > 10bp,CrispRVariants,66.17
-gjd1a,66.7%,Normal,CrispRVariants,66.18
-gjd1a,66.7%,Insertions > 10bp,CrispRVariants,38.08
-gjd1a,90%,No indels > 10bp,CrispRVariants,89.82
-gjd1a,90%,Normal,CrispRVariants,89.83
-gjd1a,90%,Insertions > 10bp,CrispRVariants,69.66
+gjd1a,0,Deletions > 10bp,CrispRVariants,0
+gjd1a,33.3%,No indels > 10bp,CrispRVariants,32.52
+gjd1a,33.3%,Mixed Indels,CrispRVariants,32.71
+gjd1a,33.3%,Insertions > 10bp,CrispRVariants,0
+gjd1a,33.3%,Deletions > 10bp,CrispRVariants,33.19
+gjd1a,66.7%,No indels > 10bp,CrispRVariants,66.06
+gjd1a,66.7%,Mixed Indels,CrispRVariants,65.99
+gjd1a,66.7%,Insertions > 10bp,CrispRVariants,0
+gjd1a,66.7%,Deletions > 10bp,CrispRVariants,64.39
+gjd1a,90%,No indels > 10bp,CrispRVariants,89.75
+gjd1a,90%,Mixed Indels,CrispRVariants,89.73
+gjd1a,90%,Insertions > 10bp,CrispRVariants,0
+gjd1a,90%,Deletions > 10bp,CrispRVariants,89.22
 nlgn1,0,No indels > 10bp,CrispRVariants,0
-nlgn1,0,Normal,CrispRVariants,0
+nlgn1,0,Mixed Indels,CrispRVariants,0
 nlgn1,0,Insertions > 10bp,CrispRVariants,0
-nlgn1,33.3%,No indels > 10bp,CrispRVariants,32.7
-nlgn1,33.3%,Normal,CrispRVariants,31.69
-nlgn1,33.3%,Insertions > 10bp,CrispRVariants,7.54
-nlgn1,66.7%,No indels > 10bp,CrispRVariants,66.17
-nlgn1,66.7%,Normal,CrispRVariants,66.14
-nlgn1,66.7%,Insertions > 10bp,CrispRVariants,44.81
-nlgn1,90%,No indels > 10bp,CrispRVariants,89.79
-nlgn1,90%,Normal,CrispRVariants,89.83
-nlgn1,90%,Insertions > 10bp,CrispRVariants,69.75
+nlgn1,0,Deletions > 10bp,CrispRVariants,0
+nlgn1,33.3%,No indels > 10bp,CrispRVariants,32.5
+nlgn1,33.3%,Mixed Indels,CrispRVariants,32.71
+nlgn1,33.3%,Insertions > 10bp,CrispRVariants,0
+nlgn1,33.3%,Deletions > 10bp,CrispRVariants,33.24
+nlgn1,66.7%,No indels > 10bp,CrispRVariants,65.68
+nlgn1,66.7%,Mixed Indels,CrispRVariants,66.17
+nlgn1,66.7%,Insertions > 10bp,CrispRVariants,0
+nlgn1,66.7%,Deletions > 10bp,CrispRVariants,66.58
+nlgn1,90%,No indels > 10bp,CrispRVariants,89.72
+nlgn1,90%,Mixed Indels,CrispRVariants,89.83
+nlgn1,90%,Insertions > 10bp,CrispRVariants,0
+nlgn1,90%,Deletions > 10bp,CrispRVariants,89.96
 nlgn3a,0,No indels > 10bp,CrispRVariants,0
-nlgn3a,0,Normal,CrispRVariants,0
+nlgn3a,0,Mixed Indels,CrispRVariants,0
 nlgn3a,0,Insertions > 10bp,CrispRVariants,0
-nlgn3a,33.3%,No indels > 10bp,CrispRVariants,32.89
-nlgn3a,33.3%,Normal,CrispRVariants,32.98
-nlgn3a,33.3%,Insertions > 10bp,CrispRVariants,15.08
-nlgn3a,66.7%,No indels > 10bp,CrispRVariants,66.12
-nlgn3a,66.7%,Normal,CrispRVariants,66.25
-nlgn3a,66.7%,Insertions > 10bp,CrispRVariants,33.33
-nlgn3a,90%,No indels > 10bp,CrispRVariants,89.82
-nlgn3a,90%,Normal,CrispRVariants,89.75
-nlgn3a,90%,Insertions > 10bp,CrispRVariants,44.55
+nlgn3a,0,Deletions > 10bp,CrispRVariants,0
+nlgn3a,33.3%,No indels > 10bp,CrispRVariants,32.61
+nlgn3a,33.3%,Mixed Indels,CrispRVariants,32.16
+nlgn3a,33.3%,Insertions > 10bp,CrispRVariants,0
+nlgn3a,33.3%,Deletions > 10bp,CrispRVariants,33.22
+nlgn3a,66.7%,No indels > 10bp,CrispRVariants,66.02
+nlgn3a,66.7%,Mixed Indels,CrispRVariants,66.23
+nlgn3a,66.7%,Insertions > 10bp,CrispRVariants,0
+nlgn3a,66.7%,Deletions > 10bp,CrispRVariants,60.72
+nlgn3a,90%,No indels > 10bp,CrispRVariants,89.79
+nlgn3a,90%,Mixed Indels,CrispRVariants,89.69
+nlgn3a,90%,Insertions > 10bp,CrispRVariants,0
+nlgn3a,90%,Deletions > 10bp,CrispRVariants,89.94
 nlgn4a,0,No indels > 10bp,CrispRVariants,0
-nlgn4a,0,Normal,CrispRVariants,0
+nlgn4a,0,Mixed Indels,CrispRVariants,0
 nlgn4a,0,Insertions > 10bp,CrispRVariants,0
-nlgn4a,33.3%,No indels > 10bp,CrispRVariants,32.68
-nlgn4a,33.3%,Normal,CrispRVariants,32.95
-nlgn4a,33.3%,Insertions > 10bp,CrispRVariants,14.83
-nlgn4a,66.7%,No indels > 10bp,CrispRVariants,66.2
-nlgn4a,66.7%,Normal,CrispRVariants,66.22
-nlgn4a,66.7%,Insertions > 10bp,CrispRVariants,29.53
-nlgn4a,90%,No indels > 10bp,CrispRVariants,89.8
-nlgn4a,90%,Normal,CrispRVariants,89.84
-nlgn4a,90%,Insertions > 10bp,CrispRVariants,79.92
+nlgn4a,0,Deletions > 10bp,CrispRVariants,0
+nlgn4a,33.3%,No indels > 10bp,CrispRVariants,32.86
+nlgn4a,33.3%,Mixed Indels,CrispRVariants,32.18
+nlgn4a,33.3%,Insertions > 10bp,CrispRVariants,0
+nlgn4a,33.3%,Deletions > 10bp,CrispRVariants,33.18
+nlgn4a,66.7%,No indels > 10bp,CrispRVariants,66.16
+nlgn4a,66.7%,Mixed Indels,CrispRVariants,63.98
+nlgn4a,66.7%,Insertions > 10bp,CrispRVariants,0
+nlgn4a,66.7%,Deletions > 10bp,CrispRVariants,64.55
+nlgn4a,90%,No indels > 10bp,CrispRVariants,89.43
+nlgn4a,90%,Mixed Indels,CrispRVariants,89.62
+nlgn4a,90%,Insertions > 10bp,CrispRVariants,0
+nlgn4a,90%,Deletions > 10bp,CrispRVariants,89.95
 nrxn1a_L,0,No indels > 10bp,CrispRVariants,0
-nrxn1a_L,0,Normal,CrispRVariants,0
+nrxn1a_L,0,Mixed Indels,CrispRVariants,0
 nrxn1a_L,0,Insertions > 10bp,CrispRVariants,0
-nrxn1a_L,33.3%,No indels > 10bp,CrispRVariants,32.92
-nrxn1a_L,33.3%,Normal,CrispRVariants,33.02
-nrxn1a_L,33.3%,Insertions > 10bp,CrispRVariants,5.7
-nrxn1a_L,66.7%,No indels > 10bp,CrispRVariants,66.28
-nrxn1a_L,66.7%,Normal,CrispRVariants,66.31
-nrxn1a_L,66.7%,Insertions > 10bp,CrispRVariants,49.03
-nrxn1a_L,90%,No indels > 10bp,CrispRVariants,89.84
-nrxn1a_L,90%,Normal,CrispRVariants,89.79
-nrxn1a_L,90%,Insertions > 10bp,CrispRVariants,44.24
+nrxn1a_L,0,Deletions > 10bp,CrispRVariants,0
+nrxn1a_L,33.3%,No indels > 10bp,CrispRVariants,31.86
+nrxn1a_L,33.3%,Mixed Indels,CrispRVariants,32.87
+nrxn1a_L,33.3%,Insertions > 10bp,CrispRVariants,0
+nrxn1a_L,33.3%,Deletions > 10bp,CrispRVariants,31.32
+nrxn1a_L,66.7%,No indels > 10bp,CrispRVariants,66.25
+nrxn1a_L,66.7%,Mixed Indels,CrispRVariants,66.22
+nrxn1a_L,66.7%,Insertions > 10bp,CrispRVariants,0
+nrxn1a_L,66.7%,Deletions > 10bp,CrispRVariants,65.24
+nrxn1a_L,90%,No indels > 10bp,CrispRVariants,89.77
+nrxn1a_L,90%,Mixed Indels,CrispRVariants,89.7
+nrxn1a_L,90%,Insertions > 10bp,CrispRVariants,0
+nrxn1a_L,90%,Deletions > 10bp,CrispRVariants,89.96
 nrxn1a_S,0,No indels > 10bp,CrispRVariants,0
-nrxn1a_S,0,Normal,CrispRVariants,0
+nrxn1a_S,0,Mixed Indels,CrispRVariants,0
 nrxn1a_S,0,Insertions > 10bp,CrispRVariants,0
-nrxn1a_S,33.3%,No indels > 10bp,CrispRVariants,32.89
-nrxn1a_S,33.3%,Normal,CrispRVariants,33.03
-nrxn1a_S,33.3%,Insertions > 10bp,CrispRVariants,19.3
-nrxn1a_S,66.7%,No indels > 10bp,CrispRVariants,66
-nrxn1a_S,66.7%,Normal,CrispRVariants,66.02
-nrxn1a_S,66.7%,Insertions > 10bp,CrispRVariants,51.97
-nrxn1a_S,90%,No indels > 10bp,CrispRVariants,89.8
-nrxn1a_S,90%,Normal,CrispRVariants,89.69
-nrxn1a_S,90%,Insertions > 10bp,CrispRVariants,71.64
+nrxn1a_S,0,Deletions > 10bp,CrispRVariants,0
+nrxn1a_S,33.3%,No indels > 10bp,CrispRVariants,32.91
+nrxn1a_S,33.3%,Mixed Indels,CrispRVariants,32.24
+nrxn1a_S,33.3%,Insertions > 10bp,CrispRVariants,0
+nrxn1a_S,33.3%,Deletions > 10bp,CrispRVariants,33.2
+nrxn1a_S,66.7%,No indels > 10bp,CrispRVariants,65.65
+nrxn1a_S,66.7%,Mixed Indels,CrispRVariants,65.93
+nrxn1a_S,66.7%,Insertions > 10bp,CrispRVariants,0
+nrxn1a_S,66.7%,Deletions > 10bp,CrispRVariants,66.51
+nrxn1a_S,90%,No indels > 10bp,CrispRVariants,89.77
+nrxn1a_S,90%,Mixed Indels,CrispRVariants,88.29
+nrxn1a_S,90%,Insertions > 10bp,CrispRVariants,0
+nrxn1a_S,90%,Deletions > 10bp,CrispRVariants,89.96
 nrxn1b_L,0,No indels > 10bp,CrispRVariants,0
-nrxn1b_L,0,Normal,CrispRVariants,0
+nrxn1b_L,0,Mixed Indels,CrispRVariants,0
 nrxn1b_L,0,Insertions > 10bp,CrispRVariants,0
-nrxn1b_L,33.3%,No indels > 10bp,CrispRVariants,33.07
-nrxn1b_L,33.3%,Normal,CrispRVariants,32.59
-nrxn1b_L,33.3%,Insertions > 10bp,CrispRVariants,12.55
-nrxn1b_L,66.7%,No indels > 10bp,CrispRVariants,66.08
-nrxn1b_L,66.7%,Normal,CrispRVariants,61.82
-nrxn1b_L,66.7%,Insertions > 10bp,CrispRVariants,29.13
-nrxn1b_L,90%,No indels > 10bp,CrispRVariants,89.71
-nrxn1b_L,90%,Normal,CrispRVariants,89.82
-nrxn1b_L,90%,Insertions > 10bp,CrispRVariants,65.95
+nrxn1b_L,0,Deletions > 10bp,CrispRVariants,0
+nrxn1b_L,33.3%,No indels > 10bp,CrispRVariants,32.61
+nrxn1b_L,33.3%,Mixed Indels,CrispRVariants,32.82
+nrxn1b_L,33.3%,Insertions > 10bp,CrispRVariants,0
+nrxn1b_L,33.3%,Deletions > 10bp,CrispRVariants,30.43
+nrxn1b_L,66.7%,No indels > 10bp,CrispRVariants,66.14
+nrxn1b_L,66.7%,Mixed Indels,CrispRVariants,66.08
+nrxn1b_L,66.7%,Insertions > 10bp,CrispRVariants,0
+nrxn1b_L,66.7%,Deletions > 10bp,CrispRVariants,66.6
+nrxn1b_L,90%,No indels > 10bp,CrispRVariants,89.78
+nrxn1b_L,90%,Mixed Indels,CrispRVariants,89.31
+nrxn1b_L,90%,Insertions > 10bp,CrispRVariants,0
+nrxn1b_L,90%,Deletions > 10bp,CrispRVariants,90
 nrxn1b_S,0,No indels > 10bp,CrispRVariants,0
-nrxn1b_S,0,Normal,CrispRVariants,0
+nrxn1b_S,0,Mixed Indels,CrispRVariants,0
 nrxn1b_S,0,Insertions > 10bp,CrispRVariants,0
-nrxn1b_S,33.3%,No indels > 10bp,CrispRVariants,32.86
-nrxn1b_S,33.3%,Normal,CrispRVariants,32.75
-nrxn1b_S,33.3%,Insertions > 10bp,CrispRVariants,12.51
-nrxn1b_S,66.7%,No indels > 10bp,CrispRVariants,66.12
-nrxn1b_S,66.7%,Normal,CrispRVariants,66.19
-nrxn1b_S,66.7%,Insertions > 10bp,CrispRVariants,40.79
+nrxn1b_S,0,Deletions > 10bp,CrispRVariants,0
+nrxn1b_S,33.3%,No indels > 10bp,CrispRVariants,32.85
+nrxn1b_S,33.3%,Mixed Indels,CrispRVariants,32.58
+nrxn1b_S,33.3%,Insertions > 10bp,CrispRVariants,0
+nrxn1b_S,33.3%,Deletions > 10bp,CrispRVariants,33.23
+nrxn1b_S,66.7%,No indels > 10bp,CrispRVariants,66.16
+nrxn1b_S,66.7%,Mixed Indels,CrispRVariants,65.93
+nrxn1b_S,66.7%,Insertions > 10bp,CrispRVariants,0
+nrxn1b_S,66.7%,Deletions > 10bp,CrispRVariants,66.62
 nrxn1b_S,90%,No indels > 10bp,CrispRVariants,89.8
-nrxn1b_S,90%,Normal,CrispRVariants,89.83
-nrxn1b_S,90%,Insertions > 10bp,CrispRVariants,82.35
+nrxn1b_S,90%,Mixed Indels,CrispRVariants,89.78
+nrxn1b_S,90%,Insertions > 10bp,CrispRVariants,0
+nrxn1b_S,90%,Deletions > 10bp,CrispRVariants,89.98
 nrxn3a_L,0,No indels > 10bp,CrispRVariants,0
-nrxn3a_L,0,Normal,CrispRVariants,0
+nrxn3a_L,0,Mixed Indels,CrispRVariants,0
 nrxn3a_L,0,Insertions > 10bp,CrispRVariants,0
-nrxn3a_L,33.3%,No indels > 10bp,CrispRVariants,32.82
-nrxn3a_L,33.3%,Normal,CrispRVariants,32.93
-nrxn3a_L,33.3%,Insertions > 10bp,CrispRVariants,4.21
-nrxn3a_L,66.7%,No indels > 10bp,CrispRVariants,66.23
-nrxn3a_L,66.7%,Normal,CrispRVariants,66.16
-nrxn3a_L,66.7%,Insertions > 10bp,CrispRVariants,49.06
-nrxn3a_L,90%,No indels > 10bp,CrispRVariants,89.75
-nrxn3a_L,90%,Normal,CrispRVariants,89.86
-nrxn3a_L,90%,Insertions > 10bp,CrispRVariants,81.46
+nrxn3a_L,0,Deletions > 10bp,CrispRVariants,0
+nrxn3a_L,33.3%,No indels > 10bp,CrispRVariants,32.35
+nrxn3a_L,33.3%,Mixed Indels,CrispRVariants,32.82
+nrxn3a_L,33.3%,Insertions > 10bp,CrispRVariants,0
+nrxn3a_L,33.3%,Deletions > 10bp,CrispRVariants,33.19
+nrxn3a_L,66.7%,No indels > 10bp,CrispRVariants,66.07
+nrxn3a_L,66.7%,Mixed Indels,CrispRVariants,63.06
+nrxn3a_L,66.7%,Insertions > 10bp,CrispRVariants,0
+nrxn3a_L,66.7%,Deletions > 10bp,CrispRVariants,64.03
+nrxn3a_L,90%,No indels > 10bp,CrispRVariants,89.77
+nrxn3a_L,90%,Mixed Indels,CrispRVariants,89.77
+nrxn3a_L,90%,Insertions > 10bp,CrispRVariants,0
+nrxn3a_L,90%,Deletions > 10bp,CrispRVariants,89.57
 nrxn3b_L,0,No indels > 10bp,CrispRVariants,0
-nrxn3b_L,0,Normal,CrispRVariants,0
+nrxn3b_L,0,Mixed Indels,CrispRVariants,0
 nrxn3b_L,0,Insertions > 10bp,CrispRVariants,0
-nrxn3b_L,33.3%,No indels > 10bp,CrispRVariants,32.92
-nrxn3b_L,33.3%,Normal,CrispRVariants,32.91
-nrxn3b_L,33.3%,Insertions > 10bp,CrispRVariants,4.21
-nrxn3b_L,66.7%,No indels > 10bp,CrispRVariants,66.17
-nrxn3b_L,66.7%,Normal,CrispRVariants,66.2
-nrxn3b_L,66.7%,Insertions > 10bp,CrispRVariants,38.42
+nrxn3b_L,0,Deletions > 10bp,CrispRVariants,0
+nrxn3b_L,33.3%,No indels > 10bp,CrispRVariants,32.77
+nrxn3b_L,33.3%,Mixed Indels,CrispRVariants,33.04
+nrxn3b_L,33.3%,Insertions > 10bp,CrispRVariants,0
+nrxn3b_L,33.3%,Deletions > 10bp,CrispRVariants,32.73
+nrxn3b_L,66.7%,No indels > 10bp,CrispRVariants,66.08
+nrxn3b_L,66.7%,Mixed Indels,CrispRVariants,66.2
+nrxn3b_L,66.7%,Insertions > 10bp,CrispRVariants,0
+nrxn3b_L,66.7%,Deletions > 10bp,CrispRVariants,66.44
 nrxn3b_L,90%,No indels > 10bp,CrispRVariants,89.79
-nrxn3b_L,90%,Normal,CrispRVariants,89.81
-nrxn3b_L,90%,Insertions > 10bp,CrispRVariants,76.43
+nrxn3b_L,90%,Mixed Indels,CrispRVariants,89.84
+nrxn3b_L,90%,Insertions > 10bp,CrispRVariants,0
+nrxn3b_L,90%,Deletions > 10bp,CrispRVariants,89.95
 nrxn3b_S,0,No indels > 10bp,CrispRVariants,0
-nrxn3b_S,0,Normal,CrispRVariants,0
+nrxn3b_S,0,Mixed Indels,CrispRVariants,0
 nrxn3b_S,0,Insertions > 10bp,CrispRVariants,0
-nrxn3b_S,33.3%,No indels > 10bp,CrispRVariants,32.81
-nrxn3b_S,33.3%,Normal,CrispRVariants,32.4
-nrxn3b_S,33.3%,Insertions > 10bp,CrispRVariants,9.01
-nrxn3b_S,66.7%,No indels > 10bp,CrispRVariants,66.18
-nrxn3b_S,66.7%,Normal,CrispRVariants,66.28
-nrxn3b_S,66.7%,Insertions > 10bp,CrispRVariants,18.65
-nrxn3b_S,90%,No indels > 10bp,CrispRVariants,89.8
-nrxn3b_S,90%,Normal,CrispRVariants,89.8
-nrxn3b_S,90%,Insertions > 10bp,CrispRVariants,83.35
+nrxn3b_S,0,Deletions > 10bp,CrispRVariants,0
+nrxn3b_S,33.3%,No indels > 10bp,CrispRVariants,32.95
+nrxn3b_S,33.3%,Mixed Indels,CrispRVariants,32.92
+nrxn3b_S,33.3%,Insertions > 10bp,CrispRVariants,0
+nrxn3b_S,33.3%,Deletions > 10bp,CrispRVariants,33.13
+nrxn3b_S,66.7%,No indels > 10bp,CrispRVariants,66.07
+nrxn3b_S,66.7%,Mixed Indels,CrispRVariants,66.01
+nrxn3b_S,66.7%,Insertions > 10bp,CrispRVariants,0.67
+nrxn3b_S,66.7%,Deletions > 10bp,CrispRVariants,63.72
+nrxn3b_S,90%,No indels > 10bp,CrispRVariants,89.75
+nrxn3b_S,90%,Mixed Indels,CrispRVariants,89.51
+nrxn3b_S,90%,Insertions > 10bp,CrispRVariants,0
+nrxn3b_S,90%,Deletions > 10bp,CrispRVariants,89.96
 tjp1b_B,0,No indels > 10bp,CrispRVariants,0
-tjp1b_B,0,Normal,CrispRVariants,0
+tjp1b_B,0,Mixed Indels,CrispRVariants,0
 tjp1b_B,0,Insertions > 10bp,CrispRVariants,0
-tjp1b_B,33.3%,No indels > 10bp,CrispRVariants,32.72
-tjp1b_B,33.3%,Normal,CrispRVariants,32.9
-tjp1b_B,33.3%,Insertions > 10bp,CrispRVariants,13.35
-tjp1b_B,66.7%,No indels > 10bp,CrispRVariants,66.22
-tjp1b_B,66.7%,Normal,CrispRVariants,66.33
-tjp1b_B,66.7%,Insertions > 10bp,CrispRVariants,40.19
-tjp1b_B,90%,No indels > 10bp,CrispRVariants,89.82
-tjp1b_B,90%,Normal,CrispRVariants,89.82
-tjp1b_B,90%,Insertions > 10bp,CrispRVariants,85.96
+tjp1b_B,0,Deletions > 10bp,CrispRVariants,0
+tjp1b_B,33.3%,No indels > 10bp,CrispRVariants,32.41
+tjp1b_B,33.3%,Mixed Indels,CrispRVariants,32.77
+tjp1b_B,33.3%,Insertions > 10bp,CrispRVariants,0
+tjp1b_B,33.3%,Deletions > 10bp,CrispRVariants,33.02
+tjp1b_B,66.7%,No indels > 10bp,CrispRVariants,66
+tjp1b_B,66.7%,Mixed Indels,CrispRVariants,65.49
+tjp1b_B,66.7%,Insertions > 10bp,CrispRVariants,0
+tjp1b_B,66.7%,Deletions > 10bp,CrispRVariants,66.56
+tjp1b_B,90%,No indels > 10bp,CrispRVariants,89.78
+tjp1b_B,90%,Mixed Indels,CrispRVariants,89.63
+tjp1b_B,90%,Insertions > 10bp,CrispRVariants,0
+tjp1b_B,90%,Deletions > 10bp,CrispRVariants,89.98
 tjp1b_L,0,No indels > 10bp,CrispRVariants,0
-tjp1b_L,0,Normal,CrispRVariants,0
+tjp1b_L,0,Mixed Indels,CrispRVariants,0
 tjp1b_L,0,Insertions > 10bp,CrispRVariants,0
-tjp1b_L,33.3%,No indels > 10bp,CrispRVariants,32.73
-tjp1b_L,33.3%,Normal,CrispRVariants,32.68
-tjp1b_L,33.3%,Insertions > 10bp,CrispRVariants,13.34
-tjp1b_L,66.7%,No indels > 10bp,CrispRVariants,66.12
-tjp1b_L,66.7%,Normal,CrispRVariants,64.13
-tjp1b_L,66.7%,Insertions > 10bp,CrispRVariants,32.71
-tjp1b_L,90%,No indels > 10bp,CrispRVariants,89.79
-tjp1b_L,90%,Normal,CrispRVariants,89.78
-tjp1b_L,90%,Insertions > 10bp,CrispRVariants,69.1
-cnsta,0,No indels > 10bp,CRISPResso,0.066711140760507
-cnsta,0,Normal,CRISPResso,0.066711140760507
-cnsta,0,Insertions > 10bp,CRISPResso,0.066711140760507
-cnsta,33.3%,No indels > 10bp,CRISPResso,21.1
-cnsta,33.3%,Normal,CRISPResso,22.3666666666667
-cnsta,33.3%,Insertions > 10bp,CRISPResso,8.2825385442811
-cnsta,66.7%,No indels > 10bp,CRISPResso,46.3821273757919
-cnsta,66.7%,Normal,CRISPResso,51.0340226817879
-cnsta,66.7%,Insertions > 10bp,CRISPResso,39.5131086142322
-cnsta,90%,No indels > 10bp,CRISPResso,81.3542361574383
-cnsta,90%,Normal,CRISPResso,21.4404801600534
-cnsta,90%,Insertions > 10bp,CRISPResso,64.6460980036298
-cntn1a,0,No indels > 10bp,CRISPResso,0.1
-cntn1a,0,Normal,CRISPResso,0.1
-cntn1a,0,Insertions > 10bp,CRISPResso,0.1
-cntn1a,33.3%,No indels > 10bp,CRISPResso,13.8046015338446
-cntn1a,33.3%,Normal,CRISPResso,31.8
-cntn1a,33.3%,Insertions > 10bp,CRISPResso,22.5609756097561
-cntn1a,66.7%,No indels > 10bp,CRISPResso,43.0333333333333
-cntn1a,66.7%,Normal,CRISPResso,54.0333333333333
-cntn1a,66.7%,Insertions > 10bp,CRISPResso,28.5017421602787
-cntn1a,90%,No indels > 10bp,CRISPResso,16.4054684894965
-cntn1a,90%,Normal,CRISPResso,42.4141380460153
-cntn1a,90%,Insertions > 10bp,CRISPResso,51.5
-cntn1b,0,No indels > 10bp,CRISPResso,0.2
-cntn1b,0,Normal,CRISPResso,0.2
-cntn1b,0,Insertions > 10bp,CRISPResso,0.2
-cntn1b,33.3%,No indels > 10bp,CRISPResso,8.23333333333333
-cntn1b,33.3%,Normal,CRISPResso,16.5333333333333
-cntn1b,33.3%,Insertions > 10bp,CRISPResso,13.4121621621622
-cntn1b,66.7%,No indels > 10bp,CRISPResso,28.7191460973983
-cntn1b,66.7%,Normal,CRISPResso,57.4049366244163
-cntn1b,66.7%,Insertions > 10bp,CRISPResso,34.4563042028019
-cntn1b,90%,No indels > 10bp,CRISPResso,19.7
-cntn1b,90%,Normal,CRISPResso,13.7
-cntn1b,90%,Insertions > 10bp,CRISPResso,27.0923520923521
-cntn3b,0,No indels > 10bp,CRISPResso,0.133333333333333
-cntn3b,0,Normal,CRISPResso,0.133333333333333
-cntn3b,0,Insertions > 10bp,CRISPResso,0.133333333333333
-cntn3b,33.3%,No indels > 10bp,CRISPResso,21.4
-cntn3b,33.3%,Normal,CRISPResso,31.0666666666667
-cntn3b,33.3%,Insertions > 10bp,CRISPResso,14.0093395597065
-cntn3b,66.7%,No indels > 10bp,CRISPResso,37.8666666666667
-cntn3b,66.7%,Normal,CRISPResso,64.8
-cntn3b,66.7%,Insertions > 10bp,CRISPResso,2.56666666666667
-cntn3b,90%,No indels > 10bp,CRISPResso,59
-cntn3b,90%,Normal,CRISPResso,89.3666666666667
-cntn3b,90%,Insertions > 10bp,CRISPResso,50.2834278092698
-cntnap2b,0,No indels > 10bp,CRISPResso,0.0666666666666667
-cntnap2b,0,Normal,CRISPResso,0.0666666666666667
-cntnap2b,0,Insertions > 10bp,CRISPResso,0.0666666666666667
-cntnap2b,33.3%,No indels > 10bp,CRISPResso,26.7666666666667
-cntnap2b,33.3%,Normal,CRISPResso,24.4
-cntnap2b,33.3%,Insertions > 10bp,CRISPResso,12.9468934397779
-cntnap2b,66.7%,No indels > 10bp,CRISPResso,58.4333333333333
-cntnap2b,66.7%,Normal,CRISPResso,53.784594864955
-cntnap2b,66.7%,Insertions > 10bp,CRISPResso,36.4338364338364
-cntnap2b,90%,No indels > 10bp,CRISPResso,56.6666666666667
-cntnap2b,90%,Normal,CRISPResso,63.1333333333333
-cntnap2b,90%,Insertions > 10bp,CRISPResso,42.1586381745744
-cntnap4,0,No indels > 10bp,CRISPResso,0.200066688896299
-cntnap4,0,Normal,CRISPResso,0.200066688896299
-cntnap4,0,Insertions > 10bp,CRISPResso,0.200066688896299
-cntnap4,33.3%,No indels > 10bp,CRISPResso,23.8825883922615
-cntnap4,33.3%,Normal,CRISPResso,31.4876584389593
-cntnap4,33.3%,Insertions > 10bp,CRISPResso,13.5527246992215
-cntnap4,66.7%,No indels > 10bp,CRISPResso,13.0376792264088
-cntnap4,66.7%,Normal,CRISPResso,58.9087234759178
-cntnap4,66.7%,Insertions > 10bp,CRISPResso,8.9162740123233
-cntnap4,90%,No indels > 10bp,CRISPResso,61.0536845615205
-cntnap4,90%,Normal,CRISPResso,70.3333333333333
-cntnap4,90%,Insertions > 10bp,CRISPResso,21.9064748201439
-CNTNAP5,0,No indels > 10bp,CRISPResso,0.133377792597532
-CNTNAP5,0,Normal,CRISPResso,0.133377792597532
-CNTNAP5,0,Insertions > 10bp,CRISPResso,0.133377792597532
-CNTNAP5,33.3%,No indels > 10bp,CRISPResso,25.8086028676225
-CNTNAP5,33.3%,Normal,CRISPResso,25.1
-CNTNAP5,33.3%,Insertions > 10bp,CRISPResso,10.9333333333333
-CNTNAP5,66.7%,No indels > 10bp,CRISPResso,40.4801600533511
-CNTNAP5,66.7%,Normal,CRISPResso,53.0353569046031
-CNTNAP5,66.7%,Insertions > 10bp,CRISPResso,30.0766922307436
-CNTNAP5,90%,No indels > 10bp,CRISPResso,39.0333333333333
-CNTNAP5,90%,Normal,CRISPResso,70.3
-CNTNAP5,90%,Insertions > 10bp,CRISPResso,26.488632262721
-gjd1a,0,No indels > 10bp,CRISPResso,0.166722240746916
-gjd1a,0,Normal,CRISPResso,0.166722240746916
-gjd1a,0,Insertions > 10bp,CRISPResso,0.166722240746916
-gjd1a,33.3%,No indels > 10bp,CRISPResso,14.7382460820273
-gjd1a,33.3%,Normal,CRISPResso,22.0740246748916
-gjd1a,33.3%,Insertions > 10bp,CRISPResso,8.76958986328776
-gjd1a,66.7%,No indels > 10bp,CRISPResso,27.1333333333333
-gjd1a,66.7%,Normal,CRISPResso,13.7758505670447
-gjd1a,66.7%,Insertions > 10bp,CRISPResso,24.4748249416472
-gjd1a,90%,No indels > 10bp,CRISPResso,13.1710570190063
-gjd1a,90%,Normal,CRISPResso,70.0333333333333
-gjd1a,90%,Insertions > 10bp,CRISPResso,29.3
-nlgn1,0,No indels > 10bp,CRISPResso,0.200066688896299
-nlgn1,0,Normal,CRISPResso,0.200066688896299
-nlgn1,0,Insertions > 10bp,CRISPResso,0.200066688896299
-nlgn1,33.3%,No indels > 10bp,CRISPResso,24.2080693564521
-nlgn1,33.3%,Normal,CRISPResso,16.2333333333333
-nlgn1,33.3%,Insertions > 10bp,CRISPResso,17.7094379639449
-nlgn1,66.7%,No indels > 10bp,CRISPResso,16.7
-nlgn1,66.7%,Normal,CRISPResso,42.7333333333333
-nlgn1,66.7%,Insertions > 10bp,CRISPResso,22.2419928825623
-nlgn1,90%,No indels > 10bp,CRISPResso,34.0446815605202
-nlgn1,90%,Normal,CRISPResso,50.0666666666667
-nlgn1,90%,Insertions > 10bp,CRISPResso,44.1601779755284
-nlgn3a,0,No indels > 10bp,CRISPResso,0.1
-nlgn3a,0,Normal,CRISPResso,0.1
-nlgn3a,0,Insertions > 10bp,CRISPResso,0.1
-nlgn3a,33.3%,No indels > 10bp,CRISPResso,6.76666666666667
-nlgn3a,33.3%,Normal,CRISPResso,24.1
-nlgn3a,33.3%,Insertions > 10bp,CRISPResso,10.8927955877284
-nlgn3a,66.7%,No indels > 10bp,CRISPResso,26
-nlgn3a,66.7%,Normal,CRISPResso,21.1
-nlgn3a,66.7%,Insertions > 10bp,CRISPResso,35.5794150314698
-nlgn3a,90%,No indels > 10bp,CRISPResso,53.7
-nlgn3a,90%,Normal,CRISPResso,25.4
-nlgn3a,90%,Insertions > 10bp,CRISPResso,59.6461949265688
-nlgn4a,0,No indels > 10bp,CRISPResso,0.133377792597532
-nlgn4a,0,Normal,CRISPResso,0.133377792597532
-nlgn4a,0,Insertions > 10bp,CRISPResso,0.133377792597532
-nlgn4a,33.3%,No indels > 10bp,CRISPResso,29.7765921973991
-nlgn4a,33.3%,Normal,CRISPResso,10.7702567522508
-nlgn4a,33.3%,Insertions > 10bp,CRISPResso,9.82758620689655
-nlgn4a,66.7%,No indels > 10bp,CRISPResso,24.4
-nlgn4a,66.7%,Normal,CRISPResso,34.4
-nlgn4a,66.7%,Insertions > 10bp,CRISPResso,23.1716705157814
-nlgn4a,90%,No indels > 10bp,CRISPResso,37.8333333333333
-nlgn4a,90%,Normal,CRISPResso,58.4333333333333
-nlgn4a,90%,Insertions > 10bp,CRISPResso,61.2537512504168
-nrxn1a_L,0,No indels > 10bp,CRISPResso,0.200333889816361
-nrxn1a_L,0,Normal,CRISPResso,0.200333889816361
-nrxn1a_L,0,Insertions > 10bp,CRISPResso,0.200333889816361
-nrxn1a_L,33.3%,No indels > 10bp,CRISPResso,12.5125125125125
-nrxn1a_L,33.3%,Normal,CRISPResso,33.2998996990973
-nrxn1a_L,33.3%,Insertions > 10bp,CRISPResso,13.8276553106212
-nrxn1a_L,66.7%,No indels > 10bp,CRISPResso,13.5315736719011
-nrxn1a_L,66.7%,Normal,CRISPResso,43.4593509534961
-nrxn1a_L,66.7%,Insertions > 10bp,CRISPResso,18.2572614107884
-nrxn1a_L,90%,No indels > 10bp,CRISPResso,37.0283806343907
-nrxn1a_L,90%,Normal,CRISPResso,52.4365821094793
-nrxn1a_L,90%,Insertions > 10bp,CRISPResso,53.7408149632599
-nrxn1a_S,0,No indels > 10bp,CRISPResso,0.100066711140761
-nrxn1a_S,0,Normal,CRISPResso,0.100066711140761
-nrxn1a_S,0,Insertions > 10bp,CRISPResso,0.100066711140761
-nrxn1a_S,33.3%,No indels > 10bp,CRISPResso,17.0333333333333
-nrxn1a_S,33.3%,Normal,CRISPResso,29.4098032677559
-nrxn1a_S,33.3%,Insertions > 10bp,CRISPResso,17.7678877096885
-nrxn1a_S,66.7%,No indels > 10bp,CRISPResso,34.3666666666667
-nrxn1a_S,66.7%,Normal,CRISPResso,21.0403467822608
-nrxn1a_S,66.7%,Insertions > 10bp,CRISPResso,7.44514106583072
-nrxn1a_S,90%,No indels > 10bp,CRISPResso,51.5
-nrxn1a_S,90%,Normal,CRISPResso,69
-nrxn1a_S,90%,Insertions > 10bp,CRISPResso,59.7
-nrxn1b_L,0,No indels > 10bp,CRISPResso,0.133333333333333
-nrxn1b_L,0,Normal,CRISPResso,0.133333333333333
-nrxn1b_L,0,Insertions > 10bp,CRISPResso,0.133333333333333
-nrxn1b_L,33.3%,No indels > 10bp,CRISPResso,19.4
-nrxn1b_L,33.3%,Normal,CRISPResso,31.0333333333333
-nrxn1b_L,33.3%,Insertions > 10bp,CRISPResso,17.184265010352
-nrxn1b_L,66.7%,No indels > 10bp,CRISPResso,50.4333333333333
-nrxn1b_L,66.7%,Normal,CRISPResso,17.8
-nrxn1b_L,66.7%,Insertions > 10bp,CRISPResso,40.8071748878924
-nrxn1b_L,90%,No indels > 10bp,CRISPResso,84.3333333333333
-nrxn1b_L,90%,Normal,CRISPResso,82.6666666666667
-nrxn1b_L,90%,Insertions > 10bp,CRISPResso,42.4
-nrxn1b_S,0,No indels > 10bp,CRISPResso,0.0667334000667334
-nrxn1b_S,0,Normal,CRISPResso,0.0667334000667334
-nrxn1b_S,0,Insertions > 10bp,CRISPResso,0.0667334000667334
-nrxn1b_S,33.3%,No indels > 10bp,CRISPResso,15.1170568561873
-nrxn1b_S,33.3%,Normal,CRISPResso,28.0467445742905
-nrxn1b_S,33.3%,Insertions > 10bp,CRISPResso,18.2190378710338
-nrxn1b_S,66.7%,No indels > 10bp,CRISPResso,33.4224598930481
-nrxn1b_S,66.7%,Normal,CRISPResso,60.507851653859
-nrxn1b_S,66.7%,Insertions > 10bp,CRISPResso,21.2167886022333
-nrxn1b_S,90%,No indels > 10bp,CRISPResso,41.3631807550952
-nrxn1b_S,90%,Normal,CRISPResso,79.3241886918702
-nrxn1b_S,90%,Insertions > 10bp,CRISPResso,21.6505178750418
-nrxn3a_L,0,No indels > 10bp,CRISPResso,0.100033344448149
-nrxn3a_L,0,Normal,CRISPResso,0.100033344448149
-nrxn3a_L,0,Insertions > 10bp,CRISPResso,0.100033344448149
-nrxn3a_L,33.3%,No indels > 10bp,CRISPResso,22.4
-nrxn3a_L,33.3%,Normal,CRISPResso,9.73333333333333
-nrxn3a_L,33.3%,Insertions > 10bp,CRISPResso,16.5115477421579
-nrxn3a_L,66.7%,No indels > 10bp,CRISPResso,31.1
-nrxn3a_L,66.7%,Normal,CRISPResso,53.0176725575192
-nrxn3a_L,66.7%,Insertions > 10bp,CRISPResso,15.8652158652159
-nrxn3a_L,90%,No indels > 10bp,CRISPResso,77.3
-nrxn3a_L,90%,Normal,CRISPResso,63.3877959319773
-nrxn3a_L,90%,Insertions > 10bp,CRISPResso,15.12
-nrxn3b_L,0,No indels > 10bp,CRISPResso,0.133333333333333
-nrxn3b_L,0,Normal,CRISPResso,0.133333333333333
-nrxn3b_L,0,Insertions > 10bp,CRISPResso,0.133333333333333
-nrxn3b_L,33.3%,No indels > 10bp,CRISPResso,28.4094698232744
-nrxn3b_L,33.3%,Normal,CRISPResso,18.4666666666667
-nrxn3b_L,33.3%,Insertions > 10bp,CRISPResso,9.66643975493533
-nrxn3b_L,66.7%,No indels > 10bp,CRISPResso,42.5808602867623
-nrxn3b_L,66.7%,Normal,CRISPResso,49.0326884589727
-nrxn3b_L,66.7%,Insertions > 10bp,CRISPResso,22.7484750627915
-nrxn3b_L,90%,No indels > 10bp,CRISPResso,30.8
-nrxn3b_L,90%,Normal,CRISPResso,52.4174724908303
-nrxn3b_L,90%,Insertions > 10bp,CRISPResso,33.5358444714459
-nrxn3b_S,0,No indels > 10bp,CRISPResso,0.100033344448149
-nrxn3b_S,0,Normal,CRISPResso,0.100033344448149
-nrxn3b_S,0,Insertions > 10bp,CRISPResso,0.100033344448149
-nrxn3b_S,33.3%,No indels > 10bp,CRISPResso,12.4333333333333
-nrxn3b_S,33.3%,Normal,CRISPResso,18.7395798599533
-nrxn3b_S,33.3%,Insertions > 10bp,CRISPResso,10.6856309263311
-nrxn3b_S,66.7%,No indels > 10bp,CRISPResso,25.9666666666667
-nrxn3b_S,66.7%,Normal,CRISPResso,55.9853284428143
-nrxn3b_S,66.7%,Insertions > 10bp,CRISPResso,23.608649415101
-nrxn3b_S,90%,No indels > 10bp,CRISPResso,54.4181393797933
-nrxn3b_S,90%,Normal,CRISPResso,12.1
-nrxn3b_S,90%,Insertions > 10bp,CRISPResso,45.2666666666667
-tjp1b_B,0,No indels > 10bp,CRISPResso,0.166722240746916
-tjp1b_B,0,Normal,CRISPResso,0.166722240746916
-tjp1b_B,0,Insertions > 10bp,CRISPResso,0.166722240746916
-tjp1b_B,33.3%,No indels > 10bp,CRISPResso,6.50216738912971
-tjp1b_B,33.3%,Normal,CRISPResso,28.809603201067
-tjp1b_B,33.3%,Insertions > 10bp,CRISPResso,17.8726242080694
-tjp1b_B,66.7%,No indels > 10bp,CRISPResso,31.1333333333333
-tjp1b_B,66.7%,Normal,CRISPResso,49.1163721240413
-tjp1b_B,66.7%,Insertions > 10bp,CRISPResso,44.0287769784173
-tjp1b_B,90%,No indels > 10bp,CRISPResso,29.676558852951
-tjp1b_B,90%,Normal,CRISPResso,48.3655770513676
-tjp1b_B,90%,Insertions > 10bp,CRISPResso,17.1723907969323
-tjp1b_L,0,No indels > 10bp,CRISPResso,0.0666666666666667
-tjp1b_L,0,Normal,CRISPResso,0.0666666666666667
-tjp1b_L,0,Insertions > 10bp,CRISPResso,0.0666666666666667
-tjp1b_L,33.3%,No indels > 10bp,CRISPResso,25.7666666666667
-tjp1b_L,33.3%,Normal,CRISPResso,29.4333333333333
-tjp1b_L,33.3%,Insertions > 10bp,CRISPResso,14.4714904968323
-tjp1b_L,66.7%,No indels > 10bp,CRISPResso,23.3333333333333
-tjp1b_L,66.7%,Normal,CRISPResso,53.4333333333333
-tjp1b_L,66.7%,Insertions > 10bp,CRISPResso,1.44825150123631
-tjp1b_L,90%,No indels > 10bp,CRISPResso,67.6666666666667
-tjp1b_L,90%,Normal,CRISPResso,40.1
-tjp1b_L,90%,Insertions > 10bp,CRISPResso,43.9442658092176
-cnsta,0,No indels > 10bp,CRISPRessoPooled,0.0666888962987662
-cntn1a,0,No indels > 10bp,CRISPRessoPooled,0.133333333333333
-cntn1b,0,No indels > 10bp,CRISPRessoPooled,0.166666666666667
-cntn3b,0,No indels > 10bp,CRISPRessoPooled,0.1
-cntnap2b,0,No indels > 10bp,CRISPRessoPooled,0.1
-cntnap4,0,No indels > 10bp,CRISPRessoPooled,0.266755585195065
-CNTNAP5,0,No indels > 10bp,CRISPRessoPooled,0.133377792597532
-gjd1a,0,No indels > 10bp,CRISPRessoPooled,0.100033344448149
-nlgn1,0,No indels > 10bp,CRISPRessoPooled,0.200066688896299
-nlgn3a,0,No indels > 10bp,CRISPRessoPooled,0.100772589855559
-nlgn4a,0,No indels > 10bp,CRISPRessoPooled,0.100033344448149
-nrxn1a_L,0,No indels > 10bp,CRISPRessoPooled,0.2
-nrxn1a_S,0,No indels > 10bp,CRISPRessoPooled,0.066711140760507
-nrxn1b_L,0,No indels > 10bp,CRISPRessoPooled,0.1
-nrxn1b_S,0,No indels > 10bp,CRISPRessoPooled,0.0666666666666667
-nrxn3a_L,0,No indels > 10bp,CRISPRessoPooled,0.0666888962987662
-nrxn3b_L,0,No indels > 10bp,CRISPRessoPooled,0.166666666666667
-nrxn3b_S,0,No indels > 10bp,CRISPRessoPooled,0.233411137045682
-tjp1b_B,0,No indels > 10bp,CRISPRessoPooled,0.100033344448149
-tjp1b_L,0,No indels > 10bp,CRISPRessoPooled,0.0671817265703729
-cnsta,0,Normal,CRISPRessoPooled,0.0666888962987662
-cntn1a,0,Normal,CRISPRessoPooled,0.133333333333333
-cntn1b,0,Normal,CRISPRessoPooled,0.166666666666667
-cntn3b,0,Normal,CRISPRessoPooled,0.1
-cntnap2b,0,Normal,CRISPRessoPooled,0.1
-cntnap4,0,Normal,CRISPRessoPooled,0.266755585195065
-CNTNAP5,0,Normal,CRISPRessoPooled,0.133377792597532
-gjd1a,0,Normal,CRISPRessoPooled,0.100033344448149
-nlgn1,0,Normal,CRISPRessoPooled,0.200066688896299
-nlgn3a,0,Normal,CRISPRessoPooled,0.100772589855559
-nlgn4a,0,Normal,CRISPRessoPooled,0.100033344448149
-nrxn1a_L,0,Normal,CRISPRessoPooled,0.2
-nrxn1a_S,0,Normal,CRISPRessoPooled,0.066711140760507
-nrxn1b_L,0,Normal,CRISPRessoPooled,0.1
-nrxn1b_S,0,Normal,CRISPRessoPooled,0.0666666666666667
-nrxn3a_L,0,Normal,CRISPRessoPooled,0.0666888962987662
-nrxn3b_L,0,Normal,CRISPRessoPooled,0.166666666666667
-nrxn3b_S,0,Normal,CRISPRessoPooled,0.233411137045682
-tjp1b_B,0,Normal,CRISPRessoPooled,0.100033344448149
-tjp1b_L,0,Normal,CRISPRessoPooled,0.0671817265703729
-cnsta,0,Insertions > 10bp,CRISPRessoPooled,0.0666888962987662
-cntn1a,0,Insertions > 10bp,CRISPRessoPooled,0.133333333333333
-cntn1b,0,Insertions > 10bp,CRISPRessoPooled,0.166666666666667
-cntn3b,0,Insertions > 10bp,CRISPRessoPooled,0.1
-cntnap2b,0,Insertions > 10bp,CRISPRessoPooled,0.1
-cntnap4,0,Insertions > 10bp,CRISPRessoPooled,0.266755585195065
-CNTNAP5,0,Insertions > 10bp,CRISPRessoPooled,0.133377792597532
-gjd1a,0,Insertions > 10bp,CRISPRessoPooled,0.100033344448149
-nlgn1,0,Insertions > 10bp,CRISPRessoPooled,0.200066688896299
-nlgn3a,0,Insertions > 10bp,CRISPRessoPooled,0.100772589855559
-nlgn4a,0,Insertions > 10bp,CRISPRessoPooled,0.100033344448149
-nrxn1a_L,0,Insertions > 10bp,CRISPRessoPooled,0.2
-nrxn1a_S,0,Insertions > 10bp,CRISPRessoPooled,0.066711140760507
-nrxn1b_L,0,Insertions > 10bp,CRISPRessoPooled,0.1
-nrxn1b_S,0,Insertions > 10bp,CRISPRessoPooled,0.0666666666666667
-nrxn3a_L,0,Insertions > 10bp,CRISPRessoPooled,0.0666888962987662
-nrxn3b_L,0,Insertions > 10bp,CRISPRessoPooled,0.166666666666667
-nrxn3b_S,0,Insertions > 10bp,CRISPRessoPooled,0.233411137045682
-tjp1b_B,0,Insertions > 10bp,CRISPRessoPooled,0.100033344448149
-tjp1b_L,0,Insertions > 10bp,CRISPRessoPooled,0.0671817265703729
-cnsta,33.3%,No indels > 10bp,CRISPRessoPooled,21.1070356785595
-cntn1a,33.3%,No indels > 10bp,CRISPRessoPooled,14.1427618412275
-cntn1b,33.3%,No indels > 10bp,CRISPRessoPooled,6.1415220293725
-cntn3b,33.3%,No indels > 10bp,CRISPRessoPooled,8.01068090787717
-cntnap2b,33.3%,No indels > 10bp,CRISPRessoPooled,24.1333333333333
-cntnap4,33.3%,No indels > 10bp,CRISPRessoPooled,19.5528862195529
-CNTNAP5,33.3%,No indels > 10bp,CRISPRessoPooled,4.17641162712997
-gjd1a,33.3%,No indels > 10bp,CRISPRessoPooled,10.7369123041014
-nlgn1,33.3%,No indels > 10bp,CRISPRessoPooled,20.4871538204872
-nlgn3a,33.3%,No indels > 10bp,CRISPRessoPooled,6.80979537068098
-nlgn4a,33.3%,No indels > 10bp,CRISPRessoPooled,21.8072690896966
-nrxn1a_L,33.3%,No indels > 10bp,CRISPRessoPooled,11.4704901633878
-nrxn1a_S,33.3%,No indels > 10bp,CRISPRessoPooled,10.0733822548366
-nrxn1b_L,33.3%,No indels > 10bp,CRISPRessoPooled,19.3666666666667
-nrxn1b_S,33.3%,No indels > 10bp,CRISPRessoPooled,12.4374791597199
-nrxn3a_L,33.3%,No indels > 10bp,CRISPRessoPooled,13.7666666666667
-nrxn3b_L,33.3%,No indels > 10bp,CRISPRessoPooled,24.0907574240908
-nrxn3b_S,33.3%,No indels > 10bp,CRISPRessoPooled,3.40113371123708
-tjp1b_B,33.3%,No indels > 10bp,CRISPRessoPooled,2.7675891963988
-tjp1b_L,33.3%,No indels > 10bp,CRISPRessoPooled,25.7945801271328
-cnsta,33.3%,Normal,CRISPRessoPooled,18.4439041333796
-cntn1a,33.3%,Normal,CRISPRessoPooled,30.7482993197279
-cntn1b,33.3%,Normal,CRISPRessoPooled,16.5333333333333
-cntn3b,33.3%,Normal,CRISPRessoPooled,28.8054607508532
-cntnap2b,33.3%,Normal,CRISPRessoPooled,24.6801346801347
-cntnap4,33.3%,Normal,CRISPRessoPooled,30.9330628803245
-CNTNAP5,33.3%,Normal,CRISPRessoPooled,3.9054470709147
-gjd1a,33.3%,Normal,CRISPRessoPooled,21.9104876419506
-nlgn1,33.3%,Normal,CRISPRessoPooled,14.4147273358805
-nlgn3a,33.3%,Normal,CRISPRessoPooled,24.3034575360859
-nlgn4a,33.3%,Normal,CRISPRessoPooled,6.73557852617539
-nrxn1a_L,33.3%,Normal,CRISPRessoPooled,28.4
-nrxn1a_S,33.3%,Normal,CRISPRessoPooled,27.8610354223433
-nrxn1b_L,33.3%,Normal,CRISPRessoPooled,26.6894197952218
-nrxn1b_S,33.3%,Normal,CRISPRessoPooled,25.2941176470588
-nrxn3a_L,33.3%,Normal,CRISPRessoPooled,5.31468531468532
-nrxn3b_L,33.3%,Normal,CRISPRessoPooled,18.8062687562521
-nrxn3b_S,33.3%,Normal,CRISPRessoPooled,3.98646107559233
-tjp1b_B,33.3%,Normal,CRISPRessoPooled,18.8460225332878
-tjp1b_L,33.3%,Normal,CRISPRessoPooled,29.5378432685867
-cnsta,33.3%,Insertions > 10bp,CRISPRessoPooled,0.236220472440945
-cntn1a,33.3%,Insertions > 10bp,CRISPRessoPooled,9.30067447639333
-cntn1b,33.3%,Insertions > 10bp,CRISPRessoPooled,8.91458411040657
-cntn3b,33.3%,Insertions > 10bp,CRISPRessoPooled,10.4647037956722
-cntnap2b,33.3%,Insertions > 10bp,CRISPRessoPooled,7.91044776119403
-cntnap4,33.3%,Insertions > 10bp,CRISPRessoPooled,11.0698365527489
-CNTNAP5,33.3%,Insertions > 10bp,CRISPRessoPooled,6.01398601398601
-gjd1a,33.3%,Insertions > 10bp,CRISPRessoPooled,4.51879958606416
-nlgn1,33.3%,Insertions > 10bp,CRISPRessoPooled,10.3088803088803
-nlgn3a,33.3%,Insertions > 10bp,CRISPRessoPooled,6.18055555555556
-nlgn4a,33.3%,Insertions > 10bp,CRISPRessoPooled,5.5635838150289
-nrxn1a_L,33.3%,Insertions > 10bp,CRISPRessoPooled,15.1333333333333
-nrxn1a_S,33.3%,Insertions > 10bp,CRISPRessoPooled,14.8729446935725
-nrxn1b_L,33.3%,Insertions > 10bp,CRISPRessoPooled,12.3511904761905
-nrxn1b_S,33.3%,Insertions > 10bp,CRISPRessoPooled,17.6345609065156
-nrxn3a_L,33.3%,Insertions > 10bp,CRISPRessoPooled,9.85703536493604
-nrxn3b_L,33.3%,Insertions > 10bp,CRISPRessoPooled,3.42417889587701
-nrxn3b_S,33.3%,Insertions > 10bp,CRISPRessoPooled,5.55344237352605
-tjp1b_B,33.3%,Insertions > 10bp,CRISPRessoPooled,7.43140243902439
-tjp1b_L,33.3%,Insertions > 10bp,CRISPRessoPooled,12.724658519051
-cnsta,66.7%,No indels > 10bp,CRISPRessoPooled,29.7198132088059
-cntn1a,66.7%,No indels > 10bp,CRISPRessoPooled,40.7543391188251
-cntn1b,66.7%,No indels > 10bp,CRISPRessoPooled,28.628762541806
-cntn3b,66.7%,No indels > 10bp,CRISPRessoPooled,14.0854472630174
-cntnap2b,66.7%,No indels > 10bp,CRISPRessoPooled,49.0333333333333
-cntnap4,66.7%,No indels > 10bp,CRISPRessoPooled,6.70670670670671
-CNTNAP5,66.7%,No indels > 10bp,CRISPRessoPooled,0.1001001001001
-gjd1a,66.7%,No indels > 10bp,CRISPRessoPooled,5.46666666666667
-nlgn1,66.7%,No indels > 10bp,CRISPRessoPooled,14.4333333333333
-nlgn3a,66.7%,No indels > 10bp,CRISPRessoPooled,22.0661985957874
-nlgn4a,66.7%,No indels > 10bp,CRISPRessoPooled,13.0420280186791
-nrxn1a_L,66.7%,No indels > 10bp,CRISPRessoPooled,0.2
-nrxn1a_S,66.7%,No indels > 10bp,CRISPRessoPooled,27.3424474824942
-nrxn1b_L,66.7%,No indels > 10bp,CRISPRessoPooled,50.4669779853235
-nrxn1b_S,66.7%,No indels > 10bp,CRISPRessoPooled,15.1717239079693
-nrxn3a_L,66.7%,No indels > 10bp,CRISPRessoPooled,19.7333333333333
-nrxn3b_L,66.7%,No indels > 10bp,CRISPRessoPooled,31.8439479826609
-nrxn3b_S,66.7%,No indels > 10bp,CRISPRessoPooled,6.88042752171009
-tjp1b_B,66.7%,No indels > 10bp,CRISPRessoPooled,21.8
-tjp1b_L,66.7%,No indels > 10bp,CRISPRessoPooled,20.4477113264283
-cnsta,66.7%,Normal,CRISPRessoPooled,47.313980647314
-cntn1a,66.7%,Normal,CRISPRessoPooled,53.1379310344828
-cntn1b,66.7%,Normal,CRISPRessoPooled,52.3034291652234
-cntn3b,66.7%,Normal,CRISPRessoPooled,52.312543798178
-cntnap2b,66.7%,Normal,CRISPRessoPooled,44.8958333333333
-cntnap4,66.7%,Normal,CRISPRessoPooled,26.0688216892596
-CNTNAP5,66.7%,Normal,CRISPRessoPooled,18.8653910708291
-gjd1a,66.7%,Normal,CRISPRessoPooled,9.74307640974308
-nlgn1,66.7%,Normal,CRISPRessoPooled,39.1350584898972
-nlgn3a,66.7%,Normal,CRISPRessoPooled,21.4884696016771
-nlgn4a,66.7%,Normal,CRISPRessoPooled,34.5637583892617
-nrxn1a_L,66.7%,Normal,CRISPRessoPooled,40.0494874513963
-nrxn1a_S,66.7%,Normal,CRISPRessoPooled,20.5171255876427
-nrxn1b_L,66.7%,Normal,CRISPRessoPooled,9.98902305159166
-nrxn1b_S,66.7%,Normal,CRISPRessoPooled,17.2721041809459
-nrxn3a_L,66.7%,Normal,CRISPRessoPooled,52.2210918955578
-nrxn3b_L,66.7%,Normal,CRISPRessoPooled,49.0927419354839
-nrxn3b_S,66.7%,Normal,CRISPRessoPooled,56.3093622795115
-tjp1b_B,66.7%,Normal,CRISPRessoPooled,45.6698480028279
-tjp1b_L,66.7%,Normal,CRISPRessoPooled,53.2279757901816
-cnsta,66.7%,Insertions > 10bp,CRISPRessoPooled,14.494623655914
-cntn1a,66.7%,Insertions > 10bp,CRISPRessoPooled,27.2546682558601
-cntn1b,66.7%,Insertions > 10bp,CRISPRessoPooled,23.8169123351435
-cntn3b,66.7%,Insertions > 10bp,CRISPRessoPooled,8.0958999305073
-cntnap2b,66.7%,Insertions > 10bp,CRISPRessoPooled,33.6425258651445
-cntnap4,66.7%,Insertions > 10bp,CRISPRessoPooled,7.76813880126183
-CNTNAP5,66.7%,Insertions > 10bp,CRISPRessoPooled,12.4653739612188
-gjd1a,66.7%,Insertions > 10bp,CRISPRessoPooled,13.4435962680238
-nlgn1,66.7%,Insertions > 10bp,CRISPRessoPooled,17.5202156334232
-nlgn3a,66.7%,Insertions > 10bp,CRISPRessoPooled,30.9018036072144
-nlgn4a,66.7%,Insertions > 10bp,CRISPRessoPooled,18.3983781044095
-nrxn1a_L,66.7%,Insertions > 10bp,CRISPRessoPooled,12.8630705394191
-nrxn1a_S,66.7%,Insertions > 10bp,CRISPRessoPooled,6.99179974104445
-nrxn1b_L,66.7%,Insertions > 10bp,CRISPRessoPooled,25.9259259259259
-nrxn1b_S,66.7%,Insertions > 10bp,CRISPRessoPooled,17.7992277992278
-nrxn3a_L,66.7%,Insertions > 10bp,CRISPRessoPooled,16.8003054600993
-nrxn3b_L,66.7%,Insertions > 10bp,CRISPRessoPooled,22.3350253807107
-nrxn3b_S,66.7%,Insertions > 10bp,CRISPRessoPooled,24.1118669690098
-tjp1b_B,66.7%,Insertions > 10bp,CRISPRessoPooled,34.7376788553259
-tjp1b_L,66.7%,Insertions > 10bp,CRISPRessoPooled,0.554844216816048
-cnsta,90%,No indels > 10bp,CRISPRessoPooled,71.0236745581861
-cntn1a,90%,No indels > 10bp,CRISPRessoPooled,16.383049716383
-cntn1b,90%,No indels > 10bp,CRISPRessoPooled,3.90447308567096
-cntn3b,90%,No indels > 10bp,CRISPRessoPooled,34.3163538873995
-cntnap2b,90%,No indels > 10bp,CRISPRessoPooled,43.4289526350901
-cntnap4,90%,No indels > 10bp,CRISPRessoPooled,60.6868956318773
-CNTNAP5,90%,No indels > 10bp,CRISPRessoPooled,39.0666666666667
-gjd1a,90%,No indels > 10bp,CRISPRessoPooled,2.83427809269757
-nlgn1,90%,No indels > 10bp,CRISPRessoPooled,0.100033344448149
-nlgn3a,90%,No indels > 10bp,CRISPRessoPooled,21.7811874583055
-nlgn4a,90%,No indels > 10bp,CRISPRessoPooled,37.7377377377377
-nrxn1a_L,90%,No indels > 10bp,CRISPRessoPooled,34.3333333333333
-nrxn1a_S,90%,No indels > 10bp,CRISPRessoPooled,51.503006012024
-nrxn1b_L,90%,No indels > 10bp,CRISPRessoPooled,84.3333333333333
-nrxn1b_S,90%,No indels > 10bp,CRISPRessoPooled,41.4138046015338
-nrxn3a_L,90%,No indels > 10bp,CRISPRessoPooled,26.7
-nrxn3b_L,90%,No indels > 10bp,CRISPRessoPooled,18.7729243081027
-nrxn3b_S,90%,No indels > 10bp,CRISPRessoPooled,46.046046046046
-tjp1b_B,90%,No indels > 10bp,CRISPRessoPooled,27.0090030010003
-tjp1b_L,90%,No indels > 10bp,CRISPRessoPooled,67.7118078719146
-cnsta,90%,Normal,CRISPRessoPooled,9.46982327442481
-cntn1a,90%,Normal,CRISPRessoPooled,32.2856166723608
-cntn1b,90%,Normal,CRISPRessoPooled,6.2431941923775
-cntn3b,90%,Normal,CRISPRessoPooled,82.9194630872483
-cntnap2b,90%,Normal,CRISPRessoPooled,63.1333333333333
-cntnap4,90%,Normal,CRISPRessoPooled,70.2973605078517
-CNTNAP5,90%,Normal,CRISPRessoPooled,64.527027027027
-gjd1a,90%,Normal,CRISPRessoPooled,69.8119543317663
-nlgn1,90%,Normal,CRISPRessoPooled,50.0666666666667
-nlgn3a,90%,Normal,CRISPRessoPooled,22.3766504517026
-nlgn4a,90%,Normal,CRISPRessoPooled,58.628762541806
-nrxn1a_L,90%,Normal,CRISPRessoPooled,49.5581477553906
-nrxn1a_S,90%,Normal,CRISPRessoPooled,63.3204633204633
-nrxn1b_L,90%,Normal,CRISPRessoPooled,84.1016949152542
-nrxn1b_S,90%,Normal,CRISPRessoPooled,53.8461538461538
-nrxn3a_L,90%,Normal,CRISPRessoPooled,53.2567049808429
-nrxn3b_L,90%,Normal,CRISPRessoPooled,15.6862745098039
-nrxn3b_S,90%,Normal,CRISPRessoPooled,12.1
-tjp1b_B,90%,Normal,CRISPRessoPooled,48.566610455312
-tjp1b_L,90%,Normal,CRISPRessoPooled,35.9578207381371
-cnsta,90%,Insertions > 10bp,CRISPRessoPooled,48.0124223602484
-cntn1a,90%,Insertions > 10bp,CRISPRessoPooled,45.7578253706755
-cntn1b,90%,Insertions > 10bp,CRISPRessoPooled,9.1599831152385
-cntn3b,90%,Insertions > 10bp,CRISPRessoPooled,46.4450600184672
-cntnap2b,90%,Insertions > 10bp,CRISPRessoPooled,45.4726368159204
-cntnap4,90%,Insertions > 10bp,CRISPRessoPooled,17.618415227977
-CNTNAP5,90%,Insertions > 10bp,CRISPRessoPooled,33.7097448766207
-gjd1a,90%,Insertions > 10bp,CRISPRessoPooled,35.8630952380952
-nlgn1,90%,Insertions > 10bp,CRISPRessoPooled,29.0950226244344
-nlgn3a,90%,Insertions > 10bp,CRISPRessoPooled,32.3392357875116
-nlgn4a,90%,Insertions > 10bp,CRISPRessoPooled,42.6126878130217
-nrxn1a_L,90%,Insertions > 10bp,CRISPRessoPooled,33.9719029374202
-nrxn1a_S,90%,Insertions > 10bp,CRISPRessoPooled,37.2566772295156
-nrxn1b_L,90%,Insertions > 10bp,CRISPRessoPooled,35.4129741226515
-nrxn1b_S,90%,Insertions > 10bp,CRISPRessoPooled,22.6041245450869
-nrxn3a_L,90%,Insertions > 10bp,CRISPRessoPooled,3.92156862745098
-nrxn3b_L,90%,Insertions > 10bp,CRISPRessoPooled,11.4615726343847
-nrxn3b_S,90%,Insertions > 10bp,CRISPRessoPooled,44.310977644311
-tjp1b_B,90%,Insertions > 10bp,CRISPRessoPooled,11.0262008733624
-tjp1b_L,90%,Insertions > 10bp,CRISPRessoPooled,23.7984134391041
-cnsta,0,No indels > 10bp,AmpliconDIVider,0.0666667
-cnsta,0,Normal,AmpliconDIVider,0.0666667
-cnsta,0,Insertions > 10bp,AmpliconDIVider,0.0666667
+tjp1b_L,0,Deletions > 10bp,CrispRVariants,0
+tjp1b_L,33.3%,No indels > 10bp,CrispRVariants,32.91
+tjp1b_L,33.3%,Mixed Indels,CrispRVariants,32.83
+tjp1b_L,33.3%,Insertions > 10bp,CrispRVariants,0
+tjp1b_L,33.3%,Deletions > 10bp,CrispRVariants,33.07
+tjp1b_L,66.7%,No indels > 10bp,CrispRVariants,66.1
+tjp1b_L,66.7%,Mixed Indels,CrispRVariants,66.25
+tjp1b_L,66.7%,Insertions > 10bp,CrispRVariants,0.99
+tjp1b_L,66.7%,Deletions > 10bp,CrispRVariants,66.6
+tjp1b_L,90%,No indels > 10bp,CrispRVariants,89.81
+tjp1b_L,90%,Mixed Indels,CrispRVariants,89.82
+tjp1b_L,90%,Insertions > 10bp,CrispRVariants,0
+tjp1b_L,90%,Deletions > 10bp,CrispRVariants,89.96
+cnsta,0,No indels > 10bp,CRISPResso,0.0666666666666667
+cnsta,0,Mixed Indels,CRISPResso,0.0666666666666667
+cnsta,0,Insertions > 10bp,CRISPResso,0.0666666666666667
+cnsta,0,Deletions > 10bp,CRISPResso,0.0666666666666667
+cnsta,33.3%,No indels > 10bp,CRISPResso,21.3666666666667
+cnsta,33.3%,Mixed Indels,CRISPResso,23.0410136712237
+cnsta,33.3%,Insertions > 10bp,CRISPResso,10.3721298495645
+cnsta,33.3%,Deletions > 10bp,CRISPResso,22.7
+cnsta,66.7%,No indels > 10bp,CRISPResso,35.4
+cnsta,66.7%,Mixed Indels,CRISPResso,64.8
+cnsta,66.7%,Insertions > 10bp,CRISPResso,26.458157227388
+cnsta,66.7%,Deletions > 10bp,CRISPResso,34.8666666666667
+cnsta,90%,No indels > 10bp,CRISPResso,28.7429143047683
+cnsta,90%,Mixed Indels,CRISPResso,47.8859060402685
+cnsta,90%,Insertions > 10bp,CRISPResso,42.8824833702882
+cnsta,90%,Deletions > 10bp,CRISPResso,70.7333333333333
+cntn1a,0,No indels > 10bp,CRISPResso,0.0666888962987662
+cntn1a,0,Mixed Indels,CRISPResso,0.0666888962987662
+cntn1a,0,Insertions > 10bp,CRISPResso,0.0666888962987662
+cntn1a,0,Deletions > 10bp,CRISPResso,0.0666888962987662
+cntn1a,33.3%,No indels > 10bp,CRISPResso,24.8
+cntn1a,33.3%,Mixed Indels,CRISPResso,23.1
+cntn1a,33.3%,Insertions > 10bp,CRISPResso,2.58726899383984
+cntn1a,33.3%,Deletions > 10bp,CRISPResso,27.1333333333333
+cntn1a,66.7%,No indels > 10bp,CRISPResso,34.4333333333333
+cntn1a,66.7%,Mixed Indels,CRISPResso,47.0647433747065
+cntn1a,66.7%,Insertions > 10bp,CRISPResso,27.2202166064982
+cntn1a,66.7%,Deletions > 10bp,CRISPResso,52.6842280760253
+cntn1a,90%,No indels > 10bp,CRISPResso,37.1
+cntn1a,90%,Mixed Indels,CRISPResso,17.7666666666667
+cntn1a,90%,Insertions > 10bp,CRISPResso,15.5654101995565
+cntn1a,90%,Deletions > 10bp,CRISPResso,81.7
+cntn1b,0,No indels > 10bp,CRISPResso,0.133377792597532
+cntn1b,0,Mixed Indels,CRISPResso,0.133377792597532
+cntn1b,0,Insertions > 10bp,CRISPResso,0.133377792597532
+cntn1b,0,Deletions > 10bp,CRISPResso,0.133377792597532
+cntn1b,33.3%,No indels > 10bp,CRISPResso,23.4744914971657
+cntn1b,33.3%,Mixed Indels,CRISPResso,20.1
+cntn1b,33.3%,Insertions > 10bp,CRISPResso,11.4013266998342
+cntn1b,33.3%,Deletions > 10bp,CRISPResso,28.4
+cntn1b,66.7%,No indels > 10bp,CRISPResso,10.4666666666667
+cntn1b,66.7%,Mixed Indels,CRISPResso,46.4333333333333
+cntn1b,66.7%,Insertions > 10bp,CRISPResso,10.8548168249661
+cntn1b,66.7%,Deletions > 10bp,CRISPResso,39.9666666666667
+cntn1b,90%,No indels > 10bp,CRISPResso,49.733155436958
+cntn1b,90%,Mixed Indels,CRISPResso,57.3666666666667
+cntn1b,90%,Insertions > 10bp,CRISPResso,46.4046822742475
+cntn1b,90%,Deletions > 10bp,CRISPResso,79.7333333333333
+cntn3b,0,No indels > 10bp,CRISPResso,0.133734536944166
+cntn3b,0,Mixed Indels,CRISPResso,0.133734536944166
+cntn3b,0,Insertions > 10bp,CRISPResso,0.133734536944166
+cntn3b,0,Deletions > 10bp,CRISPResso,0.133734536944166
+cntn3b,33.3%,No indels > 10bp,CRISPResso,20.8152355496158
+cntn3b,33.3%,Mixed Indels,CRISPResso,24.0975935828877
+cntn3b,33.3%,Insertions > 10bp,CRISPResso,6.45514223194748
+cntn3b,33.3%,Deletions > 10bp,CRISPResso,33.4891485809683
+cntn3b,66.7%,No indels > 10bp,CRISPResso,17.762938230384
+cntn3b,66.7%,Mixed Indels,CRISPResso,33.7901069518717
+cntn3b,66.7%,Insertions > 10bp,CRISPResso,19.6574225122349
+cntn3b,66.7%,Deletions > 10bp,CRISPResso,51.5212303577399
+cntn3b,90%,No indels > 10bp,CRISPResso,43.1103678929766
+cntn3b,90%,Mixed Indels,CRISPResso,78.0602006688963
+cntn3b,90%,Insertions > 10bp,CRISPResso,67.7177979690005
+cntn3b,90%,Deletions > 10bp,CRISPResso,54.4329207092673
+cntnap2b,0,No indels > 10bp,CRISPResso,0.233333333333333
+cntnap2b,0,Mixed Indels,CRISPResso,0.233333333333333
+cntnap2b,0,Insertions > 10bp,CRISPResso,0.233333333333333
+cntnap2b,0,Deletions > 10bp,CRISPResso,0.233333333333333
+cntnap2b,33.3%,No indels > 10bp,CRISPResso,22.2333333333333
+cntnap2b,33.3%,Mixed Indels,CRISPResso,27.242414138046
+cntnap2b,33.3%,Insertions > 10bp,CRISPResso,7.2962962962963
+cntnap2b,33.3%,Deletions > 10bp,CRISPResso,30.5
+cntnap2b,66.7%,No indels > 10bp,CRISPResso,12.2
+cntnap2b,66.7%,Mixed Indels,CRISPResso,27.8666666666667
+cntnap2b,66.7%,Insertions > 10bp,CRISPResso,29.8973481608212
+cntnap2b,66.7%,Deletions > 10bp,CRISPResso,62.4
+cntnap2b,90%,No indels > 10bp,CRISPResso,33.4444814938313
+cntnap2b,90%,Mixed Indels,CRISPResso,23.1410470156719
+cntnap2b,90%,Insertions > 10bp,CRISPResso,39.4466755912539
+cntnap2b,90%,Deletions > 10bp,CRISPResso,82.7333333333333
+cntnap4,0,No indels > 10bp,CRISPResso,0.100033344448149
+cntnap4,0,Mixed Indels,CRISPResso,0.100033344448149
+cntnap4,0,Insertions > 10bp,CRISPResso,0.100033344448149
+cntnap4,0,Deletions > 10bp,CRISPResso,0.100033344448149
+cntnap4,33.3%,No indels > 10bp,CRISPResso,21.5
+cntnap4,33.3%,Mixed Indels,CRISPResso,8.86666666666667
+cntnap4,33.3%,Insertions > 10bp,CRISPResso,11.8944323933478
+cntnap4,33.3%,Deletions > 10bp,CRISPResso,26.0753584528176
+cntnap4,66.7%,No indels > 10bp,CRISPResso,28.1666666666667
+cntnap4,66.7%,Mixed Indels,CRISPResso,25.0666666666667
+cntnap4,66.7%,Insertions > 10bp,CRISPResso,19.4466403162055
+cntnap4,66.7%,Deletions > 10bp,CRISPResso,42.7142380793598
+cntnap4,90%,No indels > 10bp,CRISPResso,60.4
+cntnap4,90%,Mixed Indels,CRISPResso,70.7
+cntnap4,90%,Insertions > 10bp,CRISPResso,72.3566308243728
+cntnap4,90%,Deletions > 10bp,CRISPResso,54.3333333333333
+CNTNAP5,0,No indels > 10bp,CRISPResso,0.200066688896299
+CNTNAP5,0,Mixed Indels,CRISPResso,0.200066688896299
+CNTNAP5,0,Insertions > 10bp,CRISPResso,0.200066688896299
+CNTNAP5,0,Deletions > 10bp,CRISPResso,0.200066688896299
+CNTNAP5,33.3%,No indels > 10bp,CRISPResso,24.5666666666667
+CNTNAP5,33.3%,Mixed Indels,CRISPResso,28.8333333333333
+CNTNAP5,33.3%,Insertions > 10bp,CRISPResso,7.81499202551834
+CNTNAP5,33.3%,Deletions > 10bp,CRISPResso,21.5071690563521
+CNTNAP5,66.7%,No indels > 10bp,CRISPResso,28.1333333333333
+CNTNAP5,66.7%,Mixed Indels,CRISPResso,64.6882294098033
+CNTNAP5,66.7%,Insertions > 10bp,CRISPResso,31.6184351554126
+CNTNAP5,66.7%,Deletions > 10bp,CRISPResso,58.7195731910637
+CNTNAP5,90%,No indels > 10bp,CRISPResso,56.0666666666667
+CNTNAP5,90%,Mixed Indels,CRISPResso,50.7
+CNTNAP5,90%,Insertions > 10bp,CRISPResso,35.408560311284
+CNTNAP5,90%,Deletions > 10bp,CRISPResso,65.6666666666667
+gjd1a,0,No indels > 10bp,CRISPResso,0.333778371161549
+gjd1a,0,Mixed Indels,CRISPResso,0.333778371161549
+gjd1a,0,Insertions > 10bp,CRISPResso,0.333778371161549
+gjd1a,0,Deletions > 10bp,CRISPResso,0.333778371161549
+gjd1a,33.3%,No indels > 10bp,CRISPResso,15.5488822155489
+gjd1a,33.3%,Mixed Indels,CRISPResso,28.2892534315367
+gjd1a,33.3%,Insertions > 10bp,CRISPResso,19.8698184309695
+gjd1a,33.3%,Deletions > 10bp,CRISPResso,23.4646194926569
+gjd1a,66.7%,No indels > 10bp,CRISPResso,30.7846410684474
+gjd1a,66.7%,Mixed Indels,CRISPResso,45.045045045045
+gjd1a,66.7%,Insertions > 10bp,CRISPResso,31.2755671253254
+gjd1a,66.7%,Deletions > 10bp,CRISPResso,50.7682030728123
+gjd1a,90%,No indels > 10bp,CRISPResso,47.0980653769179
+gjd1a,90%,Mixed Indels,CRISPResso,17.6902536715621
+gjd1a,90%,Insertions > 10bp,CRISPResso,1.9561351511559
+gjd1a,90%,Deletions > 10bp,CRISPResso,78.0341023069208
+nlgn1,0,No indels > 10bp,CRISPResso,0.133645172068159
+nlgn1,0,Mixed Indels,CRISPResso,0.133645172068159
+nlgn1,0,Insertions > 10bp,CRISPResso,0.133645172068159
+nlgn1,0,Deletions > 10bp,CRISPResso,0.133645172068159
+nlgn1,33.3%,No indels > 10bp,CRISPResso,22.4632843791722
+nlgn1,33.3%,Mixed Indels,CRISPResso,15.4924874791319
+nlgn1,33.3%,Insertions > 10bp,CRISPResso,17.0799860286413
+nlgn1,33.3%,Deletions > 10bp,CRISPResso,23.1231231231231
+nlgn1,66.7%,No indels > 10bp,CRISPResso,24.4073455759599
+nlgn1,66.7%,Mixed Indels,CRISPResso,64.0828600066823
+nlgn1,66.7%,Insertions > 10bp,CRISPResso,18.94397420395
+nlgn1,66.7%,Deletions > 10bp,CRISPResso,50.7517540928834
+nlgn1,90%,No indels > 10bp,CRISPResso,41.1214953271028
+nlgn1,90%,Mixed Indels,CRISPResso,60.8026755852843
+nlgn1,90%,Insertions > 10bp,CRISPResso,2.83964365256125
+nlgn1,90%,Deletions > 10bp,CRISPResso,44.0655299231026
+nlgn3a,0,No indels > 10bp,CRISPResso,0.266666666666667
+nlgn3a,0,Mixed Indels,CRISPResso,0.266666666666667
+nlgn3a,0,Insertions > 10bp,CRISPResso,0.266666666666667
+nlgn3a,0,Deletions > 10bp,CRISPResso,0.266666666666667
+nlgn3a,33.3%,No indels > 10bp,CRISPResso,21.4333333333333
+nlgn3a,33.3%,Mixed Indels,CRISPResso,3.13333333333333
+nlgn3a,33.3%,Insertions > 10bp,CRISPResso,10.9717868338558
+nlgn3a,33.3%,Deletions > 10bp,CRISPResso,26.7666666666667
+nlgn3a,66.7%,No indels > 10bp,CRISPResso,36.8666666666667
+nlgn3a,66.7%,Mixed Indels,CRISPResso,52.7666666666667
+nlgn3a,66.7%,Insertions > 10bp,CRISPResso,34.3511450381679
+nlgn3a,66.7%,Deletions > 10bp,CRISPResso,38.7129043014338
+nlgn3a,90%,No indels > 10bp,CRISPResso,48.4
+nlgn3a,90%,Mixed Indels,CRISPResso,57.1666666666667
+nlgn3a,90%,Insertions > 10bp,CRISPResso,19.8889449772842
+nlgn3a,90%,Deletions > 10bp,CRISPResso,44.3666666666667
+nlgn4a,0,No indels > 10bp,CRISPResso,0.0666888962987662
+nlgn4a,0,Mixed Indels,CRISPResso,0.0666888962987662
+nlgn4a,0,Insertions > 10bp,CRISPResso,0.0666888962987662
+nlgn4a,0,Deletions > 10bp,CRISPResso,0.0666888962987662
+nlgn4a,33.3%,No indels > 10bp,CRISPResso,16.5
+nlgn4a,33.3%,Mixed Indels,CRISPResso,3.53333333333333
+nlgn4a,33.3%,Insertions > 10bp,CRISPResso,14.7038801906059
+nlgn4a,33.3%,Deletions > 10bp,CRISPResso,29.7666666666667
+nlgn4a,66.7%,No indels > 10bp,CRISPResso,14.9
+nlgn4a,66.7%,Mixed Indels,CRISPResso,27.8859060402685
+nlgn4a,66.7%,Insertions > 10bp,CRISPResso,15.9561986703168
+nlgn4a,66.7%,Deletions > 10bp,CRISPResso,60.7
+nlgn4a,90%,No indels > 10bp,CRISPResso,21.1333333333333
+nlgn4a,90%,Mixed Indels,CRISPResso,29.4764921640547
+nlgn4a,90%,Insertions > 10bp,CRISPResso,38.0345768880801
+nlgn4a,90%,Deletions > 10bp,CRISPResso,81.3333333333333
+nrxn1a_L,0,No indels > 10bp,CRISPResso,0.166666666666667
+nrxn1a_L,0,Mixed Indels,CRISPResso,0.166666666666667
+nrxn1a_L,0,Insertions > 10bp,CRISPResso,0.166666666666667
+nrxn1a_L,0,Deletions > 10bp,CRISPResso,0.166666666666667
+nrxn1a_L,33.3%,No indels > 10bp,CRISPResso,22.8666666666667
+nrxn1a_L,33.3%,Mixed Indels,CRISPResso,27.5091697232411
+nrxn1a_L,33.3%,Insertions > 10bp,CRISPResso,14.002828854314
+nrxn1a_L,33.3%,Deletions > 10bp,CRISPResso,22.1333333333333
+nrxn1a_L,66.7%,No indels > 10bp,CRISPResso,33.4666666666667
+nrxn1a_L,66.7%,Mixed Indels,CRISPResso,22.9666666666667
+nrxn1a_L,66.7%,Insertions > 10bp,CRISPResso,24.3921265920494
+nrxn1a_L,66.7%,Deletions > 10bp,CRISPResso,57.4333333333333
+nrxn1a_L,90%,No indels > 10bp,CRISPResso,31.1437145715238
+nrxn1a_L,90%,Mixed Indels,CRISPResso,75
+nrxn1a_L,90%,Insertions > 10bp,CRISPResso,22.3671497584541
+nrxn1a_L,90%,Deletions > 10bp,CRISPResso,60.7333333333333
+nrxn1a_S,0,No indels > 10bp,CRISPResso,0.133333333333333
+nrxn1a_S,0,Mixed Indels,CRISPResso,0.133333333333333
+nrxn1a_S,0,Insertions > 10bp,CRISPResso,0.133333333333333
+nrxn1a_S,0,Deletions > 10bp,CRISPResso,0.133333333333333
+nrxn1a_S,33.3%,No indels > 10bp,CRISPResso,16.1333333333333
+nrxn1a_S,33.3%,Mixed Indels,CRISPResso,11.1037012337446
+nrxn1a_S,33.3%,Insertions > 10bp,CRISPResso,12.7536231884058
+nrxn1a_S,33.3%,Deletions > 10bp,CRISPResso,23.0333333333333
+nrxn1a_S,66.7%,No indels > 10bp,CRISPResso,43.4
+nrxn1a_S,66.7%,Mixed Indels,CRISPResso,18.7124749833222
+nrxn1a_S,66.7%,Insertions > 10bp,CRISPResso,30.2226432970156
+nrxn1a_S,66.7%,Deletions > 10bp,CRISPResso,52.7666666666667
+nrxn1a_S,90%,No indels > 10bp,CRISPResso,66.4
+nrxn1a_S,90%,Mixed Indels,CRISPResso,53.7656197230665
+nrxn1a_S,90%,Insertions > 10bp,CRISPResso,55.4732945531465
+nrxn1a_S,90%,Deletions > 10bp,CRISPResso,80.3601200400133
+nrxn1b_L,0,No indels > 10bp,CRISPResso,0.266666666666667
+nrxn1b_L,0,Mixed Indels,CRISPResso,0.266666666666667
+nrxn1b_L,0,Insertions > 10bp,CRISPResso,0.266666666666667
+nrxn1b_L,0,Deletions > 10bp,CRISPResso,0.266666666666667
+nrxn1b_L,33.3%,No indels > 10bp,CRISPResso,5.23333333333333
+nrxn1b_L,33.3%,Mixed Indels,CRISPResso,11.8
+nrxn1b_L,33.3%,Insertions > 10bp,CRISPResso,20.8182476466329
+nrxn1b_L,33.3%,Deletions > 10bp,CRISPResso,26.7422474158053
+nrxn1b_L,66.7%,No indels > 10bp,CRISPResso,47.082360786929
+nrxn1b_L,66.7%,Mixed Indels,CRISPResso,37.4
+nrxn1b_L,66.7%,Insertions > 10bp,CRISPResso,24.0714285714286
+nrxn1b_L,66.7%,Deletions > 10bp,CRISPResso,42.4333333333333
+nrxn1b_L,90%,No indels > 10bp,CRISPResso,41.1
+nrxn1b_L,90%,Mixed Indels,CRISPResso,56.1
+nrxn1b_L,90%,Insertions > 10bp,CRISPResso,36.978579481398
+nrxn1b_L,90%,Deletions > 10bp,CRISPResso,55.351783927976
+nrxn1b_S,0,No indels > 10bp,CRISPResso,0.166666666666667
+nrxn1b_S,0,Mixed Indels,CRISPResso,0.166666666666667
+nrxn1b_S,0,Insertions > 10bp,CRISPResso,0.166666666666667
+nrxn1b_S,0,Deletions > 10bp,CRISPResso,0.166666666666667
+nrxn1b_S,33.3%,No indels > 10bp,CRISPResso,12.2666666666667
+nrxn1b_S,33.3%,Mixed Indels,CRISPResso,19.4333333333333
+nrxn1b_S,33.3%,Insertions > 10bp,CRISPResso,4.57044673539519
+nrxn1b_S,33.3%,Deletions > 10bp,CRISPResso,24.1
+nrxn1b_S,66.7%,No indels > 10bp,CRISPResso,42.8142714238079
+nrxn1b_S,66.7%,Mixed Indels,CRISPResso,51.4666666666667
+nrxn1b_S,66.7%,Insertions > 10bp,CRISPResso,27.4860779634049
+nrxn1b_S,66.7%,Deletions > 10bp,CRISPResso,52.0666666666667
+nrxn1b_S,90%,No indels > 10bp,CRISPResso,77.6925641880627
+nrxn1b_S,90%,Mixed Indels,CRISPResso,84.3333333333333
+nrxn1b_S,90%,Insertions > 10bp,CRISPResso,40.3973509933775
+nrxn1b_S,90%,Deletions > 10bp,CRISPResso,90
+nrxn3a_L,0,No indels > 10bp,CRISPResso,0.1
+nrxn3a_L,0,Mixed Indels,CRISPResso,0.1
+nrxn3a_L,0,Insertions > 10bp,CRISPResso,0.1
+nrxn3a_L,0,Deletions > 10bp,CRISPResso,0.1
+nrxn3a_L,33.3%,No indels > 10bp,CRISPResso,11.7705901967322
+nrxn3a_L,33.3%,Mixed Indels,CRISPResso,17.4666666666667
+nrxn3a_L,33.3%,Insertions > 10bp,CRISPResso,12.8621908127208
+nrxn3a_L,33.3%,Deletions > 10bp,CRISPResso,16.7
+nrxn3a_L,66.7%,No indels > 10bp,CRISPResso,23.5333333333333
+nrxn3a_L,66.7%,Mixed Indels,CRISPResso,35.0666666666667
+nrxn3a_L,66.7%,Insertions > 10bp,CRISPResso,18.1030551755586
+nrxn3a_L,66.7%,Deletions > 10bp,CRISPResso,52
+nrxn3a_L,90%,No indels > 10bp,CRISPResso,31.4
+nrxn3a_L,90%,Mixed Indels,CRISPResso,59.4198066022007
+nrxn3a_L,90%,Insertions > 10bp,CRISPResso,36.2718089990817
+nrxn3a_L,90%,Deletions > 10bp,CRISPResso,41.7
+nrxn3b_L,0,No indels > 10bp,CRISPResso,0.233333333333333
+nrxn3b_L,0,Mixed Indels,CRISPResso,0.233333333333333
+nrxn3b_L,0,Insertions > 10bp,CRISPResso,0.233333333333333
+nrxn3b_L,0,Deletions > 10bp,CRISPResso,0.233333333333333
+nrxn3b_L,33.3%,No indels > 10bp,CRISPResso,15.4333333333333
+nrxn3b_L,33.3%,Mixed Indels,CRISPResso,25.1
+nrxn3b_L,33.3%,Insertions > 10bp,CRISPResso,6.10717100078802
+nrxn3b_L,33.3%,Deletions > 10bp,CRISPResso,24.4829886591061
+nrxn3b_L,66.7%,No indels > 10bp,CRISPResso,35.4333333333333
+nrxn3b_L,66.7%,Mixed Indels,CRISPResso,57.3666666666667
+nrxn3b_L,66.7%,Insertions > 10bp,CRISPResso,12.1911705143783
+nrxn3b_L,66.7%,Deletions > 10bp,CRISPResso,49.4333333333333
+nrxn3b_L,90%,No indels > 10bp,CRISPResso,28.6762254084695
+nrxn3b_L,90%,Mixed Indels,CRISPResso,41.0333333333333
+nrxn3b_L,90%,Insertions > 10bp,CRISPResso,22.0371556694427
+nrxn3b_L,90%,Deletions > 10bp,CRISPResso,68.3666666666667
+nrxn3b_S,0,No indels > 10bp,CRISPResso,0.0666666666666667
+nrxn3b_S,0,Mixed Indels,CRISPResso,0.0666666666666667
+nrxn3b_S,0,Insertions > 10bp,CRISPResso,0.0666666666666667
+nrxn3b_S,0,Deletions > 10bp,CRISPResso,0.0666666666666667
+nrxn3b_S,33.3%,No indels > 10bp,CRISPResso,10.7666666666667
+nrxn3b_S,33.3%,Mixed Indels,CRISPResso,25.5170113408939
+nrxn3b_S,33.3%,Insertions > 10bp,CRISPResso,12.4488403819918
+nrxn3b_S,33.3%,Deletions > 10bp,CRISPResso,31.7
+nrxn3b_S,66.7%,No indels > 10bp,CRISPResso,27.4
+nrxn3b_S,66.7%,Mixed Indels,CRISPResso,5.76666666666667
+nrxn3b_S,66.7%,Insertions > 10bp,CRISPResso,21.5861098076021
+nrxn3b_S,66.7%,Deletions > 10bp,CRISPResso,61
+nrxn3b_S,90%,No indels > 10bp,CRISPResso,37.6666666666667
+nrxn3b_S,90%,Mixed Indels,CRISPResso,51.6666666666667
+nrxn3b_S,90%,Insertions > 10bp,CRISPResso,18.0142687277051
+nrxn3b_S,90%,Deletions > 10bp,CRISPResso,81.9939979993331
+tjp1b_B,0,No indels > 10bp,CRISPResso,0.166833500166833
+tjp1b_B,0,Mixed Indels,CRISPResso,0.166833500166833
+tjp1b_B,0,Insertions > 10bp,CRISPResso,0.166833500166833
+tjp1b_B,0,Deletions > 10bp,CRISPResso,0.166833500166833
+tjp1b_B,33.3%,No indels > 10bp,CRISPResso,6.51955867602808
+tjp1b_B,33.3%,Mixed Indels,CRISPResso,17.5133689839572
+tjp1b_B,33.3%,Insertions > 10bp,CRISPResso,4.35591958302308
+tjp1b_B,33.3%,Deletions > 10bp,CRISPResso,23.3366766967569
+tjp1b_B,66.7%,No indels > 10bp,CRISPResso,30.9515859766277
+tjp1b_B,66.7%,Mixed Indels,CRISPResso,44.6708987637822
+tjp1b_B,66.7%,Insertions > 10bp,CRISPResso,15.2718858465098
+tjp1b_B,66.7%,Deletions > 10bp,CRISPResso,45.6398262612763
+tjp1b_B,90%,No indels > 10bp,CRISPResso,51.0503501167056
+tjp1b_B,90%,Mixed Indels,CRISPResso,90.0200267022697
+tjp1b_B,90%,Insertions > 10bp,CRISPResso,30.3448275862069
+tjp1b_B,90%,Deletions > 10bp,CRISPResso,62.086258776329
+tjp1b_L,0,No indels > 10bp,CRISPResso,0.166833500166833
+tjp1b_L,0,Mixed Indels,CRISPResso,0.166833500166833
+tjp1b_L,0,Insertions > 10bp,CRISPResso,0.166833500166833
+tjp1b_L,0,Deletions > 10bp,CRISPResso,0.166833500166833
+tjp1b_L,33.3%,No indels > 10bp,CRISPResso,20.7
+tjp1b_L,33.3%,Mixed Indels,CRISPResso,31.1437145715238
+tjp1b_L,33.3%,Insertions > 10bp,CRISPResso,12.7735916756369
+tjp1b_L,33.3%,Deletions > 10bp,CRISPResso,24.3495663775851
+tjp1b_L,66.7%,No indels > 10bp,CRISPResso,21.1070356785595
+tjp1b_L,66.7%,Mixed Indels,CRISPResso,46.4643095396931
+tjp1b_L,66.7%,Insertions > 10bp,CRISPResso,34.0373280943026
+tjp1b_L,66.7%,Deletions > 10bp,CRISPResso,61.3333333333333
+tjp1b_L,90%,No indels > 10bp,CRISPResso,35.0333333333333
+tjp1b_L,90%,Mixed Indels,CRISPResso,55.6666666666667
+tjp1b_L,90%,Insertions > 10bp,CRISPResso,34.3245967741936
+tjp1b_L,90%,Deletions > 10bp,CRISPResso,61.6666666666667
+cnsta,0,No indels > 10bp,CRISPRessoPooled,0.1
+cntn1a,0,No indels > 10bp,CRISPRessoPooled,0.0666888962987662
+cntn1b,0,No indels > 10bp,CRISPRessoPooled,0.166722240746916
+cntn3b,0,No indels > 10bp,CRISPRessoPooled,0.200066688896299
+cntnap2b,0,No indels > 10bp,CRISPRessoPooled,0.166666666666667
+cntnap4,0,No indels > 10bp,CRISPRessoPooled,0.133422281521014
+CNTNAP5,0,No indels > 10bp,CRISPRessoPooled,0.233411137045682
+gjd1a,0,No indels > 10bp,CRISPRessoPooled,0.333333333333333
+nlgn1,0,No indels > 10bp,CRISPRessoPooled,0.133466800133467
+nlgn3a,0,No indels > 10bp,CRISPRessoPooled,0.233411137045682
+nlgn4a,0,No indels > 10bp,CRISPRessoPooled,0.1
+nrxn1a_L,0,No indels > 10bp,CRISPRessoPooled,0.233333333333333
+nrxn1a_S,0,No indels > 10bp,CRISPRessoPooled,0.133333333333333
+nrxn1b_L,0,No indels > 10bp,CRISPRessoPooled,0.233333333333333
+nrxn1b_S,0,No indels > 10bp,CRISPRessoPooled,0.166666666666667
+nrxn3a_L,0,No indels > 10bp,CRISPRessoPooled,0.0333333333333333
+nrxn3b_L,0,No indels > 10bp,CRISPRessoPooled,0.266666666666667
+nrxn3b_S,0,No indels > 10bp,CRISPRessoPooled,0.1
+tjp1b_B,0,No indels > 10bp,CRISPRessoPooled,0.133333333333333
+tjp1b_L,0,No indels > 10bp,CRISPRessoPooled,0.133466800133467
+cnsta,0,Mixed Indels,CRISPRessoPooled,0.1
+cntn1a,0,Mixed Indels,CRISPRessoPooled,0.0666888962987662
+cntn1b,0,Mixed Indels,CRISPRessoPooled,0.166722240746916
+cntn3b,0,Mixed Indels,CRISPRessoPooled,0.200066688896299
+cntnap2b,0,Mixed Indels,CRISPRessoPooled,0.166666666666667
+cntnap4,0,Mixed Indels,CRISPRessoPooled,0.133422281521014
+CNTNAP5,0,Mixed Indels,CRISPRessoPooled,0.233411137045682
+gjd1a,0,Mixed Indels,CRISPRessoPooled,0.333333333333333
+nlgn1,0,Mixed Indels,CRISPRessoPooled,0.133466800133467
+nlgn3a,0,Mixed Indels,CRISPRessoPooled,0.233411137045682
+nlgn4a,0,Mixed Indels,CRISPRessoPooled,0.1
+nrxn1a_L,0,Mixed Indels,CRISPRessoPooled,0.233333333333333
+nrxn1a_S,0,Mixed Indels,CRISPRessoPooled,0.133333333333333
+nrxn1b_L,0,Mixed Indels,CRISPRessoPooled,0.233333333333333
+nrxn1b_S,0,Mixed Indels,CRISPRessoPooled,0.166666666666667
+nrxn3a_L,0,Mixed Indels,CRISPRessoPooled,0.0333333333333333
+nrxn3b_L,0,Mixed Indels,CRISPRessoPooled,0.266666666666667
+nrxn3b_S,0,Mixed Indels,CRISPRessoPooled,0.1
+tjp1b_B,0,Mixed Indels,CRISPRessoPooled,0.133333333333333
+tjp1b_L,0,Mixed Indels,CRISPRessoPooled,0.133466800133467
+cnsta,0,Insertions > 10bp,CRISPRessoPooled,0.1
+cntn1a,0,Insertions > 10bp,CRISPRessoPooled,0.0666888962987662
+cntn1b,0,Insertions > 10bp,CRISPRessoPooled,0.166722240746916
+cntn3b,0,Insertions > 10bp,CRISPRessoPooled,0.200066688896299
+cntnap2b,0,Insertions > 10bp,CRISPRessoPooled,0.166666666666667
+cntnap4,0,Insertions > 10bp,CRISPRessoPooled,0.133422281521014
+CNTNAP5,0,Insertions > 10bp,CRISPRessoPooled,0.233411137045682
+gjd1a,0,Insertions > 10bp,CRISPRessoPooled,0.333333333333333
+nlgn1,0,Insertions > 10bp,CRISPRessoPooled,0.133466800133467
+nlgn3a,0,Insertions > 10bp,CRISPRessoPooled,0.233411137045682
+nlgn4a,0,Insertions > 10bp,CRISPRessoPooled,0.1
+nrxn1a_L,0,Insertions > 10bp,CRISPRessoPooled,0.233333333333333
+nrxn1a_S,0,Insertions > 10bp,CRISPRessoPooled,0.133333333333333
+nrxn1b_L,0,Insertions > 10bp,CRISPRessoPooled,0.233333333333333
+nrxn1b_S,0,Insertions > 10bp,CRISPRessoPooled,0.166666666666667
+nrxn3a_L,0,Insertions > 10bp,CRISPRessoPooled,0.0333333333333333
+nrxn3b_L,0,Insertions > 10bp,CRISPRessoPooled,0.266666666666667
+nrxn3b_S,0,Insertions > 10bp,CRISPRessoPooled,0.1
+tjp1b_B,0,Insertions > 10bp,CRISPRessoPooled,0.133333333333333
+tjp1b_L,0,Insertions > 10bp,CRISPRessoPooled,0.133466800133467
+cnsta,0,Deletions > 10bp,CRISPRessoPooled,0.1
+cntn1a,0,Deletions > 10bp,CRISPRessoPooled,0.0666888962987662
+cntn1b,0,Deletions > 10bp,CRISPRessoPooled,0.166722240746916
+cntn3b,0,Deletions > 10bp,CRISPRessoPooled,0.200066688896299
+cntnap2b,0,Deletions > 10bp,CRISPRessoPooled,0.166666666666667
+cntnap4,0,Deletions > 10bp,CRISPRessoPooled,0.133422281521014
+CNTNAP5,0,Deletions > 10bp,CRISPRessoPooled,0.233411137045682
+gjd1a,0,Deletions > 10bp,CRISPRessoPooled,0.333333333333333
+nlgn1,0,Deletions > 10bp,CRISPRessoPooled,0.133466800133467
+nlgn3a,0,Deletions > 10bp,CRISPRessoPooled,0.233411137045682
+nlgn4a,0,Deletions > 10bp,CRISPRessoPooled,0.1
+nrxn1a_L,0,Deletions > 10bp,CRISPRessoPooled,0.233333333333333
+nrxn1a_S,0,Deletions > 10bp,CRISPRessoPooled,0.133333333333333
+nrxn1b_L,0,Deletions > 10bp,CRISPRessoPooled,0.233333333333333
+nrxn1b_S,0,Deletions > 10bp,CRISPRessoPooled,0.166666666666667
+nrxn3a_L,0,Deletions > 10bp,CRISPRessoPooled,0.0333333333333333
+nrxn3b_L,0,Deletions > 10bp,CRISPRessoPooled,0.266666666666667
+nrxn3b_S,0,Deletions > 10bp,CRISPRessoPooled,0.1
+tjp1b_B,0,Deletions > 10bp,CRISPRessoPooled,0.133333333333333
+tjp1b_L,0,Deletions > 10bp,CRISPRessoPooled,0.133466800133467
+cnsta,33.3%,No indels > 10bp,CRISPRessoPooled,18.7
+cntn1a,33.3%,No indels > 10bp,CRISPRessoPooled,24.7333333333333
+cntn1b,33.3%,No indels > 10bp,CRISPRessoPooled,21.8072690896966
+cntn3b,33.3%,No indels > 10bp,CRISPRessoPooled,19.5731910636879
+cntnap2b,33.3%,No indels > 10bp,CRISPRessoPooled,22.1666666666667
+cntnap4,33.3%,No indels > 10bp,CRISPRessoPooled,20.5068356118706
+CNTNAP5,33.3%,No indels > 10bp,CRISPRessoPooled,18.1333333333333
+gjd1a,33.3%,No indels > 10bp,CRISPRessoPooled,6.53333333333333
+nlgn1,33.3%,No indels > 10bp,CRISPRessoPooled,19.2
+nlgn3a,33.3%,No indels > 10bp,CRISPRessoPooled,16.7722574191397
+nlgn4a,33.3%,No indels > 10bp,CRISPRessoPooled,9.5
+nrxn1a_L,33.3%,No indels > 10bp,CRISPRessoPooled,14.5666666666667
+nrxn1a_S,33.3%,No indels > 10bp,CRISPRessoPooled,16.1666666666667
+nrxn1b_L,33.3%,No indels > 10bp,CRISPRessoPooled,4.86666666666667
+nrxn1b_S,33.3%,No indels > 10bp,CRISPRessoPooled,0.966666666666667
+nrxn3a_L,33.3%,No indels > 10bp,CRISPRessoPooled,1.13371123707903
+nrxn3b_L,33.3%,No indels > 10bp,CRISPRessoPooled,13.8333333333333
+nrxn3b_S,33.3%,No indels > 10bp,CRISPRessoPooled,6.46666666666667
+tjp1b_B,33.3%,No indels > 10bp,CRISPRessoPooled,3.16666666666667
+tjp1b_L,33.3%,No indels > 10bp,CRISPRessoPooled,14.7
+cnsta,33.3%,Mixed Indels,CRISPRessoPooled,23.3862791483609
+cntn1a,33.3%,Mixed Indels,CRISPRessoPooled,19.616724738676
+cntn1b,33.3%,Mixed Indels,CRISPRessoPooled,15.6597222222222
+cntn3b,33.3%,Mixed Indels,CRISPRessoPooled,23.8127090301003
+cntnap2b,33.3%,Mixed Indels,CRISPRessoPooled,26.1390887290168
+cntnap4,33.3%,Mixed Indels,CRISPRessoPooled,0.985401459854015
+CNTNAP5,33.3%,Mixed Indels,CRISPRessoPooled,8.95973154362416
+gjd1a,33.3%,Mixed Indels,CRISPRessoPooled,27.6610169491525
+nlgn1,33.3%,Mixed Indels,CRISPRessoPooled,15.4666666666667
+nlgn3a,33.3%,Mixed Indels,CRISPRessoPooled,0.133377792597532
+nlgn4a,33.3%,Mixed Indels,CRISPRessoPooled,1.16838487972509
+nrxn1a_L,33.3%,Mixed Indels,CRISPRessoPooled,25.3147329023477
+nrxn1a_S,33.3%,Mixed Indels,CRISPRessoPooled,9.93914807302231
+nrxn1b_L,33.3%,Mixed Indels,CRISPRessoPooled,11.7666666666667
+nrxn1b_S,33.3%,Mixed Indels,CRISPRessoPooled,2.37458193979933
+nrxn3a_L,33.3%,Mixed Indels,CRISPRessoPooled,11.740614334471
+nrxn3b_L,33.3%,Mixed Indels,CRISPRessoPooled,24.9152542372881
+nrxn3b_S,33.3%,Mixed Indels,CRISPRessoPooled,25.3761283851555
+tjp1b_B,33.3%,Mixed Indels,CRISPRessoPooled,9.38983050847458
+tjp1b_L,33.3%,Mixed Indels,CRISPRessoPooled,11.058566751546
+cnsta,33.3%,Insertions > 10bp,CRISPRessoPooled,4.19469726948951
+cntn1a,33.3%,Insertions > 10bp,CRISPRessoPooled,2.01232032854209
+cntn1b,33.3%,Insertions > 10bp,CRISPRessoPooled,11.1111111111111
+cntn3b,33.3%,Insertions > 10bp,CRISPRessoPooled,8.59431900946832
+cntnap2b,33.3%,Insertions > 10bp,CRISPRessoPooled,6.21991854868567
+cntnap4,33.3%,Insertions > 10bp,CRISPRessoPooled,5.60375994215474
+CNTNAP5,33.3%,Insertions > 10bp,CRISPRessoPooled,5.58213716108453
+gjd1a,33.3%,Insertions > 10bp,CRISPRessoPooled,21.1334926596108
+nlgn1,33.3%,Insertions > 10bp,CRISPRessoPooled,11.7401875651268
+nlgn3a,33.3%,Insertions > 10bp,CRISPRessoPooled,8.04597701149425
+nlgn4a,33.3%,Insertions > 10bp,CRISPRessoPooled,13.6440966315073
+nrxn1a_L,33.3%,Insertions > 10bp,CRISPRessoPooled,10.2899575671853
+nrxn1a_S,33.3%,Insertions > 10bp,CRISPRessoPooled,9.20623414280536
+nrxn1b_L,33.3%,Insertions > 10bp,CRISPRessoPooled,16.1477190441709
+nrxn1b_S,33.3%,Insertions > 10bp,CRISPRessoPooled,4.15807560137457
+nrxn3a_L,33.3%,Insertions > 10bp,CRISPRessoPooled,9.15194346289753
+nrxn3b_L,33.3%,Insertions > 10bp,CRISPRessoPooled,6.22537431048069
+nrxn3b_S,33.3%,Insertions > 10bp,CRISPRessoPooled,3.44474761255116
+tjp1b_B,33.3%,Insertions > 10bp,CRISPRessoPooled,1.00037050759541
+tjp1b_L,33.3%,Insertions > 10bp,CRISPRessoPooled,10.6207391460352
+cnsta,33.3%,Deletions > 10bp,CRISPRessoPooled,9.83673469387755
+cntn1a,33.3%,Deletions > 10bp,CRISPRessoPooled,6.25550660792952
+cntn1b,33.3%,Deletions > 10bp,CRISPRessoPooled,3.67713004484305
+cntn3b,33.3%,Deletions > 10bp,CRISPRessoPooled,19.1902834008097
+cntnap2b,33.3%,Deletions > 10bp,CRISPRessoPooled,17.2222222222222
+cntnap4,33.3%,Deletions > 10bp,CRISPRessoPooled,9.51797385620915
+CNTNAP5,33.3%,Deletions > 10bp,CRISPRessoPooled,8.99563318777293
+gjd1a,33.3%,Deletions > 10bp,CRISPRessoPooled,16.9348659003831
+nlgn1,33.3%,Deletions > 10bp,CRISPRessoPooled,7.77310924369748
+nlgn3a,33.3%,Deletions > 10bp,CRISPRessoPooled,17.4865646961554
+nlgn4a,33.3%,Deletions > 10bp,CRISPRessoPooled,19.1093117408907
+nrxn1a_L,33.3%,Deletions > 10bp,CRISPRessoPooled,13.7451737451737
+nrxn1a_S,33.3%,Deletions > 10bp,CRISPRessoPooled,18.8235294117647
+nrxn1b_L,33.3%,Deletions > 10bp,CRISPRessoPooled,3.68421052631579
+nrxn1b_S,33.3%,Deletions > 10bp,CRISPRessoPooled,9.46891724989708
+nrxn3a_L,33.3%,Deletions > 10bp,CRISPRessoPooled,3.38912133891213
+nrxn3b_L,33.3%,Deletions > 10bp,CRISPRessoPooled,14.0086206896552
+nrxn3b_S,33.3%,Deletions > 10bp,CRISPRessoPooled,22.806339389254
+tjp1b_B,33.3%,Deletions > 10bp,CRISPRessoPooled,11.7670682730924
+tjp1b_L,33.3%,Deletions > 10bp,CRISPRessoPooled,14.686737184703
+cnsta,66.7%,No indels > 10bp,CRISPRessoPooled,35.4333333333333
+cntn1a,66.7%,No indels > 10bp,CRISPRessoPooled,31.0666666666667
+cntn1b,66.7%,No indels > 10bp,CRISPRessoPooled,10.5
+cntn3b,66.7%,No indels > 10bp,CRISPRessoPooled,8.73333333333333
+cntnap2b,66.7%,No indels > 10bp,CRISPRessoPooled,10.9
+cntnap4,66.7%,No indels > 10bp,CRISPRessoPooled,20.1666666666667
+CNTNAP5,66.7%,No indels > 10bp,CRISPRessoPooled,11.2
+gjd1a,66.7%,No indels > 10bp,CRISPRessoPooled,17.4391463821274
+nlgn1,66.7%,No indels > 10bp,CRISPRessoPooled,23.7666666666667
+nlgn3a,66.7%,No indels > 10bp,CRISPRessoPooled,36.8666666666667
+nlgn4a,66.7%,No indels > 10bp,CRISPRessoPooled,14.8333333333333
+nrxn1a_L,66.7%,No indels > 10bp,CRISPRessoPooled,20.8
+nrxn1a_S,66.7%,No indels > 10bp,CRISPRessoPooled,30.7333333333333
+nrxn1b_L,66.7%,No indels > 10bp,CRISPRessoPooled,45.7152384128043
+nrxn1b_S,66.7%,No indels > 10bp,CRISPRessoPooled,42.8142714238079
+nrxn3a_L,66.7%,No indels > 10bp,CRISPRessoPooled,0.333333333333333
+nrxn3b_L,66.7%,No indels > 10bp,CRISPRessoPooled,31.1
+nrxn3b_S,66.7%,No indels > 10bp,CRISPRessoPooled,5.1
+tjp1b_B,66.7%,No indels > 10bp,CRISPRessoPooled,26
+tjp1b_L,66.7%,No indels > 10bp,CRISPRessoPooled,8.16666666666667
+cnsta,66.7%,Mixed Indels,CRISPRessoPooled,64.7666666666667
+cntn1a,66.7%,Mixed Indels,CRISPRessoPooled,46.8192527768428
+cntn1b,66.7%,Mixed Indels,CRISPRessoPooled,32.8521126760563
+cntn3b,66.7%,Mixed Indels,CRISPRessoPooled,8.57142857142857
+cntnap2b,66.7%,Mixed Indels,CRISPRessoPooled,24.2
+cntnap4,66.7%,Mixed Indels,CRISPRessoPooled,21.9097222222222
+CNTNAP5,66.7%,Mixed Indels,CRISPRessoPooled,43.9824205544287
+gjd1a,66.7%,Mixed Indels,CRISPRessoPooled,43.7542662116041
+nlgn1,66.7%,Mixed Indels,CRISPRessoPooled,54.4333333333333
+nlgn3a,66.7%,Mixed Indels,CRISPRessoPooled,49.933110367893
+nlgn4a,66.7%,Mixed Indels,CRISPRessoPooled,25.9655172413793
+nrxn1a_L,66.7%,Mixed Indels,CRISPRessoPooled,18.339222614841
+nrxn1a_S,66.7%,Mixed Indels,CRISPRessoPooled,12.0747164776518
+nrxn1b_L,66.7%,Mixed Indels,CRISPRessoPooled,36.1188811188811
+nrxn1b_S,66.7%,Mixed Indels,CRISPRessoPooled,36.3543788187373
+nrxn3a_L,66.7%,Mixed Indels,CRISPRessoPooled,34.5973154362416
+nrxn3b_L,66.7%,Mixed Indels,CRISPRessoPooled,55.0855991943605
+nrxn3b_S,66.7%,Mixed Indels,CRISPRessoPooled,5.1006711409396
+tjp1b_B,66.7%,Mixed Indels,CRISPRessoPooled,43.0976430976431
+tjp1b_L,66.7%,Mixed Indels,CRISPRessoPooled,39.9130143860823
+cnsta,66.7%,Insertions > 10bp,CRISPRessoPooled,19.27303465765
+cntn1a,66.7%,Insertions > 10bp,CRISPRessoPooled,28.8343558282209
+cntn1b,66.7%,Insertions > 10bp,CRISPRessoPooled,16.0560832202623
+cntn3b,66.7%,Insertions > 10bp,CRISPRessoPooled,12.112676056338
+cntnap2b,66.7%,Insertions > 10bp,CRISPRessoPooled,22.0607097050021
+cntnap4,66.7%,Insertions > 10bp,CRISPRessoPooled,21.3438735177866
+CNTNAP5,66.7%,Insertions > 10bp,CRISPRessoPooled,35.1196856020007
+gjd1a,66.7%,Insertions > 10bp,CRISPRessoPooled,27.6974416017798
+nlgn1,66.7%,Insertions > 10bp,CRISPRessoPooled,10.0681909346169
+nlgn3a,66.7%,Insertions > 10bp,CRISPRessoPooled,31.3825275657337
+nlgn4a,66.7%,Insertions > 10bp,CRISPRessoPooled,14.5369284876905
+nrxn1a_L,66.7%,Insertions > 10bp,CRISPRessoPooled,19.7221150135083
+nrxn1a_S,66.7%,Insertions > 10bp,CRISPRessoPooled,27.3803884414969
+nrxn1b_L,66.7%,Insertions > 10bp,CRISPRessoPooled,26.5357142857143
+nrxn1b_S,66.7%,Insertions > 10bp,CRISPRessoPooled,22.8628230616302
+nrxn3a_L,66.7%,Insertions > 10bp,CRISPRessoPooled,17.0998632010944
+nrxn3b_L,66.7%,Insertions > 10bp,CRISPRessoPooled,10.5796513984597
+nrxn3b_S,66.7%,Insertions > 10bp,CRISPRessoPooled,9.85452839042703
+tjp1b_B,66.7%,Insertions > 10bp,CRISPRessoPooled,11.5325670498084
+tjp1b_L,66.7%,Insertions > 10bp,CRISPRessoPooled,13.8506876227898
+cnsta,66.7%,Deletions > 10bp,CRISPRessoPooled,0.220994475138122
+cntn1a,66.7%,Deletions > 10bp,CRISPRessoPooled,42.877560743211
+cntn1b,66.7%,Deletions > 10bp,CRISPRessoPooled,32.8947368421053
+cntn3b,66.7%,Deletions > 10bp,CRISPRessoPooled,50.8382642998028
+cntnap2b,66.7%,Deletions > 10bp,CRISPRessoPooled,35.1724137931034
+cntnap4,66.7%,Deletions > 10bp,CRISPRessoPooled,12.463768115942
+CNTNAP5,66.7%,Deletions > 10bp,CRISPRessoPooled,28.4557547715442
+gjd1a,66.7%,Deletions > 10bp,CRISPRessoPooled,16.734693877551
+nlgn1,66.7%,Deletions > 10bp,CRISPRessoPooled,30.699260943718
+nlgn3a,66.7%,Deletions > 10bp,CRISPRessoPooled,16.4620281946339
+nlgn4a,66.7%,Deletions > 10bp,CRISPRessoPooled,35.0649350649351
+nrxn1a_L,66.7%,Deletions > 10bp,CRISPRessoPooled,17.8321678321678
+nrxn1a_S,66.7%,Deletions > 10bp,CRISPRessoPooled,34.5161290322581
+nrxn1b_L,66.7%,Deletions > 10bp,CRISPRessoPooled,26.2111801242236
+nrxn1b_S,66.7%,Deletions > 10bp,CRISPRessoPooled,28.6428571428571
+nrxn3a_L,66.7%,Deletions > 10bp,CRISPRessoPooled,15.7142857142857
+nrxn3b_L,66.7%,Deletions > 10bp,CRISPRessoPooled,52.3076923076923
+nrxn3b_S,66.7%,Deletions > 10bp,CRISPRessoPooled,36.7567567567568
+tjp1b_B,66.7%,Deletions > 10bp,CRISPRessoPooled,25.3731343283582
+tjp1b_L,66.7%,Deletions > 10bp,CRISPRessoPooled,44.1340782122905
+cnsta,90%,No indels > 10bp,CRISPRessoPooled,28.809603201067
+cntn1a,90%,No indels > 10bp,CRISPRessoPooled,31.1770590196732
+cntn1b,90%,No indels > 10bp,CRISPRessoPooled,22.4149432955304
+cntn3b,90%,No indels > 10bp,CRISPRessoPooled,42.4
+cntnap2b,90%,No indels > 10bp,CRISPRessoPooled,19.0730243414471
+cntnap4,90%,No indels > 10bp,CRISPRessoPooled,60.1
+CNTNAP5,90%,No indels > 10bp,CRISPRessoPooled,34.4
+gjd1a,90%,No indels > 10bp,CRISPRessoPooled,32.3666666666667
+nlgn1,90%,No indels > 10bp,CRISPRessoPooled,18.2394131377126
+nlgn3a,90%,No indels > 10bp,CRISPRessoPooled,33.7666666666667
+nlgn4a,90%,No indels > 10bp,CRISPRessoPooled,21.1666666666667
+nrxn1a_L,90%,No indels > 10bp,CRISPRessoPooled,31.1541027351568
+nrxn1a_S,90%,No indels > 10bp,CRISPRessoPooled,46.2666666666667
+nrxn1b_L,90%,No indels > 10bp,CRISPRessoPooled,41.1333333333333
+nrxn1b_S,90%,No indels > 10bp,CRISPRessoPooled,28.809603201067
+nrxn3a_L,90%,No indels > 10bp,CRISPRessoPooled,31.4333333333333
+nrxn3b_L,90%,No indels > 10bp,CRISPRessoPooled,28.6762254084695
+nrxn3b_S,90%,No indels > 10bp,CRISPRessoPooled,5.1
+tjp1b_B,90%,No indels > 10bp,CRISPRessoPooled,36.4
+tjp1b_L,90%,No indels > 10bp,CRISPRessoPooled,4.1
+cnsta,90%,Mixed Indels,CRISPRessoPooled,39.922480620155
+cntn1a,90%,Mixed Indels,CRISPRessoPooled,17.6896551724138
+cntn1b,90%,Mixed Indels,CRISPRessoPooled,48.7975174553918
+cntn3b,90%,Mixed Indels,CRISPRessoPooled,79.0540540540541
+cntnap2b,90%,Mixed Indels,CRISPRessoPooled,5.60914612361558
+cntnap4,90%,Mixed Indels,CRISPRessoPooled,70.7333333333333
+CNTNAP5,90%,Mixed Indels,CRISPRessoPooled,5.50877192982456
+gjd1a,90%,Mixed Indels,CRISPRessoPooled,11.3666666666667
+nlgn1,90%,Mixed Indels,CRISPRessoPooled,17.9909427748044
+nlgn3a,90%,Mixed Indels,CRISPRessoPooled,52.6262626262626
+nlgn4a,90%,Mixed Indels,CRISPRessoPooled,13.9905762957593
+nrxn1a_L,90%,Mixed Indels,CRISPRessoPooled,79.0613718411552
+nrxn1a_S,90%,Mixed Indels,CRISPRessoPooled,30.31035872632
+nrxn1b_L,90%,Mixed Indels,CRISPRessoPooled,46.0424028268551
+nrxn1b_S,90%,Mixed Indels,CRISPRessoPooled,89.035570223689
+nrxn3a_L,90%,Mixed Indels,CRISPRessoPooled,44.0376948169627
+nrxn3b_L,90%,Mixed Indels,CRISPRessoPooled,10.7876712328767
+nrxn3b_S,90%,Mixed Indels,CRISPRessoPooled,43.5384615384615
+tjp1b_B,90%,Mixed Indels,CRISPRessoPooled,67.6719382125782
+tjp1b_L,90%,Mixed Indels,CRISPRessoPooled,45.7201646090535
+cnsta,90%,Insertions > 10bp,CRISPRessoPooled,39.0070921985816
+cntn1a,90%,Insertions > 10bp,CRISPRessoPooled,24.9223946784922
+cntn1b,90%,Insertions > 10bp,CRISPRessoPooled,41.8478260869565
+cntn3b,90%,Insertions > 10bp,CRISPRessoPooled,53
+cntnap2b,90%,Insertions > 10bp,CRISPRessoPooled,37.4386434627398
+cntnap4,90%,Insertions > 10bp,CRISPRessoPooled,65.6810035842294
+CNTNAP5,90%,Insertions > 10bp,CRISPRessoPooled,28.2101167315175
+gjd1a,90%,Insertions > 10bp,CRISPRessoPooled,1.97444831591173
+nlgn1,90%,Insertions > 10bp,CRISPRessoPooled,2.60444926749864
+nlgn3a,90%,Insertions > 10bp,CRISPRessoPooled,19.4851085310449
+nlgn4a,90%,Insertions > 10bp,CRISPRessoPooled,53.1605275125057
+nrxn1a_L,90%,Insertions > 10bp,CRISPRessoPooled,24.2512077294686
+nrxn1a_S,90%,Insertions > 10bp,CRISPRessoPooled,36.0846560846561
+nrxn1b_L,90%,Insertions > 10bp,CRISPRessoPooled,20.0676437429538
+nrxn1b_S,90%,Insertions > 10bp,CRISPRessoPooled,50.6843267108168
+nrxn3a_L,90%,Insertions > 10bp,CRISPRessoPooled,22.2222222222222
+nrxn3b_L,90%,Insertions > 10bp,CRISPRessoPooled,20.3715566944266
+nrxn3b_S,90%,Insertions > 10bp,CRISPRessoPooled,17.2413793103448
+tjp1b_B,90%,Insertions > 10bp,CRISPRessoPooled,4.73372781065089
+tjp1b_L,90%,Insertions > 10bp,CRISPRessoPooled,33.0982367758186
+cntn1b,90%,Deletions > 10bp,CRISPRessoPooled,72.8181818181818
+cntn3b,90%,Deletions > 10bp,CRISPRessoPooled,68.2002022244692
+cntnap2b,90%,Deletions > 10bp,CRISPRessoPooled,73.2474226804124
+cntnap4,90%,Deletions > 10bp,CRISPRessoPooled,25.5573681348559
+nlgn1,90%,Deletions > 10bp,CRISPRessoPooled,26.9642857142857
+nlgn3a,90%,Deletions > 10bp,CRISPRessoPooled,26.8175582990398
+nlgn4a,90%,Deletions > 10bp,CRISPRessoPooled,48.7155963302752
+nrxn1a_S,90%,Deletions > 10bp,CRISPRessoPooled,79.5205479452055
+nrxn1b_S,90%,Deletions > 10bp,CRISPRessoPooled,74.0869565217391
+nrxn3a_L,90%,Deletions > 10bp,CRISPRessoPooled,29.940119760479
+nrxn3b_S,90%,Deletions > 10bp,CRISPRessoPooled,61.6749467707594
+tjp1b_B,90%,Deletions > 10bp,CRISPRessoPooled,41.4156626506024
+tjp1b_L,90%,Deletions > 10bp,CRISPRessoPooled,50.8064516129032
+cnsta,0,No indels > 10bp,AmpliconDIVider,0
+cnsta,0,Mixed Indels,AmpliconDIVider,0
+cnsta,0,Insertions > 10bp,AmpliconDIVider,0
+cnsta,0,Deletions > 10bp,AmpliconDIVider,0
 cnsta,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
-cnsta,33.3%,Normal,AmpliconDIVider,33.3333
-cnsta,33.3%,Insertions > 10bp,AmpliconDIVider,27.8759
-cnsta,66.7%,No indels > 10bp,AmpliconDIVider,66.7
-cnsta,66.7%,Normal,AmpliconDIVider,66.7
-cnsta,66.7%,Insertions > 10bp,AmpliconDIVider,62.2642
+cnsta,33.3%,Mixed Indels,AmpliconDIVider,33.2445
+cnsta,33.3%,Insertions > 10bp,AmpliconDIVider,19.3548
+cnsta,33.3%,Deletions > 10bp,AmpliconDIVider,33.3333
+cnsta,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+cnsta,66.7%,Insertions > 10bp,AmpliconDIVider,98.9899
+cnsta,66.7%,Deletions > 10bp,AmpliconDIVider,66.6667
 cnsta,90%,No indels > 10bp,AmpliconDIVider,90
-cnsta,90%,Normal,AmpliconDIVider,90
-cnsta,90%,Insertions > 10bp,AmpliconDIVider,87.9032
+cnsta,90%,Mixed Indels,AmpliconDIVider,89.9329
+cnsta,90%,Insertions > 10bp,AmpliconDIVider,81.2851
+cnsta,90%,Deletions > 10bp,AmpliconDIVider,44.3038
 cntn1a,0,No indels > 10bp,AmpliconDIVider,0
-cntn1a,0,Normal,AmpliconDIVider,0
+cntn1a,0,Mixed Indels,AmpliconDIVider,0
 cntn1a,0,Insertions > 10bp,AmpliconDIVider,0
+cntn1a,0,Deletions > 10bp,AmpliconDIVider,0
 cntn1a,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
-cntn1a,33.3%,Normal,AmpliconDIVider,33.2001
-cntn1a,33.3%,Insertions > 10bp,AmpliconDIVider,31.9728
+cntn1a,33.3%,Mixed Indels,AmpliconDIVider,33.3667
+cntn1a,33.3%,Insertions > 10bp,AmpliconDIVider,28.3262
+cntn1a,33.3%,Deletions > 10bp,AmpliconDIVider,27.7955
 cntn1a,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-cntn1a,66.7%,Normal,AmpliconDIVider,66.6667
-cntn1a,66.7%,Insertions > 10bp,AmpliconDIVider,65.035
+cntn1a,66.7%,Mixed Indels,AmpliconDIVider,66.443
+cntn1a,66.7%,Insertions > 10bp,AmpliconDIVider,63.7681
+cntn1a,66.7%,Deletions > 10bp,AmpliconDIVider,56.7398
 cntn1a,90%,No indels > 10bp,AmpliconDIVider,90
-cntn1a,90%,Normal,AmpliconDIVider,90
-cntn1a,90%,Insertions > 10bp,AmpliconDIVider,90
+cntn1a,90%,Mixed Indels,AmpliconDIVider,83.871
+cntn1a,90%,Insertions > 10bp,AmpliconDIVider,86.1751
+cntn1a,90%,Deletions > 10bp,AmpliconDIVider,69.3333
 cntn1b,0,No indels > 10bp,AmpliconDIVider,0
-cntn1b,0,Normal,AmpliconDIVider,0
+cntn1b,0,Mixed Indels,AmpliconDIVider,0
 cntn1b,0,Insertions > 10bp,AmpliconDIVider,0
+cntn1b,0,Deletions > 10bp,AmpliconDIVider,0
 cntn1b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
-cntn1b,33.3%,Normal,AmpliconDIVider,33.3333
-cntn1b,33.3%,Insertions > 10bp,AmpliconDIVider,32.2034
-cntn1b,66.7%,No indels > 10bp,AmpliconDIVider,66.7333
-cntn1b,66.7%,Normal,AmpliconDIVider,66.7333
-cntn1b,66.7%,Insertions > 10bp,AmpliconDIVider,64.539
+cntn1b,33.3%,Mixed Indels,AmpliconDIVider,33.3333
+cntn1b,33.3%,Insertions > 10bp,AmpliconDIVider,15.2542
+cntn1b,33.3%,Deletions > 10bp,AmpliconDIVider,33.3333
+cntn1b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+cntn1b,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+cntn1b,66.7%,Insertions > 10bp,AmpliconDIVider,53.9171
+cntn1b,66.7%,Deletions > 10bp,AmpliconDIVider,60.2371
 cntn1b,90%,No indels > 10bp,AmpliconDIVider,90
-cntn1b,90%,Normal,AmpliconDIVider,90
-cntn1b,90%,Insertions > 10bp,AmpliconDIVider,89.1579
-cntn3b,0,No indels > 10bp,AmpliconDIVider,0
-cntn3b,0,Normal,AmpliconDIVider,0
-cntn3b,0,Insertions > 10bp,AmpliconDIVider,0
+cntn1b,90%,Mixed Indels,AmpliconDIVider,90
+cntn1b,90%,Insertions > 10bp,AmpliconDIVider,81.7073
+cntn1b,90%,Deletions > 10bp,AmpliconDIVider,90
+cntn3b,0,No indels > 10bp,AmpliconDIVider,0.0666667
+cntn3b,0,Mixed Indels,AmpliconDIVider,0.0666667
+cntn3b,0,Insertions > 10bp,AmpliconDIVider,0.0666667
+cntn3b,0,Deletions > 10bp,AmpliconDIVider,0.0666667
 cntn3b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
-cntn3b,33.3%,Normal,AmpliconDIVider,33.3333
-cntn3b,33.3%,Insertions > 10bp,AmpliconDIVider,31.082
+cntn3b,33.3%,Mixed Indels,AmpliconDIVider,33.3333
+cntn3b,33.3%,Insertions > 10bp,AmpliconDIVider,25.7249
+cntn3b,33.3%,Deletions > 10bp,AmpliconDIVider,33.3667
 cntn3b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-cntn3b,66.7%,Normal,AmpliconDIVider,66.6667
-cntn3b,66.7%,Insertions > 10bp,AmpliconDIVider,66.6667
+cntn3b,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+cntn3b,66.7%,Insertions > 10bp,AmpliconDIVider,58.6777
+cntn3b,66.7%,Deletions > 10bp,AmpliconDIVider,57
 cntn3b,90%,No indels > 10bp,AmpliconDIVider,90
-cntn3b,90%,Normal,AmpliconDIVider,90
-cntn3b,90%,Insertions > 10bp,AmpliconDIVider,88.934
+cntn3b,90%,Mixed Indels,AmpliconDIVider,90
+cntn3b,90%,Insertions > 10bp,AmpliconDIVider,83.6868
+cntn3b,90%,Deletions > 10bp,AmpliconDIVider,74.1522
 cntnap2b,0,No indels > 10bp,AmpliconDIVider,0
-cntnap2b,0,Normal,AmpliconDIVider,0
+cntnap2b,0,Mixed Indels,AmpliconDIVider,0
 cntnap2b,0,Insertions > 10bp,AmpliconDIVider,0
+cntnap2b,0,Deletions > 10bp,AmpliconDIVider,0
 cntnap2b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
-cntnap2b,33.3%,Normal,AmpliconDIVider,32.7979
-cntnap2b,33.3%,Insertions > 10bp,AmpliconDIVider,28.8003
-cntnap2b,66.7%,No indels > 10bp,AmpliconDIVider,66.6556
-cntnap2b,66.7%,Normal,AmpliconDIVider,66.6556
-cntnap2b,66.7%,Insertions > 10bp,AmpliconDIVider,64.4001
-cntnap2b,90%,No indels > 10bp,AmpliconDIVider,90
-cntnap2b,90%,Normal,AmpliconDIVider,90
-cntnap2b,90%,Insertions > 10bp,AmpliconDIVider,89.0869
-cntnap4,0,No indels > 10bp,AmpliconDIVider,0
-cntnap4,0,Normal,AmpliconDIVider,0
-cntnap4,0,Insertions > 10bp,AmpliconDIVider,0
+cntnap2b,33.3%,Mixed Indels,AmpliconDIVider,33.3333
+cntnap2b,33.3%,Insertions > 10bp,AmpliconDIVider,25.0936
+cntnap2b,33.3%,Deletions > 10bp,AmpliconDIVider,30.2869
+cntnap2b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+cntnap2b,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+cntnap2b,66.7%,Insertions > 10bp,AmpliconDIVider,50.5935
+cntnap2b,66.7%,Deletions > 10bp,AmpliconDIVider,66.6667
+cntnap2b,90%,No indels > 10bp,AmpliconDIVider,89.9667
+cntnap2b,90%,Mixed Indels,AmpliconDIVider,90
+cntnap2b,90%,Insertions > 10bp,AmpliconDIVider,81.3896
+cntnap2b,90%,Deletions > 10bp,AmpliconDIVider,78.6667
+cntnap4,0,No indels > 10bp,AmpliconDIVider,0.0666667
+cntnap4,0,Mixed Indels,AmpliconDIVider,0.0666667
+cntnap4,0,Insertions > 10bp,AmpliconDIVider,0.0666667
+cntnap4,0,Deletions > 10bp,AmpliconDIVider,0.0666667
 cntnap4,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
-cntnap4,33.3%,Normal,AmpliconDIVider,32.8904
-cntnap4,33.3%,Insertions > 10bp,AmpliconDIVider,26.4706
+cntnap4,33.3%,Mixed Indels,AmpliconDIVider,66.6667
+cntnap4,33.3%,Insertions > 10bp,AmpliconDIVider,25.9534
+cntnap4,33.3%,Deletions > 10bp,AmpliconDIVider,26.7
 cntnap4,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-cntnap4,66.7%,Normal,AmpliconDIVider,66.33
-cntnap4,66.7%,Insertions > 10bp,AmpliconDIVider,63.5036
+cntnap4,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+cntnap4,66.7%,Insertions > 10bp,AmpliconDIVider,56.1596
+cntnap4,66.7%,Deletions > 10bp,AmpliconDIVider,64.9077
 cntnap4,90%,No indels > 10bp,AmpliconDIVider,90
-cntnap4,90%,Normal,AmpliconDIVider,90
-cntnap4,90%,Insertions > 10bp,AmpliconDIVider,89.1304
-CNTNAP5,0,No indels > 10bp,AmpliconDIVider,0.133333
-CNTNAP5,0,Normal,AmpliconDIVider,0.133333
-CNTNAP5,0,Insertions > 10bp,AmpliconDIVider,0.133333
-CNTNAP5,33.3%,No indels > 10bp,AmpliconDIVider,33.4
-CNTNAP5,33.3%,Normal,AmpliconDIVider,33.3333
-CNTNAP5,33.3%,Insertions > 10bp,AmpliconDIVider,33.3667
-CNTNAP5,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-CNTNAP5,66.7%,Normal,AmpliconDIVider,66.6667
-CNTNAP5,66.7%,Insertions > 10bp,AmpliconDIVider,66.7
-CNTNAP5,90%,No indels > 10bp,AmpliconDIVider,90.0333
-CNTNAP5,90%,Normal,AmpliconDIVider,87.5
-CNTNAP5,90%,Insertions > 10bp,AmpliconDIVider,89.2058
+cntnap4,90%,Insertions > 10bp,AmpliconDIVider,86.3014
+cntnap4,90%,Deletions > 10bp,AmpliconDIVider,90
+CNTNAP5,0,No indels > 10bp,AmpliconDIVider,0
+CNTNAP5,0,Mixed Indels,AmpliconDIVider,0
+CNTNAP5,0,Insertions > 10bp,AmpliconDIVider,0
+CNTNAP5,0,Deletions > 10bp,AmpliconDIVider,0
+CNTNAP5,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+CNTNAP5,33.3%,Mixed Indels,AmpliconDIVider,32.4503
+CNTNAP5,33.3%,Insertions > 10bp,AmpliconDIVider,26.087
+CNTNAP5,33.3%,Deletions > 10bp,AmpliconDIVider,28.8245
+CNTNAP5,66.7%,No indels > 10bp,AmpliconDIVider,66.7
+CNTNAP5,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+CNTNAP5,66.7%,Insertions > 10bp,AmpliconDIVider,60.1992
+CNTNAP5,66.7%,Deletions > 10bp,AmpliconDIVider,66.6667
+CNTNAP5,90%,No indels > 10bp,AmpliconDIVider,90
+CNTNAP5,90%,Mixed Indels,AmpliconDIVider,90
+CNTNAP5,90%,Insertions > 10bp,AmpliconDIVider,84.5361
+CNTNAP5,90%,Deletions > 10bp,AmpliconDIVider,88.5544
 gjd1a,0,No indels > 10bp,AmpliconDIVider,0.0666667
-gjd1a,0,Normal,AmpliconDIVider,0.0666667
+gjd1a,0,Mixed Indels,AmpliconDIVider,0.0666667
 gjd1a,0,Insertions > 10bp,AmpliconDIVider,0.0666667
-gjd1a,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
-gjd1a,33.3%,Normal,AmpliconDIVider,33.3667
-gjd1a,33.3%,Insertions > 10bp,AmpliconDIVider,33.3667
+gjd1a,0,Deletions > 10bp,AmpliconDIVider,0.0666667
+gjd1a,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+gjd1a,33.3%,Mixed Indels,AmpliconDIVider,33.1104
+gjd1a,33.3%,Insertions > 10bp,AmpliconDIVider,29.3286
+gjd1a,33.3%,Deletions > 10bp,AmpliconDIVider,32.8462
 gjd1a,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-gjd1a,66.7%,Normal,AmpliconDIVider,66.7
-gjd1a,66.7%,Insertions > 10bp,AmpliconDIVider,66.6667
-gjd1a,90%,No indels > 10bp,AmpliconDIVider,90.0333
-gjd1a,90%,Normal,AmpliconDIVider,90
-gjd1a,90%,Insertions > 10bp,AmpliconDIVider,88.9218
-nlgn1,0,No indels > 10bp,AmpliconDIVider,0.0666667
-nlgn1,0,Normal,AmpliconDIVider,0.0666667
-nlgn1,0,Insertions > 10bp,AmpliconDIVider,0.0666667
-nlgn1,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
-nlgn1,33.3%,Normal,AmpliconDIVider,30
-nlgn1,33.3%,Insertions > 10bp,AmpliconDIVider,29.3889
+gjd1a,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+gjd1a,66.7%,Insertions > 10bp,AmpliconDIVider,62.2784
+gjd1a,90%,No indels > 10bp,AmpliconDIVider,90
+gjd1a,90%,Mixed Indels,AmpliconDIVider,90
+gjd1a,90%,Insertions > 10bp,AmpliconDIVider,82.259
+gjd1a,90%,Deletions > 10bp,AmpliconDIVider,83.2722
+nlgn1,0,No indels > 10bp,AmpliconDIVider,0
+nlgn1,0,Mixed Indels,AmpliconDIVider,0
+nlgn1,0,Insertions > 10bp,AmpliconDIVider,0
+nlgn1,0,Deletions > 10bp,AmpliconDIVider,0
+nlgn1,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+nlgn1,33.3%,Mixed Indels,AmpliconDIVider,33.3333
+nlgn1,33.3%,Insertions > 10bp,AmpliconDIVider,24.2424
+nlgn1,33.3%,Deletions > 10bp,AmpliconDIVider,29.0323
 nlgn1,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-nlgn1,66.7%,Insertions > 10bp,AmpliconDIVider,64.2857
+nlgn1,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+nlgn1,66.7%,Insertions > 10bp,AmpliconDIVider,55.7718
+nlgn1,66.7%,Deletions > 10bp,AmpliconDIVider,66.6667
 nlgn1,90%,No indels > 10bp,AmpliconDIVider,90
-nlgn1,90%,Normal,AmpliconDIVider,90
-nlgn1,90%,Insertions > 10bp,AmpliconDIVider,88.6792
-nlgn3a,0,No indels > 10bp,AmpliconDIVider,0.0666667
-nlgn3a,0,Normal,AmpliconDIVider,0.0666667
-nlgn3a,0,Insertions > 10bp,AmpliconDIVider,0.0666667
-nlgn3a,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
-nlgn3a,33.3%,Normal,AmpliconDIVider,33.3667
-nlgn3a,33.3%,Insertions > 10bp,AmpliconDIVider,31.0345
+nlgn1,90%,Mixed Indels,AmpliconDIVider,90
+nlgn1,90%,Insertions > 10bp,AmpliconDIVider,82.9739
+nlgn1,90%,Deletions > 10bp,AmpliconDIVider,70.1493
+nlgn3a,0,No indels > 10bp,AmpliconDIVider,0
+nlgn3a,0,Mixed Indels,AmpliconDIVider,0
+nlgn3a,0,Insertions > 10bp,AmpliconDIVider,0
+nlgn3a,0,Deletions > 10bp,AmpliconDIVider,0
+nlgn3a,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+nlgn3a,33.3%,Mixed Indels,AmpliconDIVider,32.8859
+nlgn3a,33.3%,Insertions > 10bp,AmpliconDIVider,30.3484
+nlgn3a,33.3%,Deletions > 10bp,AmpliconDIVider,33.3333
 nlgn3a,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-nlgn3a,66.7%,Normal,AmpliconDIVider,66.7
-nlgn3a,66.7%,Insertions > 10bp,AmpliconDIVider,62.963
+nlgn3a,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+nlgn3a,66.7%,Insertions > 10bp,AmpliconDIVider,50.3479
+nlgn3a,66.7%,Deletions > 10bp,AmpliconDIVider,52.0333
 nlgn3a,90%,No indels > 10bp,AmpliconDIVider,90
-nlgn3a,90%,Normal,AmpliconDIVider,84.466
-nlgn3a,90%,Insertions > 10bp,AmpliconDIVider,89.2857
-nlgn4a,0,No indels > 10bp,AmpliconDIVider,0.133333
-nlgn4a,0,Normal,AmpliconDIVider,0.133333
-nlgn4a,0,Insertions > 10bp,AmpliconDIVider,0.133333
-nlgn4a,33.3%,No indels > 10bp,AmpliconDIVider,33.4
-nlgn4a,33.3%,Normal,AmpliconDIVider,33.4
-nlgn4a,33.3%,Insertions > 10bp,AmpliconDIVider,31.1272
+nlgn3a,90%,Mixed Indels,AmpliconDIVider,89.3688
+nlgn3a,90%,Insertions > 10bp,AmpliconDIVider,84.472
+nlgn3a,90%,Deletions > 10bp,AmpliconDIVider,90
+nlgn4a,0,No indels > 10bp,AmpliconDIVider,0.0666667
+nlgn4a,0,Mixed Indels,AmpliconDIVider,0.0666667
+nlgn4a,0,Insertions > 10bp,AmpliconDIVider,0.0666667
+nlgn4a,0,Deletions > 10bp,AmpliconDIVider,0.0666667
+nlgn4a,33.3%,No indels > 10bp,AmpliconDIVider,66.6667
+nlgn4a,33.3%,Mixed Indels,AmpliconDIVider,33.1104
+nlgn4a,33.3%,Insertions > 10bp,AmpliconDIVider,28.8612
+nlgn4a,33.3%,Deletions > 10bp,AmpliconDIVider,33.2889
 nlgn4a,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-nlgn4a,66.7%,Insertions > 10bp,AmpliconDIVider,57.6451
+nlgn4a,66.7%,Mixed Indels,AmpliconDIVider,66.443
+nlgn4a,66.7%,Insertions > 10bp,AmpliconDIVider,60.6299
+nlgn4a,66.7%,Deletions > 10bp,AmpliconDIVider,47.3764
 nlgn4a,90%,No indels > 10bp,AmpliconDIVider,90
-nlgn4a,90%,Normal,AmpliconDIVider,90
-nlgn4a,90%,Insertions > 10bp,AmpliconDIVider,90
+nlgn4a,90%,Mixed Indels,AmpliconDIVider,89.6667
+nlgn4a,90%,Insertions > 10bp,AmpliconDIVider,86.0465
+nlgn4a,90%,Deletions > 10bp,AmpliconDIVider,73.7805
 nrxn1a,0,No indels > 10bp,AmpliconDIVider,0
-nrxn1a,0,Normal,AmpliconDIVider,0
+nrxn1a,0,Mixed Indels,AmpliconDIVider,0
 nrxn1a,0,Insertions > 10bp,AmpliconDIVider,0
-nrxn1a,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
-nrxn1a,33.3%,Normal,AmpliconDIVider,33.3333
-nrxn1a,33.3%,Insertions > 10bp,AmpliconDIVider,33.3333
+nrxn1a,0,Deletions > 10bp,AmpliconDIVider,0
+nrxn1a,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+nrxn1a,33.3%,Mixed Indels,AmpliconDIVider,33.3667
+nrxn1a,33.3%,Insertions > 10bp,AmpliconDIVider,27.5362
+nrxn1a,33.3%,Deletions > 10bp,AmpliconDIVider,25.6008
 nrxn1a,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-nrxn1a,66.7%,Normal,AmpliconDIVider,66.7
-nrxn1a,66.7%,Insertions > 10bp,AmpliconDIVider,58.5062
+nrxn1a,66.7%,Mixed Indels,AmpliconDIVider,66.113
+nrxn1a,66.7%,Insertions > 10bp,AmpliconDIVider,56.8966
+nrxn1a,66.7%,Deletions > 10bp,AmpliconDIVider,66.6667
 nrxn1a,90%,No indels > 10bp,AmpliconDIVider,90
-nrxn1a,90%,Normal,AmpliconDIVider,90
-nrxn1a,90%,Insertions > 10bp,AmpliconDIVider,88.6835
-nrxn1a,0,No indels > 10bp,AmpliconDIVider,0.133333
-nrxn1a,0,Normal,AmpliconDIVider,0.133333
-nrxn1a,0,Insertions > 10bp,AmpliconDIVider,0.133333
-nrxn1a,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
-nrxn1a,33.3%,Normal,AmpliconDIVider,33.3667
-nrxn1a,33.3%,Insertions > 10bp,AmpliconDIVider,31.3058
-nrxn1a,66.7%,No indels > 10bp,AmpliconDIVider,66.7
-nrxn1a,66.7%,Normal,AmpliconDIVider,66.6667
-nrxn1a,66.7%,Insertions > 10bp,AmpliconDIVider,60.4743
+nrxn1a,90%,Mixed Indels,AmpliconDIVider,89.4947
+nrxn1a,90%,Insertions > 10bp,AmpliconDIVider,83.5165
+nrxn1a,90%,Deletions > 10bp,AmpliconDIVider,90
+nrxn1a,0,No indels > 10bp,AmpliconDIVider,0
+nrxn1a,0,Mixed Indels,AmpliconDIVider,0
+nrxn1a,0,Insertions > 10bp,AmpliconDIVider,0
+nrxn1a,0,Deletions > 10bp,AmpliconDIVider,0
+nrxn1a,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+nrxn1a,33.3%,Mixed Indels,AmpliconDIVider,33.3667
+nrxn1a,33.3%,Insertions > 10bp,AmpliconDIVider,53.5531
+nrxn1a,33.3%,Deletions > 10bp,AmpliconDIVider,33.3333
+nrxn1a,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+nrxn1a,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+nrxn1a,66.7%,Insertions > 10bp,AmpliconDIVider,43.4069
+nrxn1a,66.7%,Deletions > 10bp,AmpliconDIVider,65.5629
 nrxn1a,90%,No indels > 10bp,AmpliconDIVider,90
-nrxn1a,90%,Normal,AmpliconDIVider,76.412
-nrxn1a,90%,Insertions > 10bp,AmpliconDIVider,90
+nrxn1a,90%,Mixed Indels,AmpliconDIVider,89.8305
+nrxn1a,90%,Insertions > 10bp,AmpliconDIVider,83.8013
+nrxn1a,90%,Deletions > 10bp,AmpliconDIVider,89.8734
 nrxn1b,0,No indels > 10bp,AmpliconDIVider,0
-nrxn1b,0,Normal,AmpliconDIVider,0
+nrxn1b,0,Mixed Indels,AmpliconDIVider,0
 nrxn1b,0,Insertions > 10bp,AmpliconDIVider,0
+nrxn1b,0,Deletions > 10bp,AmpliconDIVider,0
 nrxn1b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
-nrxn1b,33.3%,Normal,AmpliconDIVider,30.2932
-nrxn1b,33.3%,Insertions > 10bp,AmpliconDIVider,30.5556
-nrxn1b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-nrxn1b,66.7%,Normal,AmpliconDIVider,66.1682
-nrxn1b,66.7%,Insertions > 10bp,AmpliconDIVider,57.8059
+nrxn1b,33.3%,Mixed Indels,AmpliconDIVider,33.3333
+nrxn1b,33.3%,Insertions > 10bp,AmpliconDIVider,25.401
+nrxn1b,33.3%,Deletions > 10bp,AmpliconDIVider,29.3333
+nrxn1b,66.7%,No indels > 10bp,AmpliconDIVider,66.7
+nrxn1b,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+nrxn1b,66.7%,Insertions > 10bp,AmpliconDIVider,63.8989
+nrxn1b,66.7%,Deletions > 10bp,AmpliconDIVider,66.0578
 nrxn1b,90%,No indels > 10bp,AmpliconDIVider,90
-nrxn1b,90%,Normal,AmpliconDIVider,89.9367
-nrxn1b,90%,Insertions > 10bp,AmpliconDIVider,90
+nrxn1b,90%,Insertions > 10bp,AmpliconDIVider,82.1429
+nrxn1b,90%,Deletions > 10bp,AmpliconDIVider,90
 nrxn1b,0,No indels > 10bp,AmpliconDIVider,0
-nrxn1b,0,Normal,AmpliconDIVider,0
+nrxn1b,0,Mixed Indels,AmpliconDIVider,0
 nrxn1b,0,Insertions > 10bp,AmpliconDIVider,0
+nrxn1b,0,Deletions > 10bp,AmpliconDIVider,0
 nrxn1b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
-nrxn1b,33.3%,Normal,AmpliconDIVider,33.3333
-nrxn1b,33.3%,Insertions > 10bp,AmpliconDIVider,31.9496
+nrxn1b,33.3%,Mixed Indels,AmpliconDIVider,33.3333
+nrxn1b,33.3%,Insertions > 10bp,AmpliconDIVider,26.1993
+nrxn1b,33.3%,Deletions > 10bp,AmpliconDIVider,27.3885
 nrxn1b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-nrxn1b,66.7%,Normal,AmpliconDIVider,66.6667
-nrxn1b,66.7%,Insertions > 10bp,AmpliconDIVider,61.4049
+nrxn1b,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+nrxn1b,66.7%,Insertions > 10bp,AmpliconDIVider,55.595
+nrxn1b,66.7%,Deletions > 10bp,AmpliconDIVider,66.6667
 nrxn1b,90%,No indels > 10bp,AmpliconDIVider,90
-nrxn1b,90%,Normal,AmpliconDIVider,90
-nrxn1b,90%,Insertions > 10bp,AmpliconDIVider,87.947
+nrxn1b,90%,Mixed Indels,AmpliconDIVider,89.5577
+nrxn1b,90%,Insertions > 10bp,AmpliconDIVider,84.3014
+nrxn1b,90%,Deletions > 10bp,AmpliconDIVider,90
 nrxn3a,0,No indels > 10bp,AmpliconDIVider,0
-nrxn3a,0,Normal,AmpliconDIVider,0
+nrxn3a,0,Mixed Indels,AmpliconDIVider,0
 nrxn3a,0,Insertions > 10bp,AmpliconDIVider,0
+nrxn3a,0,Deletions > 10bp,AmpliconDIVider,0
 nrxn3a,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
-nrxn3a,33.3%,Normal,AmpliconDIVider,33.3333
-nrxn3a,33.3%,Insertions > 10bp,AmpliconDIVider,28.0576
+nrxn3a,33.3%,Mixed Indels,AmpliconDIVider,33.3333
+nrxn3a,33.3%,Insertions > 10bp,AmpliconDIVider,27.0073
+nrxn3a,33.3%,Deletions > 10bp,AmpliconDIVider,33.3333
 nrxn3a,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-nrxn3a,66.7%,Normal,AmpliconDIVider,66.6667
+nrxn3a,66.7%,Mixed Indels,AmpliconDIVider,66.113
+nrxn3a,66.7%,Insertions > 10bp,AmpliconDIVider,47.0899
+nrxn3a,66.7%,Deletions > 10bp,AmpliconDIVider,40.0585
 nrxn3a,90%,No indels > 10bp,AmpliconDIVider,90
-nrxn3a,90%,Normal,AmpliconDIVider,78.6274
-nrxn3a,90%,Insertions > 10bp,AmpliconDIVider,86.0465
+nrxn3a,90%,Mixed Indels,AmpliconDIVider,90
+nrxn3a,90%,Insertions > 10bp,AmpliconDIVider,83.4528
+nrxn3a,90%,Deletions > 10bp,AmpliconDIVider,72.7273
 nrxn3b,0,No indels > 10bp,AmpliconDIVider,0
-nrxn3b,0,Normal,AmpliconDIVider,0
+nrxn3b,0,Mixed Indels,AmpliconDIVider,0
 nrxn3b,0,Insertions > 10bp,AmpliconDIVider,0
-nrxn3b,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
-nrxn3b,33.3%,Normal,AmpliconDIVider,33.3333
+nrxn3b,0,Deletions > 10bp,AmpliconDIVider,0
+nrxn3b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
+nrxn3b,33.3%,Mixed Indels,AmpliconDIVider,33.3333
+nrxn3b,33.3%,Insertions > 10bp,AmpliconDIVider,20
+nrxn3b,33.3%,Deletions > 10bp,AmpliconDIVider,32.4065
+nrxn3b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
+nrxn3b,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+nrxn3b,66.7%,Insertions > 10bp,AmpliconDIVider,53.9171
+nrxn3b,66.7%,Deletions > 10bp,AmpliconDIVider,57.2327
+nrxn3b,90%,No indels > 10bp,AmpliconDIVider,90
+nrxn3b,90%,Mixed Indels,AmpliconDIVider,90
+nrxn3b,90%,Deletions > 10bp,AmpliconDIVider,89.9367
+nrxn3b,0,No indels > 10bp,AmpliconDIVider,0
+nrxn3b,0,Mixed Indels,AmpliconDIVider,0
+nrxn3b,0,Insertions > 10bp,AmpliconDIVider,0
+nrxn3b,0,Deletions > 10bp,AmpliconDIVider,0
+nrxn3b,33.3%,No indels > 10bp,AmpliconDIVider,66.6667
+nrxn3b,33.3%,Mixed Indels,AmpliconDIVider,33.3667
 nrxn3b,33.3%,Insertions > 10bp,AmpliconDIVider,31.7406
+nrxn3b,33.3%,Deletions > 10bp,AmpliconDIVider,24.6106
 nrxn3b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-nrxn3b,66.7%,Normal,AmpliconDIVider,66.6667
-nrxn3b,66.7%,Insertions > 10bp,AmpliconDIVider,63.7681
+nrxn3b,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+nrxn3b,66.7%,Insertions > 10bp,AmpliconDIVider,57.3466
+nrxn3b,66.7%,Deletions > 10bp,AmpliconDIVider,59
 nrxn3b,90%,No indels > 10bp,AmpliconDIVider,90
-nrxn3b,90%,Normal,AmpliconDIVider,90
-nrxn3b,90%,Insertions > 10bp,AmpliconDIVider,87.5985
-nrxn3b,0,No indels > 10bp,AmpliconDIVider,0.0666667
-nrxn3b,0,Normal,AmpliconDIVider,0.0666667
-nrxn3b,0,Insertions > 10bp,AmpliconDIVider,0.0666667
-nrxn3b,33.3%,No indels > 10bp,AmpliconDIVider,33.3667
-nrxn3b,33.3%,Normal,AmpliconDIVider,32.0026
-nrxn3b,33.3%,Insertions > 10bp,AmpliconDIVider,24.2803
-nrxn3b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-nrxn3b,66.7%,Normal,AmpliconDIVider,66.6667
-nrxn3b,66.7%,Insertions > 10bp,AmpliconDIVider,64.4128
-nrxn3b,90%,No indels > 10bp,AmpliconDIVider,90
-nrxn3b,90%,Normal,AmpliconDIVider,90
-nrxn3b,90%,Insertions > 10bp,AmpliconDIVider,90
+nrxn3b,90%,Mixed Indels,AmpliconDIVider,90
+nrxn3b,90%,Insertions > 10bp,AmpliconDIVider,76.4937
+nrxn3b,90%,Deletions > 10bp,AmpliconDIVider,90
 tjp1b,0,No indels > 10bp,AmpliconDIVider,0
-tjp1b,0,Normal,AmpliconDIVider,0
+tjp1b,0,Mixed Indels,AmpliconDIVider,0
 tjp1b,0,Insertions > 10bp,AmpliconDIVider,0
+tjp1b,0,Deletions > 10bp,AmpliconDIVider,0
 tjp1b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
-tjp1b,33.3%,Normal,AmpliconDIVider,33.3333
-tjp1b,33.3%,Insertions > 10bp,AmpliconDIVider,31.5411
+tjp1b,33.3%,Mixed Indels,AmpliconDIVider,33.3333
+tjp1b,33.3%,Insertions > 10bp,AmpliconDIVider,20.9798
+tjp1b,33.3%,Deletions > 10bp,AmpliconDIVider,33.3333
 tjp1b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-tjp1b,66.7%,Normal,AmpliconDIVider,58.7302
-tjp1b,66.7%,Insertions > 10bp,AmpliconDIVider,63.8205
+tjp1b,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+tjp1b,66.7%,Insertions > 10bp,AmpliconDIVider,61.39
+tjp1b,66.7%,Deletions > 10bp,AmpliconDIVider,66.3894
 tjp1b,90%,No indels > 10bp,AmpliconDIVider,90
-tjp1b,90%,Normal,AmpliconDIVider,90
-tjp1b,90%,Insertions > 10bp,AmpliconDIVider,89.9967
-tjp1b,0,No indels > 10bp,AmpliconDIVider,0
-tjp1b,0,Normal,AmpliconDIVider,0
-tjp1b,0,Insertions > 10bp,AmpliconDIVider,0
+tjp1b,90%,Mixed Indels,AmpliconDIVider,90
+tjp1b,90%,Insertions > 10bp,AmpliconDIVider,49.2386
+tjp1b,90%,Deletions > 10bp,AmpliconDIVider,90
+tjp1b,0,No indels > 10bp,AmpliconDIVider,0.0666667
+tjp1b,0,Mixed Indels,AmpliconDIVider,0.0666667
+tjp1b,0,Insertions > 10bp,AmpliconDIVider,0.0666667
+tjp1b,0,Deletions > 10bp,AmpliconDIVider,0.0666667
 tjp1b,33.3%,No indels > 10bp,AmpliconDIVider,33.3333
-tjp1b,33.3%,Normal,AmpliconDIVider,33.3333
-tjp1b,33.3%,Insertions > 10bp,AmpliconDIVider,31.0345
+tjp1b,33.3%,Mixed Indels,AmpliconDIVider,33.3333
+tjp1b,33.3%,Insertions > 10bp,AmpliconDIVider,20.6349
+tjp1b,33.3%,Deletions > 10bp,AmpliconDIVider,33.3667
 tjp1b,66.7%,No indels > 10bp,AmpliconDIVider,66.6667
-tjp1b,66.7%,Normal,AmpliconDIVider,66.113
-tjp1b,66.7%,Insertions > 10bp,AmpliconDIVider,64.539
+tjp1b,66.7%,Mixed Indels,AmpliconDIVider,66.6667
+tjp1b,66.7%,Insertions > 10bp,AmpliconDIVider,50.6417
+tjp1b,66.7%,Deletions > 10bp,AmpliconDIVider,65.8375
 tjp1b,90%,No indels > 10bp,AmpliconDIVider,90
-tjp1b,90%,Normal,AmpliconDIVider,90
-tjp1b,90%,Insertions > 10bp,AmpliconDIVider,87.79
-cnsta,0,No indels > 10bp,ampliCan,0.0333889816360601
-cntn1a,0,No indels > 10bp,ampliCan,0
-cntn1b,0,No indels > 10bp,ampliCan,0.0333889816360601
-cntn3b,0,No indels > 10bp,ampliCan,0
+tjp1b,90%,Mixed Indels,AmpliconDIVider,90
+tjp1b,90%,Insertions > 10bp,AmpliconDIVider,82.2485
+tjp1b,90%,Deletions > 10bp,AmpliconDIVider,87.5617
+cnsta,0,No indels > 10bp,ampliCan,0
+cntn1a,0,No indels > 10bp,ampliCan,0.0334001336005344
+cntn1b,0,No indels > 10bp,ampliCan,0.066711140760507
+cntn3b,0,No indels > 10bp,ampliCan,0.0668896321070234
 cntnap2b,0,No indels > 10bp,ampliCan,0
 cntnap4,0,No indels > 10bp,ampliCan,0.033478406427854
-CNTNAP5,0,No indels > 10bp,ampliCan,0.0333667000333667
+CNTNAP5,0,No indels > 10bp,ampliCan,0.0668002672010688
 gjd1a,0,No indels > 10bp,ampliCan,0
-nlgn1,0,No indels > 10bp,ampliCan,0.0334001336005344
-nlgn3a,0,No indels > 10bp,ampliCan,0.0668672684720829
-nlgn4a,0,No indels > 10bp,ampliCan,0.0668225860340795
+nlgn1,0,No indels > 10bp,ampliCan,0.1001001001001
+nlgn3a,0,No indels > 10bp,ampliCan,0.0334001336005344
+nlgn4a,0,No indels > 10bp,ampliCan,0
 nrxn1a_L,0,No indels > 10bp,ampliCan,0
-nrxn1a_S,0,No indels > 10bp,ampliCan,0.0669568128557081
+nrxn1a_S,0,No indels > 10bp,ampliCan,0
 nrxn1b_L,0,No indels > 10bp,ampliCan,0
-nrxn1b_S,0,No indels > 10bp,ampliCan,0
-nrxn3a_L,0,No indels > 10bp,ampliCan,0.0333778371161549
+nrxn1b_S,0,No indels > 10bp,ampliCan,0.100200400801603
+nrxn3a_L,0,No indels > 10bp,ampliCan,0
 nrxn3b_L,0,No indels > 10bp,ampliCan,0
-nrxn3b_S,0,No indels > 10bp,ampliCan,0.0334112930170398
+nrxn3b_S,0,No indels > 10bp,ampliCan,0.0334336342360415
 tjp1b_B,0,No indels > 10bp,ampliCan,0
-tjp1b_L,0,No indels > 10bp,ampliCan,0
-cnsta,0,Normal,ampliCan,0.0333889816360601
-cntn1a,0,Normal,ampliCan,0
-cntn1b,0,Normal,ampliCan,0.0333889816360601
-cntn3b,0,Normal,ampliCan,0
-cntnap2b,0,Normal,ampliCan,0
-cntnap4,0,Normal,ampliCan,0.033478406427854
-CNTNAP5,0,Normal,ampliCan,0.0333667000333667
-gjd1a,0,Normal,ampliCan,0
-nlgn1,0,Normal,ampliCan,0.0334001336005344
-nlgn3a,0,Normal,ampliCan,0.0668672684720829
-nlgn4a,0,Normal,ampliCan,0.0668225860340795
-nrxn1a_L,0,Normal,ampliCan,0
-nrxn1a_S,0,Normal,ampliCan,0.0669568128557081
-nrxn1b_L,0,Normal,ampliCan,0
-nrxn1b_S,0,Normal,ampliCan,0
-nrxn3a_L,0,Normal,ampliCan,0.0333778371161549
-nrxn3b_L,0,Normal,ampliCan,0
-nrxn3b_S,0,Normal,ampliCan,0.0334112930170398
-tjp1b_B,0,Normal,ampliCan,0
-tjp1b_L,0,Normal,ampliCan,0
-cnsta,0,Insertions > 10bp,ampliCan,0.0333889816360601
-cntn1a,0,Insertions > 10bp,ampliCan,0
-cntn1b,0,Insertions > 10bp,ampliCan,0.0333889816360601
-cntn3b,0,Insertions > 10bp,ampliCan,0
+tjp1b_L,0,No indels > 10bp,ampliCan,0.100200400801603
+cnsta,0,Mixed Indels,ampliCan,0
+cntn1a,0,Mixed Indels,ampliCan,0.0334001336005344
+cntn1b,0,Mixed Indels,ampliCan,0.066711140760507
+cntn3b,0,Mixed Indels,ampliCan,0.0668896321070234
+cntnap2b,0,Mixed Indels,ampliCan,0
+cntnap4,0,Mixed Indels,ampliCan,0.033478406427854
+CNTNAP5,0,Mixed Indels,ampliCan,0.0668002672010688
+gjd1a,0,Mixed Indels,ampliCan,0
+nlgn1,0,Mixed Indels,ampliCan,0.1001001001001
+nlgn3a,0,Mixed Indels,ampliCan,0.0334001336005344
+nlgn4a,0,Mixed Indels,ampliCan,0
+nrxn1a_L,0,Mixed Indels,ampliCan,0
+nrxn1a_S,0,Mixed Indels,ampliCan,0
+nrxn1b_L,0,Mixed Indels,ampliCan,0
+nrxn1b_S,0,Mixed Indels,ampliCan,0.100200400801603
+nrxn3a_L,0,Mixed Indels,ampliCan,0
+nrxn3b_L,0,Mixed Indels,ampliCan,0
+nrxn3b_S,0,Mixed Indels,ampliCan,0.0334336342360415
+tjp1b_B,0,Mixed Indels,ampliCan,0
+tjp1b_L,0,Mixed Indels,ampliCan,0.100200400801603
+cnsta,0,Insertions > 10bp,ampliCan,0
+cntn1a,0,Insertions > 10bp,ampliCan,0.0334001336005344
+cntn1b,0,Insertions > 10bp,ampliCan,0.066711140760507
+cntn3b,0,Insertions > 10bp,ampliCan,0.0668896321070234
 cntnap2b,0,Insertions > 10bp,ampliCan,0
 cntnap4,0,Insertions > 10bp,ampliCan,0.033478406427854
-CNTNAP5,0,Insertions > 10bp,ampliCan,0.0333667000333667
+CNTNAP5,0,Insertions > 10bp,ampliCan,0.0668002672010688
 gjd1a,0,Insertions > 10bp,ampliCan,0
-nlgn1,0,Insertions > 10bp,ampliCan,0.0334001336005344
-nlgn3a,0,Insertions > 10bp,ampliCan,0.0668672684720829
-nlgn4a,0,Insertions > 10bp,ampliCan,0.0668225860340795
+nlgn1,0,Insertions > 10bp,ampliCan,0.1001001001001
+nlgn3a,0,Insertions > 10bp,ampliCan,0.0334001336005344
+nlgn4a,0,Insertions > 10bp,ampliCan,0
 nrxn1a_L,0,Insertions > 10bp,ampliCan,0
-nrxn1a_S,0,Insertions > 10bp,ampliCan,0.0669568128557081
+nrxn1a_S,0,Insertions > 10bp,ampliCan,0
 nrxn1b_L,0,Insertions > 10bp,ampliCan,0
-nrxn1b_S,0,Insertions > 10bp,ampliCan,0
-nrxn3a_L,0,Insertions > 10bp,ampliCan,0.0333778371161549
+nrxn1b_S,0,Insertions > 10bp,ampliCan,0.100200400801603
+nrxn3a_L,0,Insertions > 10bp,ampliCan,0
 nrxn3b_L,0,Insertions > 10bp,ampliCan,0
-nrxn3b_S,0,Insertions > 10bp,ampliCan,0.0334112930170398
+nrxn3b_S,0,Insertions > 10bp,ampliCan,0.0334336342360415
 tjp1b_B,0,Insertions > 10bp,ampliCan,0
-tjp1b_L,0,Insertions > 10bp,ampliCan,0
-cnsta,33.3%,No indels > 10bp,ampliCan,33.3333333333333
-cntn1a,33.3%,No indels > 10bp,ampliCan,33.4002677376171
-cntn1b,33.3%,No indels > 10bp,ampliCan,33.3333333333333
-cntn3b,33.3%,No indels > 10bp,ampliCan,33.355592654424
-cntnap2b,33.3%,No indels > 10bp,ampliCan,33.4336342360415
-cntnap4,33.3%,No indels > 10bp,ampliCan,33.4560053529609
-CNTNAP5,33.3%,No indels > 10bp,ampliCan,33.322192513369
-gjd1a,33.3%,No indels > 10bp,ampliCan,33.2663989290495
+tjp1b_L,0,Insertions > 10bp,ampliCan,0.100200400801603
+cnsta,0,Deletions > 10bp,ampliCan,0
+cntn1a,0,Deletions > 10bp,ampliCan,0.0334001336005344
+cntn1b,0,Deletions > 10bp,ampliCan,0.066711140760507
+cntn3b,0,Deletions > 10bp,ampliCan,0.0668896321070234
+cntnap2b,0,Deletions > 10bp,ampliCan,0
+cntnap4,0,Deletions > 10bp,ampliCan,0.033478406427854
+CNTNAP5,0,Deletions > 10bp,ampliCan,0.0668002672010688
+gjd1a,0,Deletions > 10bp,ampliCan,0
+nlgn1,0,Deletions > 10bp,ampliCan,0.1001001001001
+nlgn3a,0,Deletions > 10bp,ampliCan,0.0334001336005344
+nlgn4a,0,Deletions > 10bp,ampliCan,0
+nrxn1a_L,0,Deletions > 10bp,ampliCan,0
+nrxn1a_S,0,Deletions > 10bp,ampliCan,0
+nrxn1b_L,0,Deletions > 10bp,ampliCan,0
+nrxn1b_S,0,Deletions > 10bp,ampliCan,0.100200400801603
+nrxn3a_L,0,Deletions > 10bp,ampliCan,0
+nrxn3b_L,0,Deletions > 10bp,ampliCan,0
+nrxn3b_S,0,Deletions > 10bp,ampliCan,0.0334336342360415
+tjp1b_B,0,Deletions > 10bp,ampliCan,0
+tjp1b_L,0,Deletions > 10bp,ampliCan,0.100200400801603
+cnsta,33.3%,No indels > 10bp,ampliCan,33.2219251336898
+cntn1a,33.3%,No indels > 10bp,ampliCan,33.3444816053512
+cntn1b,33.3%,No indels > 10bp,ampliCan,33.322203672788
+cntn3b,33.3%,No indels > 10bp,ampliCan,33.322181331549
+cntnap2b,33.3%,No indels > 10bp,ampliCan,33.3444704310057
+cntnap4,33.3%,No indels > 10bp,ampliCan,33.4112930170398
+CNTNAP5,33.3%,No indels > 10bp,ampliCan,33.3110367892977
+gjd1a,33.3%,No indels > 10bp,ampliCan,33.3110367892977
 nlgn1,33.3%,No indels > 10bp,ampliCan,33.3333333333333
-nlgn3a,33.3%,No indels > 10bp,ampliCan,33.3890374331551
-nlgn4a,33.3%,No indels > 10bp,ampliCan,33.4223706176962
-nrxn1a_L,33.3%,No indels > 10bp,ampliCan,33.355614973262
-nrxn1a_S,33.3%,No indels > 10bp,ampliCan,33.4001336005344
-nrxn1b_L,33.3%,No indels > 10bp,ampliCan,33.4336342360415
-nrxn1b_S,33.3%,No indels > 10bp,ampliCan,33.3779264214047
-nrxn3a_L,33.3%,No indels > 10bp,ampliCan,33.3667000333667
-nrxn3b_L,33.3%,No indels > 10bp,ampliCan,33.355614973262
-nrxn3b_S,33.3%,No indels > 10bp,ampliCan,33.3667000333667
-tjp1b_B,33.3%,No indels > 10bp,ampliCan,33.3778817240227
-tjp1b_L,33.3%,No indels > 10bp,ampliCan,33.4113712374582
-cnsta,33.3%,Normal,ampliCan,33.4114496149983
-cntn1a,33.3%,Normal,ampliCan,33.4225493476079
-cntn1b,33.3%,Normal,ampliCan,33.3778817240227
-cntn3b,33.3%,Normal,ampliCan,33.2108252589375
-cntnap2b,33.3%,Normal,ampliCan,33.3779712085705
-cntnap4,33.3%,Normal,ampliCan,33.433734939759
-CNTNAP5,33.3%,Normal,ampliCan,33.3667334669339
-gjd1a,33.3%,Normal,ampliCan,33.355614973262
-nlgn1,33.3%,Normal,ampliCan,33.4225493476079
-nlgn3a,33.3%,Normal,ampliCan,33.4002006018054
-nlgn4a,33.3%,Normal,ampliCan,33.4112930170398
-nrxn1a_L,33.3%,Normal,ampliCan,33.3667334669339
-nrxn1a_S,33.3%,Normal,ampliCan,33.3779264214047
-nrxn1b_L,33.3%,Normal,ampliCan,33.3779712085705
-nrxn1b_S,33.3%,Normal,ampliCan,33.322181331549
-nrxn3a_L,33.3%,Normal,ampliCan,33.2776478449716
-nrxn3b_L,33.3%,Normal,ampliCan,33.322203672788
-nrxn3b_S,33.3%,Normal,ampliCan,33.322192513369
-tjp1b_B,33.3%,Normal,ampliCan,33.3778817240227
-tjp1b_L,33.3%,Normal,ampliCan,33.3444592790387
-cnsta,33.3%,Insertions > 10bp,ampliCan,33.4002677376171
-cntn1a,33.3%,Insertions > 10bp,ampliCan,33.2999666333
-cntn1b,33.3%,Insertions > 10bp,ampliCan,32.8437917222964
-cntn3b,33.3%,Insertions > 10bp,ampliCan,32.9886591060707
-cntnap2b,33.3%,Insertions > 10bp,ampliCan,33.0213903743316
-cntnap4,33.3%,Insertions > 10bp,ampliCan,33.3333333333333
-CNTNAP5,33.3%,Insertions > 10bp,ampliCan,31.6633266533066
-gjd1a,33.3%,Insertions > 10bp,ampliCan,33.0327321309285
-nlgn1,33.3%,Insertions > 10bp,ampliCan,33.3444704310057
-nlgn3a,33.3%,Insertions > 10bp,ampliCan,33.3444592790387
-nlgn4a,33.3%,Insertions > 10bp,ampliCan,32.4089542265286
-nrxn1a_L,33.3%,Insertions > 10bp,ampliCan,33.3333333333333
-nrxn1a_S,33.3%,Insertions > 10bp,ampliCan,32.6421404682274
-nrxn1b_L,33.3%,Insertions > 10bp,ampliCan,33.3333333333333
-nrxn1b_S,33.3%,Insertions > 10bp,ampliCan,33.3444704310057
-nrxn3a_L,33.3%,Insertions > 10bp,ampliCan,32.9105473965287
-nrxn3b_L,33.3%,Insertions > 10bp,ampliCan,32.7096558636819
-nrxn3b_S,33.3%,Insertions > 10bp,ampliCan,33.3555703802535
-tjp1b_B,33.3%,Insertions > 10bp,ampliCan,32.653743315508
-tjp1b_L,33.3%,Insertions > 10bp,ampliCan,33.032430625209
-cnsta,66.7%,No indels > 10bp,ampliCan,66.6666666666667
-cntn1a,66.7%,No indels > 10bp,ampliCan,66.6666666666667
-cntn1b,66.7%,No indels > 10bp,ampliCan,66.7111853088481
-cntn3b,66.7%,No indels > 10bp,ampliCan,66.5997993981946
-cntnap2b,66.7%,No indels > 10bp,ampliCan,66.6331994645248
-cntnap4,66.7%,No indels > 10bp,ampliCan,66.6666666666667
-CNTNAP5,66.7%,No indels > 10bp,ampliCan,66.6555183946488
-gjd1a,66.7%,No indels > 10bp,ampliCan,66.6666666666667
+nlgn3a,33.3%,No indels > 10bp,ampliCan,33.3333333333333
+nlgn4a,33.3%,No indels > 10bp,ampliCan,33.322203672788
+nrxn1a_L,33.3%,No indels > 10bp,ampliCan,33.322192513369
+nrxn1a_S,33.3%,No indels > 10bp,ampliCan,33.355637336902
+nrxn1b_L,33.3%,No indels > 10bp,ampliCan,33.3444704310057
+nrxn1b_S,33.3%,No indels > 10bp,ampliCan,33.4445927903872
+nrxn3a_L,33.3%,No indels > 10bp,ampliCan,33.322203672788
+nrxn3b_L,33.3%,No indels > 10bp,ampliCan,33.3333333333333
+nrxn3b_S,33.3%,No indels > 10bp,ampliCan,33.3333333333333
+tjp1b_B,33.3%,No indels > 10bp,ampliCan,33.2776478449716
+tjp1b_L,33.3%,No indels > 10bp,ampliCan,33.3667334669339
+cnsta,33.3%,Mixed Indels,ampliCan,33.3110814419226
+cntn1a,33.3%,Mixed Indels,ampliCan,33.4447043100568
+cntn1b,33.3%,Mixed Indels,ampliCan,33.3667000333667
+cntn3b,33.3%,Mixed Indels,ampliCan,33.4002006018054
+cntnap2b,33.3%,Mixed Indels,ampliCan,33.3444704310057
+cntnap4,33.3%,Mixed Indels,ampliCan,33.3778817240227
+CNTNAP5,33.3%,Mixed Indels,ampliCan,33.3110814419226
+gjd1a,33.3%,Mixed Indels,ampliCan,33.4002006018054
+nlgn1,33.3%,Mixed Indels,ampliCan,33.355592654424
+nlgn3a,33.3%,Mixed Indels,ampliCan,33.3667334669339
+nlgn4a,33.3%,Mixed Indels,ampliCan,33.2553475935829
+nrxn1a_L,33.3%,Mixed Indels,ampliCan,33.3667334669339
+nrxn1a_S,33.3%,Mixed Indels,ampliCan,33.4001336005344
+nrxn1b_L,33.3%,Mixed Indels,ampliCan,33.322192513369
+nrxn1b_S,33.3%,Mixed Indels,ampliCan,33.2998661311914
+nrxn3a_L,33.3%,Mixed Indels,ampliCan,33.3333333333333
+nrxn3b_L,33.3%,Mixed Indels,ampliCan,33.2887700534759
+nrxn3b_S,33.3%,Mixed Indels,ampliCan,33.4556370913943
+tjp1b_B,33.3%,Mixed Indels,ampliCan,33.322203672788
+tjp1b_L,33.3%,Mixed Indels,ampliCan,33.3779264214047
+cnsta,33.3%,Insertions > 10bp,ampliCan,32.5425993985967
+cntn1a,33.3%,Insertions > 10bp,ampliCan,30.9826203208556
+cntn1b,33.3%,Insertions > 10bp,ampliCan,32.0987654320988
+cntn3b,33.3%,Insertions > 10bp,ampliCan,32.4432576769025
+cntnap2b,33.3%,Insertions > 10bp,ampliCan,32.4197860962567
+cntnap4,33.3%,Insertions > 10bp,ampliCan,32.5425993985967
+CNTNAP5,33.3%,Insertions > 10bp,ampliCan,32.6210350584307
+gjd1a,33.3%,Insertions > 10bp,ampliCan,33.3110814419226
+nlgn1,33.3%,Insertions > 10bp,ampliCan,32.4441480493498
+nlgn3a,33.3%,Insertions > 10bp,ampliCan,32.742474916388
+nlgn4a,33.3%,Insertions > 10bp,ampliCan,32.4080267558528
+nrxn1a_L,33.3%,Insertions > 10bp,ampliCan,32.3990657323991
+nrxn1a_S,33.3%,Insertions > 10bp,ampliCan,31.5402606080855
+nrxn1b_L,33.3%,Insertions > 10bp,ampliCan,33.2998996990973
+nrxn1b_S,33.3%,Insertions > 10bp,ampliCan,32.9211229946524
+nrxn3a_L,33.3%,Insertions > 10bp,ampliCan,33.0545332887253
+nrxn3b_L,33.3%,Insertions > 10bp,ampliCan,32.8203412512546
+nrxn3b_S,33.3%,Insertions > 10bp,ampliCan,33.0217028380634
+tjp1b_B,33.3%,Insertions > 10bp,ampliCan,32.6878130217028
+tjp1b_L,33.3%,Insertions > 10bp,ampliCan,31.0955243820975
+cnsta,33.3%,Deletions > 10bp,ampliCan,33.3555703802535
+cntn1a,33.3%,Deletions > 10bp,ampliCan,33.3667669675694
+cntn1b,33.3%,Deletions > 10bp,ampliCan,33.322203672788
+cntn3b,33.3%,Deletions > 10bp,ampliCan,33.4001336005344
+cntnap2b,33.3%,Deletions > 10bp,ampliCan,33.4002006018054
+cntnap4,33.3%,Deletions > 10bp,ampliCan,33.4782608695652
+CNTNAP5,33.3%,Deletions > 10bp,ampliCan,33.2888146911519
+gjd1a,33.3%,Deletions > 10bp,ampliCan,33.3333333333333
+nlgn1,33.3%,Deletions > 10bp,ampliCan,33.355592654424
+nlgn3a,33.3%,Deletions > 10bp,ampliCan,33.322192513369
+nlgn4a,33.3%,Deletions > 10bp,ampliCan,33.322203672788
+nrxn1a_L,33.3%,Deletions > 10bp,ampliCan,33.2888146911519
+nrxn1a_S,33.3%,Deletions > 10bp,ampliCan,33.3333333333333
+nrxn1b_L,33.3%,Deletions > 10bp,ampliCan,33.3444704310057
+nrxn1b_S,33.3%,Deletions > 10bp,ampliCan,33.3667669675694
+nrxn3a_L,33.3%,Deletions > 10bp,ampliCan,33.4001336005344
+nrxn3b_L,33.3%,Deletions > 10bp,ampliCan,33.2999666333
+nrxn3b_S,33.3%,Deletions > 10bp,ampliCan,33.3110591379886
+tjp1b_B,33.3%,Deletions > 10bp,ampliCan,33.3890933422549
+tjp1b_L,33.3%,Deletions > 10bp,ampliCan,33.3778817240227
+cnsta,66.7%,No indels > 10bp,ampliCan,66.7223521550284
+cntn1a,66.7%,No indels > 10bp,ampliCan,66.7668670674683
+cntn1b,66.7%,No indels > 10bp,ampliCan,66.6666666666667
+cntn3b,66.7%,No indels > 10bp,ampliCan,66.644385026738
+cntnap2b,66.7%,No indels > 10bp,ampliCan,66.7000668002672
+cntnap4,66.7%,No indels > 10bp,ampliCan,66.7001003009027
+CNTNAP5,66.7%,No indels > 10bp,ampliCan,66.7557634480454
+gjd1a,66.7%,No indels > 10bp,ampliCan,66.6221628838451
 nlgn1,66.7%,No indels > 10bp,ampliCan,66.6666666666667
-nlgn3a,66.7%,No indels > 10bp,ampliCan,66.644385026738
-nlgn4a,66.7%,No indels > 10bp,ampliCan,66.7000668002672
-nrxn1a_L,66.7%,No indels > 10bp,ampliCan,66.7224640107131
-nrxn1a_S,66.7%,No indels > 10bp,ampliCan,66.6332665330661
-nrxn1b_L,66.7%,No indels > 10bp,ampliCan,66.6332999666333
+nlgn3a,66.7%,No indels > 10bp,ampliCan,66.6666666666667
+nlgn4a,66.7%,No indels > 10bp,ampliCan,66.7224080267559
+nrxn1a_L,66.7%,No indels > 10bp,ampliCan,66.5551839464883
+nrxn1a_S,66.7%,No indels > 10bp,ampliCan,66.7001003009027
+nrxn1b_L,66.7%,No indels > 10bp,ampliCan,66.6666666666667
 nrxn1b_S,66.7%,No indels > 10bp,ampliCan,66.6666666666667
-nrxn3a_L,66.7%,No indels > 10bp,ampliCan,66.644407345576
-nrxn3b_L,66.7%,No indels > 10bp,ampliCan,66.677796327212
-nrxn3b_S,66.7%,No indels > 10bp,ampliCan,66.6332330324306
-tjp1b_B,66.7%,No indels > 10bp,ampliCan,66.6443402545211
-tjp1b_L,66.7%,No indels > 10bp,ampliCan,66.6889856042852
-cnsta,66.7%,Normal,ampliCan,66.6666666666667
-cntn1a,66.7%,Normal,ampliCan,66.5887069829602
-cntn1b,66.7%,Normal,ampliCan,66.7000668002672
-cntn3b,66.7%,Normal,ampliCan,66.6777851901267
-cntnap2b,66.7%,Normal,ampliCan,66.5998663994656
-cntnap4,66.7%,Normal,ampliCan,66.2841714478569
-CNTNAP5,66.7%,Normal,ampliCan,66.677807486631
-gjd1a,66.7%,Normal,ampliCan,66.6555407209613
-nlgn1,66.7%,Normal,ampliCan,66.7557634480454
-nlgn3a,66.7%,Normal,ampliCan,66.7668670674683
-nlgn4a,66.7%,Normal,ampliCan,66.7000668002672
-nrxn1a_L,66.7%,Normal,ampliCan,66.7668670674683
-nrxn1a_S,66.7%,Normal,ampliCan,66.7224080267559
-nrxn1b_L,66.7%,Normal,ampliCan,66.644407345576
-nrxn1b_S,66.7%,Normal,ampliCan,66.7000333667
-nrxn3a_L,66.7%,Normal,ampliCan,66.6332665330661
-nrxn3b_L,66.7%,Normal,ampliCan,66.644362663098
-nrxn3b_S,66.7%,Normal,ampliCan,66.5997993981946
-tjp1b_B,66.7%,Normal,ampliCan,66.644385026738
-tjp1b_L,66.7%,Normal,ampliCan,66.6109066577451
-cnsta,66.7%,Insertions > 10bp,ampliCan,65.9652638610554
-cntn1a,66.7%,Insertions > 10bp,ampliCan,65.2870493991989
-cntn1b,66.7%,Insertions > 10bp,ampliCan,66.0648612504179
-cntn3b,66.7%,Insertions > 10bp,ampliCan,65.9773182121414
-cntnap2b,66.7%,Insertions > 10bp,ampliCan,65.4308617234469
-cntnap4,66.7%,Insertions > 10bp,ampliCan,63.870320855615
-CNTNAP5,66.7%,Insertions > 10bp,ampliCan,66.6889632107023
-gjd1a,66.7%,Insertions > 10bp,ampliCan,65.7419786096257
-nlgn1,66.7%,Insertions > 10bp,ampliCan,66.6332330324306
-nlgn3a,66.7%,Insertions > 10bp,ampliCan,65.8096828046745
-nlgn4a,66.7%,Insertions > 10bp,ampliCan,66.3660654642619
-nrxn1a_L,66.7%,Insertions > 10bp,ampliCan,66.2433155080214
-nrxn1a_S,66.7%,Insertions > 10bp,ampliCan,65.2202937249666
-nrxn1b_L,66.7%,Insertions > 10bp,ampliCan,65.9090909090909
-nrxn1b_S,66.7%,Insertions > 10bp,ampliCan,66.1543601737387
-nrxn3a_L,66.7%,Insertions > 10bp,ampliCan,66.6221628838451
-nrxn3b_L,66.7%,Insertions > 10bp,ampliCan,66.6110740493663
-nrxn3b_S,66.7%,Insertions > 10bp,ampliCan,65.8992325658992
-tjp1b_B,66.7%,Insertions > 10bp,ampliCan,65.4411764705882
-tjp1b_L,66.7%,Insertions > 10bp,ampliCan,66.0869565217391
-cnsta,90%,No indels > 10bp,ampliCan,90.0200267022697
-cntn1a,90%,No indels > 10bp,ampliCan,89.9866488651535
-cntn1b,90%,No indels > 10bp,ampliCan,90.0702106318957
-cntn3b,90%,No indels > 10bp,ampliCan,89.983305509182
-cntnap2b,90%,No indels > 10bp,ampliCan,90.016694490818
-cntnap4,90%,No indels > 10bp,ampliCan,89.9866488651535
-CNTNAP5,90%,No indels > 10bp,ampliCan,89.9933288859239
+nrxn3a_L,66.7%,No indels > 10bp,ampliCan,66.8114973262032
+nrxn3b_L,66.7%,No indels > 10bp,ampliCan,66.6332999666333
+nrxn3b_S,66.7%,No indels > 10bp,ampliCan,66.6555295689943
+tjp1b_B,66.7%,No indels > 10bp,ampliCan,66.7111853088481
+tjp1b_L,66.7%,No indels > 10bp,ampliCan,66.7111853088481
+cnsta,66.7%,Mixed Indels,ampliCan,66.7000668002672
+cntn1a,66.7%,Mixed Indels,ampliCan,66.6889185580774
+cntn1b,66.7%,Mixed Indels,ampliCan,66.6555407209613
+cntn3b,66.7%,Mixed Indels,ampliCan,66.6332665330661
+cntnap2b,66.7%,Mixed Indels,ampliCan,66.5998663994656
+cntnap4,66.7%,Mixed Indels,ampliCan,66.677807486631
+CNTNAP5,66.7%,Mixed Indels,ampliCan,66.7335339351388
+gjd1a,66.7%,Mixed Indels,ampliCan,66.6555295689943
+nlgn1,66.7%,Mixed Indels,ampliCan,66.6666666666667
+nlgn3a,66.7%,Mixed Indels,ampliCan,66.6555183946488
+nlgn4a,66.7%,Mixed Indels,ampliCan,66.6666666666667
+nrxn1a_L,66.7%,Mixed Indels,ampliCan,66.6332665330661
+nrxn1a_S,66.7%,Mixed Indels,ampliCan,66.7223521550284
+nrxn1b_L,66.7%,Mixed Indels,ampliCan,66.7112299465241
+nrxn1b_S,66.7%,Mixed Indels,ampliCan,66.5887069829602
+nrxn3a_L,66.7%,Mixed Indels,ampliCan,66.4326312270144
+nrxn3b_L,66.7%,Mixed Indels,ampliCan,66.7222963951936
+nrxn3b_S,66.7%,Mixed Indels,ampliCan,66.7001003009027
+tjp1b_B,66.7%,Mixed Indels,ampliCan,66.677818668451
+tjp1b_L,66.7%,Mixed Indels,ampliCan,66.677807486631
+cnsta,66.7%,Insertions > 10bp,ampliCan,65.8772515010007
+cntn1a,66.7%,Insertions > 10bp,ampliCan,65.6751336898396
+cntn1b,66.7%,Insertions > 10bp,ampliCan,65.9879839786382
+cntn3b,66.7%,Insertions > 10bp,ampliCan,65.3088480801336
+cntnap2b,66.7%,Insertions > 10bp,ampliCan,66.3439065108514
+cntnap4,66.7%,Insertions > 10bp,ampliCan,65.0767178118746
+CNTNAP5,66.7%,Insertions > 10bp,ampliCan,66.2767379679144
+gjd1a,66.7%,Insertions > 10bp,ampliCan,66.332999666333
+nlgn1,66.7%,Insertions > 10bp,ampliCan,64.493480441324
+nlgn3a,66.7%,Insertions > 10bp,ampliCan,66.2545940527898
+nlgn4a,66.7%,Insertions > 10bp,ampliCan,64.8711943793911
+nrxn1a_L,66.7%,Insertions > 10bp,ampliCan,65.720961281709
+nrxn1a_S,66.7%,Insertions > 10bp,ampliCan,63.7366310160428
+nrxn1b_L,66.7%,Insertions > 10bp,ampliCan,64.9081803005008
+nrxn1b_S,66.7%,Insertions > 10bp,ampliCan,65.2522552622787
+nrxn3a_L,66.7%,Insertions > 10bp,ampliCan,65.0167224080268
+nrxn3b_L,66.7%,Insertions > 10bp,ampliCan,65.9866220735786
+nrxn3b_S,66.7%,Insertions > 10bp,ampliCan,65.7877169559412
+tjp1b_B,66.7%,Insertions > 10bp,ampliCan,65.9538924156365
+tjp1b_L,66.7%,Insertions > 10bp,ampliCan,64.6921017402945
+cnsta,66.7%,Deletions > 10bp,ampliCan,66.5887069829602
+cntn1a,66.7%,Deletions > 10bp,ampliCan,66.6221182759773
+cntn1b,66.7%,Deletions > 10bp,ampliCan,66.6666666666667
+cntn3b,66.7%,Deletions > 10bp,ampliCan,66.6444296197465
+cntnap2b,66.7%,Deletions > 10bp,ampliCan,66.6666666666667
+cntnap4,66.7%,Deletions > 10bp,ampliCan,66.7000668002672
+CNTNAP5,66.7%,Deletions > 10bp,ampliCan,66.7669675693748
+gjd1a,66.7%,Deletions > 10bp,ampliCan,66.6332999666333
+nlgn1,66.7%,Deletions > 10bp,ampliCan,66.7446524064171
+nlgn3a,66.7%,Deletions > 10bp,ampliCan,66.7222963951936
+nlgn4a,66.7%,Deletions > 10bp,ampliCan,66.6889632107023
+nrxn1a_L,66.7%,Deletions > 10bp,ampliCan,66.6110183639399
+nrxn1a_S,66.7%,Deletions > 10bp,ampliCan,66.6889632107023
+nrxn1b_L,66.7%,Deletions > 10bp,ampliCan,66.7334669338677
+nrxn1b_S,66.7%,Deletions > 10bp,ampliCan,66.6555183946488
+nrxn3a_L,66.7%,Deletions > 10bp,ampliCan,66.6666666666667
+nrxn3b_L,66.7%,Deletions > 10bp,ampliCan,66.6666666666667
+nrxn3b_S,66.7%,Deletions > 10bp,ampliCan,66.6221628838451
+tjp1b_B,66.7%,Deletions > 10bp,ampliCan,66.677796327212
+tjp1b_L,66.7%,Deletions > 10bp,ampliCan,66.7334000667334
+cnsta,90%,No indels > 10bp,ampliCan,90.0066844919786
+cntn1a,90%,No indels > 10bp,ampliCan,90.0133600534402
+cntn1b,90%,No indels > 10bp,ampliCan,90.0033433634236
+cntn3b,90%,No indels > 10bp,ampliCan,90.0066844919786
+cntnap2b,90%,No indels > 10bp,ampliCan,90.0266844563042
+cntnap4,90%,No indels > 10bp,ampliCan,89.9699097291876
+CNTNAP5,90%,No indels > 10bp,ampliCan,90.0066844919786
 gjd1a,90%,No indels > 10bp,ampliCan,90.0066844919786
-nlgn1,90%,No indels > 10bp,ampliCan,89.983305509182
-nlgn3a,90%,No indels > 10bp,ampliCan,89.9933065595716
-nlgn4a,90%,No indels > 10bp,ampliCan,89.9899564780716
-nrxn1a_L,90%,No indels > 10bp,ampliCan,90.1069518716578
-nrxn1a_S,90%,No indels > 10bp,ampliCan,89.9799599198397
-nrxn1b_L,90%,No indels > 10bp,ampliCan,90.0066844919786
-nrxn1b_S,90%,No indels > 10bp,ampliCan,89.9631983941117
-nrxn3a_L,90%,No indels > 10bp,ampliCan,89.98998998999
-nrxn3b_L,90%,No indels > 10bp,ampliCan,90.0066844919786
-nrxn3b_S,90%,No indels > 10bp,ampliCan,90.0233566900234
-tjp1b_B,90%,No indels > 10bp,ampliCan,90.0367769976597
-tjp1b_L,90%,No indels > 10bp,ampliCan,90.0133600534402
-cnsta,90%,Normal,ampliCan,90.0467601870407
-cntn1a,90%,Normal,ampliCan,90.0066844919786
-cntn1b,90%,Normal,ampliCan,90.0401069518716
-cntn3b,90%,Normal,ampliCan,89.9866488651535
-cntnap2b,90%,Normal,ampliCan,90.0066844919786
-cntnap4,90%,Normal,ampliCan,90.1304784208765
-CNTNAP5,90%,Normal,ampliCan,90.0434346809221
-gjd1a,90%,Normal,ampliCan,90.0133600534402
-nlgn1,90%,Normal,ampliCan,90.0702106318957
-nlgn3a,90%,Normal,ampliCan,89.983305509182
-nlgn4a,90%,Normal,ampliCan,89.9966655551851
-nrxn1a_L,90%,Normal,ampliCan,89.9866041527127
-nrxn1a_S,90%,Normal,ampliCan,90
-nrxn1b_L,90%,Normal,ampliCan,90.0100233879051
-nrxn1b_S,90%,Normal,ampliCan,90.0334448160535
-nrxn3a_L,90%,Normal,ampliCan,90.0635664101706
-nrxn3b_L,90%,Normal,ampliCan,90.0200267022697
-nrxn3b_S,90%,Normal,ampliCan,90.0133600534402
-tjp1b_B,90%,Normal,ampliCan,89.9766120948881
-tjp1b_L,90%,Normal,ampliCan,90.0500834724541
-cnsta,90%,Insertions > 10bp,ampliCan,87.7087508350033
-cntn1a,90%,Insertions > 10bp,ampliCan,88.5437541750167
-cntn1b,90%,Insertions > 10bp,ampliCan,88.7107548430194
-cntn3b,90%,Insertions > 10bp,ampliCan,89.3823038397329
-cntnap2b,90%,Insertions > 10bp,ampliCan,89.2451569806279
-cntnap4,90%,Insertions > 10bp,ampliCan,89.0260173448966
-CNTNAP5,90%,Insertions > 10bp,ampliCan,89.1891891891892
-gjd1a,90%,Insertions > 10bp,ampliCan,87.3873873873874
-nlgn1,90%,Insertions > 10bp,ampliCan,89.5193591455274
-nlgn3a,90%,Insertions > 10bp,ampliCan,89.6090878717006
-nlgn4a,90%,Insertions > 10bp,ampliCan,89.5826377295492
-nrxn1a_L,90%,Insertions > 10bp,ampliCan,89.6147403685092
-nrxn1a_S,90%,Insertions > 10bp,ampliCan,88.5360962566845
-nrxn1b_L,90%,Insertions > 10bp,ampliCan,89.7495826377295
-nrxn1b_S,90%,Insertions > 10bp,ampliCan,87.061183550652
-nrxn3a_L,90%,Insertions > 10bp,ampliCan,89.5756765786836
-nrxn3b_L,90%,Insertions > 10bp,ampliCan,88.8851802403204
-nrxn3b_S,90%,Insertions > 10bp,ampliCan,89.9198931909212
-tjp1b_B,90%,Insertions > 10bp,ampliCan,89.9799599198397
-tjp1b_L,90%,Insertions > 10bp,ampliCan,88.7215528781794
+nlgn1,90%,No indels > 10bp,ampliCan,90.0066844919786
+nlgn3a,90%,No indels > 10bp,ampliCan,90.0702106318957
+nlgn4a,90%,No indels > 10bp,ampliCan,89.9866488651535
+nrxn1a_L,90%,No indels > 10bp,ampliCan,90.0334448160535
+nrxn1a_S,90%,No indels > 10bp,ampliCan,90.0301104048177
+nrxn1b_L,90%,No indels > 10bp,ampliCan,89.983305509182
+nrxn1b_S,90%,No indels > 10bp,ampliCan,89.9799599198397
+nrxn3a_L,90%,No indels > 10bp,ampliCan,89.9766120948881
+nrxn3b_L,90%,No indels > 10bp,ampliCan,89.9732620320856
+nrxn3b_S,90%,No indels > 10bp,ampliCan,89.9799599198397
+tjp1b_B,90%,No indels > 10bp,ampliCan,89.9799599198397
+tjp1b_L,90%,No indels > 10bp,ampliCan,89.983305509182
+cnsta,90%,Mixed Indels,ampliCan,89.4050802139037
+cntn1a,90%,Mixed Indels,ampliCan,90.0100233879051
+cntn1b,90%,Mixed Indels,ampliCan,89.9766120948881
+cntn3b,90%,Mixed Indels,ampliCan,89.9799599198397
+cntnap2b,90%,Mixed Indels,ampliCan,90.0301104048177
+cntnap4,90%,Mixed Indels,ampliCan,90.0233566900234
+CNTNAP5,90%,Mixed Indels,ampliCan,89.9766120948881
+gjd1a,90%,Mixed Indels,ampliCan,90.0133600534402
+nlgn1,90%,Mixed Indels,ampliCan,90.0367769976597
+nlgn3a,90%,Mixed Indels,ampliCan,89.9799599198397
+nlgn4a,90%,Mixed Indels,ampliCan,89.9699097291876
+nrxn1a_L,90%,Mixed Indels,ampliCan,89.983305509182
+nrxn1a_S,90%,Mixed Indels,ampliCan,89.9564780716438
+nrxn1b_L,90%,Mixed Indels,ampliCan,90.1168614357262
+nrxn1b_S,90%,Mixed Indels,ampliCan,89.9766120948881
+nrxn3a_L,90%,Mixed Indels,ampliCan,90.0937081659973
+nrxn3b_L,90%,Mixed Indels,ampliCan,89.9933288859239
+nrxn3b_S,90%,Mixed Indels,ampliCan,90.0100233879051
+tjp1b_B,90%,Mixed Indels,ampliCan,90.0033433634236
+tjp1b_L,90%,Mixed Indels,ampliCan,90.0100233879051
+cnsta,90%,Insertions > 10bp,ampliCan,87.9010695187166
+cntn1a,90%,Insertions > 10bp,ampliCan,87.5542208875542
+cntn1b,90%,Insertions > 10bp,ampliCan,86.5776293823038
+cntn3b,90%,Insertions > 10bp,ampliCan,89.0818030050083
+cntnap2b,90%,Insertions > 10bp,ampliCan,88.2431529726119
+cntnap4,90%,Insertions > 10bp,ampliCan,87.2867179658749
+CNTNAP5,90%,Insertions > 10bp,ampliCan,88.1605351170569
+gjd1a,90%,Insertions > 10bp,ampliCan,88.4101536406146
+nlgn1,90%,Insertions > 10bp,ampliCan,84.4867937144768
+nlgn3a,90%,Insertions > 10bp,ampliCan,89.7693079237713
+nlgn4a,90%,Insertions > 10bp,ampliCan,89.2487479131887
+nrxn1a_L,90%,Insertions > 10bp,ampliCan,87.9425517702071
+nrxn1a_S,90%,Insertions > 10bp,ampliCan,88.4653961885657
+nrxn1b_L,90%,Insertions > 10bp,ampliCan,89.2487479131887
+nrxn1b_S,90%,Insertions > 10bp,ampliCan,88.5695187165775
+nrxn3a_L,90%,Insertions > 10bp,ampliCan,87.5878220140515
+nrxn3b_L,90%,Insertions > 10bp,ampliCan,89.1711229946524
+nrxn3b_S,90%,Insertions > 10bp,ampliCan,88.3612040133779
+tjp1b_B,90%,Insertions > 10bp,ampliCan,87.4415497661991
+tjp1b_L,90%,Insertions > 10bp,ampliCan,88.5026737967914
+cnsta,90%,Deletions > 10bp,ampliCan,89.9732620320856
+cntn1a,90%,Deletions > 10bp,ampliCan,89.9766120948881
+cntn1b,90%,Deletions > 10bp,ampliCan,90.0234348844995
+cntn3b,90%,Deletions > 10bp,ampliCan,89.983305509182
+cntnap2b,90%,Deletions > 10bp,ampliCan,89.9699097291876
+cntnap4,90%,Deletions > 10bp,ampliCan,90.0133600534402
+CNTNAP5,90%,Deletions > 10bp,ampliCan,89.9766120948881
+gjd1a,90%,Deletions > 10bp,ampliCan,90.0534045393859
+nlgn1,90%,Deletions > 10bp,ampliCan,90.0133600534402
+nlgn3a,90%,Deletions > 10bp,ampliCan,90.0133600534402
+nlgn4a,90%,Deletions > 10bp,ampliCan,90.0200267022697
+nrxn1a_L,90%,Deletions > 10bp,ampliCan,89.9699097291876
+nrxn1a_S,90%,Deletions > 10bp,ampliCan,90.0100233879051
+nrxn1b_L,90%,Deletions > 10bp,ampliCan,90.0768459739392
+nrxn1b_S,90%,Deletions > 10bp,ampliCan,89.9799599198397
+nrxn3a_L,90%,Deletions > 10bp,ampliCan,90.0133600534402
+nrxn3b_L,90%,Deletions > 10bp,ampliCan,90.0200267022697
+nrxn3b_S,90%,Deletions > 10bp,ampliCan,89.9799599198397
+tjp1b_B,90%,Deletions > 10bp,ampliCan,90.0100233879051
+tjp1b_L,90%,Deletions > 10bp,ampliCan,90.0133600534402

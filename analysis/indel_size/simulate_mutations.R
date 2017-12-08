@@ -22,7 +22,7 @@ deleteNucleotides <- function(original, original_range, start, width){
 insertNucleotides <- function(original, original_range, start, width){
   ins <- sample(c("A","C","T","G"), width, replace = TRUE)
   ins <- paste0(ins, collapse = "")
-  rngs <- IRanges(c(1,start+1), end = c(start, width(original_range)))
+  rngs <- IRanges(c(1, start+1), end = c(start, width(original_range)))
   sqs <- as.character(Views(original, rngs))
   result <- DNAString(paste0(c(sqs[1], ins,sqs[2]), collapse = ""))
   result
@@ -41,21 +41,23 @@ mutateNucleotides <- function(original, fraction){
   paste0(nucs, collapse = "")
 }
 
-set.seed(30)
+set.seed(7)
 
 freqs <- read.table("./idx/Shah_mutation_weights.txt", sep = "\t")
-freqs1 <- freqs2 <- freqs3 <- freqs
+freqs1 <- freqs2 <- freqs3 <- freqs4 <- freqs
 # Set large indel chances
-freqs1$x[freqs$Variant > 10] <- 1e-10
+freqs1$x[freqs$Variant > 10] <- 1e-10 # no indels larger than 10
 freqs1$x <- freqs1$x/sum(freqs1$x)
-freqs2$x <- freqs2$x/sum(freqs2$x)
-freqs3$x[freqs3$Variant > 10 & freqs3$var_type == "I"] <- 10
+freqs2$x <- freqs2$x/sum(freqs2$x) # normal
+freqs3$x[freqs3$Variant > 10 & freqs3$var_type == "I"] <- 10 # only ins larger than 10
 freqs3$x <- freqs3$x/sum(freqs3$x)
+freqs4$x[freqs4$Variant > 10 & freqs3$var_type == "D"] <- 10 # only del larger than 10
+freqs4$x <- freqs4$x/sum(freqs4$x)
 
-freqs <- list(freqs1, freqs2, freqs3)
+freqs <- list(freqs1, freqs2, freqs3, freqs4)
 
-read_lengths <- 150 + 70 # for deletions
-read_lengths_illumina <- read_lengths - 70
+read_lengths <- 150 + 100 # for deletions
+read_lengths_illumina <- read_lengths - 100
 
 amplicons <- read.table("./idx/Shah_cut_sites.txt", sep = "\t",
                         stringsAsFactors = FALSE)

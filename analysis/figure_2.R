@@ -29,7 +29,6 @@ err$Truth <- as.numeric(gsub("%", "", err$Truth))
 err$value <- abs(err$value - err$Truth)
 err$value_log <- log10(err$value)
 err$value_log[!is.finite(err$value_log)] <- 0
-err$desc[err$desc == "Normal"] <- "Mixed indels"
 err <- err[err$Truth != 0, ]
 
 # sqrt(mean((m - t)^2))
@@ -54,14 +53,14 @@ d2levels <- c("Contaminant reads", "Indel size")
 err$desc2 <- factor(err$desc2, levels = d2levels, ordered = TRUE)
 err_medians$desc2 <- factor(err_medians$desc2, levels = d2levels, ordered = TRUE)
 err_medians_log$desc2 <- factor(err_medians_log$desc2, levels = d2levels, ordered = TRUE)
-dlevels <- c("No indels > 10bp", "Mixed indels", "Insertions > 10bp", 
+dlevels <- c("No indels > 10bp", "Mixed Indels", "Insertions > 10bp", "Deletions > 10bp",
              "10%", "20%", "30%")
 err$desc <- factor(err$desc, levels = dlevels, ordered = TRUE)
 err_medians$desc <- factor(err_medians$desc, levels = dlevels, ordered = TRUE)
 err_medians_log$desc <- factor(err_medians_log$desc, levels = dlevels, ordered = TRUE)
 
 p <- ggplot(err, aes(desc, value, colour = variable)) +
-  geom_point(alpha = 0.2, position = position_dodge(width = 0.9)) +
+  geom_point(alpha = 0.2, position = position_dodge(width = 0.9), size = 6) +
   geom_errorbar(data = err_medians, aes(x = desc, y = median, ymin = median, 
                                         ymax = median, colour = variable),
                 position = position_dodge(width = 0.9)) +
@@ -72,14 +71,15 @@ p <- ggplot(err, aes(desc, value, colour = variable)) +
         legend.title = element_blank(),
         panel.background = element_blank(),
         axis.ticks.x = element_blank()) +
-  labs(x = "", y = "Error (estimated - real mutation efficiency) [%]")
+  labs(x = "", y = "Error (estimated - real mutation efficiency) [%]") +
+  guides(colour = guide_legend(override.aes = list(alpha=1)))
 p
 
 ggsave("../figures/fig_2.png", p, dpi = 400, width = 17, height = 8)
 ggsave("../figures/fig_2.pdf", p, dpi = 400, width = 17, height = 8)
 
 p <- ggplot(err, aes(desc, value_log, colour = variable)) +
-  geom_point(alpha = 0.2, position = position_dodge(width = 0.9)) +
+  geom_point(alpha = 0.2, position = position_dodge(width = 0.9), size = 6) +
   geom_errorbar(data = err_medians_log, aes(x = desc, y = median, ymin = median, 
                                         ymax = median, colour = variable),
                 position = position_dodge(width = 0.9)) +
@@ -91,7 +91,8 @@ p <- ggplot(err, aes(desc, value_log, colour = variable)) +
         panel.background = element_blank(),
         axis.ticks.x = element_blank()) +
   labs(x = "", y = "Error (estimated - real mutation efficiency) [%]") +
-  scale_y_continuous(breaks = c(-4:2), labels = math_format(10^.x))
+  scale_y_continuous(breaks = c(-4:2), labels = math_format(10^.x)) +
+  guides(colour = guide_legend(override.aes = list(alpha=1)))
 ggsave("../figures/fig_2_log.png", p, dpi = 400, width = 17, height = 7)
 ggsave("../figures/fig_2_log.pdf", p, dpi = 400, width = 17, height = 7)
 
@@ -115,7 +116,7 @@ off_medians$variable <- factor(off_medians$variable, levels = tools, ordered = T
 off_medians_log$variable <- factor(off_medians_log$variable, levels = tools, ordered = TRUE)
 
 p <- ggplot(off, aes(desc, value, colour = variable)) +
-  geom_point(alpha = 0.2, position = position_dodge(width = 0.9)) +
+  geom_point(alpha = 0.2, position = position_dodge(width = 0.9), size = 6) +
   geom_errorbar(data = off_medians, aes(x = desc, y = median, ymin = median, 
                                         ymax = median, colour = variable),
                 position = position_dodge(width = 0.9)) +
@@ -126,13 +127,14 @@ p <- ggplot(off, aes(desc, value, colour = variable)) +
         legend.title = element_blank(),
         panel.background = element_blank(),
         axis.ticks.x = element_blank()) +
-  labs(x = "", y = "Error (estimated - real mutation efficiency) [%]")
+  labs(x = "", y = "Error (estimated - real mutation efficiency) [%]") +
+  guides(colour = guide_legend(override.aes = list(alpha=1)))
 p
 ggsave("../figures/error_crisprvaraints_dataset.png", p, dpi = 400, width = 17, height = 8)
 ggsave("../figures/error_crisprvaraints_dataset.pdf", p, dpi = 400, width = 17, height = 8)
 
 p <- ggplot(off, aes(desc, value_log, colour = variable)) +
-  geom_point(alpha = 0.2, position = position_dodge(width = 0.9)) +
+  geom_point(alpha = 0.2, position = position_dodge(width = 0.9), size = 6) +
   geom_errorbar(data = off_medians_log, aes(x = desc, y = median, ymin = median, 
                                         ymax = median, colour = variable),
                 position = position_dodge(width = 0.9)) +
@@ -144,7 +146,8 @@ p <- ggplot(off, aes(desc, value_log, colour = variable)) +
         panel.background = element_blank(),
         axis.ticks.x = element_blank()) +
   labs(x = "", y = "Error (estimated - real mutation efficiency) [%]") + 
-  scale_y_continuous(breaks = c(-4:2), labels = math_format(10^.x))
+  scale_y_continuous(breaks = c(-4:2), labels = math_format(10^.x)) +
+  guides(colour = guide_legend(override.aes = list(alpha=1)))
 ggsave("../figures/error_crisprvaraints_dataset_log.png", p, dpi = 400, width = 17, height = 8)
 ggsave("../figures/error_crisprvaraints_dataset_log.pdf", p, dpi = 400, width = 17, height = 8)
 
@@ -158,14 +161,15 @@ hlined <- data.frame(lvalue = rep(c(0, 33.3, 66.7, 90), each = 3),
                      desc = as.character(rep(c("10%", "20%", "30%"), 4)))
 
 p <- ggplot(stacked, aes(NOfftargets, value, colour = variable)) +
-  geom_point(alpha = 0.3, position = position_dodge(width = 0.9), size = 4) +
+  geom_point(alpha = 0.3, position = position_dodge(width = 0.9), size = 6) +
   facet_grid(Truth ~ desc, scales = "free_x", space = "free_x") +
   scale_colour_manual(aes(variable), values = tools_col) +
   theme(text = element_text(size = 24),
         legend.position = "bottom",
         legend.title = element_blank()) +
   labs(x = "Contamination [%]", y = "Estimated mutation efficiency [%]") +
-  geom_hline(data = hlined, aes(yintercept = lvalue), linetype = "dotted")
+  geom_hline(data = hlined, aes(yintercept = lvalue), linetype = "dotted") +
+  guides(colour = guide_legend(override.aes = list(alpha=1)))
 library(gtable)  
 library(grid) 
 p <- ggplotGrob(p)
@@ -173,7 +177,7 @@ p <- gtable_add_rows(p, p$height[6], pos = 5)
 gtable_show_layout(p)
 p <- gtable_add_grob(p, 
                      list(rectGrob(gp = gpar(col = NA, fill = "gray85", size = .5)),
-                          textGrob("Off-target mismatch rate", gp = gpar(cex = 1.5, col = gray(0)))), 
+                          textGrob("Contaminant reads mismatch rate", gp = gpar(cex = 1.5, col = gray(0)))), 
                      t = 6, l=4, b=6, r=8, name = c("a", "b"))
 # Add small gap between strips - below row 6
 p <- gtable_add_rows(p, unit(2/10, "line"), 6)
