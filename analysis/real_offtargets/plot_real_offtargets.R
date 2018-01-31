@@ -1,8 +1,6 @@
 rm(list=ls(all = TRUE))
 gc(reset=TRUE)
 
-setwd("/home/ai/Projects/amplican_manuscript/analysis")
-
 library(BSgenome.Drerio.UCSC.danRer7)
 library(CrispRVariants)
 library(ggplot2)

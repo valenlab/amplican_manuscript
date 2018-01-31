@@ -99,6 +99,7 @@ ampl_conf$V11 <- paste0(
 ampl_conf$V7 <- guide
 ampl_conf$V8 <- toupper(substr(ampl, 1, 20))
 ampl_conf$V9 <- toupper(reverseComplement(DNAStringSet(substr(ampl, nchar(ampl) - 19, nchar(ampl)))))
+ampl_conf$Donor <- ""
 data.table::fwrite(ampl_conf, "./real_offtargets/config_merged.csv")
 
 sample_seqs <- function(n_mut, n_original, n_offtarget, amplicons,

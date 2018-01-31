@@ -42,8 +42,8 @@ freqs$x <- freqs$x/sum(freqs$x)
 
 amplicons <- read.table("./idx/Shah_cut_sites.txt", sep = "\t",
                 stringsAsFactors = FALSE)
-colnames(amplicons) <- c("name","original","target_loc")
-amplicons[,"target_loc"] <- as.integer(amplicons[,"target_loc"])
+colnames(amplicons) <- c("name", "original", "target_loc")
+amplicons[, "target_loc"] <- as.integer(amplicons[,"target_loc"])
 amplicons <- amplicons[1:20,]
 
 # Get guides for ampliconDIVider

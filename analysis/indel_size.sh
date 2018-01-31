@@ -31,8 +31,5 @@ chmod 777 ./indel_size/crispresso_pooled_commands.sh
 R < ./indel_size/run_amplican.R --no-save
 R < ./indel_size/plot_indel_size.R --no-save
 
-cd /home/ai/Projects/data/amplican/Xiaoge/oligos
-./process_reads.sh
-
 
 

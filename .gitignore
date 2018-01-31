@@ -38,6 +38,17 @@ analysis/real_offtargets/amplicondivider_simulation_0.3_commands.sh
 analysis/real_offtargets/crispresso_simulation_0.3_commands.sh
 analysis/real_offtargets/crispresso_pooled_simulation_0.3_commands.sh
 
+analysis/hdr/simulation/*
+analysis/hdr/simulation_commands.sh
+analysis/hdr/crispresso_simulation_commands.sh
+analysis/hdr/crispresso_pooled_simulation_commands.sh
+
+analysis/real_dataset/data/*.fastq
+analysis/real_dataset/data/crispresso
+analysis/real_dataset/data/amplican_results
+analysis/real_dataset/data/amplicondivider
+analysis/real_dataset/data/merged
+
 
 
 

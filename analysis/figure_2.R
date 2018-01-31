@@ -24,6 +24,49 @@ off <- data.table::fread("../figures/indel_rate_vs_offtarget.csv")
 off$desc <- "30%"
 off$desc2 <- "Contaminant reads CrispRVariants dataset"
 
+
+hdr <- data.table::fread("../figures/indel_rate_vs_hdr.csv")
+hdr$desc <- "mismatches/insertion/deletion"
+hdr$desc2 <- "HDR donor type"
+hdr$Truth <- as.numeric(gsub("%", "", hdr$Truth))
+hdr$value <- abs(hdr$value - hdr$Truth)
+hdr$value_log <- log10(hdr$value)
+hdr$value_log[!is.finite(hdr$value_log)] <- 0
+
+hdr_medians <- hdr %>% 
+  group_by(variable, desc, desc2) %>% 
+  summarise(median = median(value),
+            val_min = min(value),
+            val_max = max(value))
+hdr_medians_log <- hdr %>% 
+  group_by(variable, desc, desc2) %>% 
+  summarise(median = median(value_log),
+            val_min = min(value_log),
+            val_max = max(value_log))
+hdr_tools <- c("ampliCan", "CRISPResso", "CRISPRessoPooled")
+hdr$variable <- factor(hdr$variable, levels = hdr_tools, ordered = TRUE)
+hdr_medians$variable <- factor(hdr_medians$variable, levels = hdr_tools, ordered = TRUE)
+hdr_medians_log$variable <- factor(hdr_medians_log$variable, levels = hdr_tools, ordered = TRUE)
+
+tools_col <- c("#e69f00", "#781C81", "#009E73")
+p <- ggplot(hdr, aes(desc, value, colour = variable)) +
+  geom_point(alpha = 0.2, position = position_dodge(width = 0.9), size = 6) +
+  geom_errorbar(data = hdr_medians, aes(x = desc, y = median, ymin = median, 
+                                        ymax = median, colour = variable),
+                position = position_dodge(width = 0.9)) +
+  facet_grid(. ~ desc2, scales = "free_x", space = "free_x") +
+  scale_colour_manual(aes(variable), values = tools_col) +
+  theme(text = element_text(size = 24),
+        legend.position = "bottom",
+        legend.title = element_blank(),
+        panel.background = element_blank(),
+        axis.ticks.x = element_blank()) +
+  labs(x = "", y = "Error (estimated - real mutation efficiency) [%]") +
+  guides(colour = guide_legend(override.aes = list(alpha=1)))
+p
+ggsave("../figures/error_hdr.png", p, dpi = 400, width = 17, height = 8)
+ggsave("../figures/error_hdr.pdf", p, dpi = 400, width = 17, height = 8)
+
 err <- rbind(indels, roff_01, roff_02, roff_03)
 err$Truth <- as.numeric(gsub("%", "", err$Truth))
 err$value <- abs(err$value - err$Truth)
@@ -53,8 +96,10 @@ d2levels <- c("Contaminant reads", "Indel size")
 err$desc2 <- factor(err$desc2, levels = d2levels, ordered = TRUE)
 err_medians$desc2 <- factor(err_medians$desc2, levels = d2levels, ordered = TRUE)
 err_medians_log$desc2 <- factor(err_medians_log$desc2, levels = d2levels, ordered = TRUE)
-dlevels <- c("No indels > 10bp", "Mixed Indels", "Insertions > 10bp", "Deletions > 10bp",
+dlevels <- c("No indels > 10bp", "Mixed indels", "Insertions > 10bp", "Deletions > 10bp",
              "10%", "20%", "30%")
+err$desc[err$desc == "Mixed Indels"] <- "Mixed indels"
+err_medians$desc[err_medians$desc == "Mixed Indels"] <- "Mixed indels"
 err$desc <- factor(err$desc, levels = dlevels, ordered = TRUE)
 err_medians$desc <- factor(err_medians$desc, levels = dlevels, ordered = TRUE)
 err_medians_log$desc <- factor(err_medians_log$desc, levels = dlevels, ordered = TRUE)

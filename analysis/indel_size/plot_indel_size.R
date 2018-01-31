@@ -8,7 +8,6 @@ library(reshape2)
 library(rtracklayer)
 library(data.table)
 
-setwd("~/Projects/amplican_manuscript/analysis")
 pdir <- "./indel_size/simulation"
 
 danRer7 <- BSgenome.Drerio.UCSC.danRer7

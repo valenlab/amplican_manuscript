@@ -8,7 +8,7 @@ Contains scripts and files required to replicate paper of ampliCan. Most data is
 
 Software that is needed to replicate this study (most of it comes from [CrispRVariants](https://github.com/markrobinsonuzh/CrispRVariants_manuscript) paper, we add couple of R packages only).
 
-- Install amplican package from [Bioconductor](http://bioconductor.org/packages/amplican) (version 1.1.1 was used, but using current release might be wiser), or you can find source version in software folder. Instalation through bioconductor will automatically download and install required packages and save you trouble. Additionally to amplican dependencies you will need these R packages: CrispRVariants (1.4.0), BiocParallel (1.10.1), Biostrings (2.44.2), BSgenome.Drerio.UCSC.danRer7 (1.4.0), BSgenome.Hsapiens.UCSC.hg19 (1.4.0), gdata (2.18.0), GenomicAlignments (1.12.1), GenomicFeatures (1.28.4), GenomicRanges (1.28.4), ggplot2 (2.2.1.9000), grid (3.4.2), gridExtra (2.2.1), reshape2 (1.4.2), Rsamtools (1.28.0), rtracklayer (1.36.4), seqinr (3.4-5), scales (0.5.0), ShortRead (1.34.0), data.table (1.10.4).  
+- Install amplican package from [Bioconductor](http://bioconductor.org/packages/amplican) (version 1.1.3 was used, but using current release might be wiser), or you can find source version in software folder. Instalation through bioconductor will automatically download and install required packages and save you trouble. Additionally to amplican dependencies you will need these R packages: CrispRVariants (1.4.0), BiocParallel (1.10.1), Biostrings (2.44.2), BSgenome.Drerio.UCSC.danRer7 (1.4.0), BSgenome.Hsapiens.UCSC.hg19 (1.4.0), gdata (2.18.0), GenomicAlignments (1.12.1), GenomicFeatures (1.28.4), GenomicRanges (1.28.4), ggplot2 (2.2.1.9000), grid (3.4.2), gridExtra (2.2.1), reshape2 (1.4.2), Rsamtools (1.28.0), rtracklayer (1.36.4), seqinr (3.4-5), scales (0.5.0), ShortRead (1.34.0), data.table (1.10.4).  
 - Install and make sure these software are in your PATH: bwa (0.7.12-r1039), seqprep, pear (v0.9.10), blat (version 35x1), CRISPResso (1.0.8), art_illumina (2.5.8).  
 - Install [sam2pairwise](http://www.github.com/mlafave/sam2pairwise) into software/sam2pairwise folder.  
 - Install [ampliconDIVider](https://github.com/mlafave/ampliconDIVider) into software/ampliconDIVider-master.  
@@ -33,6 +33,9 @@ Software that is needed to replicate this study (most of it comes from [CrispRVa
     what is usually designed in real datasets.  
     - ```indel_size.sh``` Will disable low chance of large insertions and deletions
     that was set in CrispRVariants, and also test for higher chance of large indels.  
+    - ```hdr.sh``` Creates benchmark data for HDR with donor templates with mismatches,
+    deletions and insertions of sizes from 5 to 70.  
+    - ```real_dataset.sh``` Will run analysis for the real data PRJNA245510 BioProject, run 1.  
     - ```plot_fwd_rve_disagreement``` Will plot how often forward and reverse reads are in disagreement.  
     - ```make_comparison_normalized.Rmd``` Will plot all normalization examples.  
     - ```configs_amplicon_runs``` Contains all amplican configuration files that have been used for not simulated datasets. Default amplican parameters were used during this analysis.  
