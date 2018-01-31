@@ -43,6 +43,9 @@ analysis/hdr/simulation_commands.sh
 analysis/hdr/crispresso_simulation_commands.sh
 analysis/hdr/crispresso_pooled_simulation_commands.sh
 
+analysis/real_dataset/data/*.bam
+analysis/real_dataset/data/*.bam.bai
+analysis/real_dataset/data/*.fq
 analysis/real_dataset/data/*.fastq
 analysis/real_dataset/data/crispresso
 analysis/real_dataset/data/amplican_results
