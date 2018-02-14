@@ -3,40 +3,28 @@ gc(reset=TRUE)
 
 library("GenomicRanges")
 library("Biostrings")
+library("data.table")
 
+setwd("/home/ai/Projects/amplican_manuscript/analysis/")
 config <- data.table::fread("./real_dataset/amplican_config.csv")
 data.table::setDF(config)
-# config$Forward_Reads <- paste0(gsub("_sim1", "", tools::file_path_sans_ext(config$Forward_Reads)), "_sim1.fq")
-# config$Reverse_Reads <- paste0(gsub("_L001_R2_001_sim2_sim1", "", tools::file_path_sans_ext(config$Reverse_Reads)), "_sim2.fq")
-# use only forward targets for simplification (not sure how other tools handle this)
-# config <- fread("./real_dataset/config_MiSeq_run_1_with_controls_fwd.csv")
-# # writeXStringSet(DNAStringSet(config$guideRNA), "./real_dataset/guides.fa")
-# # bowtie2 -x /home/ai/Projects/amplican_manuscript/analysis/idx/danRer7.fa -f --no-unal /home/ai/Projects/amplican_manuscript/analysis/real_dataset/guides.fa > /home/ai/Projects/amplican_manuscript/analysis/real_dataset/guides.sam
-# # sam_to_bam
-# library(GenomicAlignments)
-# param <- ScanBamParam(flag = scanBamFlag(isDuplicate = FALSE,
-#                                          isSecondaryAlignment = FALSE),
-#                       reverseComplement = FALSE,
-#                       tag = "MD",
-#                       what = c("mapq", "seq", "pos"))
-# guides <- readGAlignments("./real_dataset/guides_sorted.bam", param = param)
-# # remove guides with mm
-# guides <- guides[mcols(guides)$MD == "23" & strand(guides) == "+"]
-# guides <- guides[!duplicated(mcols(guides)$seq)]
-# names(guides) <- mcols(guides)$seq
-# rtracklayer::export.bed(guides, "/home/ai/Projects/amplican_manuscript/analysis/real_dataset/guides.bed")
-# config <- config[config$guideRNA %in% names(guides), ]
-# fwrite(config, "./real_dataset/amplican_config.csv")
+config$Forward_Reads <- paste0(config$ID, "_sim1.fq")
+config$Reverse_Reads <- paste0(config$ID, "_sim2.fq")
+config$Barcode <- paste0(config$ID)
+data.table::fwrite(config, "./real_dataset/amplican_config.csv")
 
+guideRNA <- toupper(config$guideRNA)
+guideRNA[config$Direction] <- as.character(reverseComplement(DNAStringSet(guideRNA[config$Direction])))
 amplicons <- config[, c("ID", "Amplicon")]
-amplicons$target_loc <- start(unlist(IRangesList(lapply(config$Amplicon, amplican:::upperGroups)))) + 17
+temp_a <- IRangesList(lapply(config$Amplicon, function(x) amplican:::upperGroups(x)[1]))
+amplicons$target_loc <- start(unlist(temp_a)) + 17
 amplicons$Amplicon <- toupper(amplicons$Amplicon)
 colnames(amplicons) <- c("name", "original", "target_loc")
 amplicons[,"target_loc"] <- as.integer(amplicons[,"target_loc"])
 
 # Get guides for ampliconDIVider
 guides <- rtracklayer::import("./real_dataset/guides.bed")
-guides <- guides[match(config$guideRNA, guides$name)]
+guides <- guides[match(toupper(config$guideRNA), guides$name)]
 guides <- guides + 5
 adiv_out <- "./real_dataset/amplicondivider_simulation_commands.sh"
 cat('cd ../software/ampliconDIVider-master\nsource ampliconDIV_minimal.sh\n',
@@ -51,11 +39,11 @@ for (i in 1:nrow(amplicons)) {
   original <- DNAString(a_rw$original)
   target_loc <- as.integer(a_rw["target_loc"])
   gd_name <- a_rw["name"]
-  guide <- substr(original, target_loc-17, target_loc + 5)
+  guide <- guideRNA[i]
 
   # Commands for CRISPResso
-  f1 <- file.path(out_dir, paste0(config$ID[i], "_sim1.fastq"))
-  f2 <- file.path(out_dir, paste0(config$ID[i], "_sim2.fastq"))
+  f1 <- file.path(out_dir, paste0(config$ID[i], "_sim1.fq"))
+  f2 <- file.path(out_dir, paste0(config$ID[i], "_sim2.fq"))
   crispresso_dir <- "crispresso"
   crispresso_template <- "CRISPResso -r1 %s -r2 %s -a %s -g %s -o %s -w 5\n"
   cat(sprintf(crispresso_template, f1, f2, original, guide, crispresso_dir),
@@ -81,30 +69,28 @@ for (i in 1:nrow(amplicons)) {
 
 # Write amplicons and guides into file for CRISPRessoPooled
 original <- amplicons$original
-guide <- substr(original, amplicons$target_loc-17, amplicons$target_loc + 5)
-amplicon_inf <- paste(amplicons$name, original, guide, sep = "\t", collapse = "\n")
-cat(amplicon_inf, file = "./real_dataset/data/merged/crispresso_pooled_amplicons.txt")
+amplicon_inf <- paste(amplicons$name, original, guideRNA, sep = "\t", collapse = "\n")
+#cat(amplicon_inf, file = "./real_dataset/data/merged/crispresso_pooled_amplicons.txt")
 cat("\n\nmv crispresso/* ./real_dataset/data/crispresso; rmdir crispresso\n",
     file = crispresso_cmds, append = TRUE)
 
 # crispresso pooled
-idx <- rep("./idx/danRer7.fa", 2)
-amplicons_f <- c("./real_dataset/data/merged/crispresso_pooled_amplicons_S1.txt",
-                 "./real_dataset/data/merged/crispresso_pooled_amplicons_S2.txt")
+idx <- rep("./idx/danRer7.fa", nrow(config))
+amplicons_f <- paste0("./real_dataset/data/merged/", config$ID, "_pooled_amplicons.txt")
 
-S1 <- config[!config$Control, ]
-S2 <- config[config$Control, ]
-amplicon_inf_S1 <- paste(S1$ID, toupper(S1$Amplicon),
-                         toupper(S1$guideRNA), sep = "\t", collapse = "\n")
-cat(amplicon_inf_S1, file = amplicons_f[1])
-amplicon_inf_S2 <- paste(S2$ID, toupper(S2$Amplicon),
-                         toupper(S2$guideRNA), sep = "\t", collapse = "\n")
-cat(amplicon_inf_S2, file = amplicons_f[2])
+# do CRISPResso Pooled, but treat each line separately, 
+# because they have issues with non-unique amplicons
+for (i in 1:nrow(config)) {
+  amplicon_inf <- paste(config$ID[i], toupper(config$Amplicon[i]),
+                           guideRNA[i], sep = "\t", collapse = "\n")
+  cat(amplicon_inf, file = amplicons_f[i])
+}
 pooled_template <- "CRISPRessoPooled -r1 %s -r2 %s -f %s -x %s --name %s -p 4 --window_around_sgrna 5"
 cmds <- paste(sprintf(pooled_template,
-                      unique(file.path("./real_dataset/data", config$Forward_Reads)),
-                      unique(file.path("./real_dataset/data", config$Reverse_Reads)),
-                      amplicons_f, idx, c("injected_S1", "uninjected_S2")),
+                      file.path("./real_dataset/data", config$Forward_Reads),
+                      file.path("./real_dataset/data", config$Reverse_Reads),
+                      amplicons_f, idx, 
+                      config$ID),
               collapse = "\n")
 cat(cmds, file = "./real_dataset/crispresso_pooled_commands.sh")
 cat("\n\nmv CRISPRessoPooled_on_* ./real_dataset/data/merged/", file = "./real_dataset/crispresso_pooled_commands.sh", append = TRUE)

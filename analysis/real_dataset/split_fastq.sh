@@ -16,8 +16,8 @@ function split () { #Forward_Reads Reverse_Reads ID Forward_Primer Reverse_Prime
 	echo "$(uniq id.txt)" > id.txt
 	
 	# based on ID select those reads into new file
-	cat "${1}" | seqkit grep --pattern-file id.txt > "$6${3}_sim1.fastq"
-	cat "${2}" | seqkit grep --pattern-file id.txt > "$6${3}_sim2.fastq"
+	cat "${1}" | seqkit grep --pattern-file id.txt > "$6${3}_sim1.fq"
+	cat "${2}" | seqkit grep --pattern-file id.txt > "$6${3}_sim2.fq"
 }
 
 i=0

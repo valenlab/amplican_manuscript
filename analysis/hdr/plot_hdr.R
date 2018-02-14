@@ -110,7 +110,7 @@ p <- ggplot(result) +
   geom_hline(data = tr, aes(yintercept = TrNum), linetype = "dotted") +
   facet_wrap(~Truth, nrow = 2) +
   geom_point(aes(x=Indels, y=value, colour=variable),
-             alpha = 0.5, position = position_dodge(width = 0.6), size = 6) +
+             alpha = 0.5, position = position_jitterdodge(), size = 6) +
   theme_bw() + xlab("Donor type") +
   ylab("Estimated mutation efficiency %") +
   theme(axis.text = element_text(size = 22),
@@ -125,7 +125,8 @@ p <- ggplot(result) +
         strip.background = element_blank()) +
   scale_colour_manual(values = cols) +
   guides(colour = guide_legend(override.aes = list(alpha=1)))
-
+p
 ggplot2::ggsave("../figures/indel_rate_vs_hdr.png", p, dpi = 400, width = 15, height = 10)
+ggplot2::ggsave("../figures/indel_rate_vs_hdr.pdf", p, dpi = 400, width = 15, height = 10)
 
 
