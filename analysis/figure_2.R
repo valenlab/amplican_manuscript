@@ -29,7 +29,8 @@ hdr <- data.table::fread("../figures/indel_rate_vs_hdr.csv")
 hdr$desc <- "mismatches/insertion/deletion"
 hdr$desc2 <- "HDR donor type"
 hdr$Truth <- as.numeric(gsub("%", "", hdr$Truth))
-hdr$value <- abs(hdr$value - hdr$Truth)
+hdr$value <- (abs(hdr$value - hdr$Truth)/hdr$Truth) * 100
+hdr$value[!is.finite(hdr$value)] <- 0
 hdr$value_log <- log10(hdr$value)
 hdr$value_log[!is.finite(hdr$value_log)] <- 0
 
@@ -50,7 +51,7 @@ hdr_medians_log$variable <- factor(hdr_medians_log$variable, levels = hdr_tools,
 
 tools_col <- c("#e69f00", "#781C81", "#009E73")
 p <- ggplot(hdr, aes(desc, value, colour = variable)) +
-  geom_point(alpha = 0.2, position = position_dodge(width = 0.9), size = 6) +
+  geom_point(alpha = 0.2, position = position_jitterdodge(), size = 6) +
   geom_errorbar(data = hdr_medians, aes(x = desc, y = median, ymin = median, 
                                         ymax = median, colour = variable),
                 position = position_dodge(width = 0.9)) +
@@ -61,7 +62,8 @@ p <- ggplot(hdr, aes(desc, value, colour = variable)) +
         legend.title = element_blank(),
         panel.background = element_blank(),
         axis.ticks.x = element_blank()) +
-  labs(x = "", y = "Error (estimated - real mutation efficiency) [%]") +
+  scale_y_reverse() + 
+  labs(x = "", y = "Normalized Error [%]") +
   guides(colour = guide_legend(override.aes = list(alpha=1)))
 p
 ggsave("../figures/error_hdr.png", p, dpi = 400, width = 17, height = 8)
@@ -69,10 +71,12 @@ ggsave("../figures/error_hdr.pdf", p, dpi = 400, width = 17, height = 8)
 
 err <- rbind(indels, roff_01, roff_02, roff_03)
 err$Truth <- as.numeric(gsub("%", "", err$Truth))
-err$value <- abs(err$value - err$Truth)
+err$value <- (abs(err$value - err$Truth)/err$Truth) * 100
+err$value[!is.finite(err$value)] <- 0
 err$value_log <- log10(err$value)
 err$value_log[!is.finite(err$value_log)] <- 0
-err <- err[err$Truth != 0, ]
+err$desc[err$desc == "Mixed Indels"] <- "Mixed indels"
+err_medians$desc[err_medians$desc == "Mixed Indels"] <- "Mixed indels"
 
 # sqrt(mean((m - t)^2))
 err_medians <- err %>% 
@@ -98,8 +102,6 @@ err_medians$desc2 <- factor(err_medians$desc2, levels = d2levels, ordered = TRUE
 err_medians_log$desc2 <- factor(err_medians_log$desc2, levels = d2levels, ordered = TRUE)
 dlevels <- c("No indels > 10bp", "Mixed indels", "Insertions > 10bp", "Deletions > 10bp",
              "10%", "20%", "30%")
-err$desc[err$desc == "Mixed Indels"] <- "Mixed indels"
-err_medians$desc[err_medians$desc == "Mixed Indels"] <- "Mixed indels"
 err$desc <- factor(err$desc, levels = dlevels, ordered = TRUE)
 err_medians$desc <- factor(err_medians$desc, levels = dlevels, ordered = TRUE)
 err_medians_log$desc <- factor(err_medians_log$desc, levels = dlevels, ordered = TRUE)
@@ -116,10 +118,10 @@ p <- ggplot(err, aes(desc, value, colour = variable)) +
         legend.title = element_blank(),
         panel.background = element_blank(),
         axis.ticks.x = element_blank()) +
-  labs(x = "", y = "Error (estimated - real mutation efficiency) [%]") +
+  scale_y_reverse() + 
+  labs(x = "", y = "Normalized Error [%]") +
   guides(colour = guide_legend(override.aes = list(alpha=1)))
 p
-
 ggsave("../figures/fig_2.png", p, dpi = 400, width = 17, height = 8)
 ggsave("../figures/fig_2.pdf", p, dpi = 400, width = 17, height = 8)
 
@@ -135,14 +137,17 @@ p <- ggplot(err, aes(desc, value_log, colour = variable)) +
         legend.title = element_blank(),
         panel.background = element_blank(),
         axis.ticks.x = element_blank()) +
-  labs(x = "", y = "Error (estimated - real mutation efficiency) [%]") +
+  labs(x = "", y = "Normalized Error log10 [%]") +
   scale_y_continuous(breaks = c(-4:2), labels = math_format(10^.x)) +
+  scale_y_reverse() + 
   guides(colour = guide_legend(override.aes = list(alpha=1)))
+
 ggsave("../figures/fig_2_log.png", p, dpi = 400, width = 17, height = 7)
 ggsave("../figures/fig_2_log.pdf", p, dpi = 400, width = 17, height = 7)
 
 off$Truth <- as.numeric(gsub("%", "", off$Truth))
-off$value <- abs(off$value - off$Truth)
+off$value <- (abs(off$value - off$Truth)/ off$Truth) * 100
+off$value[!is.finite(off$value)] <- 0
 off$value_log <- log10(off$value)
 off$value_log[!is.finite(off$value_log)] <- 0
 
@@ -172,7 +177,8 @@ p <- ggplot(off, aes(desc, value, colour = variable)) +
         legend.title = element_blank(),
         panel.background = element_blank(),
         axis.ticks.x = element_blank()) +
-  labs(x = "", y = "Error (estimated - real mutation efficiency) [%]") +
+  scale_y_reverse() + 
+  labs(x = "", y = "Normalized Error [%]") +
   guides(colour = guide_legend(override.aes = list(alpha=1)))
 p
 ggsave("../figures/error_crisprvaraints_dataset.png", p, dpi = 400, width = 17, height = 8)
@@ -190,8 +196,9 @@ p <- ggplot(off, aes(desc, value_log, colour = variable)) +
         legend.title = element_blank(),
         panel.background = element_blank(),
         axis.ticks.x = element_blank()) +
-  labs(x = "", y = "Error (estimated - real mutation efficiency) [%]") + 
+  labs(x = "", y = "Normalized Error log10 [%]") + 
   scale_y_continuous(breaks = c(-4:2), labels = math_format(10^.x)) +
+  scale_y_reverse() + 
   guides(colour = guide_legend(override.aes = list(alpha=1)))
 ggsave("../figures/error_crisprvaraints_dataset_log.png", p, dpi = 400, width = 17, height = 8)
 ggsave("../figures/error_crisprvaraints_dataset_log.pdf", p, dpi = 400, width = 17, height = 8)
