@@ -28,8 +28,8 @@ guides <- guides1[match(toupper(amplican_results$guideRNA), guides1$name)]
 references <- references[match(toupper(amplican_results$guideRNA), guides1$name)]
 
 results <- data.frame(ID = gsub("\\.", "_", amplican_results$ID))
-results$ampliCan <- amplican_results$Reads_Indel / amplican_results$Reads_Filtered * 100
-results$ampliCan_NotNormalized <- config_not_normalized$Reads_Indel / amplican_results$Reads_Filtered * 100
+results$ampliCan <- amplican_results$Reads_Edited / amplican_results$Reads_Filtered * 100
+results$ampliCan_NotNormalized <- config_not_normalized$Reads_Edited / amplican_results$Reads_Filtered * 100
 results$CRISPRessoPooled <- 0
 parseCRISPResso <- function(results_dir){
   results_f <- file.path(results_dir, "Quantification_of_editing_frequency.txt")
@@ -169,8 +169,8 @@ table(results$Type[!results$Control])/sum(table(results$Type[!results$Control]))
 
 
 # amplican as baseline
-res_save <- results
-results <- res_save
+#res_save <- results
+#results <- res_save
 
 results$ampliCan <- results$ampliCan - results$ampliCan_NotNormalized
 results$CRISPRessoPooled <- results$CRISPRessoPooled - results$ampliCan_NotNormalized
@@ -229,54 +229,54 @@ ggplot2::ggsave("../figures/not_norm_dist_real_datasets.pdf", p, dpi = 400, widt
 
 #arr <- c(results$ampliCan, results$ampliCan_NotNormalized),
 # result <- result[result$variable %in% c("ampliCan", "ampliCan_NotNormalized", "CrispRVariants"), ]
-p <- ggplot(result) +
-  geom_violin(aes(x = variable, y = value, color = variable), alpha = 0.6) +
-  ylab("Estimated mutation efficiency %") +
-  xlab("Experiments") +
-  theme_bw() +
-  theme(axis.text = element_text(size = 16),
-        axis.title.y = element_text(margin = margin(0,20,0,0), size = 18),
-        axis.title.x = element_text(margin = margin(15,0,10,0), size = 18),
-        axis.text.x = element_blank(),
-        axis.ticks.x = element_blank(),
-        strip.text.x = element_text(size = 18),
-        legend.key = element_blank(),
-        legend.text=element_text(size = 14),
-        legend.title = element_blank(),
-        legend.position = "bottom",
-        strip.background = element_blank()) +
-  scale_colour_manual(values = cols) +
-  guides(colour = guide_legend(override.aes = list(alpha = 1))) +
-  facet_grid(. ~ Type, scales = "free_x")
+# p <- ggplot(result) +
+#   geom_violin(aes(x = variable, y = value, color = variable), alpha = 0.6) +
+#   ylab("Estimated mutation efficiency %") +
+#   xlab("Experiments") +
+#   theme_bw() +
+#   theme(axis.text = element_text(size = 16),
+#         axis.title.y = element_text(margin = margin(0,20,0,0), size = 18),
+#         axis.title.x = element_text(margin = margin(15,0,10,0), size = 18),
+#         axis.text.x = element_blank(),
+#         axis.ticks.x = element_blank(),
+#         strip.text.x = element_text(size = 18),
+#         legend.key = element_blank(),
+#         legend.text=element_text(size = 14),
+#         legend.title = element_blank(),
+#         legend.position = "bottom",
+#         strip.background = element_blank()) +
+#   scale_colour_manual(values = cols) +
+#   guides(colour = guide_legend(override.aes = list(alpha = 1))) +
+#   facet_grid(. ~ Type, scales = "free_x")
 
 
-p <- ggplot(result) +
-  geom_point(aes(x = ID, y = value, color = variable), size = 6, alpha = 0.6) +
-  ylab("Estimated mutation efficiency %") +
-  xlab("Experiments") +
-  theme_bw() +
-  theme(axis.text = element_text(size = 16),
-        axis.title.y = element_text(margin = margin(0,20,0,0), size = 18),
-        axis.title.x = element_text(margin = margin(15,0,10,0), size = 18),
-        axis.text.x = element_blank(),
-        axis.ticks.x = element_blank(),
-        strip.text.x = element_text(size = 18),
-        legend.key = element_blank(),
-        legend.text=element_text(size = 14),
-        legend.title = element_blank(),
-        legend.position = "bottom",
-        strip.background = element_blank()) +
-  scale_colour_manual(values = cols) +
-  guides(colour = guide_legend(override.aes = list(alpha = 1))) +
-  facet_grid(. ~ Type, scales = "free_x") #+
-  #geom_line(aes(group = ugroup)) #+
-  #geom_point(size = 3, shape = 21)
-p
+# p <- ggplot(result) +
+#   geom_point(aes(x = ID, y = value, color = variable), size = 6, alpha = 0.6) +
+#   ylab("Estimated mutation efficiency %") +
+#   xlab("Experiments") +
+#   theme_bw() +
+#   theme(axis.text = element_text(size = 16),
+#         axis.title.y = element_text(margin = margin(0,20,0,0), size = 18),
+#         axis.title.x = element_text(margin = margin(15,0,10,0), size = 18),
+#         axis.text.x = element_blank(),
+#         axis.ticks.x = element_blank(),
+#         strip.text.x = element_text(size = 18),
+#         legend.key = element_blank(),
+#         legend.text=element_text(size = 14),
+#         legend.title = element_blank(),
+#         legend.position = "bottom",
+#         strip.background = element_blank()) +
+#   scale_colour_manual(values = cols) +
+#   guides(colour = guide_legend(override.aes = list(alpha = 1))) +
+#   facet_grid(. ~ Type, scales = "free_x") #+
+#   #geom_line(aes(group = ugroup)) #+
+#   #geom_point(size = 3, shape = 21)
+# p
 # run9_inj_charon_lnc_mat_e1_1_2 amplican above all
 # run6_elovl6_e1_1_2_7071_inj amplican middle crisprvariants 100%, rest 0
 
 # run6_charon_lnc_mat_e1_1_2_3685_inj crvar 100% rest 0 ampl 4
 # run7_elovl6_e1_1_2_inj crvar 100% rest 0 ampl 18%
 
-ggplot2::ggsave("../figures/indel_rate_real_datasets.png", p, dpi = 400, width = 15, height = 10)
-ggplot2::ggsave("../figures/indel_rate_real_datasets.pdf", p, dpi = 400, width = 15, height = 10)
+# ggplot2::ggsave("../figures/indel_rate_real_datasets.png", p, dpi = 400, width = 15, height = 10)
+# ggplot2::ggsave("../figures/indel_rate_real_datasets.pdf", p, dpi = 400, width = 15, height = 10)

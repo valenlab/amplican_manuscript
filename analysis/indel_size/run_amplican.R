@@ -3,6 +3,7 @@ gc(reset=TRUE)
 
 library(amplican)
 
+setwd("~/Projects/amplican_manuscript/analysis/")
 fdir <- normalizePath("./indel_size")
 this_c <- file.path(fdir, "config_merged.csv")
 fcomb <- folder_comb <- paste0(rep(c(0, 100, 200, 270), each = 4), "mut_",

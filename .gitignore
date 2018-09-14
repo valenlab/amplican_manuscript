@@ -53,5 +53,8 @@ analysis/real_dataset/data/amplicondivider
 analysis/real_dataset/data/merged
 
 
-
+analysis/precision/simulated/*
+analysis/precision/results_0/*
+analysis/precision/results_0.01/*
+analysis/precision/results_0.001/*
 

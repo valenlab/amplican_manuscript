@@ -24,7 +24,7 @@ for (i in pooled_dirs) {
   this_r <- fread(file.path(i, "config_summary.csv"))
   this_r$Del <- this_r$Reads_Del / this_r$Reads_Filtered * 100
   this_r$Fsft <- this_r$Reads_Frameshifted / this_r$Reads_Filtered * 100
-  this_r$Del_Ins <- this_r$Reads_Indel / this_r$Reads_Filtered * 100
+  this_r$Edited <- this_r$Reads_Edited / this_r$Reads_Filtered * 100
 
   noff <- as.integer(gsub(".*wt_([0-9]+)offtarget.*", "\\1", i))
   nmut <- as.numeric(gsub(".*/([0-9]+)mut.*", "\\1", i))
@@ -35,7 +35,7 @@ for (i in pooled_dirs) {
                                        Truth = nmut/(nmut+nwt) * 100,
                                        NOfftargets = noff,
                                        variable = "ampliCan",
-                                       value = this_r$Del_Ins))
+                                       value = this_r$Edited))
 }
 
 parseCRISPResso <- function(results_dir){

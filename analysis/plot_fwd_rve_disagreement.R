@@ -5,11 +5,11 @@ library(amplican)
 
 # load up experiments on filtered and shifted
 setwd("/home/ai/Projects/amplican_manuscript/analysis/")
-pdir <- "/home/ai/Projects/data/amplican/Jamie/"
+pdir <- "/media/ai/ValenLab/Projects/data/amplican/Jamie/"
 
-fdir <- c("MiSeq_run1", 
-          "MiSeq_run5_2013_09_25", 
-          "MiSeq_run6_2013_11_19", 
+fdir <- c("MiSeq_run1",
+          "MiSeq_run5_2013_09_25",
+          "MiSeq_run6_2013_11_19",
           "MiSeq_run7_2014_01_02",
           "MiSeq_run8_2014_01_30",
           "MiSeq_run10_2014_05_16",
@@ -31,7 +31,7 @@ for (f in seq_along(fdir)) {
   big_ins <- big_ins[, .(counts = max(counts)), by = c("seqnames", "read_id")]
   big_ins <- big_ins[, .(counts = sum(counts)), by = c("seqnames")]
   big_ins$large_ins <- big_ins$counts * 100 / cfgT$Reads_Filtered[match(big_ins$seqnames, cfgT$ID)]
-  big_ins$large_ins_N <- big_ins$counts * 100 / cfgT$Reads_Indel[match(big_ins$seqnames, cfgT$ID)]
+  big_ins$large_ins_N <- big_ins$counts * 100 / cfgT$Reads_Edited[match(big_ins$seqnames, cfgT$ID)]
   big_ins$guideRNA <- toupper(cfgT$guideRNA[match(big_ins$seqnames, cfgT$ID)])
   big_ins_table <- rbind(big_ins_table, big_ins)
 

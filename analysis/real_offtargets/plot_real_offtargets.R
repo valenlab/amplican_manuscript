@@ -26,7 +26,7 @@ for (w in seq_along(freqs)) {
     this_r <- fread(file.path(i, "config_summary.csv"))
     this_r$Del <- this_r$Reads_Del / this_r$Reads_Filtered * 100
     this_r$Fsft <- this_r$Reads_Frameshifted / this_r$Reads_Filtered * 100
-    this_r$Del_Ins <- this_r$Reads_Indel / this_r$Reads_Filtered * 100
+    this_r$Edited <- this_r$Reads_Edited / this_r$Reads_Filtered * 100
 
     noff <- as.integer(gsub(".*wt_([0-9]+)offtarget.*", "\\1", i))
     nmut <- as.numeric(gsub(".*/([0-9]+)mut.*", "\\1", i))
@@ -37,7 +37,7 @@ for (w in seq_along(freqs)) {
                                          Truth = nmut/(nmut+nwt) * 100,
                                          NOfftargets = noff,
                                          variable = "ampliCan",
-                                         value = this_r$Del_Ins))
+                                         value = this_r$Edited))
   }
 
   parseCRISPResso <- function(results_dir){
@@ -127,7 +127,7 @@ for (w in seq_along(freqs)) {
   result$value <- as.numeric(as.character(result$value))
   result$Truth <- factor(result$Truth)
   levels(result$Truth) <- c("0","33.3%", "66.7%", "90%")
-  result$variable <- factor(result$variable, 
+  result$variable <- factor(result$variable,
                             levels = c("ampliCan", "CrispRVariants", "AmpliconDIVider", "CRISPResso",
                                        "CRISPRessoPooled"),
                             ordered = TRUE)
@@ -154,5 +154,7 @@ for (w in seq_along(freqs)) {
           strip.background = element_blank()) +
     scale_colour_manual(values = cols)
   ggplot2::ggsave(paste0("../figures/indel_rate_vs_real_offtargets_", freqs[w], ".pdf"),
+                  p, dpi = 400, width = 15, height = 10)
+  ggplot2::ggsave(paste0("../figures/indel_rate_vs_real_offtargets_", freqs[w], ".png"),
                   p, dpi = 400, width = 15, height = 10)
 }

@@ -42,7 +42,7 @@ levels <- gsub("freq", "", gsub(".*_([0-9]+freq).*", "\\1", basename(r1s)))
 amplicons_f <- paste0("./hdr/simulation/merged/crispresso_pooled_amplicons_", levels, ".txt")
 pooled_template <- "CRISPRessoPooled -r1 %s -r2 %s -f %s -x %s --name %s -p 4 --window_around_sgrna 5"
 cmds <- paste(sprintf(pooled_template, r1s, r2s, amplicons_f, idx, names(splits)),
-          collapse = "\n")
+              collapse = "\n")
 cat(cmds, file = "./hdr/crispresso_pooled_commands.sh")
 cat("\n\nmv CRISPRessoPooled_on_* ./hdr/simulation/merged/",
     file = "./hdr/crispresso_pooled_commands.sh", append = TRUE)

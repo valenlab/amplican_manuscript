@@ -40,7 +40,7 @@ rm ./real_offtargets/crispresso_simulation_0.3_commands.sh
 rm ./real_offtargets/crispresso_pooled_simulation_0.3_commands.sh
 
 # simulate scripts
-R < ./real_offtargets/simulate_mutations.R --no-save
+R-3.5.0 < ./real_offtargets/simulate_mutations.R --no-save
 chmod 777 ./real_offtargets/simulation_0.1_commands.sh
 chmod 777 ./real_offtargets/simulation_0.2_commands.sh
 chmod 777 ./real_offtargets/simulation_0.3_commands.sh
@@ -69,7 +69,7 @@ chmod 777 ./real_offtargets/crispresso_simulation_0.3_commands.sh
 ./real_offtargets/crispresso_simulation_0.2_commands.sh
 ./real_offtargets/crispresso_simulation_0.3_commands.sh
 
-R < ./real_offtargets/crispresso_pooled_simulation_commands.R --no-save
+R-3.5.0 < ./real_offtargets/crispresso_pooled_simulation_commands.R --no-save
 chmod 777 ./real_offtargets/crispresso_pooled_simulation_0.1_commands.sh
 chmod 777 ./real_offtargets/crispresso_pooled_simulation_0.2_commands.sh
 chmod 777 ./real_offtargets/crispresso_pooled_simulation_0.3_commands.sh
@@ -77,5 +77,5 @@ chmod 777 ./real_offtargets/crispresso_pooled_simulation_0.3_commands.sh
 ./real_offtargets/crispresso_pooled_simulation_0.2_commands.sh
 ./real_offtargets/crispresso_pooled_simulation_0.3_commands.sh
 
-R < ./real_offtargets/run_amplican.R --no-save
-R < ./real_offtargets/plot_real_offtargets.R --no-save
+R-3.5.0 < ./real_offtargets/run_amplican.R --no-save
+R-3.5.0 < ./real_offtargets/plot_real_offtargets.R --no-save

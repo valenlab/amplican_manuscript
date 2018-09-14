@@ -1,0 +1,12 @@
+art_illumina -amp -rs 30 -f 10 -l 150 -p -ss MSv1 -na -i ./precision/simulated//nlgn4a_1mut_0wt_150readlen.fa -o ./precision/simulated//nlgn4a_1mut_0wt_150readlen_sim
+art_illumina -amp -rs 30 -f 10 -l 150 -p -ss MSv1 -na -i ./precision/simulated//nlgn4a_1mut_0wt_150readlen_ctr.fa -o ./precision/simulated//nlgn4a_1mut_0wt_150readlen_ctr_sim
+art_illumina -amp -rs 30 -f 10 -l 150 -p -ss MSv1 -na -i ./precision/simulated//nlgn4a_1mut_9wt_150readlen.fa -o ./precision/simulated//nlgn4a_1mut_9wt_150readlen_sim
+art_illumina -amp -rs 30 -f 10 -l 150 -p -ss MSv1 -na -i ./precision/simulated//nlgn4a_1mut_9wt_150readlen_ctr.fa -o ./precision/simulated//nlgn4a_1mut_9wt_150readlen_ctr_sim
+art_illumina -amp -rs 30 -f 10 -l 150 -p -ss MSv1 -na -i ./precision/simulated//nlgn4a_1mut_99wt_150readlen.fa -o ./precision/simulated//nlgn4a_1mut_99wt_150readlen_sim
+art_illumina -amp -rs 30 -f 10 -l 150 -p -ss MSv1 -na -i ./precision/simulated//nlgn4a_1mut_99wt_150readlen_ctr.fa -o ./precision/simulated//nlgn4a_1mut_99wt_150readlen_ctr_sim
+art_illumina -amp -rs 30 -f 10 -l 150 -p -ss MSv1 -na -i ./precision/simulated//nlgn4a_1mut_999wt_150readlen.fa -o ./precision/simulated//nlgn4a_1mut_999wt_150readlen_sim
+art_illumina -amp -rs 30 -f 10 -l 150 -p -ss MSv1 -na -i ./precision/simulated//nlgn4a_1mut_999wt_150readlen_ctr.fa -o ./precision/simulated//nlgn4a_1mut_999wt_150readlen_ctr_sim
+art_illumina -amp -rs 30 -f 10 -l 150 -p -ss MSv1 -na -i ./precision/simulated//nlgn4a_1mut_9999wt_150readlen.fa -o ./precision/simulated//nlgn4a_1mut_9999wt_150readlen_sim
+art_illumina -amp -rs 30 -f 10 -l 150 -p -ss MSv1 -na -i ./precision/simulated//nlgn4a_1mut_9999wt_150readlen_ctr.fa -o ./precision/simulated//nlgn4a_1mut_9999wt_150readlen_ctr_sim
+art_illumina -amp -rs 30 -f 10 -l 150 -p -ss MSv1 -na -i ./precision/simulated//nlgn4a_1mut_99999wt_150readlen.fa -o ./precision/simulated//nlgn4a_1mut_99999wt_150readlen_sim
+art_illumina -amp -rs 30 -f 10 -l 150 -p -ss MSv1 -na -i ./precision/simulated//nlgn4a_1mut_99999wt_150readlen_ctr.fa -o ./precision/simulated//nlgn4a_1mut_99999wt_150readlen_ctr_sim

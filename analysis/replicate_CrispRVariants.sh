@@ -11,7 +11,7 @@ rm ./replicate_CrispRVariants/amplicondivider_simulation_commands.sh
 rm ./replicate_CrispRVariants/crispresso_simulation_commands.sh
 rm ./replicate_CrispRVariants/crispresso_pooled_commands.sh
 
-R < ./replicate_CrispRVariants/simulate_mutations.R --no-save
+R-3.5.0 < ./replicate_CrispRVariants/simulate_mutations.R --no-save
 chmod 777 ./replicate_CrispRVariants/simulation_commands.sh
 ./replicate_CrispRVariants/simulation_commands.sh
 
@@ -24,9 +24,9 @@ chmod 777 ./replicate_CrispRVariants/amplicondivider_simulation_commands.sh
 chmod 777 ./replicate_CrispRVariants/crispresso_simulation_commands.sh
 ./replicate_CrispRVariants/crispresso_simulation_commands.sh
 
-R < ./replicate_CrispRVariants/crispresso_pooled_simulation_commands.R --no-save
+R-3.5.0 < ./replicate_CrispRVariants/crispresso_pooled_simulation_commands.R --no-save
 chmod 777 ./replicate_CrispRVariants/crispresso_pooled_commands.sh
 ./replicate_CrispRVariants/crispresso_pooled_commands.sh
 
-R < ./replicate_CrispRVariants/run_amplican.R --no-save
-R < ./replicate_CrispRVariants/plot_crisprvariant_synthetic.R --no-save
+R-3.5.0 < ./replicate_CrispRVariants/run_amplican.R --no-save
+R-3.5.0 < ./replicate_CrispRVariants/plot_crisprvariant_synthetic.R --no-save

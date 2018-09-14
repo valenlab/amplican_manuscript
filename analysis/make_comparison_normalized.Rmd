@@ -42,7 +42,7 @@ library(data.table)
 library(ggplot2)
 
 # where is data
-results_folder <- "/home/ai/Projects/data/amplican/Jamie/"
+results_folder <- "/media/ai/ValenLab/Projects/data/amplican/Jamie/"
 figure_folder <- "/home/ai/Projects/amplican_manuscript/figures/normalization"
 folders <- c("MiSeq_run1", 
              "MiSeq_run5_2013_09_25", 
@@ -66,7 +66,7 @@ for (f in folders) {
                              "events_filtered_shifted_normalized.csv"))
   config <- amplicanSummarize(aln_ctr[aln_ctr$consensus & aln_ctr$overlaps, ], config)
   config_not_normalized <- amplicanSummarize(aln[aln$consensus & aln$overlaps, ], config)
-  config$notN_Reads_Indel <- config_not_normalized$Reads_Indel
+  config$notN_Reads_Edited <- config_not_normalized$Reads_Edited
   
   config_ctr <- config[config$Control, ]
   config_not_normalized <- config_not_normalized[!config$Control, ]
@@ -81,10 +81,10 @@ for (f in folders) {
   #config <- config[nguides, ]
   
   big_norm_exp <- rbind(big_norm_exp, config[, .SD, .SDcols = c(
-    "guideRNA", "ID", "Reads_Filtered", "Reads_Indel", "notN_Reads_Indel")])
+    "guideRNA", "ID", "Reads_Filtered", "Reads_Edited", "notN_Reads_Edited")])
   # show only those that have change between before and after
   
-  changed <- config$Reads_Indel != config$notN_Reads_Indel
+  changed <- config$Reads_Edited != config$notN_Reads_Edited
   config <- config[changed, ]
   config_not_normalized <- config_not_normalized[changed, ]
   m <- m[changed]
@@ -132,10 +132,10 @@ for (f in folders) {
 ```{r, echo = FALSE, results = "asis"}
 library(ggplot2)
 library(ggthemes)
-big_norm_exp$Raw <- round(big_norm_exp$notN_Reads_Indel*100/
+big_norm_exp$Raw <- round(big_norm_exp$notN_Reads_Edited*100/
                                big_norm_exp$Reads_Filtered, 2)
 big_norm_exp$Raw[is.nan(big_norm_exp$Raw)] <- 0
-big_norm_exp$Normalized <- round(big_norm_exp$Reads_Indel*100/
+big_norm_exp$Normalized <- round(big_norm_exp$Reads_Edited*100/
                                big_norm_exp$Reads_Filtered, 2)
 big_norm_exp$Normalized[is.nan(big_norm_exp$Normalized)] <- 0
 big_norm_exp$ugroup <- seq_len(dim(big_norm_exp)[1])
@@ -149,7 +149,7 @@ nexp <- melt(big_norm_exp[big_norm_exp$Raw != big_norm_exp$Normalized, ],
 # ggsave("/home/ai/Projects/amplican_manuscript/figures/normalized_change.png", p)
 # p
 
-p <- ggplot(data = nexp, aes(x = value, y = as.factor(ugroup), fill = variable)) +
+p <- ggplot(data = nexp, aes(x = value, y = as.factor(ugroup), fill = variable, color = variable)) +
   geom_line(aes(group = ugroup)) +
   geom_point(size = 3, shape = 21) + 
   xlab("Estimated indel rate [%]") + 
@@ -160,8 +160,10 @@ p <- ggplot(data = nexp, aes(x = value, y = as.factor(ugroup), fill = variable))
         panel.background = element_blank(),
         panel.grid = element_blank(),
         legend.position = "top") +
-  guides(fill = guide_legend(title = "Data")) +
-  scale_fill_manual(values=c("white", "black"))
+  guides(fill = guide_legend(title = "Data"),
+         color = FALSE) +
+  scale_fill_manual(values=c("red", "black")) + 
+  scale_color_manual(values=c("red", "black"))
 ggsave("/home/ai/Projects/amplican_manuscript/figures/normalized_change.pdf", 
        p, dpi = 400, width = 10, height = 10)
 p

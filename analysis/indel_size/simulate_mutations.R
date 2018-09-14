@@ -41,7 +41,7 @@ mutateNucleotides <- function(original, fraction){
   paste0(nucs, collapse = "")
 }
 
-set.seed(7)
+set.seed(12345)
 
 freqs <- read.table("./idx/Shah_mutation_weights.txt", sep = "\t")
 freqs1 <- freqs2 <- freqs3 <- freqs4 <- freqs

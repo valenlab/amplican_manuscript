@@ -8,6 +8,8 @@ library(reshape2)
 library(rtracklayer)
 library(data.table)
 
+
+
 pdir <- "./indel_size/simulation"
 
 danRer7 <- BSgenome.Drerio.UCSC.danRer7
@@ -24,7 +26,7 @@ for (i in pooled_dirs) {
   this_r <- fread(file.path(i, "config_summary.csv"))
   this_r$Del <- this_r$Reads_Del / this_r$Reads_Filtered * 100
   this_r$Fsft <- this_r$Reads_Frameshifted / this_r$Reads_Filtered * 100
-  this_r$Del_Ins <- this_r$Reads_Indel / this_r$Reads_Filtered * 100
+  this_r$Del_Ins <- this_r$Reads_Edited / this_r$Reads_Filtered * 100
 
   noff <- as.integer(gsub(".*wt_([0-9]+)freq.*", "\\1", i))
   nmut <- as.numeric(gsub(".*/([0-9]+)mut.*", "\\1", i))
@@ -53,7 +55,7 @@ parseCRISPResso <- function(results_dir){
 }
 
 # Parse CRISPResso pooled results
-pooled_dirs <- list.files(file.path(pdir, "merged"), 
+pooled_dirs <- list.files(file.path(pdir, "merged"),
                           recursive = TRUE,
                           pattern = "CRISPResso_on", include.dirs = TRUE,
                           full.names = TRUE)
@@ -66,7 +68,7 @@ pooled_results <- data.frame(Guide = condition, Truth = nmut/(nmut+nwt) * 100,
                              Indels = noff, variable = "CRISPRessoPooled",
                              value = unname(pooled_results))
 # Parse ampliconDIVider results
-adiv_files <- list.files(file.path(pdir, "amplicondivider"), 
+adiv_files <- list.files(file.path(pdir, "amplicondivider"),
                          full.names = TRUE)
 adiv_results <- sapply(adiv_files, function(fn){
   tt <- read.table(fn, sep = "\t")[1,c(6)]*100
@@ -123,7 +125,7 @@ class(result$value) <- "numeric"
 class(result$Truth) <- "factor"
 truths <- c("0", "33.3%", "66.7%", "90%")
 levels(result$Truth) <- truths
-result$variable <- factor(result$variable, 
+result$variable <- factor(result$variable,
                           levels = c("ampliCan", "CrispRVariants", "AmpliconDIVider", "CRISPResso",
                                      "CRISPRessoPooled"),
                           ordered = TRUE)
@@ -154,3 +156,4 @@ p <- ggplot(result) +
   guides(colour = guide_legend(override.aes = list(alpha=1)))
 
 ggplot2::ggsave("../figures/indel_rate_vs_indel_size.png", p, dpi = 400, width = 15, height = 10)
+ggplot2::ggsave("../figures/indel_rate_vs_indel_size.pdf", p, dpi = 400, width = 15, height = 10)

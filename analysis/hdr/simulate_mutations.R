@@ -56,6 +56,11 @@ guides_loc <- rtracklayer::import("./idx/shah_guides.bed")
 guides_loc <- guides_loc[match(amplicons$name, guides_loc$name)]
 guides <- guides_loc + 5
 
+freqs <- read.table("./idx/Shah_mutation_weights.txt", sep = "\t")
+# Set a low value for large indels
+freqs$x[freqs$Variant > 10] <- 1e-10
+freqs$x <- freqs$x/sum(freqs$x)
+
 # get guideRNA locations + 5 for CRISPRPooled
 guide <- as.character(getSeq(danRer7, guides_loc))
 
@@ -80,8 +85,11 @@ donor[[1]] <- mapply(mutateNucleotides, ampl, rep(ampl_target_loc, 20), ampl_siz
 donor[[2]] <- mapply(insertNucleotides, ampl, rep(ampl_target_loc, 20), ampl_sizes)
 donor[[3]] <- mapply(deleteNucleotides, ampl, rep(ampl_target_loc, 20), ampl_sizes)
 
+# mix in some crispr editing at different levels 0/10/33
+
 for (i in levels) {
-  amplicon_inf <- paste(amplicons$name, as.character(ampl), guide, as.character(donor[[i]]), sep = "\t", collapse = "\n")
+  amplicon_inf <- paste(amplicons$name, as.character(ampl), 
+                        guide, as.character(donor[[i]]), sep = "\t", collapse = "\n")
   cat(amplicon_inf, file = paste0("./hdr/simulation/merged/crispresso_pooled_amplicons_", i, ".txt"))
 }
 
@@ -98,17 +106,17 @@ ampl_conf$V11 <- paste0(
   tolower(substr(ampl, 20 + extra_bases + 23 + 1, nchar(ampl))))
 ampl_conf$V7 <- guide
 ampl_conf$V8 <- toupper(substr(ampl, 1, 20))
-ampl_conf$V9 <- toupper(reverseComplement(DNAStringSet(substr(ampl, nchar(ampl) - 19, nchar(ampl)))))
+ampl_conf$V9 <- toupper(reverseComplement(DNAStringSet(
+  substr(ampl, nchar(ampl) - 19, nchar(ampl)))))
 
 for (i in levels) {
   ampl_conf$donor <- as.character(donor[[i]])
   data.table::fwrite(ampl_conf, paste0("./hdr/config_merged_", i, ".csv"))
 }
 
-
-sample_seqs <- function(n_mut, n_original, n_freq, amplicons,
+sample_seqs <- function(n_mut, n_crispr, n_original, n_freq, amplicons,
                         out_dir, sim_file, nvars = 10, crispresso_file =  NA,
-                        read_len = read_lengths_illumina){
+                        read_len = read_lengths_illumina) {
   for (i in 1:nrow(amplicons)) {
     a_rw <- amplicons[i, ]
     original <- DNAString(a_rw$original)
@@ -116,20 +124,34 @@ sample_seqs <- function(n_mut, n_original, n_freq, amplicons,
     gd_name <- as.character(a_rw$name)
     guide <- substr(original, target_loc-17, target_loc + 5)
 
-    new_seqs <- rep(as.character(donor[[f]][i]), n_mut)
-    out_fname <- file.path(out_dir, sprintf("%s_%smut_%swt_%sfreq_%sreadlen.fa",
-                  gd_name, n_mut, n_original, n_freq, read_len))
-
-    result <- c(new_seqs, replicate(n_original, original))
+    new_seqs <- rep(as.character(donor[[n_freq]][i]), n_mut)
+    out_fname <- file.path(out_dir, sprintf("%s_%smut_%scedited_%swt_%sfreq_%sreadlen.fa",
+                  gd_name, n_mut, n_crispr, n_original, n_freq, read_len))
+    
+    subsamp <- sample(1:nrow(freqs), nvars, prob = freqs$x)
+    row_idxs <- sample(c(1:nrow(freqs))[subsamp], n_crispr,
+                       prob = freqs$x[subsamp], replace = TRUE)
+    crispr_edits <- lapply(row_idxs, function(i){
+      rw <- freqs[i,]
+      if (rw$var_type == "D") func <- deleteNucleotides
+      if (rw$var_type == "I") func <- insertNucleotides
+      new_seq <-  func(original, ampl_target_loc + rw$Location, rw$Variant)
+      new_seq
+    })
+    
+    result <- c(new_seqs, unlist(crispr_edits), replicate(n_original, original))
     result_names <- c(rep(">var", n_mut),
+                      rep(">crispr_edited", n_crispr),
                       rep(">original", n_original))
 
-    print(sprintf("Length variant: %s Length unmutated: %s",
-          length(new_seqs), n_original))
-    stopifnot(length(result_names) == (length(new_seqs) + n_original))
+    print(sprintf("Length HDR: %s Length crispr: %s Length unmutated: %s",
+          length(new_seqs), n_crispr, n_original))
+    stopifnot(length(result_names) == (length(new_seqs) + n_crispr + n_original))
 
     result_names <- paste(result_names,
-                          c(seq_len(n_mut), seq_len(n_original)), sep = "_")
+                          c(seq_len(n_mut), 
+                            seq_len(n_crispr),
+                            seq_len(n_original)), sep = "_")
 
     new_seqs <- paste(result_names, sapply(result, as.character), sep = "\n")
     new_seqs <- paste0(new_seqs, collapse = "\n")
@@ -146,7 +168,8 @@ sample_seqs <- function(n_mut, n_original, n_freq, amplicons,
     f2 <- gsub(".fa", "_sim2.fq", out_fname)
     crispresso_dir <- "crispresso"
     crispresso_template <- "CRISPResso -r1 %s -r2 %s -a %s -g %s -e %s -o %s -w 5\n"
-    cat(sprintf(crispresso_template, f1, f2, original, guide, as.character(donor[[f]][i]), crispresso_dir),
+    cat(sprintf(crispresso_template, f1, f2, original, guide, 
+                as.character(donor[[f]][i]), crispresso_dir),
         file = crispresso_file, append = TRUE)
   }
 }
@@ -155,21 +178,41 @@ sim_cmds <- "./hdr/simulation_commands.sh"
 crispresso_cmds <- "./hdr/crispresso_simulation_commands.sh"
 
 for (f in levels){
-    # 0% efficient
-    sample_seqs(0, 300, f, amplicons, "./hdr/simulation",
-               sim_file = sim_cmds, crispresso_file = crispresso_cmds)
+  # 0% efficient HDR 0% crispr
+  sample_seqs(0, 0, 300, f, amplicons, "./hdr/simulation",
+              sim_file = sim_cmds, crispresso_file = crispresso_cmds)
+  
+  # 0% efficient HDR 10% crispr
+  sample_seqs(0, 30, 270, f, amplicons, "./hdr/simulation",
+              sim_file = sim_cmds, crispresso_file = crispresso_cmds)
+  
+  # 0% efficient HDR 33% crispr
+  sample_seqs(0, 100, 200, f, amplicons, "./hdr/simulation",
+              sim_file = sim_cmds, crispresso_file = crispresso_cmds)
 
-    # 33% efficient
-    sample_seqs(100,200, f, amplicons, "./hdr/simulation",
-               sim_file = sim_cmds, crispresso_file = crispresso_cmds)
+  # 33% efficient HDR 0% crispr
+  sample_seqs(100, 0, 200, f, amplicons, "./hdr/simulation",
+              sim_file = sim_cmds, crispresso_file = crispresso_cmds)
+  
+  # 33% efficient HDR 10% crispr
+  sample_seqs(100, 30, 170, f, amplicons, "./hdr/simulation",
+              sim_file = sim_cmds, crispresso_file = crispresso_cmds)
+  
+  # 33% efficient HDR 33% crispr
+  sample_seqs(100, 100, 100, f, amplicons, "./hdr/simulation",
+              sim_file = sim_cmds, crispresso_file = crispresso_cmds)
 
-    # 66% efficient
-    sample_seqs(200,100, f, amplicons, "./hdr/simulation",
-               sim_file = sim_cmds, crispresso_file = crispresso_cmds)
-
-    # 90% efficient
-    sample_seqs(270,30, f, amplicons, "./hdr/simulation",
-               sim_file = sim_cmds, crispresso_file = crispresso_cmds)
+  # 66% efficient HDR 0% crispr
+  sample_seqs(200, 0, 100, f, amplicons, "./hdr/simulation",
+              sim_file = sim_cmds, crispresso_file = crispresso_cmds)
+  
+  # 66% efficient HDR 10% crispr
+  sample_seqs(200, 30, 70, f, amplicons, "./hdr/simulation",
+              sim_file = sim_cmds, crispresso_file = crispresso_cmds)
+  
+  # 66% efficient HDR 33% crispr
+  sample_seqs(200, 100, 0, f, amplicons, "./hdr/simulation",
+              sim_file = sim_cmds, crispresso_file = crispresso_cmds)
 }
 
 cat("\n\nmv crispresso/* ./hdr/simulation/crispresso; rmdir crispresso\n",
