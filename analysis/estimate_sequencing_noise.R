@@ -46,3 +46,4 @@ ggsave("~/Projects/amplican_manuscript/figures/desitribution_of_control_event_fr
 #        width = 16, height = 8)
 
 sum(allEvents$freq <= 0.01)/length(allEvents$freq)
+sum(allEvents$freq <= 0.05)/length(allEvents$freq)
