@@ -107,7 +107,7 @@ data.table::fwrite(ampl_conf, "./indel_size/config_merged.csv")
 
 sample_seqs <- function(n_mut, n_original, n_freq, amplicons,
                         out_dir, sim_file, mut_frac = 0.2,
-                        log_file = NA, nvars = 10, crispresso_file =  NA,
+                        log_file = NA, nvars = 10, crispresso_file =  NA, crispresso2_file = NA,
                         read_len = read_lengths_illumina){
   for (i in 1:nrow(amplicons)) {
     a_rw <- amplicons[i, ]
@@ -165,6 +165,15 @@ sample_seqs <- function(n_mut, n_original, n_freq, amplicons,
     crispresso_template <- "CRISPResso -r1 %s -r2 %s -a %s -g %s -o %s -w 5\n"
     cat(sprintf(crispresso_template, f1, f2, original, guide, crispresso_dir),
         file = crispresso_file, append = TRUE)
+    
+    # Commands for CRISPResso2
+    crispresso_dir <- "crispresso2"
+    crispresso2_template <- paste0(
+      "docker run -v ${PWD}:", normalizePath("."), " -w ", normalizePath("."), 
+      "-i pinellolab/crispresso2 CRISPResso -r1 %s -r2 %s -a %s -g %s -o %s -w 5\n", 
+      collapse = "")
+    cat(sprintf(crispresso2_template, f1, f2, original, guide, crispresso_dir),
+        file = crispresso2_file, append = TRUE)
 
     # Commands for ampliconDIVider
     adiv_dir <- "../../analysis/indel_size/simulation/amplicondivider"
@@ -184,24 +193,32 @@ sample_seqs <- function(n_mut, n_original, n_freq, amplicons,
 
 sim_cmds <- "./indel_size/simulation_commands.sh"
 crispresso_cmds <- "./indel_size/crispresso_simulation_commands.sh"
+crispresso2_cmds <- "./indel_size/crispresso2_simulation_commands.sh"
 
 for (f in seq_len(length(freqs))){
     # 0% efficient
     sample_seqs(0,300, f, amplicons, "./indel_size/simulation",
-               sim_file = sim_cmds, crispresso_file = crispresso_cmds)
+               sim_file = sim_cmds, crispresso_file = crispresso_cmds,
+               crispresso2_file = crispresso2_cmds)
 
     # 33% efficient
     sample_seqs(100,200, f, amplicons, "./indel_size/simulation",
-               sim_file = sim_cmds, crispresso_file = crispresso_cmds)
+               sim_file = sim_cmds, crispresso_file = crispresso_cmds,
+               crispresso2_file = crispresso2_cmds)
 
     # 66% efficient
     sample_seqs(200,100, f, amplicons, "./indel_size/simulation",
-               sim_file = sim_cmds, crispresso_file = crispresso_cmds)
+               sim_file = sim_cmds, crispresso_file = crispresso_cmds,
+               crispresso2_file = crispresso2_cmds)
 
     # 90% efficient
     sample_seqs(270,30, f, amplicons, "./indel_size/simulation",
-               sim_file = sim_cmds, crispresso_file = crispresso_cmds)
+               sim_file = sim_cmds, crispresso_file = crispresso_cmds,
+               crispresso2_file = crispresso2_cmds)
 }
 
 cat("\n\nmv crispresso/* ./indel_size/simulation/crispresso; rmdir crispresso\n",
     file = crispresso_cmds, append = TRUE)
+
+cat("\n\nmv crispresso2/* ./indel_size/simulation/crispresso2; rmdir crispresso2\n",
+    file = crispresso2_cmds, append = TRUE)

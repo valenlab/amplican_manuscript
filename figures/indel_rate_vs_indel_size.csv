@@ -953,6 +953,326 @@ nrxn3b_L,90%,Deletions > 10bp,CRISPRessoPooled,56.55
 nrxn3b_S,90%,Deletions > 10bp,CRISPRessoPooled,34.4262295081967
 tjp1b_B,90%,Deletions > 10bp,CRISPRessoPooled,0
 tjp1b_L,90%,Deletions > 10bp,CRISPRessoPooled,73.6611062335382
+cnsta_0mut,0,No indels > 10bp,CRISPResso2,0.0666666666667
+cnsta_0mut,0,Mixed Indels,CRISPResso2,0.0666666666667
+cnsta_0mut,0,Insertions > 10bp,CRISPResso2,0.0666666666667
+cnsta_0mut,0,Deletions > 10bp,CRISPResso2,0.0666666666667
+cnsta_100mut,33.3%,No indels > 10bp,CRISPResso2,14.1666666667
+cnsta_100mut,33.3%,Mixed Indels,CRISPResso2,27.8112449799
+cnsta_100mut,33.3%,Insertions > 10bp,CRISPResso2,0.05
+cnsta_100mut,33.3%,Deletions > 10bp,CRISPResso2,27.7666666667
+cnsta_200mut,66.7%,No indels > 10bp,CRISPResso2,53
+cnsta_200mut,66.7%,Mixed Indels,CRISPResso2,66.6555518506
+cnsta_200mut,66.7%,Insertions > 10bp,CRISPResso2,0.1
+cnsta_200mut,66.7%,Deletions > 10bp,CRISPResso2,60.6868956319
+cnsta_270mut,90%,No indels > 10bp,CRISPResso2,66.7111407605
+cnsta_270mut,90%,Mixed Indels,CRISPResso2,84.932885906
+cnsta_270mut,90%,Insertions > 10bp,CRISPResso2,0
+cnsta_270mut,90%,Deletions > 10bp,CRISPResso2,72.6575525175
+cntn1a_0mut,0,No indels > 10bp,CRISPResso2,0.0666888962988
+cntn1a_0mut,0,Mixed Indels,CRISPResso2,0.0666888962988
+cntn1a_0mut,0,Insertions > 10bp,CRISPResso2,0.0666888962988
+cntn1a_0mut,0,Deletions > 10bp,CRISPResso2,0.0666888962988
+cntn1a_100mut,33.3%,No indels > 10bp,CRISPResso2,19.8333333333
+cntn1a_100mut,33.3%,Mixed Indels,CRISPResso2,22.5075025008
+cntn1a_100mut,33.3%,Insertions > 10bp,CRISPResso2,0.15
+cntn1a_100mut,33.3%,Deletions > 10bp,CRISPResso2,29.4333333333
+cntn1a_200mut,66.7%,No indels > 10bp,CRISPResso2,38.1460486829
+cntn1a_200mut,66.7%,Mixed Indels,CRISPResso2,48.6075949367
+cntn1a_200mut,66.7%,Insertions > 10bp,CRISPResso2,0.3
+cntn1a_200mut,66.7%,Deletions > 10bp,CRISPResso2,37.5125041681
+cntn1a_270mut,90%,No indels > 10bp,CRISPResso2,20.6333333333
+cntn1a_270mut,90%,Mixed Indels,CRISPResso2,76.3666666667
+cntn1a_270mut,90%,Insertions > 10bp,CRISPResso2,0.333333333333
+cntn1a_270mut,90%,Deletions > 10bp,CRISPResso2,63.1
+cntn1b_0mut,0,No indels > 10bp,CRISPResso2,0.133377792598
+cntn1b_0mut,0,Mixed Indels,CRISPResso2,0.133377792598
+cntn1b_0mut,0,Insertions > 10bp,CRISPResso2,0.133377792598
+cntn1b_0mut,0,Deletions > 10bp,CRISPResso2,0.133377792598
+cntn1b_100mut,33.3%,No indels > 10bp,CRISPResso2,16.8
+cntn1b_100mut,33.3%,Mixed Indels,CRISPResso2,14.8
+cntn1b_100mut,33.3%,Insertions > 10bp,CRISPResso2,0.15
+cntn1b_100mut,33.3%,Deletions > 10bp,CRISPResso2,26.4
+cntn1b_200mut,66.7%,No indels > 10bp,CRISPResso2,34.3666666667
+cntn1b_200mut,66.7%,Mixed Indels,CRISPResso2,45.6492637216
+cntn1b_200mut,66.7%,Insertions > 10bp,CRISPResso2,0.2
+cntn1b_200mut,66.7%,Deletions > 10bp,CRISPResso2,66.6888962988
+cntn1b_270mut,90%,No indels > 10bp,CRISPResso2,79.3195463642
+cntn1b_270mut,90%,Mixed Indels,CRISPResso2,61.843003413
+cntn1b_270mut,90%,Insertions > 10bp,CRISPResso2,0
+cntn1b_270mut,90%,Deletions > 10bp,CRISPResso2,90
+cntn3b_0mut,0,No indels > 10bp,CRISPResso2,0.133377792598
+cntn3b_0mut,0,Mixed Indels,CRISPResso2,0.133377792598
+cntn3b_0mut,0,Insertions > 10bp,CRISPResso2,0.133377792598
+cntn3b_0mut,0,Deletions > 10bp,CRISPResso2,0.133377792598
+cntn3b_100mut,33.3%,No indels > 10bp,CRISPResso2,13.4711570524
+cntn3b_100mut,33.3%,Mixed Indels,CRISPResso2,28.8513513514
+cntn3b_100mut,33.3%,Insertions > 10bp,CRISPResso2,0.15
+cntn3b_100mut,33.3%,Deletions > 10bp,CRISPResso2,29.5098366122
+cntn3b_200mut,66.7%,No indels > 10bp,CRISPResso2,46.7333333333
+cntn3b_200mut,66.7%,Mixed Indels,CRISPResso2,65.5398413246
+cntn3b_200mut,66.7%,Insertions > 10bp,CRISPResso2,0.2
+cntn3b_200mut,66.7%,Deletions > 10bp,CRISPResso2,59.7064709807
+cntn3b_270mut,90%,No indels > 10bp,CRISPResso2,68.756252084
+cntn3b_270mut,90%,Mixed Indels,CRISPResso2,73.9261744966
+cntn3b_270mut,90%,Insertions > 10bp,CRISPResso2,0
+cntn3b_270mut,90%,Deletions > 10bp,CRISPResso2,75.3333333333
+cntnap2b_0mut,0,No indels > 10bp,CRISPResso2,0.233333333333
+cntnap2b_0mut,0,Mixed Indels,CRISPResso2,0.233333333333
+cntnap2b_0mut,0,Insertions > 10bp,CRISPResso2,0.233333333333
+cntnap2b_0mut,0,Deletions > 10bp,CRISPResso2,0.233333333333
+cntnap2b_100mut,33.3%,No indels > 10bp,CRISPResso2,16.9
+cntnap2b_100mut,33.3%,Mixed Indels,CRISPResso2,25.3741496599
+cntnap2b_100mut,33.3%,Insertions > 10bp,CRISPResso2,0.35
+cntnap2b_100mut,33.3%,Deletions > 10bp,CRISPResso2,26.5666666667
+cntnap2b_200mut,66.7%,No indels > 10bp,CRISPResso2,43.1
+cntnap2b_200mut,66.7%,Mixed Indels,CRISPResso2,55.1
+cntnap2b_200mut,66.7%,Insertions > 10bp,CRISPResso2,0.3
+cntnap2b_200mut,66.7%,Deletions > 10bp,CRISPResso2,58.5333333333
+cntnap2b_270mut,90%,No indels > 10bp,CRISPResso2,69.0333333333
+cntnap2b_270mut,90%,Mixed Indels,CRISPResso2,79.0333333333
+cntnap2b_270mut,90%,Insertions > 10bp,CRISPResso2,0.666666666667
+cntnap2b_270mut,90%,Deletions > 10bp,CRISPResso2,81.027009003
+cntnap4_0mut,0,No indels > 10bp,CRISPResso2,0.100033344448
+cntnap4_0mut,0,Mixed Indels,CRISPResso2,0.100033344448
+cntnap4_0mut,0,Insertions > 10bp,CRISPResso2,0.100033344448
+cntnap4_0mut,0,Deletions > 10bp,CRISPResso2,0.100033344448
+cntnap4_100mut,33.3%,No indels > 10bp,CRISPResso2,26.5
+cntnap4_100mut,33.3%,Mixed Indels,CRISPResso2,26.0738255034
+cntnap4_100mut,33.3%,Insertions > 10bp,CRISPResso2,0.25
+cntnap4_100mut,33.3%,Deletions > 10bp,CRISPResso2,27.1666666667
+cntnap4_200mut,66.7%,No indels > 10bp,CRISPResso2,11.4704901634
+cntnap4_200mut,66.7%,Mixed Indels,CRISPResso2,52.5589225589
+cntnap4_200mut,66.7%,Insertions > 10bp,CRISPResso2,3.1067961165
+cntnap4_200mut,66.7%,Deletions > 10bp,CRISPResso2,59.7532510837
+cntnap4_270mut,90%,No indels > 10bp,CRISPResso2,63.0210070023
+cntnap4_270mut,90%,Mixed Indels,CRISPResso2,78.3783783784
+cntnap4_270mut,90%,Insertions > 10bp,CRISPResso2,0
+cntnap4_270mut,90%,Deletions > 10bp,CRISPResso2,65.9886628876
+CNTNAP5_0mut,0,No indels > 10bp,CRISPResso2,0.200133422282
+CNTNAP5_0mut,0,Mixed Indels,CRISPResso2,0.200133422282
+CNTNAP5_0mut,0,Insertions > 10bp,CRISPResso2,0.200133422282
+CNTNAP5_0mut,0,Deletions > 10bp,CRISPResso2,0.200133422282
+CNTNAP5_100mut,33.3%,No indels > 10bp,CRISPResso2,26.1
+CNTNAP5_100mut,33.3%,Mixed Indels,CRISPResso2,31.2309257375
+CNTNAP5_100mut,33.3%,Insertions > 10bp,CRISPResso2,0.2
+CNTNAP5_100mut,33.3%,Deletions > 10bp,CRISPResso2,31.477159053
+CNTNAP5_200mut,66.7%,No indels > 10bp,CRISPResso2,37.8666666667
+CNTNAP5_200mut,66.7%,Mixed Indels,CRISPResso2,37.0333333333
+CNTNAP5_200mut,66.7%,Insertions > 10bp,CRISPResso2,0.4
+CNTNAP5_200mut,66.7%,Deletions > 10bp,CRISPResso2,61.4204734912
+CNTNAP5_270mut,90%,No indels > 10bp,CRISPResso2,47.4
+CNTNAP5_270mut,90%,Mixed Indels,CRISPResso2,76.9463087248
+CNTNAP5_270mut,90%,Insertions > 10bp,CRISPResso2,0
+CNTNAP5_270mut,90%,Deletions > 10bp,CRISPResso2,60
+gjd1a_0mut,0,No indels > 10bp,CRISPResso2,0.266666666667
+gjd1a_0mut,0,Mixed Indels,CRISPResso2,0.266666666667
+gjd1a_0mut,0,Insertions > 10bp,CRISPResso2,0.266666666667
+gjd1a_0mut,0,Deletions > 10bp,CRISPResso2,0.266666666667
+gjd1a_100mut,33.3%,No indels > 10bp,CRISPResso2,22.2666666667
+gjd1a_100mut,33.3%,Mixed Indels,CRISPResso2,24.4
+gjd1a_100mut,33.3%,Insertions > 10bp,CRISPResso2,0.1
+gjd1a_100mut,33.3%,Deletions > 10bp,CRISPResso2,30.9333333333
+gjd1a_200mut,66.7%,No indels > 10bp,CRISPResso2,43.8666666667
+gjd1a_200mut,66.7%,Mixed Indels,CRISPResso2,36.8
+gjd1a_200mut,66.7%,Insertions > 10bp,CRISPResso2,0.5
+gjd1a_200mut,66.7%,Deletions > 10bp,CRISPResso2,66.8
+gjd1a_270mut,90%,No indels > 10bp,CRISPResso2,61.1333333333
+gjd1a_270mut,90%,Mixed Indels,CRISPResso2,59.7199066355
+gjd1a_270mut,90%,Insertions > 10bp,CRISPResso2,0.666666666667
+gjd1a_270mut,90%,Deletions > 10bp,CRISPResso2,74.7498332221
+nlgn1_0mut,0,No indels > 10bp,CRISPResso2,0.133422281521
+nlgn1_0mut,0,Mixed Indels,CRISPResso2,0.133422281521
+nlgn1_0mut,0,Insertions > 10bp,CRISPResso2,0.133422281521
+nlgn1_0mut,0,Deletions > 10bp,CRISPResso2,0.133422281521
+nlgn1_100mut,33.3%,No indels > 10bp,CRISPResso2,23.5
+nlgn1_100mut,33.3%,Mixed Indels,CRISPResso2,6.56666666667
+nlgn1_100mut,33.3%,Insertions > 10bp,CRISPResso2,0.2
+nlgn1_100mut,33.3%,Deletions > 10bp,CRISPResso2,29.4764921641
+nlgn1_200mut,66.7%,No indels > 10bp,CRISPResso2,54.4333333333
+nlgn1_200mut,66.7%,Mixed Indels,CRISPResso2,51.7666666667
+nlgn1_200mut,66.7%,Insertions > 10bp,CRISPResso2,0.2
+nlgn1_200mut,66.7%,Deletions > 10bp,CRISPResso2,47.4966622163
+nlgn1_270mut,90%,No indels > 10bp,CRISPResso2,39.1666666667
+nlgn1_270mut,90%,Mixed Indels,CRISPResso2,78.0068728522
+nlgn1_270mut,90%,Insertions > 10bp,CRISPResso2,0
+nlgn1_270mut,90%,Deletions > 10bp,CRISPResso2,84.0333333333
+nlgn3a_0mut,0,No indels > 10bp,CRISPResso2,0.266666666667
+nlgn3a_0mut,0,Mixed Indels,CRISPResso2,0.266666666667
+nlgn3a_0mut,0,Insertions > 10bp,CRISPResso2,0.266666666667
+nlgn3a_0mut,0,Deletions > 10bp,CRISPResso2,0.266666666667
+nlgn3a_100mut,33.3%,No indels > 10bp,CRISPResso2,23.7333333333
+nlgn3a_100mut,33.3%,Mixed Indels,CRISPResso2,11.4381270903
+nlgn3a_100mut,33.3%,Insertions > 10bp,CRISPResso2,0.1
+nlgn3a_100mut,33.3%,Deletions > 10bp,CRISPResso2,26.775591864
+nlgn3a_200mut,66.7%,No indels > 10bp,CRISPResso2,37.7
+nlgn3a_200mut,66.7%,Mixed Indels,CRISPResso2,17.9
+nlgn3a_200mut,66.7%,Insertions > 10bp,CRISPResso2,0.1
+nlgn3a_200mut,66.7%,Deletions > 10bp,CRISPResso2,59.0863621207
+nlgn3a_270mut,90%,No indels > 10bp,CRISPResso2,71.0666666667
+nlgn3a_270mut,90%,Mixed Indels,CRISPResso2,64.9662162162
+nlgn3a_270mut,90%,Insertions > 10bp,CRISPResso2,0
+nlgn3a_270mut,90%,Deletions > 10bp,CRISPResso2,71.3333333333
+nlgn4a_0mut,0,No indels > 10bp,CRISPResso2,0.0666666666667
+nlgn4a_0mut,0,Mixed Indels,CRISPResso2,0.0666666666667
+nlgn4a_0mut,0,Insertions > 10bp,CRISPResso2,0.0666666666667
+nlgn4a_0mut,0,Deletions > 10bp,CRISPResso2,0.0666666666667
+nlgn4a_100mut,33.3%,No indels > 10bp,CRISPResso2,31.1333333333
+nlgn4a_100mut,33.3%,Mixed Indels,CRISPResso2,33.143812709
+nlgn4a_100mut,33.3%,Insertions > 10bp,CRISPResso2,0.05
+nlgn4a_100mut,33.3%,Deletions > 10bp,CRISPResso2,30.8
+nlgn4a_200mut,66.7%,No indels > 10bp,CRISPResso2,51.7666666667
+nlgn4a_200mut,66.7%,Mixed Indels,CRISPResso2,65.8189216684
+nlgn4a_200mut,66.7%,Insertions > 10bp,CRISPResso2,0.3
+nlgn4a_200mut,66.7%,Deletions > 10bp,CRISPResso2,38.1333333333
+nlgn4a_270mut,90%,No indels > 10bp,CRISPResso2,64.6
+nlgn4a_270mut,90%,Mixed Indels,CRISPResso2,74.991663888
+nlgn4a_270mut,90%,Insertions > 10bp,CRISPResso2,0
+nlgn4a_270mut,90%,Deletions > 10bp,CRISPResso2,80.0666666667
+nrxn1a_L,0,No indels > 10bp,CRISPResso2,0.166666666667
+nrxn1a_L,0,Mixed Indels,CRISPResso2,0.166666666667
+nrxn1a_L,0,Insertions > 10bp,CRISPResso2,0.166666666667
+nrxn1a_L,0,Deletions > 10bp,CRISPResso2,0.166666666667
+nrxn1a_L,33.3%,No indels > 10bp,CRISPResso2,19.8
+nrxn1a_L,33.3%,Mixed Indels,CRISPResso2,26.8671848597
+nrxn1a_L,33.3%,Insertions > 10bp,CRISPResso2,0.2
+nrxn1a_L,33.3%,Deletions > 10bp,CRISPResso2,23.1666666667
+nrxn1a_L,66.7%,No indels > 10bp,CRISPResso2,49.5
+nrxn1a_L,66.7%,Mixed Indels,CRISPResso2,64.5
+nrxn1a_L,66.7%,Insertions > 10bp,CRISPResso2,0.4
+nrxn1a_L,66.7%,Deletions > 10bp,CRISPResso2,57.0523507836
+nrxn1a_L,90%,No indels > 10bp,CRISPResso2,20.5666666667
+nrxn1a_L,90%,Mixed Indels,CRISPResso2,62.7333333333
+nrxn1a_L,90%,Insertions > 10bp,CRISPResso2,0
+nrxn1a_L,90%,Deletions > 10bp,CRISPResso2,68.3455637091
+nrxn1a_S,0,No indels > 10bp,CRISPResso2,0.133333333333
+nrxn1a_S,0,Mixed Indels,CRISPResso2,0.133333333333
+nrxn1a_S,0,Insertions > 10bp,CRISPResso2,0.133333333333
+nrxn1a_S,0,Deletions > 10bp,CRISPResso2,0.133333333333
+nrxn1a_S,33.3%,No indels > 10bp,CRISPResso2,13.837945982
+nrxn1a_S,33.3%,Mixed Indels,CRISPResso2,24.4666666667
+nrxn1a_S,33.3%,Insertions > 10bp,CRISPResso2,0.2
+nrxn1a_S,33.3%,Deletions > 10bp,CRISPResso2,28.7095698566
+nrxn1a_S,66.7%,No indels > 10bp,CRISPResso2,39.3666666667
+nrxn1a_S,66.7%,Mixed Indels,CRISPResso2,61.0333333333
+nrxn1a_S,66.7%,Insertions > 10bp,CRISPResso2,0
+nrxn1a_S,66.7%,Deletions > 10bp,CRISPResso2,58
+nrxn1a_S,90%,No indels > 10bp,CRISPResso2,69.3666666667
+nrxn1a_S,90%,Mixed Indels,CRISPResso2,67.3400673401
+nrxn1a_S,90%,Insertions > 10bp,CRISPResso2,0
+nrxn1a_S,90%,Deletions > 10bp,CRISPResso2,64.0426951301
+nrxn1b_L,0,No indels > 10bp,CRISPResso2,0.266666666667
+nrxn1b_L,0,Mixed Indels,CRISPResso2,0.266666666667
+nrxn1b_L,0,Insertions > 10bp,CRISPResso2,0.266666666667
+nrxn1b_L,0,Deletions > 10bp,CRISPResso2,0.266666666667
+nrxn1b_L,33.3%,No indels > 10bp,CRISPResso2,13.6
+nrxn1b_L,33.3%,Mixed Indels,CRISPResso2,25.5743243243
+nrxn1b_L,33.3%,Insertions > 10bp,CRISPResso2,0.35
+nrxn1b_L,33.3%,Deletions > 10bp,CRISPResso2,15.0333333333
+nrxn1b_L,66.7%,No indels > 10bp,CRISPResso2,59.5666666667
+nrxn1b_L,66.7%,Mixed Indels,CRISPResso2,48.7666666667
+nrxn1b_L,66.7%,Insertions > 10bp,CRISPResso2,0
+nrxn1b_L,66.7%,Deletions > 10bp,CRISPResso2,52.4333333333
+nrxn1b_L,90%,No indels > 10bp,CRISPResso2,26.4666666667
+nrxn1b_L,90%,Mixed Indels,CRISPResso2,40.6490465038
+nrxn1b_L,90%,Insertions > 10bp,CRISPResso2,0.333333333333
+nrxn1b_L,90%,Deletions > 10bp,CRISPResso2,80.6602200734
+nrxn1b_S,0,No indels > 10bp,CRISPResso2,0.166666666667
+nrxn1b_S,0,Mixed Indels,CRISPResso2,0.166666666667
+nrxn1b_S,0,Insertions > 10bp,CRISPResso2,0.166666666667
+nrxn1b_S,0,Deletions > 10bp,CRISPResso2,0.166666666667
+nrxn1b_S,33.3%,No indels > 10bp,CRISPResso2,20.1333333333
+nrxn1b_S,33.3%,Mixed Indels,CRISPResso2,29.5652173913
+nrxn1b_S,33.3%,Insertions > 10bp,CRISPResso2,0.2
+nrxn1b_S,33.3%,Deletions > 10bp,CRISPResso2,26.1333333333
+nrxn1b_S,66.7%,No indels > 10bp,CRISPResso2,65.4333333333
+nrxn1b_S,66.7%,Mixed Indels,CRISPResso2,49.4164721574
+nrxn1b_S,66.7%,Insertions > 10bp,CRISPResso2,0.3
+nrxn1b_S,66.7%,Deletions > 10bp,CRISPResso2,35.4666666667
+nrxn1b_S,90%,No indels > 10bp,CRISPResso2,57.0523507836
+nrxn1b_S,90%,Mixed Indels,CRISPResso2,89
+nrxn1b_S,90%,Insertions > 10bp,CRISPResso2,0.645161290323
+nrxn1b_S,90%,Deletions > 10bp,CRISPResso2,64.7666666667
+nrxn3a_L,0,No indels > 10bp,CRISPResso2,0.1
+nrxn3a_L,0,Mixed Indels,CRISPResso2,0.1
+nrxn3a_L,0,Insertions > 10bp,CRISPResso2,0.1
+nrxn3a_L,0,Deletions > 10bp,CRISPResso2,0.1
+nrxn3a_L,33.3%,No indels > 10bp,CRISPResso2,19.1
+nrxn3a_L,33.3%,Mixed Indels,CRISPResso2,24.1886918702
+nrxn3a_L,33.3%,Insertions > 10bp,CRISPResso2,0.15
+nrxn3a_L,33.3%,Deletions > 10bp,CRISPResso2,24.7333333333
+nrxn3a_L,66.7%,No indels > 10bp,CRISPResso2,42.4474824942
+nrxn3a_L,66.7%,Mixed Indels,CRISPResso2,32.810936979
+nrxn3a_L,66.7%,Insertions > 10bp,CRISPResso2,0.1
+nrxn3a_L,66.7%,Deletions > 10bp,CRISPResso2,50.1
+nrxn3a_L,90%,No indels > 10bp,CRISPResso2,44.7666666667
+nrxn3a_L,90%,Mixed Indels,CRISPResso2,29.5563139932
+nrxn3a_L,90%,Insertions > 10bp,CRISPResso2,0
+nrxn3a_L,90%,Deletions > 10bp,CRISPResso2,62.0206735579
+nrxn3b_L,0,No indels > 10bp,CRISPResso2,0.233333333333
+nrxn3b_L,0,Mixed Indels,CRISPResso2,0.233333333333
+nrxn3b_L,0,Insertions > 10bp,CRISPResso2,0.233333333333
+nrxn3b_L,0,Deletions > 10bp,CRISPResso2,0.233333333333
+nrxn3b_L,33.3%,No indels > 10bp,CRISPResso2,20.4666666667
+nrxn3b_L,33.3%,Mixed Indels,CRISPResso2,33.4
+nrxn3b_L,33.3%,Insertions > 10bp,CRISPResso2,0.15
+nrxn3b_L,33.3%,Deletions > 10bp,CRISPResso2,33.4333333333
+nrxn3b_L,66.7%,No indels > 10bp,CRISPResso2,38.6666666667
+nrxn3b_L,66.7%,Mixed Indels,CRISPResso2,59.6598639456
+nrxn3b_L,66.7%,Insertions > 10bp,CRISPResso2,0.1
+nrxn3b_L,66.7%,Deletions > 10bp,CRISPResso2,41.3666666667
+nrxn3b_L,90%,No indels > 10bp,CRISPResso2,63.0543514505
+nrxn3b_L,90%,Mixed Indels,CRISPResso2,34.8449483161
+nrxn3b_L,90%,Insertions > 10bp,CRISPResso2,0
+nrxn3b_L,90%,Deletions > 10bp,CRISPResso2,79
+nrxn3b_S,0,No indels > 10bp,CRISPResso2,0.0666666666667
+nrxn3b_S,0,Mixed Indels,CRISPResso2,0.0666666666667
+nrxn3b_S,0,Insertions > 10bp,CRISPResso2,0.0666666666667
+nrxn3b_S,0,Deletions > 10bp,CRISPResso2,0.0666666666667
+nrxn3b_S,33.3%,No indels > 10bp,CRISPResso2,28.3666666667
+nrxn3b_S,33.3%,Mixed Indels,CRISPResso2,21.9146097398
+nrxn3b_S,33.3%,Insertions > 10bp,CRISPResso2,0.05
+nrxn3b_S,33.3%,Deletions > 10bp,CRISPResso2,28.7
+nrxn3b_S,66.7%,No indels > 10bp,CRISPResso2,42.4
+nrxn3b_S,66.7%,Mixed Indels,CRISPResso2,50.3860355824
+nrxn3b_S,66.7%,Insertions > 10bp,CRISPResso2,0.3
+nrxn3b_S,66.7%,Deletions > 10bp,CRISPResso2,38.3333333333
+nrxn3b_S,90%,No indels > 10bp,CRISPResso2,43.7145715238
+nrxn3b_S,90%,Mixed Indels,CRISPResso2,82
+nrxn3b_S,90%,Insertions > 10bp,CRISPResso2,0
+nrxn3b_S,90%,Deletions > 10bp,CRISPResso2,73.3333333333
+tjp1b_B,0,No indels > 10bp,CRISPResso2,0.166666666667
+tjp1b_B,0,Mixed Indels,CRISPResso2,0.166666666667
+tjp1b_B,0,Insertions > 10bp,CRISPResso2,0.166666666667
+tjp1b_B,0,Deletions > 10bp,CRISPResso2,0.166666666667
+tjp1b_B,33.3%,No indels > 10bp,CRISPResso2,22.1
+tjp1b_B,33.3%,Mixed Indels,CRISPResso2,23.7666666667
+tjp1b_B,33.3%,Insertions > 10bp,CRISPResso2,0.25
+tjp1b_B,33.3%,Deletions > 10bp,CRISPResso2,33.4
+tjp1b_B,66.7%,No indels > 10bp,CRISPResso2,52.0333333333
+tjp1b_B,66.7%,Mixed Indels,CRISPResso2,47.7333333333
+tjp1b_B,66.7%,Insertions > 10bp,CRISPResso2,0.4
+tjp1b_B,66.7%,Deletions > 10bp,CRISPResso2,60.0866955652
+tjp1b_B,90%,No indels > 10bp,CRISPResso2,66.0333333333
+tjp1b_B,90%,Mixed Indels,CRISPResso2,60.3333333333
+tjp1b_B,90%,Insertions > 10bp,CRISPResso2,0
+tjp1b_B,90%,Deletions > 10bp,CRISPResso2,46.7333333333
+tjp1b_L,0,No indels > 10bp,CRISPResso2,0.166833500167
+tjp1b_L,0,Mixed Indels,CRISPResso2,0.166833500167
+tjp1b_L,0,Insertions > 10bp,CRISPResso2,0.166833500167
+tjp1b_L,0,Deletions > 10bp,CRISPResso2,0.166833500167
+tjp1b_L,33.3%,No indels > 10bp,CRISPResso2,30.3666666667
+tjp1b_L,33.3%,Mixed Indels,CRISPResso2,29.6632996633
+tjp1b_L,33.3%,Insertions > 10bp,CRISPResso2,0.250125062531
+tjp1b_L,33.3%,Deletions > 10bp,CRISPResso2,21.3475650434
+tjp1b_L,66.7%,No indels > 10bp,CRISPResso2,63.7
+tjp1b_L,66.7%,Mixed Indels,CRISPResso2,55.2693208431
+tjp1b_L,66.7%,Insertions > 10bp,CRISPResso2,2.15897939156
+tjp1b_L,66.7%,Deletions > 10bp,CRISPResso2,49.3995997332
+tjp1b_L,90%,No indels > 10bp,CRISPResso2,56.7
+tjp1b_L,90%,Mixed Indels,CRISPResso2,55.4184728243
+tjp1b_L,90%,Insertions > 10bp,CRISPResso2,0.333333333333
+tjp1b_L,90%,Deletions > 10bp,CRISPResso2,83.3277759253
 cnsta,0,No indels > 10bp,AmpliconDIVider,0
 cnsta,0,Mixed Indels,AmpliconDIVider,0
 cnsta,0,Insertions > 10bp,AmpliconDIVider,0

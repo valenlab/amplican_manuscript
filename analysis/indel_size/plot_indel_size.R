@@ -8,8 +8,6 @@ library(reshape2)
 library(rtracklayer)
 library(data.table)
 
-
-
 pdir <- "./indel_size/simulation"
 
 danRer7 <- BSgenome.Drerio.UCSC.danRer7
@@ -113,12 +111,51 @@ result <- lapply(seq_along(base), function(i){
     mutationEfficiency(cset)[["Average"]], crispresso[[1]])
 })
 
+# CR2
+parseCRISPResso2 <- function(results_dir){
+  results_f2 <- data.table::fread(file.path(results_dir, "CRISPResso_quantification_of_editing_frequency.txt"))
+  results_f2$`Modified%`
+}
+crispresso2_dirs <- list.files(file.path(pdir, "crispresso2"), full.names = TRUE)
+crispresso2_dirs <- crispresso2_dirs[1:(length(crispresso2_dirs) - 1)]
+
+condition <- gsub(".*CRISPResso_on_", "", crispresso2_dirs)
+condition <- strsplit(condition, "_")
+condition <- sapply(condition, function(x) if (is.na(as.numeric(x[2]))) paste0(x[1], "_", x[2]) else x[1])
+cr2_results <- sapply(crispresso2_dirs, function(x) parseCRISPResso2(x))
+noff <- gsub(".*_([0-9]+)freq.*", "\\1", crispresso2_dirs)
+nmut <- as.numeric(gsub(".*_([0-9]+)mut.*", "\\1", crispresso2_dirs))
+nwt <- as.numeric(gsub(".*_([0-9]+)wt.*", "\\1", crispresso2_dirs))
+cr2_results <- data.frame(Guide = condition, Truth = nmut/(nmut+nwt) * 100,
+                             Indels = noff, variable = "CRISPResso2",
+                             value = unname(cr2_results) * 100)
+
+# # cr2 pooled
+# crispresso2_dirs <- list.files(file.path(pdir, "crispresso2/pooled"), full.names = TRUE)
+# parseCRISPResso2p <- function(results_dir){
+#   tryCatch({
+#     results_f2 <- data.table::fread(file.path(results_dir, "SAMPLES_QUANTIFICATION_SUMMARY.txt"))
+#     results_f2[, c('Name', "Modified%"), with = FALSE]
+#   }, error = function() {
+#     data.table()
+#   })
+# }
+# cr2_results <- sapply(crispresso2_dirs, function(x) parseCRISPResso2p(x))
+# noff <- gsub(".*_([0-9]+)freq.*", "\\1", crispresso2_dirs)
+# nmut <- as.numeric(gsub(".*_([0-9]+)mut.*", "\\1", crispresso2_dirs))
+# nwt <- as.numeric(gsub(".*_([0-9]+)wt.*", "\\1", crispresso2_dirs))
+# cr2_results <- data.frame(Guide = condition, Truth = nmut/(nmut+nwt) * 100,
+#                           Indels = noff, variable = "CRISPResso2Pooled",
+#                           value = unname(cr2_results))
+
+
+
 result <- data.frame(do.call(rbind, result))
 colnames(result) <- c("Guide", "Indels", "Truth", "CrispRVariants", "CRISPResso")
 result <- melt(result, id.vars=c("Guide", "Truth", "Indels"))
 result_save <- result
 
-result <- rbind(result_save, pooled_results, adiv_results, amplican_results)
+result <- rbind(result_save, pooled_results, cr2_results, adiv_results, amplican_results)
 result$Indels <- factor(result$Indels, levels = c(1, 2, 3, 4))
 levels(result$Indels) <- c("No indels > 10bp", "Mixed Indels", "Insertions > 10bp", "Deletions > 10bp")
 class(result$value) <- "numeric"
@@ -127,9 +164,9 @@ truths <- c("0", "33.3%", "66.7%", "90%")
 levels(result$Truth) <- truths
 result$variable <- factor(result$variable,
                           levels = c("ampliCan", "CrispRVariants", "AmpliconDIVider", "CRISPResso",
-                                     "CRISPRessoPooled"),
+                                     "CRISPRessoPooled", "CRISPResso2"),
                           ordered = TRUE)
-cols <- c("#e69f00", "#D92120", "#3F56A7", "#781C81", "#009E73")
+cols <- c("#e69f00", "#D92120", "#3F56A7", "#781C81", "#009E73", "#cc79a7")
 
 tr <- data.frame(Truth = levels(result$Truth),
                  TrNum = as.numeric(gsub("%", "", levels(result$Truth))))
